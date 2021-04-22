@@ -144,9 +144,7 @@ def filter_no_verbs_sentences(nlp_obj):
 
 
 def filter_no_verbs_sentences_pawac(pawac):
-    print(len(pawac))
     pawac = list(filter(lambda s: True if any(t.count("V") > 0 for t in s) else False, pawac))
-    print(len(pawac))
     return pawac
 
 
@@ -169,7 +167,6 @@ def remove_phrase_with_no_end_point_pawac(pawac):
 
 def parse_pawac(file):
     tokens = codecs.open(file, "r", "utf-8").readlines()
-    print(tokens)
     sentence = list()
     output = list()
     for token in tokens:
