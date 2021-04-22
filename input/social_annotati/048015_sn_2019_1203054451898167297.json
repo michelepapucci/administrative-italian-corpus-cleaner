@@ -1,0 +1,478 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "A", 
+                    "originalText": "A", 
+                    "pos": "E", 
+                    "word": "A"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 8, 
+                    "index": 2, 
+                    "lemma": "seguito", 
+                    "originalText": "seguito", 
+                    "pos": "S", 
+                    "word": "seguito"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 12, 
+                    "index": 3, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 14, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 21, 
+                    "index": 5, 
+                    "lemma": "caduta", 
+                    "originalText": "caduta", 
+                    "pos": "S", 
+                    "word": "caduta"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 24, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 27, 
+                    "index": 7, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 32, 
+                    "index": 8, 
+                    "lemma": "muro", 
+                    "originalText": "muro", 
+                    "pos": "S", 
+                    "word": "muro"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 35, 
+                    "index": 9, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 39, 
+                    "index": 10, 
+                    "lemma": "via", 
+                    "originalText": "Via", 
+                    "pos": "SP", 
+                    "word": "Via"
+                }, 
+                {
+                    "characterOffsetBegin": 41, 
+                    "characterOffsetEnd": 47, 
+                    "index": 11, 
+                    "lemma": "vecchio", 
+                    "originalText": "Vecchia", 
+                    "pos": "SP", 
+                    "word": "Vecchia"
+                }, 
+                {
+                    "characterOffsetBegin": 49, 
+                    "characterOffsetEnd": 57, 
+                    "index": 12, 
+                    "lemma": "Fiesolana", 
+                    "originalText": "Fiesolana", 
+                    "pos": "SP", 
+                    "word": "Fiesolana"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 59, 
+                    "index": 13, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 62, 
+                    "index": 14, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 66, 
+                    "index": 15, 
+                    "lemma": "uno", 
+                    "originalText": "uno", 
+                    "pos": "RI", 
+                    "word": "uno"
+                }, 
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 78, 
+                    "index": 16, 
+                    "lemma": "smottamento", 
+                    "originalText": "smottamento", 
+                    "pos": "S", 
+                    "word": "smottamento"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 91, 
+                    "index": 17, 
+                    "lemma": "all\u2019incrocio", 
+                    "originalText": "all\u2019incrocio", 
+                    "pos": "A", 
+                    "word": "all\u2019incrocio"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 95, 
+                    "index": 18, 
+                    "lemma": "fra", 
+                    "originalText": "fra", 
+                    "pos": "E", 
+                    "word": "fra"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 99, 
+                    "index": 19, 
+                    "lemma": "via", 
+                    "originalText": "Via", 
+                    "pos": "SP", 
+                    "word": "Via"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 107, 
+                    "index": 20, 
+                    "lemma": "Bandini", 
+                    "originalText": "Bandini", 
+                    "pos": "SP", 
+                    "word": "Bandini"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 109, 
+                    "index": 21, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 113, 
+                    "index": 22, 
+                    "lemma": "via", 
+                    "originalText": "Via", 
+                    "pos": "SP", 
+                    "word": "Via"
+                }, 
+                {
+                    "characterOffsetBegin": 115, 
+                    "characterOffsetEnd": 121, 
+                    "index": 23, 
+                    "lemma": "vecchio", 
+                    "originalText": "Vecchia", 
+                    "pos": "SP", 
+                    "word": "Vecchia"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 131, 
+                    "index": 24, 
+                    "lemma": "Fiesolana", 
+                    "originalText": "Fiesolana", 
+                    "pos": "SP", 
+                    "word": "Fiesolana"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 132, 
+                    "index": 25, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 139, 
+                    "index": 26, 
+                    "lemma": "questo", 
+                    "originalText": "queste", 
+                    "pos": "DD", 
+                    "word": "queste"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 143, 
+                    "index": 27, 
+                    "lemma": "due", 
+                    "originalText": "due", 
+                    "pos": "N", 
+                    "word": "due"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 150, 
+                    "index": 28, 
+                    "lemma": "strada", 
+                    "originalText": "strade", 
+                    "pos": "S", 
+                    "word": "strade"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 155, 
+                    "index": 29, 
+                    "lemma": "essere|sonare", 
+                    "originalText": "sono", 
+                    "pos": "V", 
+                    "word": "sono"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 168, 
+                    "index": 30, 
+                    "lemma": "percorribile", 
+                    "originalText": "percorribili", 
+                    "pos": "A", 
+                    "word": "percorribili"
+                }, 
+                {
+                    "characterOffsetBegin": 170, 
+                    "characterOffsetEnd": 173, 
+                    "index": 31, 
+                    "lemma": "solo", 
+                    "originalText": "solo", 
+                    "pos": "B", 
+                    "word": "solo"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 177, 
+                    "index": 32, 
+                    "lemma": "da", 
+                    "originalText": "dai", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 177, 
+                    "index": 33, 
+                    "lemma": "i", 
+                    "originalText": "dai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 179, 
+                    "characterOffsetEnd": 187, 
+                    "index": 34, 
+                    "lemma": "frontista", 
+                    "originalText": "frontisti", 
+                    "pos": "S", 
+                    "word": "frontisti"
+                }, 
+                {
+                    "characterOffsetBegin": 189, 
+                    "characterOffsetEnd": 192, 
+                    "index": 35, 
+                    "lemma": "fino", 
+                    "originalText": "fino", 
+                    "pos": "E", 
+                    "word": "fino"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 194, 
+                    "index": 36, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 200, 
+                    "index": 37, 
+                    "lemma": "Villa", 
+                    "originalText": "Villa", 
+                    "pos": "SP", 
+                    "word": "Villa"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 207, 
+                    "index": 38, 
+                    "lemma": "Medici", 
+                    "originalText": "Medici", 
+                    "pos": "SP", 
+                    "word": "Medici"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 208, 
+                    "index": 39, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 210, 
+                    "characterOffsetEnd": 216, 
+                    "index": 1, 
+                    "lemma": "divieto", 
+                    "originalText": "Divieto", 
+                    "pos": "S", 
+                    "word": "Divieto"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 219, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 228, 
+                    "index": 3, 
+                    "lemma": "transito", 
+                    "originalText": "transito", 
+                    "pos": "S", 
+                    "word": "transito"
+                }, 
+                {
+                    "characterOffsetBegin": 230, 
+                    "characterOffsetEnd": 240, 
+                    "index": 4, 
+                    "lemma": "nell\u2019ultimo", 
+                    "originalText": "nell\u2019ultimo", 
+                    "pos": "A", 
+                    "word": "nell\u2019ultimo"
+                }, 
+                {
+                    "characterOffsetBegin": 242, 
+                    "characterOffsetEnd": 247, 
+                    "index": 5, 
+                    "lemma": "trattare", 
+                    "originalText": "tratto", 
+                    "pos": "V", 
+                    "word": "tratto"
+                }, 
+                {
+                    "characterOffsetBegin": 249, 
+                    "characterOffsetEnd": 250, 
+                    "index": 6, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 252, 
+                    "characterOffsetEnd": 256, 
+                    "index": 7, 
+                    "lemma": "Villa", 
+                    "originalText": "Villa", 
+                    "pos": "SP", 
+                    "word": "Villa"
+                }, 
+                {
+                    "characterOffsetBegin": 258, 
+                    "characterOffsetEnd": 263, 
+                    "index": 8, 
+                    "lemma": "Medici", 
+                    "originalText": "Medici", 
+                    "pos": "S", 
+                    "word": "Medici"
+                }, 
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 265, 
+                    "index": 9, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 267, 
+                    "characterOffsetEnd": 273, 
+                    "index": 10, 
+                    "lemma": "Fiesole", 
+                    "originalText": "Fiesole", 
+                    "pos": "SP", 
+                    "word": "Fiesole"
+                }, 
+                {
+                    "characterOffsetBegin": 274, 
+                    "characterOffsetEnd": 274, 
+                    "index": 11, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 276, 
+                    "characterOffsetEnd": 297, 
+                    "index": 1, 
+                    "lemma": "https://t.co/b5AkrLhFqi", 
+                    "originalText": "https://t.co/b5AkrLhFqi", 
+                    "pos": "SP", 
+                    "word": "https://t.co/b5AkrLhFqi"
+                }
+            ]
+        }
+    ]
+}

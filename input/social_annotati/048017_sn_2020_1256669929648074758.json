@@ -1,0 +1,428 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 1, 
+                    "index": 1, 
+                    "lemma": "Da", 
+                    "originalText": "Da", 
+                    "pos": "E", 
+                    "word": "Da"
+                }, 
+                {
+                    "characterOffsetBegin": 3, 
+                    "characterOffsetEnd": 8, 
+                    "index": 2, 
+                    "lemma": "luned\u00ec", 
+                    "originalText": "luned\u00ec", 
+                    "pos": "S", 
+                    "word": "luned\u00ec"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 10, 
+                    "index": 3, 
+                    "lemma": "4", 
+                    "originalText": "4", 
+                    "pos": "N", 
+                    "word": "4"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 17, 
+                    "index": 4, 
+                    "lemma": "maggio", 
+                    "originalText": "maggio", 
+                    "pos": "S", 
+                    "word": "maggio"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 22, 
+                    "index": 5, 
+                    "lemma": "sar\u00e0", 
+                    "originalText": "sar\u00e0", 
+                    "pos": "V", 
+                    "word": "sar\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 32, 
+                    "index": 6, 
+                    "lemma": "possibile", 
+                    "originalText": "possibile", 
+                    "pos": "A", 
+                    "word": "possibile"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 39, 
+                    "index": 7, 
+                    "lemma": "presso", 
+                    "originalText": "presso", 
+                    "pos": "E", 
+                    "word": "presso"
+                }, 
+                {
+                    "characterOffsetBegin": 41, 
+                    "characterOffsetEnd": 43, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 52, 
+                    "index": 9, 
+                    "lemma": "esercizio", 
+                    "originalText": "esercizi", 
+                    "pos": "S", 
+                    "word": "esercizi"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 55, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 57, 
+                    "characterOffsetEnd": 72, 
+                    "index": 11, 
+                    "lemma": "somministrazione", 
+                    "originalText": "somministrazione", 
+                    "pos": "S", 
+                    "word": "somministrazione"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 77, 
+                    "index": 12, 
+                    "lemma": "come", 
+                    "originalText": "come", 
+                    "pos": "E", 
+                    "word": "come"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 81, 
+                    "index": 13, 
+                    "lemma": "bar", 
+                    "originalText": "bar", 
+                    "pos": "S", 
+                    "word": "bar"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 82, 
+                    "index": 14, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 84, 
+                    "characterOffsetEnd": 93, 
+                    "index": 15, 
+                    "lemma": "ristorante", 
+                    "originalText": "ristoranti", 
+                    "pos": "S", 
+                    "word": "ristoranti"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 94, 
+                    "index": 16, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 104, 
+                    "index": 17, 
+                    "lemma": "gelaterie", 
+                    "originalText": "gelaterie", 
+                    "pos": "S", 
+                    "word": "gelaterie"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 106, 
+                    "index": 18, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 108, 
+                    "characterOffsetEnd": 118, 
+                    "index": 19, 
+                    "lemma": "gastronomie", 
+                    "originalText": "gastronomie", 
+                    "pos": "S", 
+                    "word": "gastronomie"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 119, 
+                    "index": 20, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 121, 
+                    "characterOffsetEnd": 128, 
+                    "index": 21, 
+                    "lemma": "ritirare", 
+                    "originalText": "ritirare", 
+                    "pos": "V", 
+                    "word": "ritirare"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 137, 
+                    "index": 22, 
+                    "lemma": "alimenti", 
+                    "originalText": "alimenti", 
+                    "pos": "S", 
+                    "word": "alimenti"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 139, 
+                    "index": 23, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 147, 
+                    "index": 24, 
+                    "lemma": "bevanda", 
+                    "originalText": "bevande", 
+                    "pos": "S", 
+                    "word": "bevande"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 150, 
+                    "index": 25, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 158, 
+                    "index": 26, 
+                    "lemma": "asporto", 
+                    "originalText": "asporto", 
+                    "pos": "S", 
+                    "word": "asporto"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 164, 
+                    "index": 27, 
+                    "lemma": "senza", 
+                    "originalText": "senza", 
+                    "pos": "E", 
+                    "word": "senza"
+                }, 
+                {
+                    "characterOffsetBegin": 166, 
+                    "characterOffsetEnd": 171, 
+                    "index": 28, 
+                    "lemma": "previo", 
+                    "originalText": "previa", 
+                    "pos": "A", 
+                    "word": "previa"
+                }, 
+                {
+                    "characterOffsetBegin": 173, 
+                    "characterOffsetEnd": 184, 
+                    "index": 29, 
+                    "lemma": "prenotazione", 
+                    "originalText": "prenotazione", 
+                    "pos": "S", 
+                    "word": "prenotazione"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 195, 
+                    "index": 30, 
+                    "lemma": "telefonico", 
+                    "originalText": "telefonica", 
+                    "pos": "A", 
+                    "word": "telefonica"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 199, 
+                    "index": 31, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 201, 
+                    "characterOffsetEnd": 204, 
+                    "index": 32, 
+                    "lemma": "pure", 
+                    "originalText": "pure", 
+                    "pos": "B", 
+                    "word": "pure"
+                }, 
+                {
+                    "characterOffsetBegin": 206, 
+                    "characterOffsetEnd": 206, 
+                    "index": 33, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "VA", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 219, 
+                    "index": 34, 
+                    "lemma": "raccomandare", 
+                    "originalText": "raccomandata", 
+                    "pos": "V", 
+                    "word": "raccomandata"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 221, 
+                    "index": 35, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 230, 
+                    "index": 36, 
+                    "lemma": "comunque", 
+                    "originalText": "comunque", 
+                    "pos": "B", 
+                    "word": "comunque"
+                }, 
+                {
+                    "characterOffsetBegin": 232, 
+                    "characterOffsetEnd": 234, 
+                    "index": 37, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 232, 
+                    "characterOffsetEnd": 234, 
+                    "index": 38, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 243, 
+                    "index": 39, 
+                    "lemma": "rispetto", 
+                    "originalText": "rispetto", 
+                    "pos": "S", 
+                    "word": "rispetto"
+                }, 
+                {
+                    "characterOffsetBegin": 245, 
+                    "characterOffsetEnd": 247, 
+                    "index": 40, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 247, 
+                    "characterOffsetEnd": 249, 
+                    "index": 41, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 251, 
+                    "characterOffsetEnd": 258, 
+                    "index": 42, 
+                    "lemma": "distanza", 
+                    "originalText": "distanze", 
+                    "pos": "S", 
+                    "word": "distanze"
+                }, 
+                {
+                    "characterOffsetBegin": 260, 
+                    "characterOffsetEnd": 261, 
+                    "index": 43, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 263, 
+                    "characterOffsetEnd": 271, 
+                    "index": 44, 
+                    "lemma": "sicurezza", 
+                    "originalText": "sicurezza", 
+                    "pos": "S", 
+                    "word": "sicurezza"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 273, 
+                    "characterOffsetEnd": 278, 
+                    "index": 1, 
+                    "lemma": "#fase2", 
+                    "originalText": "#fase2", 
+                    "pos": "SP", 
+                    "word": "#fase2"
+                }, 
+                {
+                    "characterOffsetBegin": 280, 
+                    "characterOffsetEnd": 301, 
+                    "index": 2, 
+                    "lemma": "https://t.co/AnXCttqqZn", 
+                    "originalText": "https://t.co/AnXCttqqZn", 
+                    "pos": "SP", 
+                    "word": "https://t.co/AnXCttqqZn"
+                }
+            ]
+        }
+    ]
+}

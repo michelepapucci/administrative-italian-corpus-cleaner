@@ -1,0 +1,225 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 6, 
+                    "index": 2, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 19, 
+                    "index": 3, 
+                    "lemma": "@rep_firenze", 
+                    "originalText": "@rep_firenze", 
+                    "pos": "S", 
+                    "word": "@rep_firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 34, 
+                    "index": 5, 
+                    "lemma": "vicesindaca", 
+                    "originalText": "vicesindaca", 
+                    "pos": "S", 
+                    "word": "vicesindaca"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 43, 
+                    "index": 6, 
+                    "lemma": "@CGiachi", 
+                    "originalText": "@CGiachi", 
+                    "pos": "SP", 
+                    "word": "@CGiachi"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 49, 
+                    "index": 7, 
+                    "lemma": "parlare", 
+                    "originalText": "parla", 
+                    "pos": "V", 
+                    "word": "parla"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 53, 
+                    "index": 8, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 53, 
+                    "characterOffsetEnd": 55, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 57, 
+                    "characterOffsetEnd": 70, 
+                    "index": 10, 
+                    "lemma": "partecipazione", 
+                    "originalText": "partecipazione", 
+                    "pos": "S", 
+                    "word": "partecipazione"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 74, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 74, 
+                    "index": 12, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 84, 
+                    "index": 13, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "S", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 86, 
+                    "index": 14, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 98, 
+                    "index": 15, 
+                    "lemma": "#FirenzeBio", 
+                    "originalText": "#FirenzeBio", 
+                    "pos": "SP", 
+                    "word": "#FirenzeBio"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 101, 
+                    "index": 16, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 116, 
+                    "index": 17, 
+                    "lemma": "manifestazione", 
+                    "originalText": "manifestazione", 
+                    "pos": "S", 
+                    "word": "manifestazione"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 120, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 120, 
+                    "index": 19, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 126, 
+                    "index": 20, 
+                    "lemma": "mondo", 
+                    "originalText": "mondo", 
+                    "pos": "S", 
+                    "word": "mondo"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 137, 
+                    "index": 21, 
+                    "lemma": "#biologico", 
+                    "originalText": "#biologico", 
+                    "pos": "A", 
+                    "word": "#biologico"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 139, 
+                    "index": 22, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 152, 
+                    "index": 23, 
+                    "lemma": "#biodinamico", 
+                    "originalText": "#biodinamico", 
+                    "pos": "A", 
+                    "word": "#biodinamico"
+                }, 
+                {
+                    "characterOffsetBegin": 154, 
+                    "characterOffsetEnd": 175, 
+                    "index": 24, 
+                    "lemma": "https://t.co/ceXkNHdy67", 
+                    "originalText": "https://t.co/ceXkNHdy67", 
+                    "pos": "SP", 
+                    "word": "https://t.co/ceXkNHdy67"
+                }
+            ]
+        }
+    ]
+}

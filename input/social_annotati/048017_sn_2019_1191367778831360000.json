@@ -1,0 +1,402 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "piazza", 
+                    "originalText": "Piazza", 
+                    "pos": "SP", 
+                    "word": "Piazza"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 11, 
+                    "index": 2, 
+                    "lemma": "santo", 
+                    "originalText": "Santa", 
+                    "pos": "SP", 
+                    "word": "Santa"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 17, 
+                    "index": 3, 
+                    "lemma": "Croce", 
+                    "originalText": "Croce", 
+                    "pos": "SP", 
+                    "word": "Croce"
+                }, 
+                {
+                    "characterOffsetBegin": 18, 
+                    "characterOffsetEnd": 18, 
+                    "index": 4, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 26, 
+                    "index": 5, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 27, 
+                    "index": 6, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 42, 
+                    "index": 1, 
+                    "lemma": "L\u2019alzabandiera", 
+                    "originalText": "L\u2019alzabandiera", 
+                    "pos": "A", 
+                    "word": "L\u2019alzabandiera"
+                }, 
+                {
+                    "characterOffsetBegin": 44, 
+                    "characterOffsetEnd": 47, 
+                    "index": 2, 
+                    "lemma": "\ud83c\uddee\ud83c\uddf9", 
+                    "originalText": "\ud83c\uddee\ud83c\uddf9", 
+                    "pos": "S", 
+                    "word": "\ud83c\uddee\ud83c\uddf9"
+                }, 
+                {
+                    "characterOffsetBegin": 49, 
+                    "characterOffsetEnd": 49, 
+                    "index": 3, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 52, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 64, 
+                    "index": 5, 
+                    "lemma": "deposizione", 
+                    "originalText": "deposizione", 
+                    "pos": "S", 
+                    "word": "deposizione"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 67, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 71, 
+                    "index": 7, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "RI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 78, 
+                    "index": 8, 
+                    "lemma": "corona", 
+                    "originalText": "corona", 
+                    "pos": "S", 
+                    "word": "corona"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 79, 
+                    "index": 9, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 81, 
+                    "index": 10, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "V", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 84, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 91, 
+                    "index": 12, 
+                    "lemma": "giorno", 
+                    "originalText": "Giorno", 
+                    "pos": "S", 
+                    "word": "Giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 102, 
+                    "index": 13, 
+                    "lemma": "dell\u2019Unit\u00e0", 
+                    "originalText": "dell\u2019Unit\u00e0", 
+                    "pos": "S", 
+                    "word": "dell\u2019Unit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 112, 
+                    "index": 14, 
+                    "lemma": "Nazionale", 
+                    "originalText": "Nazionale", 
+                    "pos": "A", 
+                    "word": "Nazionale"
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 114, 
+                    "index": 15, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 117, 
+                    "index": 16, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 126, 
+                    "index": 17, 
+                    "lemma": "giornata", 
+                    "originalText": "Giornata", 
+                    "pos": "S", 
+                    "word": "Giornata"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 130, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 132, 
+                    "index": 19, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 145, 
+                    "index": 20, 
+                    "lemma": "#ForzeArmate", 
+                    "originalText": "#ForzeArmate", 
+                    "pos": "SP", 
+                    "word": "#ForzeArmate"
+                }, 
+                {
+                    "characterOffsetBegin": 146, 
+                    "characterOffsetEnd": 146, 
+                    "index": 21, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 148, 
+                    "characterOffsetEnd": 157, 
+                    "index": 1, 
+                    "lemma": "Celebriamo", 
+                    "originalText": "Celebriamo", 
+                    "pos": "V", 
+                    "word": "Celebriamo"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 161, 
+                    "index": 2, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 163, 
+                    "characterOffsetEnd": 168, 
+                    "index": 3, 
+                    "lemma": "uomo", 
+                    "originalText": "uomini", 
+                    "pos": "S", 
+                    "word": "uomini"
+                }, 
+                {
+                    "characterOffsetBegin": 170, 
+                    "characterOffsetEnd": 170, 
+                    "index": 4, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 173, 
+                    "index": 5, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 179, 
+                    "index": 6, 
+                    "lemma": "donne", 
+                    "originalText": "donne", 
+                    "pos": "S", 
+                    "word": "donne"
+                }, 
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 184, 
+                    "index": 7, 
+                    "lemma": "ogni", 
+                    "originalText": "ogni", 
+                    "pos": "DI", 
+                    "word": "ogni"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 191, 
+                    "index": 8, 
+                    "lemma": "giorno", 
+                    "originalText": "giorno", 
+                    "pos": "S", 
+                    "word": "giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 194, 
+                    "index": 9, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 194, 
+                    "index": 10, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 203, 
+                    "index": 11, 
+                    "lemma": "servizio", 
+                    "originalText": "servizio", 
+                    "pos": "S", 
+                    "word": "servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 215, 
+                    "index": 12, 
+                    "lemma": "dell\u2019Italia", 
+                    "originalText": "dell\u2019Italia", 
+                    "pos": "SP", 
+                    "word": "dell\u2019Italia"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 216, 
+                    "index": 13, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 227, 
+                    "index": 1, 
+                    "lemma": "#4novembre", 
+                    "originalText": "#4novembre", 
+                    "pos": "N", 
+                    "word": "#4novembre"
+                }, 
+                {
+                    "characterOffsetBegin": 229, 
+                    "characterOffsetEnd": 250, 
+                    "index": 2, 
+                    "lemma": "https://t.co/tjDDEbHqJC", 
+                    "originalText": "https://t.co/tjDDEbHqJC", 
+                    "pos": "SP", 
+                    "word": "https://t.co/tjDDEbHqJC"
+                }
+            ]
+        }
+    ]
+}

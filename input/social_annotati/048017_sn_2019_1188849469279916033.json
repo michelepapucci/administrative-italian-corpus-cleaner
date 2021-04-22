@@ -1,0 +1,275 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 10, 
+                    "index": 1, 
+                    "lemma": "irrigazione", 
+                    "originalText": "Irrigazione", 
+                    "pos": "S", 
+                    "word": "Irrigazione"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 16, 
+                    "index": 2, 
+                    "lemma": "smart", 
+                    "originalText": "smart", 
+                    "pos": "A", 
+                    "word": "smart"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 17, 
+                    "index": 3, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 26, 
+                    "index": 1, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 27, 
+                    "index": 2, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 33, 
+                    "index": 3, 
+                    "lemma": "nascere", 
+                    "originalText": "nasce", 
+                    "pos": "V", 
+                    "word": "nasce"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 36, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 44, 
+                    "index": 5, 
+                    "lemma": "sistema", 
+                    "originalText": "sistema", 
+                    "pos": "S", 
+                    "word": "sistema"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 57, 
+                    "index": 6, 
+                    "lemma": "intelligente", 
+                    "originalText": "intelligente", 
+                    "pos": "A", 
+                    "word": "intelligente"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 61, 
+                    "index": 7, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 63, 
+                    "characterOffsetEnd": 72, 
+                    "index": 8, 
+                    "lemma": "innaffiare", 
+                    "originalText": "innaffiare", 
+                    "pos": "V", 
+                    "word": "innaffiare"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 75, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 81, 
+                    "index": 10, 
+                    "lemma": "verde", 
+                    "originalText": "verde", 
+                    "pos": "S", 
+                    "word": "verde"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 90, 
+                    "index": 11, 
+                    "lemma": "pubblico", 
+                    "originalText": "pubblico", 
+                    "pos": "A", 
+                    "word": "pubblico"
+                }, 
+                {
+                    "characterOffsetBegin": 91, 
+                    "characterOffsetEnd": 91, 
+                    "index": 12, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 94, 
+                    "index": 13, 
+                    "lemma": "si", 
+                    "originalText": "si", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 104, 
+                    "index": 14, 
+                    "lemma": "risparmiare", 
+                    "originalText": "risparmia", 
+                    "pos": "V", 
+                    "word": "risparmia"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 107, 
+                    "index": 15, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 110, 
+                    "index": 16, 
+                    "lemma": "30", 
+                    "originalText": "30", 
+                    "pos": "N", 
+                    "word": "30"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 111, 
+                    "index": 17, 
+                    "lemma": "%", 
+                    "originalText": "%", 
+                    "pos": "SYM", 
+                    "word": "%"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 114, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 120, 
+                    "index": 19, 
+                    "lemma": "acqua", 
+                    "originalText": "acqua", 
+                    "pos": "S", 
+                    "word": "acqua"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 130, 
+                    "index": 20, 
+                    "lemma": "#ambiente", 
+                    "originalText": "#ambiente", 
+                    "pos": "A", 
+                    "word": "#ambiente"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 140, 
+                    "index": 21, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "A", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 142, 
+                    "characterOffsetEnd": 142, 
+                    "index": 22, 
+                    "lemma": "-", 
+                    "originalText": "-", 
+                    "pos": "FF", 
+                    "word": "-"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 145, 
+                    "index": 23, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 159, 
+                    "index": 24, 
+                    "lemma": "@cellini_luca", 
+                    "originalText": "@cellini_luca", 
+                    "pos": "S", 
+                    "word": "@cellini_luca"
+                }, 
+                {
+                    "characterOffsetBegin": 161, 
+                    "characterOffsetEnd": 183, 
+                    "index": 25, 
+                    "lemma": "https://t.co/wy2Z243SK5", 
+                    "originalText": "https://t.co/wy2Z243SK5", 
+                    "pos": "SP", 
+                    "word": "https://t.co/wy2Z243SK5"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 206, 
+                    "index": 26, 
+                    "lemma": "https://t.co/8QcoA3yM32", 
+                    "originalText": "https://t.co/8QcoA3yM32", 
+                    "pos": "SP", 
+                    "word": "https://t.co/8QcoA3yM32"
+                }
+            ]
+        }
+    ]
+}

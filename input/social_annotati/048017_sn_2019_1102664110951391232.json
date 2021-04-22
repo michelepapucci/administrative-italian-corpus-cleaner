@@ -1,0 +1,360 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 4, 
+                    "index": 1, 
+                    "lemma": "Tutto", 
+                    "originalText": "Tutto", 
+                    "pos": "PI", 
+                    "word": "Tutto"
+                }, 
+                {
+                    "characterOffsetBegin": 6, 
+                    "characterOffsetEnd": 11, 
+                    "index": 2, 
+                    "lemma": "pronto", 
+                    "originalText": "pronto", 
+                    "pos": "A", 
+                    "word": "pronto"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 15, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 18, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "l'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 26, 
+                    "index": 5, 
+                    "lemma": "incontro", 
+                    "originalText": "incontro", 
+                    "pos": "S", 
+                    "word": "incontro"
+                }, 
+                {
+                    "characterOffsetBegin": 28, 
+                    "characterOffsetEnd": 29, 
+                    "index": 6, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 29, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 46, 
+                    "index": 8, 
+                    "lemma": "@TeatrodiRifredi", 
+                    "originalText": "@TeatrodiRifredi", 
+                    "pos": "SP", 
+                    "word": "@TeatrodiRifredi"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 50, 
+                    "index": 9, 
+                    "lemma": "su", 
+                    "originalText": "sul", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 50, 
+                    "index": 10, 
+                    "lemma": "il", 
+                    "originalText": "sul", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 59, 
+                    "index": 11, 
+                    "lemma": "bilancio", 
+                    "originalText": "bilancio", 
+                    "pos": "S", 
+                    "word": "bilancio"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 62, 
+                    "index": 12, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 67, 
+                    "index": 13, 
+                    "lemma": "fine", 
+                    "originalText": "fine", 
+                    "pos": "S", 
+                    "word": "fine"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 75, 
+                    "index": 14, 
+                    "lemma": "mandato", 
+                    "originalText": "mandato", 
+                    "pos": "S", 
+                    "word": "mandato"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 79, 
+                    "index": 15, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 90, 
+                    "index": 16, 
+                    "lemma": "illustrare", 
+                    "originalText": "illustrare", 
+                    "pos": "V", 
+                    "word": "illustrare"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 93, 
+                    "index": 17, 
+                    "lemma": "a", 
+                    "originalText": "ai", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 93, 
+                    "index": 18, 
+                    "lemma": "i", 
+                    "originalText": "ai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 103, 
+                    "index": 19, 
+                    "lemma": "cittadino", 
+                    "originalText": "cittadini", 
+                    "pos": "S", 
+                    "word": "cittadini"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 108, 
+                    "index": 20, 
+                    "lemma": "cosa", 
+                    "originalText": "cosa", 
+                    "pos": "PQ", 
+                    "word": "cosa"
+                }, 
+                {
+                    "characterOffsetBegin": 110, 
+                    "characterOffsetEnd": 116, 
+                    "index": 21, 
+                    "lemma": "avere", 
+                    "originalText": "abbiamo", 
+                    "pos": "VA", 
+                    "word": "abbiamo"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 122, 
+                    "index": 22, 
+                    "lemma": "fare", 
+                    "originalText": "fatto", 
+                    "pos": "V", 
+                    "word": "fatto"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 126, 
+                    "index": 23, 
+                    "lemma": "in", 
+                    "originalText": "negli", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 128, 
+                    "index": 24, 
+                    "lemma": "il", 
+                    "originalText": "negli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 135, 
+                    "index": 25, 
+                    "lemma": "ultimi", 
+                    "originalText": "ultimi", 
+                    "pos": "NO", 
+                    "word": "ultimi"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 142, 
+                    "index": 26, 
+                    "lemma": "cinque", 
+                    "originalText": "cinque", 
+                    "pos": "N", 
+                    "word": "cinque"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 147, 
+                    "index": 27, 
+                    "lemma": "anno", 
+                    "originalText": "anno", 
+                    "pos": "S", 
+                    "word": "anno"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 150, 
+                    "index": 28, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 160, 
+                    "index": 29, 
+                    "lemma": "sicurezza", 
+                    "originalText": "sicurezza", 
+                    "pos": "S", 
+                    "word": "sicurezza"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 162, 
+                    "index": 30, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 181, 
+                    "index": 31, 
+                    "lemma": "#Poliziamunicipale", 
+                    "originalText": "#Poliziamunicipale", 
+                    "pos": "SP", 
+                    "word": "#Poliziamunicipale"
+                }, 
+                {
+                    "characterOffsetBegin": 183, 
+                    "characterOffsetEnd": 197, 
+                    "index": 32, 
+                    "lemma": "semplificazione", 
+                    "originalText": "semplificazione", 
+                    "pos": "S", 
+                    "word": "semplificazione"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 198, 
+                    "index": 33, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 207, 
+                    "index": 34, 
+                    "lemma": "anagrafe", 
+                    "originalText": "anagrafe", 
+                    "pos": "S", 
+                    "word": "anagrafe"
+                }, 
+                {
+                    "characterOffsetBegin": 209, 
+                    "characterOffsetEnd": 209, 
+                    "index": 35, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 215, 
+                    "index": 36, 
+                    "lemma": "molto", 
+                    "originalText": "molto", 
+                    "pos": "B", 
+                    "word": "molto"
+                }, 
+                {
+                    "characterOffsetBegin": 217, 
+                    "characterOffsetEnd": 221, 
+                    "index": 37, 
+                    "lemma": "altro", 
+                    "originalText": "altro", 
+                    "pos": "A", 
+                    "word": "altro"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 241, 
+                    "index": 38, 
+                    "lemma": "#firenzeacontifatti", 
+                    "originalText": "#firenzeacontifatti", 
+                    "pos": "A", 
+                    "word": "#firenzeacontifatti"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 264, 
+                    "index": 39, 
+                    "lemma": "https://t.co/kpGZBAU2OY", 
+                    "originalText": "https://t.co/kpGZBAU2OY", 
+                    "pos": "SP", 
+                    "word": "https://t.co/kpGZBAU2OY"
+                }
+            ]
+        }
+    ]
+}

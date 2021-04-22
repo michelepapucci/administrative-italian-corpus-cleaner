@@ -1,0 +1,414 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "?", 
+                    "originalText": "?", 
+                    "pos": "FS", 
+                    "word": "?"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 7, 
+                    "index": 2, 
+                    "lemma": "guasto", 
+                    "originalText": "Guasto", 
+                    "pos": "SP", 
+                    "word": "Guasto"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 10, 
+                    "index": 3, 
+                    "lemma": "a", 
+                    "originalText": "alle", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 12, 
+                    "index": 4, 
+                    "lemma": "le", 
+                    "originalText": "alle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 18, 
+                    "index": 5, 
+                    "lemma": "linea", 
+                    "originalText": "linee", 
+                    "pos": "S", 
+                    "word": "linee"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 30, 
+                    "index": 6, 
+                    "lemma": "telefonico", 
+                    "originalText": "telefoniche", 
+                    "pos": "A", 
+                    "word": "telefoniche"
+                }, 
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 34, 
+                    "index": 7, 
+                    "lemma": "di", 
+                    "originalText": "degli", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 36, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "degli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 43, 
+                    "index": 9, 
+                    "lemma": "ufficio", 
+                    "originalText": "Uffici", 
+                    "pos": "S", 
+                    "word": "Uffici"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 55, 
+                    "index": 10, 
+                    "lemma": "comunaliPer", 
+                    "originalText": "comunaliPer", 
+                    "pos": "V", 
+                    "word": "comunaliPer"
+                }, 
+                {
+                    "characterOffsetBegin": 57, 
+                    "characterOffsetEnd": 58, 
+                    "index": 11, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 65, 
+                    "index": 12, 
+                    "lemma": "guasto", 
+                    "originalText": "guasto", 
+                    "pos": "S", 
+                    "word": "guasto"
+                }, 
+                {
+                    "characterOffsetBegin": 67, 
+                    "characterOffsetEnd": 68, 
+                    "index": 13, 
+                    "lemma": "a", 
+                    "originalText": "alle", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": "le", 
+                    "originalText": "alle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 76, 
+                    "index": 15, 
+                    "lemma": "linea", 
+                    "originalText": "linee", 
+                    "pos": "S", 
+                    "word": "linee"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 88, 
+                    "index": 16, 
+                    "lemma": "telefonico", 
+                    "originalText": "telefoniche", 
+                    "pos": "A", 
+                    "word": "telefoniche"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 89, 
+                    "index": 17, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 91, 
+                    "characterOffsetEnd": 93, 
+                    "index": 18, 
+                    "lemma": "da", 
+                    "originalText": "dalla", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 95, 
+                    "index": 19, 
+                    "lemma": "il", 
+                    "originalText": "dalla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 101, 
+                    "index": 20, 
+                    "lemma": "prima", 
+                    "originalText": "prima", 
+                    "pos": "NO", 
+                    "word": "prima"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 111, 
+                    "index": 21, 
+                    "lemma": "mattinata", 
+                    "originalText": "mattinata", 
+                    "pos": "S", 
+                    "word": "mattinata"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 114, 
+                    "index": 22, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 119, 
+                    "index": 23, 
+                    "lemma": "oggi", 
+                    "originalText": "oggi", 
+                    "pos": "B", 
+                    "word": "oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 121, 
+                    "characterOffsetEnd": 121, 
+                    "index": 24, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 130, 
+                    "index": 25, 
+                    "lemma": "telefono", 
+                    "originalText": "telefoni", 
+                    "pos": "S", 
+                    "word": "telefoni"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 134, 
+                    "index": 26, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 134, 
+                    "index": 27, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 142, 
+                    "index": 28, 
+                    "lemma": "comando", 
+                    "originalText": "Comando", 
+                    "pos": "S", 
+                    "word": "Comando"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 145, 
+                    "index": 29, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 153, 
+                    "index": 30, 
+                    "lemma": "polizia", 
+                    "originalText": "Polizia", 
+                    "pos": "S", 
+                    "word": "Polizia"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 164, 
+                    "index": 31, 
+                    "lemma": "Municipale", 
+                    "originalText": "Municipale", 
+                    "pos": "A", 
+                    "word": "Municipale"
+                }, 
+                {
+                    "characterOffsetBegin": 166, 
+                    "characterOffsetEnd": 166, 
+                    "index": 32, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 168, 
+                    "characterOffsetEnd": 169, 
+                    "index": 33, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 171, 
+                    "characterOffsetEnd": 175, 
+                    "index": 34, 
+                    "lemma": "molto", 
+                    "originalText": "molti", 
+                    "pos": "DI", 
+                    "word": "molti"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 182, 
+                    "index": 35, 
+                    "lemma": "ufficio", 
+                    "originalText": "uffici", 
+                    "pos": "S", 
+                    "word": "uffici"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 191, 
+                    "index": 36, 
+                    "lemma": "comunale", 
+                    "originalText": "comunali", 
+                    "pos": "A", 
+                    "word": "comunali"
+                }, 
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 196, 
+                    "index": 37, 
+                    "lemma": "essere|sonare", 
+                    "originalText": "sono", 
+                    "pos": "V", 
+                    "word": "sono"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 204, 
+                    "index": 38, 
+                    "lemma": "isolato", 
+                    "originalText": "isolati", 
+                    "pos": "A", 
+                    "word": "isolati"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 207, 
+                    "index": 39, 
+                    "lemma": ".Il", 
+                    "originalText": ".Il", 
+                    "pos": "SP", 
+                    "word": ".Il"
+                }, 
+                {
+                    "characterOffsetBegin": 209, 
+                    "characterOffsetEnd": 216, 
+                    "index": 40, 
+                    "lemma": "problema", 
+                    "originalText": "problema", 
+                    "pos": "S", 
+                    "word": "problema"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 221, 
+                    "index": 41, 
+                    "lemma": "sar\u00e0", 
+                    "originalText": "sar\u00e0", 
+                    "pos": "VA", 
+                    "word": "sar\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 229, 
+                    "index": 42, 
+                    "lemma": "risolvere", 
+                    "originalText": "risolto", 
+                    "pos": "V", 
+                    "word": "risolto"
+                }, 
+                {
+                    "characterOffsetBegin": 231, 
+                    "characterOffsetEnd": 232, 
+                    "index": 43, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 234, 
+                    "characterOffsetEnd": 241, 
+                    "index": 44, 
+                    "lemma": "giornata", 
+                    "originalText": "giornata", 
+                    "pos": "S", 
+                    "word": "giornata"
+                }, 
+                {
+                    "characterOffsetBegin": 242, 
+                    "characterOffsetEnd": 241, 
+                    "index": 45, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

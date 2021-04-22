@@ -1,0 +1,496 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 6, 
+                    "index": 1, 
+                    "lemma": "cercare", 
+                    "originalText": "Cercare", 
+                    "pos": "V", 
+                    "word": "Cercare"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 12, 
+                    "index": 2, 
+                    "lemma": "punto", 
+                    "originalText": "punti", 
+                    "pos": "S", 
+                    "word": "punti"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 15, 
+                    "index": 3, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "comune", 
+                    "originalText": "comune", 
+                    "pos": "S", 
+                    "word": "comune"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 23, 
+                    "index": 5, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "arricchire", 
+                    "originalText": "arricchirsi", 
+                    "pos": "V", 
+                    "word": "arricchir"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 35, 
+                    "index": 7, 
+                    "lemma": "si", 
+                    "originalText": "arricchirsi", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 39, 
+                    "index": 8, 
+                    "lemma": "da", 
+                    "originalText": "dalle", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 41, 
+                    "index": 9, 
+                    "lemma": "le", 
+                    "originalText": "dalle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 52, 
+                    "index": 10, 
+                    "lemma": "differenza", 
+                    "originalText": "differenze", 
+                    "pos": "S", 
+                    "word": "differenze"
+                }, 
+                {
+                    "characterOffsetBegin": 53, 
+                    "characterOffsetEnd": 53, 
+                    "index": 11, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 60, 
+                    "index": 12, 
+                    "lemma": "creare", 
+                    "originalText": "creare", 
+                    "pos": "V", 
+                    "word": "creare"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 69, 
+                    "index": 13, 
+                    "lemma": "sinergia", 
+                    "originalText": "sinergia", 
+                    "pos": "S", 
+                    "word": "sinergia"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 77, 
+                    "index": 1, 
+                    "lemma": "domani", 
+                    "originalText": "Domani", 
+                    "pos": "B", 
+                    "word": "Domani"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 79, 
+                    "index": 2, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 87, 
+                    "index": 3, 
+                    "lemma": "partire", 
+                    "originalText": "partire", 
+                    "pos": "V", 
+                    "word": "partire"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 91, 
+                    "index": 4, 
+                    "lemma": "da", 
+                    "originalText": "dalle", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 91, 
+                    "characterOffsetEnd": 93, 
+                    "index": 5, 
+                    "lemma": "le", 
+                    "originalText": "dalle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 99, 
+                    "index": 6, 
+                    "lemma": "18.00", 
+                    "originalText": "18.00", 
+                    "pos": "N", 
+                    "word": "18.00"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 102, 
+                    "index": 7, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 102, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 118, 
+                    "index": 9, 
+                    "lemma": "@murateideapark", 
+                    "originalText": "@murateideapark", 
+                    "pos": "S", 
+                    "word": "@murateideapark"
+                }, 
+                {
+                    "characterOffsetBegin": 120, 
+                    "characterOffsetEnd": 121, 
+                    "index": 10, 
+                    "lemma": "si", 
+                    "originalText": "si", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 129, 
+                    "index": 11, 
+                    "lemma": "parlare", 
+                    "originalText": "parler\u00e0", 
+                    "pos": "V", 
+                    "word": "parler\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 133, 
+                    "index": 12, 
+                    "lemma": "di", 
+                    "originalText": "dell'", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 133, 
+                    "characterOffsetEnd": 135, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "dell'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 145, 
+                    "index": 14, 
+                    "lemma": "importanza", 
+                    "originalText": "importanza", 
+                    "pos": "S", 
+                    "word": "importanza"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 149, 
+                    "index": 15, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 151, 
+                    "index": 16, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 161, 
+                    "index": 17, 
+                    "lemma": "relazione", 
+                    "originalText": "relazioni", 
+                    "pos": "S", 
+                    "word": "relazioni"
+                }, 
+                {
+                    "characterOffsetBegin": 163, 
+                    "characterOffsetEnd": 165, 
+                    "index": 18, 
+                    "lemma": "in", 
+                    "originalText": "nella", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 167, 
+                    "index": 19, 
+                    "lemma": "il", 
+                    "originalText": "nella", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 172, 
+                    "index": 20, 
+                    "lemma": "vita", 
+                    "originalText": "vita", 
+                    "pos": "S", 
+                    "word": "vita"
+                }, 
+                {
+                    "characterOffsetBegin": 174, 
+                    "characterOffsetEnd": 174, 
+                    "index": 21, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 178, 
+                    "index": 22, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 178, 
+                    "index": 23, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 185, 
+                    "index": 24, 
+                    "lemma": "lavoro", 
+                    "originalText": "lavoro", 
+                    "pos": "S", 
+                    "word": "lavoro"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 189, 
+                    "index": 25, 
+                    "lemma": "in", 
+                    "originalText": "nell'", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 189, 
+                    "characterOffsetEnd": 191, 
+                    "index": 26, 
+                    "lemma": "il", 
+                    "originalText": "nell'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 199, 
+                    "index": 27, 
+                    "lemma": "incontro", 
+                    "originalText": "incontro", 
+                    "pos": "S", 
+                    "word": "incontro"
+                }, 
+                {
+                    "characterOffsetBegin": 201, 
+                    "characterOffsetEnd": 203, 
+                    "index": 28, 
+                    "lemma": "\"Il", 
+                    "originalText": "\"Il", 
+                    "pos": "SP", 
+                    "word": "\"Il"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 208, 
+                    "index": 29, 
+                    "lemma": "vero", 
+                    "originalText": "vero", 
+                    "pos": "A", 
+                    "word": "vero"
+                }, 
+                {
+                    "characterOffsetBegin": 210, 
+                    "characterOffsetEnd": 217, 
+                    "index": 30, 
+                    "lemma": "petrolio", 
+                    "originalText": "petrolio", 
+                    "pos": "S", 
+                    "word": "petrolio"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 221, 
+                    "index": 31, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 221, 
+                    "index": 32, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 225, 
+                    "index": 33, 
+                    "lemma": "XXI", 
+                    "originalText": "XXI", 
+                    "pos": "NO", 
+                    "word": "XXI"
+                }, 
+                {
+                    "characterOffsetBegin": 227, 
+                    "characterOffsetEnd": 233, 
+                    "index": 34, 
+                    "lemma": "secolo\"", 
+                    "originalText": "secolo\"", 
+                    "pos": "S", 
+                    "word": "secolo\""
+                }, 
+                {
+                    "characterOffsetBegin": 234, 
+                    "characterOffsetEnd": 234, 
+                    "index": 35, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 250, 
+                    "index": 1, 
+                    "lemma": "#murateideapark", 
+                    "originalText": "#murateideapark", 
+                    "pos": "S", 
+                    "word": "#murateideapark"
+                }, 
+                {
+                    "characterOffsetBegin": 252, 
+                    "characterOffsetEnd": 261, 
+                    "index": 2, 
+                    "lemma": "#community", 
+                    "originalText": "#community", 
+                    "pos": "S", 
+                    "word": "#community"
+                }, 
+                {
+                    "characterOffsetBegin": 263, 
+                    "characterOffsetEnd": 273, 
+                    "index": 3, 
+                    "lemma": "#networking", 
+                    "originalText": "#networking", 
+                    "pos": "A", 
+                    "word": "#networking"
+                }, 
+                {
+                    "characterOffsetBegin": 275, 
+                    "characterOffsetEnd": 296, 
+                    "index": 4, 
+                    "lemma": "https://t.co/ecFscOBjZ2", 
+                    "originalText": "https://t.co/ecFscOBjZ2", 
+                    "pos": "SP", 
+                    "word": "https://t.co/ecFscOBjZ2"
+                }
+            ]
+        }
+    ]
+}

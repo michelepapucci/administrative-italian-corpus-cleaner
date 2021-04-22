@@ -1,0 +1,496 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 1, 
+                    "index": 1, 
+                    "lemma": "\ud83c\udf86", 
+                    "originalText": "\ud83c\udf86", 
+                    "pos": "NO", 
+                    "word": "\ud83c\udf86"
+                }, 
+                {
+                    "characterOffsetBegin": 3, 
+                    "characterOffsetEnd": 10, 
+                    "index": 2, 
+                    "lemma": "emozione", 
+                    "originalText": "Emozione", 
+                    "pos": "S", 
+                    "word": "Emozione"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 11, 
+                    "index": 3, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "spettacolo", 
+                    "originalText": "spettacolo", 
+                    "pos": "S", 
+                    "word": "spettacolo"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 24, 
+                    "index": 5, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 35, 
+                    "index": 6, 
+                    "lemma": "tradizione", 
+                    "originalText": "tradizione", 
+                    "pos": "S", 
+                    "word": "tradizione"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 36, 
+                    "index": 7, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 42, 
+                    "index": 8, 
+                    "lemma": "tutto", 
+                    "originalText": "tutto", 
+                    "pos": "DI", 
+                    "word": "tutto"
+                }, 
+                {
+                    "characterOffsetBegin": 44, 
+                    "characterOffsetEnd": 49, 
+                    "index": 9, 
+                    "lemma": "questo", 
+                    "originalText": "questo", 
+                    "pos": "PD", 
+                    "word": "questo"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 51, 
+                    "index": 10, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "V", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 53, 
+                    "characterOffsetEnd": 54, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 56, 
+                    "characterOffsetEnd": 64, 
+                    "index": 12, 
+                    "lemma": "Corteggio", 
+                    "originalText": "Corteggio", 
+                    "pos": "SP", 
+                    "word": "Corteggio"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 72, 
+                    "index": 13, 
+                    "lemma": "Storico", 
+                    "originalText": "Storico", 
+                    "pos": "SP", 
+                    "word": "Storico"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 75, 
+                    "index": 14, 
+                    "lemma": "\ud83c\udf86", 
+                    "originalText": "\ud83c\udf86", 
+                    "pos": "NO", 
+                    "word": "\ud83c\udf86"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 84, 
+                    "index": 1, 
+                    "lemma": "domenica", 
+                    "originalText": "Domenica", 
+                    "pos": "S", 
+                    "word": "Domenica"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 86, 
+                    "index": 2, 
+                    "lemma": "8", 
+                    "originalText": "8", 
+                    "pos": "N", 
+                    "word": "8"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 96, 
+                    "index": 3, 
+                    "lemma": "settembre", 
+                    "originalText": "settembre", 
+                    "pos": "S", 
+                    "word": "settembre"
+                }, 
+                {
+                    "characterOffsetBegin": 98, 
+                    "characterOffsetEnd": 102, 
+                    "index": 4, 
+                    "lemma": "tornare", 
+                    "originalText": "torna", 
+                    "pos": "V", 
+                    "word": "torna"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 105, 
+                    "index": 5, 
+                    "lemma": "il", 
+                    "originalText": "l'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 111, 
+                    "index": 6, 
+                    "lemma": "evento", 
+                    "originalText": "evento", 
+                    "pos": "S", 
+                    "word": "evento"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 115, 
+                    "index": 7, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 126, 
+                    "index": 8, 
+                    "lemma": "importante", 
+                    "originalText": "importante", 
+                    "pos": "A", 
+                    "word": "importante"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 130, 
+                    "index": 9, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 132, 
+                    "index": 10, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 138, 
+                    "index": 11, 
+                    "lemma": "citt\u00e0", 
+                    "originalText": "citt\u00e0", 
+                    "pos": "S", 
+                    "word": "citt\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 139, 
+                    "index": 12, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 147, 
+                    "index": 13, 
+                    "lemma": "sfilare", 
+                    "originalText": "Sfilata", 
+                    "pos": "V", 
+                    "word": "Sfilata"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 151, 
+                    "index": 14, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 154, 
+                    "index": 15, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 156, 
+                    "characterOffsetEnd": 158, 
+                    "index": 16, 
+                    "lemma": "vie", 
+                    "originalText": "vie", 
+                    "pos": "S", 
+                    "word": "vie"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 162, 
+                    "index": 17, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 162, 
+                    "index": 18, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 169, 
+                    "index": 19, 
+                    "lemma": "centro", 
+                    "originalText": "centro", 
+                    "pos": "S", 
+                    "word": "centro"
+                }, 
+                {
+                    "characterOffsetBegin": 170, 
+                    "characterOffsetEnd": 170, 
+                    "index": 20, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 181, 
+                    "index": 21, 
+                    "lemma": "spettacolo", 
+                    "originalText": "spettacoli", 
+                    "pos": "S", 
+                    "word": "spettacoli"
+                }, 
+                {
+                    "characterOffsetBegin": 183, 
+                    "characterOffsetEnd": 183, 
+                    "index": 22, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 194, 
+                    "index": 23, 
+                    "lemma": "ostensione", 
+                    "originalText": "ostensione", 
+                    "pos": "S", 
+                    "word": "ostensione"
+                }, 
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 198, 
+                    "index": 24, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 200, 
+                    "index": 25, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 206, 
+                    "index": 26, 
+                    "lemma": "sacro", 
+                    "originalText": "Sacra", 
+                    "pos": "A", 
+                    "word": "Sacra"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 214, 
+                    "index": 27, 
+                    "lemma": "cintola", 
+                    "originalText": "Cintola", 
+                    "pos": "SP", 
+                    "word": "Cintola"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 217, 
+                    "index": 28, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 223, 
+                    "index": 29, 
+                    "lemma": "Maria", 
+                    "originalText": "Maria", 
+                    "pos": "SP", 
+                    "word": "Maria"
+                }, 
+                {
+                    "characterOffsetBegin": 225, 
+                    "characterOffsetEnd": 227, 
+                    "index": 30, 
+                    "lemma": "da", 
+                    "originalText": "dal", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 225, 
+                    "characterOffsetEnd": 227, 
+                    "index": 31, 
+                    "lemma": "il", 
+                    "originalText": "dal", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 229, 
+                    "characterOffsetEnd": 233, 
+                    "index": 32, 
+                    "lemma": "duomo", 
+                    "originalText": "Duomo", 
+                    "pos": "SP", 
+                    "word": "Duomo"
+                }, 
+                {
+                    "characterOffsetBegin": 234, 
+                    "characterOffsetEnd": 234, 
+                    "index": 33, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 241, 
+                    "index": 1, 
+                    "lemma": "scoprire", 
+                    "originalText": "Scopri", 
+                    "pos": "V", 
+                    "word": "Scopri"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 244, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 248, 
+                    "index": 3, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 251, 
+                    "index": 4, 
+                    "lemma": "\u27a1\ufe0f", 
+                    "originalText": "\u27a1\ufe0f", 
+                    "pos": "SP", 
+                    "word": "\u27a1\ufe0f"
+                }, 
+                {
+                    "characterOffsetBegin": 253, 
+                    "characterOffsetEnd": 275, 
+                    "index": 5, 
+                    "lemma": "https://t.co/0aDFEko824", 
+                    "originalText": "https://t.co/0aDFEko824", 
+                    "pos": "SP", 
+                    "word": "https://t.co/0aDFEko824"
+                }, 
+                {
+                    "characterOffsetBegin": 277, 
+                    "characterOffsetEnd": 298, 
+                    "index": 6, 
+                    "lemma": "https://t.co/4rw4fWIBQk", 
+                    "originalText": "https://t.co/4rw4fWIBQk", 
+                    "pos": "SP", 
+                    "word": "https://t.co/4rw4fWIBQk"
+                }
+            ]
+        }
+    ]
+}

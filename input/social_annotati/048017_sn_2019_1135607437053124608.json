@@ -1,0 +1,523 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "essere", 
+                    "originalText": "\u00c8", 
+                    "pos": "VA", 
+                    "word": "\u00c8"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": "nato", 
+                    "originalText": "nato", 
+                    "pos": "V", 
+                    "word": "nato"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 9, 
+                    "index": 3, 
+                    "lemma": "\u201cil", 
+                    "originalText": "\u201cil", 
+                    "pos": "SP", 
+                    "word": "\u201cil"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 18, 
+                    "index": 4, 
+                    "lemma": "Giardino", 
+                    "originalText": "Giardino", 
+                    "pos": "SP", 
+                    "word": "Giardino"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 21, 
+                    "index": 5, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 29, 
+                    "index": 6, 
+                    "lemma": "Duccio\u201d", 
+                    "originalText": "Duccio\u201d", 
+                    "pos": "SP", 
+                    "word": "Duccio\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 33, 
+                    "index": 7, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 33, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 36, 
+                    "index": 9, 
+                    "lemma": "Q4", 
+                    "originalText": "Q4", 
+                    "pos": "SP", 
+                    "word": "Q4"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 37, 
+                    "index": 10, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 44, 
+                    "index": 11, 
+                    "lemma": "grazia", 
+                    "originalText": "grazie", 
+                    "pos": "S", 
+                    "word": "grazie"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 47, 
+                    "index": 12, 
+                    "lemma": "a", 
+                    "originalText": "alla", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 49, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "alla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 58, 
+                    "index": 14, 
+                    "lemma": "famiglia", 
+                    "originalText": "famiglia", 
+                    "pos": "S", 
+                    "word": "famiglia"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 60, 
+                    "index": 15, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 63, 
+                    "index": 16, 
+                    "lemma": "a", 
+                    "originalText": "ai", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 63, 
+                    "index": 17, 
+                    "lemma": "i", 
+                    "originalText": "ai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 68, 
+                    "index": 18, 
+                    "lemma": "suo", 
+                    "originalText": "suoi", 
+                    "pos": "AP", 
+                    "word": "suoi"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 74, 
+                    "index": 19, 
+                    "lemma": "amico", 
+                    "originalText": "amici", 
+                    "pos": "S", 
+                    "word": "amici"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 78, 
+                    "index": 20, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 88, 
+                    "index": 21, 
+                    "lemma": "l\u2019impegno", 
+                    "originalText": "l\u2019impegno", 
+                    "pos": "S", 
+                    "word": "l\u2019impegno"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 89, 
+                    "index": 22, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 91, 
+                    "characterOffsetEnd": 93, 
+                    "index": 23, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 97, 
+                    "index": 24, 
+                    "lemma": "non", 
+                    "originalText": "non", 
+                    "pos": "BN", 
+                    "word": "non"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 102, 
+                    "index": 25, 
+                    "lemma": "avere", 
+                    "originalText": "aver", 
+                    "pos": "VA", 
+                    "word": "aver"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 106, 
+                    "index": 26, 
+                    "lemma": "mai", 
+                    "originalText": "mai", 
+                    "pos": "B", 
+                    "word": "mai"
+                }, 
+                {
+                    "characterOffsetBegin": 108, 
+                    "characterOffsetEnd": 112, 
+                    "index": 27, 
+                    "lemma": "perdere", 
+                    "originalText": "perso", 
+                    "pos": "V", 
+                    "word": "perso"
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 115, 
+                    "index": 28, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 123, 
+                    "index": 29, 
+                    "lemma": "sorriso", 
+                    "originalText": "sorriso", 
+                    "pos": "S", 
+                    "word": "sorriso"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 124, 
+                    "index": 30, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 128, 
+                    "index": 31, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 133, 
+                    "index": 32, 
+                    "lemma": "avere", 
+                    "originalText": "aver", 
+                    "pos": "VA", 
+                    "word": "aver"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 145, 
+                    "index": 33, 
+                    "lemma": "trasformare", 
+                    "originalText": "trasformato", 
+                    "pos": "V", 
+                    "word": "trasformato"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 148, 
+                    "index": 34, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 150, 
+                    "characterOffsetEnd": 155, 
+                    "index": 35, 
+                    "lemma": "dolore", 
+                    "originalText": "dolore", 
+                    "pos": "S", 
+                    "word": "dolore"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 158, 
+                    "index": 36, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 167, 
+                    "index": 37, 
+                    "lemma": "qualcosa", 
+                    "originalText": "qualcosa", 
+                    "pos": "PI", 
+                    "word": "qualcosa"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 170, 
+                    "index": 38, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 179, 
+                    "index": 39, 
+                    "lemma": "positivo", 
+                    "originalText": "positivo", 
+                    "pos": "A", 
+                    "word": "positivo"
+                }, 
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 183, 
+                    "index": 40, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 189, 
+                    "index": 41, 
+                    "lemma": "tutta", 
+                    "originalText": "tutta", 
+                    "pos": "T", 
+                    "word": "tutta"
+                }, 
+                {
+                    "characterOffsetBegin": 191, 
+                    "characterOffsetEnd": 192, 
+                    "index": 42, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 198, 
+                    "index": 43, 
+                    "lemma": "citt\u00e0", 
+                    "originalText": "citt\u00e0", 
+                    "pos": "S", 
+                    "word": "citt\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 199, 
+                    "characterOffsetEnd": 199, 
+                    "index": 44, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 201, 
+                    "characterOffsetEnd": 203, 
+                    "index": 1, 
+                    "lemma": "noi", 
+                    "originalText": "Noi", 
+                    "pos": "PE", 
+                    "word": "Noi"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 206, 
+                    "index": 2, 
+                    "lemma": "ci", 
+                    "originalText": "ci", 
+                    "pos": "PC", 
+                    "word": "ci"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 213, 
+                    "index": 3, 
+                    "lemma": "essere", 
+                    "originalText": "saremo", 
+                    "pos": "V", 
+                    "word": "saremo"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 220, 
+                    "index": 4, 
+                    "lemma": "sempre", 
+                    "originalText": "sempre", 
+                    "pos": "B", 
+                    "word": "sempre"
+                }, 
+                {
+                    "characterOffsetBegin": 222, 
+                    "characterOffsetEnd": 222, 
+                    "index": 5, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 226, 
+                    "index": 6, 
+                    "lemma": "non", 
+                    "originalText": "non", 
+                    "pos": "BN", 
+                    "word": "non"
+                }, 
+                {
+                    "characterOffsetBegin": 228, 
+                    "characterOffsetEnd": 241, 
+                    "index": 7, 
+                    "lemma": "dimenticare", 
+                    "originalText": "dimenticheremo", 
+                    "pos": "V", 
+                    "word": "dimenticheremo"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 245, 
+                    "index": 8, 
+                    "lemma": "mai", 
+                    "originalText": "mai", 
+                    "pos": "B", 
+                    "word": "mai"
+                }, 
+                {
+                    "characterOffsetBegin": 247, 
+                    "characterOffsetEnd": 257, 
+                    "index": 9, 
+                    "lemma": "#ducciodini", 
+                    "originalText": "#ducciodini", 
+                    "pos": "S", 
+                    "word": "#ducciodini"
+                }, 
+                {
+                    "characterOffsetBegin": 259, 
+                    "characterOffsetEnd": 260, 
+                    "index": 10, 
+                    "lemma": "\u2665\ufe0f", 
+                    "originalText": "\u2665\ufe0f", 
+                    "pos": "NO", 
+                    "word": "\u2665\ufe0f"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 262, 
+                    "characterOffsetEnd": 275, 
+                    "index": 1, 
+                    "lemma": "#DUCCIOXSEMPRE", 
+                    "originalText": "#DUCCIOXSEMPRE", 
+                    "pos": "SP", 
+                    "word": "#DUCCIOXSEMPRE"
+                }, 
+                {
+                    "characterOffsetBegin": 277, 
+                    "characterOffsetEnd": 298, 
+                    "index": 2, 
+                    "lemma": "https://t.co/C84qPK00Wo", 
+                    "originalText": "https://t.co/C84qPK00Wo", 
+                    "pos": "SP", 
+                    "word": "https://t.co/C84qPK00Wo"
+                }
+            ]
+        }
+    ]
+}

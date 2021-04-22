@@ -1,0 +1,366 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 4, 
+                    "index": 1, 
+                    "lemma": "fiaba", 
+                    "originalText": "Fiabe", 
+                    "pos": "SP", 
+                    "word": "Fiabe"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 11, 
+                    "index": 3, 
+                    "lemma": "libri", 
+                    "originalText": "libri", 
+                    "pos": "V", 
+                    "word": "libri"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 15, 
+                    "index": 4, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 24, 
+                    "index": 5, 
+                    "lemma": "imparare", 
+                    "originalText": "imparare", 
+                    "pos": "V", 
+                    "word": "imparare"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 25, 
+                    "index": 6, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 29, 
+                    "index": 7, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 34, 
+                    "index": 8, 
+                    "lemma": "fare", 
+                    "originalText": "fare", 
+                    "pos": "V", 
+                    "word": "fare"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 37, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 43, 
+                    "index": 10, 
+                    "lemma": "nanna", 
+                    "originalText": "nanna", 
+                    "pos": "S", 
+                    "word": "nanna"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 45, 
+                    "index": 11, 
+                    "lemma": "o", 
+                    "originalText": "o", 
+                    "pos": "CC", 
+                    "word": "o"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 49, 
+                    "index": 12, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 59, 
+                    "index": 13, 
+                    "lemma": "stimolare", 
+                    "originalText": "stimolare", 
+                    "pos": "V", 
+                    "word": "stimolare"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 62, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 71, 
+                    "index": 15, 
+                    "lemma": "fantasia", 
+                    "originalText": "fantasia", 
+                    "pos": "S", 
+                    "word": "fantasia"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 72, 
+                    "index": 16, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 77, 
+                    "index": 1, 
+                    "lemma": "essere|sonare", 
+                    "originalText": "Sono", 
+                    "pos": "V", 
+                    "word": "Sono"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 84, 
+                    "index": 2, 
+                    "lemma": "questo", 
+                    "originalText": "queste", 
+                    "pos": "DD", 
+                    "word": "queste"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 87, 
+                    "index": 3, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 94, 
+                    "index": 4, 
+                    "lemma": "nostre", 
+                    "originalText": "nostre", 
+                    "pos": "AP", 
+                    "word": "nostre"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 103, 
+                    "index": 5, 
+                    "lemma": "proposta", 
+                    "originalText": "proposte", 
+                    "pos": "S", 
+                    "word": "proposte"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 107, 
+                    "index": 6, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 109, 
+                    "index": 7, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 113, 
+                    "index": 8, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 115, 
+                    "characterOffsetEnd": 121, 
+                    "index": 9, 
+                    "lemma": "piccolo", 
+                    "originalText": "piccoli", 
+                    "pos": "A", 
+                    "word": "piccoli"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 126, 
+                    "index": 10, 
+                    "lemma": "\ud83d\udc47\ud83c\udffc", 
+                    "originalText": "\ud83d\udc47\ud83c\udffc", 
+                    "pos": "NO", 
+                    "word": "\ud83d\udc47\ud83c\udffc"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 135, 
+                    "index": 1, 
+                    "lemma": "chiamare-ci", 
+                    "originalText": "Chiamaci", 
+                    "pos": "V", 
+                    "word": "Chiamaci"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 137, 
+                    "index": 2, 
+                    "lemma": "o", 
+                    "originalText": "o", 
+                    "pos": "CC", 
+                    "word": "o"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 146, 
+                    "index": 3, 
+                    "lemma": "scrivere-ci", 
+                    "originalText": "scrivici", 
+                    "pos": "V", 
+                    "word": "scrivici"
+                }, 
+                {
+                    "characterOffsetBegin": 148, 
+                    "characterOffsetEnd": 150, 
+                    "index": 4, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 160, 
+                    "index": 5, 
+                    "lemma": "prenotare", 
+                    "originalText": "prenotare", 
+                    "pos": "V", 
+                    "word": "prenotare"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 163, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 167, 
+                    "index": 7, 
+                    "lemma": "tuo", 
+                    "originalText": "tuo", 
+                    "pos": "AP", 
+                    "word": "tuo"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 176, 
+                    "index": 8, 
+                    "lemma": "prestito", 
+                    "originalText": "prestito", 
+                    "pos": "S", 
+                    "word": "prestito"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 177, 
+                    "index": 9, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 179, 
+                    "characterOffsetEnd": 190, 
+                    "index": 1, 
+                    "lemma": "#biblioblate", 
+                    "originalText": "#biblioblate", 
+                    "pos": "V", 
+                    "word": "#biblioblate"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 200, 
+                    "index": 2, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "A", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 223, 
+                    "index": 3, 
+                    "lemma": "https://t.co/wlhqzMJrll", 
+                    "originalText": "https://t.co/wlhqzMJrll", 
+                    "pos": "SP", 
+                    "word": "https://t.co/wlhqzMJrll"
+                }
+            ]
+        }
+    ]
+}

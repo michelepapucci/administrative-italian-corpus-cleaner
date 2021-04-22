@@ -1,0 +1,460 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "ecco", 
+                    "originalText": "Ecco", 
+                    "pos": "B", 
+                    "word": "Ecco"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 8, 
+                    "index": 2, 
+                    "lemma": "come", 
+                    "originalText": "come", 
+                    "pos": "B", 
+                    "word": "come"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 13, 
+                    "index": 3, 
+                    "lemma": "sar\u00e0", 
+                    "originalText": "sar\u00e0", 
+                    "pos": "V", 
+                    "word": "sar\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 15, 
+                    "characterOffsetEnd": 16, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 18, 
+                    "characterOffsetEnd": 22, 
+                    "index": 5, 
+                    "lemma": "nuovo", 
+                    "originalText": "nuovo", 
+                    "pos": "A", 
+                    "word": "nuovo"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 30, 
+                    "index": 6, 
+                    "lemma": "mercato", 
+                    "originalText": "mercato", 
+                    "pos": "S", 
+                    "word": "mercato"
+                }, 
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 45, 
+                    "index": 7, 
+                    "lemma": "agroalimentare", 
+                    "originalText": "agroalimentare", 
+                    "pos": "A", 
+                    "word": "agroalimentare"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 48, 
+                    "index": 8, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 57, 
+                    "index": 9, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 61, 
+                    "index": 10, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 61, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 63, 
+                    "characterOffsetEnd": 66, 
+                    "index": 12, 
+                    "lemma": "2021", 
+                    "originalText": "2021", 
+                    "pos": "N", 
+                    "word": "2021"
+                }, 
+                {
+                    "characterOffsetBegin": 67, 
+                    "characterOffsetEnd": 67, 
+                    "index": 13, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 75, 
+                    "index": 15, 
+                    "lemma": "polo", 
+                    "originalText": "polo", 
+                    "pos": "S", 
+                    "word": "polo"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 78, 
+                    "index": 16, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 85, 
+                    "index": 17, 
+                    "lemma": "64.000", 
+                    "originalText": "64.000", 
+                    "pos": "N", 
+                    "word": "64.000"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 88, 
+                    "index": 18, 
+                    "lemma": "mq", 
+                    "originalText": "mq", 
+                    "pos": "S", 
+                    "word": "mq"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 104, 
+                    "index": 19, 
+                    "lemma": "all\u2019avanguardia", 
+                    "originalText": "all\u2019avanguardia", 
+                    "pos": "SP", 
+                    "word": "all\u2019avanguardia"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 105, 
+                    "index": 20, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 116, 
+                    "index": 21, 
+                    "lemma": "arricchire", 
+                    "originalText": "arricchito", 
+                    "pos": "V", 
+                    "word": "arricchito"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 119, 
+                    "index": 22, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 121, 
+                    "characterOffsetEnd": 128, 
+                    "index": 23, 
+                    "lemma": "funzione", 
+                    "originalText": "funzioni", 
+                    "pos": "S", 
+                    "word": "funzioni"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 131, 
+                    "index": 24, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 133, 
+                    "characterOffsetEnd": 139, 
+                    "index": 25, 
+                    "lemma": "impatto", 
+                    "originalText": "impatto", 
+                    "pos": "S", 
+                    "word": "impatto"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 147, 
+                    "index": 26, 
+                    "lemma": "sociale", 
+                    "originalText": "sociale", 
+                    "pos": "A", 
+                    "word": "sociale"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 150, 
+                    "index": 27, 
+                    "lemma": "ed", 
+                    "originalText": "ed", 
+                    "pos": "CC", 
+                    "word": "ed"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 160, 
+                    "index": 28, 
+                    "lemma": "educativo", 
+                    "originalText": "educativo", 
+                    "pos": "A", 
+                    "word": "educativo"
+                }, 
+                {
+                    "characterOffsetBegin": 161, 
+                    "characterOffsetEnd": 161, 
+                    "index": 29, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 163, 
+                    "characterOffsetEnd": 164, 
+                    "index": 1, 
+                    "lemma": "Un", 
+                    "originalText": "Un", 
+                    "pos": "RI", 
+                    "word": "Un"
+                }, 
+                {
+                    "characterOffsetBegin": 166, 
+                    "characterOffsetEnd": 170, 
+                    "index": 2, 
+                    "lemma": "altro", 
+                    "originalText": "altro", 
+                    "pos": "A", 
+                    "word": "altro"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 176, 
+                    "index": 3, 
+                    "lemma": "passo", 
+                    "originalText": "passo", 
+                    "pos": "S", 
+                    "word": "passo"
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 183, 
+                    "index": 4, 
+                    "lemma": "avanti", 
+                    "originalText": "avanti", 
+                    "pos": "B", 
+                    "word": "avanti"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 187, 
+                    "index": 5, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 189, 
+                    "characterOffsetEnd": 190, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 196, 
+                    "index": 7, 
+                    "lemma": "nuovo", 
+                    "originalText": "nuova", 
+                    "pos": "A", 
+                    "word": "nuova"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 206, 
+                    "index": 8, 
+                    "lemma": "#Mercafir", 
+                    "originalText": "#Mercafir", 
+                    "pos": "SP", 
+                    "word": "#Mercafir"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 208, 
+                    "index": 9, 
+                    "lemma": "2", 
+                    "originalText": "2", 
+                    "pos": "N", 
+                    "word": "2"
+                }, 
+                {
+                    "characterOffsetBegin": 209, 
+                    "characterOffsetEnd": 210, 
+                    "index": 10, 
+                    "lemma": ".0", 
+                    "originalText": ".0", 
+                    "pos": "N", 
+                    "word": ".0"
+                }, 
+                {
+                    "characterOffsetBegin": 212, 
+                    "characterOffsetEnd": 212, 
+                    "index": 11, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 214, 
+                    "characterOffsetEnd": 216, 
+                    "index": 12, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 219, 
+                    "index": 13, 
+                    "lemma": "lo", 
+                    "originalText": "lo", 
+                    "pos": "RD", 
+                    "word": "lo"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 228, 
+                    "index": 14, 
+                    "lemma": "sviluppo", 
+                    "originalText": "sviluppo", 
+                    "pos": "S", 
+                    "word": "sviluppo"
+                }, 
+                {
+                    "characterOffsetBegin": 230, 
+                    "characterOffsetEnd": 238, 
+                    "index": 15, 
+                    "lemma": "dell\u2019area", 
+                    "originalText": "dell\u2019area", 
+                    "pos": "A", 
+                    "word": "dell\u2019area"
+                }, 
+                {
+                    "characterOffsetBegin": 240, 
+                    "characterOffsetEnd": 241, 
+                    "index": 16, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 250, 
+                    "index": 17, 
+                    "lemma": "castello", 
+                    "originalText": "Castello", 
+                    "pos": "SP", 
+                    "word": "Castello"
+                }, 
+                {
+                    "characterOffsetBegin": 251, 
+                    "characterOffsetEnd": 251, 
+                    "index": 18, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 253, 
+                    "characterOffsetEnd": 266, 
+                    "index": 1, 
+                    "lemma": "#firenzecambia", 
+                    "originalText": "#firenzecambia", 
+                    "pos": "S", 
+                    "word": "#firenzecambia"
+                }, 
+                {
+                    "characterOffsetBegin": 268, 
+                    "characterOffsetEnd": 289, 
+                    "index": 2, 
+                    "lemma": "https://t.co/G1UOAAmBY7", 
+                    "originalText": "https://t.co/G1UOAAmBY7", 
+                    "pos": "SP", 
+                    "word": "https://t.co/G1UOAAmBY7"
+                }
+            ]
+        }
+    ]
+}

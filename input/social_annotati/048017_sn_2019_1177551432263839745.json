@@ -1,0 +1,352 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 6, 
+                    "index": 1, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 10, 
+                    "index": 2, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 13, 
+                    "index": 3, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 15, 
+                    "characterOffsetEnd": 17, 
+                    "index": 4, 
+                    "lemma": "tuo", 
+                    "originalText": "tua", 
+                    "pos": "AP", 
+                    "word": "tua"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 22, 
+                    "index": 5, 
+                    "lemma": "idea", 
+                    "originalText": "idea", 
+                    "pos": "S", 
+                    "word": "idea"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 33, 
+                    "index": 6, 
+                    "lemma": "innovativo", 
+                    "originalText": "innovativa", 
+                    "pos": "A", 
+                    "word": "innovativa"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 36, 
+                    "index": 1, 
+                    "lemma": "in", 
+                    "originalText": "In", 
+                    "pos": "E", 
+                    "word": "In"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 44, 
+                    "index": 2, 
+                    "lemma": "diretta", 
+                    "originalText": "diretta", 
+                    "pos": "S", 
+                    "word": "diretta"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 48, 
+                    "index": 3, 
+                    "lemma": "da", 
+                    "originalText": "dal", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 48, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "dal", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 58, 
+                    "index": 5, 
+                    "lemma": "seminario", 
+                    "originalText": "seminario", 
+                    "pos": "S", 
+                    "word": "seminario"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 61, 
+                    "index": 6, 
+                    "lemma": "a", 
+                    "originalText": "alla", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 63, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "alla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 73, 
+                    "index": 8, 
+                    "lemma": "@CamComFI", 
+                    "originalText": "@CamComFI", 
+                    "pos": "SP", 
+                    "word": "@CamComFI"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 74, 
+                    "index": 9, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 79, 
+                    "index": 10, 
+                    "lemma": "dove", 
+                    "originalText": "dove", 
+                    "pos": "B", 
+                    "word": "dove"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 85, 
+                    "index": 11, 
+                    "lemma": "tutti", 
+                    "originalText": "tutti", 
+                    "pos": "T", 
+                    "word": "tutti"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 87, 
+                    "index": 12, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 98, 
+                    "index": 13, 
+                    "lemma": "principale", 
+                    "originalText": "principali", 
+                    "pos": "A", 
+                    "word": "principali"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 105, 
+                    "index": 14, 
+                    "lemma": "attore", 
+                    "originalText": "attori", 
+                    "pos": "S", 
+                    "word": "attori"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 122, 
+                    "index": 15, 
+                    "lemma": "dell\u2019innovazione", 
+                    "originalText": "dell\u2019innovazione", 
+                    "pos": "S", 
+                    "word": "dell\u2019innovazione"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 133, 
+                    "index": 16, 
+                    "lemma": "fiorentina", 
+                    "originalText": "fiorentina", 
+                    "pos": "A", 
+                    "word": "fiorentina"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 136, 
+                    "index": 17, 
+                    "lemma": "si", 
+                    "originalText": "si", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 138, 
+                    "characterOffsetEnd": 147, 
+                    "index": 18, 
+                    "lemma": "presentire", 
+                    "originalText": "presentano", 
+                    "pos": "V", 
+                    "word": "presentano"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 159, 
+                    "index": 19, 
+                    "lemma": "illustrare", 
+                    "originalText": "illustrando", 
+                    "pos": "V", 
+                    "word": "illustrando"
+                }, 
+                {
+                    "characterOffsetBegin": 161, 
+                    "characterOffsetEnd": 165, 
+                    "index": 20, 
+                    "lemma": "tutte", 
+                    "originalText": "tutte", 
+                    "pos": "T", 
+                    "word": "tutte"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 168, 
+                    "index": 21, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 170, 
+                    "characterOffsetEnd": 180, 
+                    "index": 22, 
+                    "lemma": "opportunit\u00e0", 
+                    "originalText": "opportunit\u00e0", 
+                    "pos": "S", 
+                    "word": "opportunit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 182, 
+                    "characterOffsetEnd": 184, 
+                    "index": 23, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 187, 
+                    "index": 24, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 189, 
+                    "characterOffsetEnd": 198, 
+                    "index": 25, 
+                    "lemma": "territorio", 
+                    "originalText": "territorio", 
+                    "pos": "S", 
+                    "word": "territorio"
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 204, 
+                    "index": 26, 
+                    "lemma": "offrire", 
+                    "originalText": "offre", 
+                    "pos": "V", 
+                    "word": "offre"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 205, 
+                    "index": 27, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 207, 
+                    "characterOffsetEnd": 221, 
+                    "index": 1, 
+                    "lemma": "#murateideapark", 
+                    "originalText": "#murateideapark", 
+                    "pos": "S", 
+                    "word": "#murateideapark"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 233, 
+                    "index": 2, 
+                    "lemma": "#ecosistema", 
+                    "originalText": "#ecosistema", 
+                    "pos": "S", 
+                    "word": "#ecosistema"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 246, 
+                    "index": 3, 
+                    "lemma": "#innovazione", 
+                    "originalText": "#innovazione", 
+                    "pos": "S", 
+                    "word": "#innovazione"
+                }, 
+                {
+                    "characterOffsetBegin": 248, 
+                    "characterOffsetEnd": 269, 
+                    "index": 4, 
+                    "lemma": "https://t.co/5prPsQTEry", 
+                    "originalText": "https://t.co/5prPsQTEry", 
+                    "pos": "SP", 
+                    "word": "https://t.co/5prPsQTEry"
+                }
+            ]
+        }
+    ]
+}

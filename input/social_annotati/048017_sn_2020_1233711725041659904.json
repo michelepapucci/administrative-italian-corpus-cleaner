@@ -1,0 +1,50 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 7, 
+                    "index": 1, 
+                    "lemma": "#FIRENZE", 
+                    "originalText": "#FIRENZE", 
+                    "pos": "SP", 
+                    "word": "#FIRENZE"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 14, 
+                    "index": 2, 
+                    "lemma": "APERTA", 
+                    "originalText": "APERTA", 
+                    "pos": "SP", 
+                    "word": "APERTA"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 27, 
+                    "index": 1, 
+                    "lemma": "#CORONAVIRUS", 
+                    "originalText": "#CORONAVIRUS", 
+                    "pos": "SP", 
+                    "word": "#CORONAVIRUS"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 50, 
+                    "index": 2, 
+                    "lemma": "https://t.co/KMXTmG0jLN", 
+                    "originalText": "https://t.co/KMXTmG0jLN", 
+                    "pos": "SP", 
+                    "word": "https://t.co/KMXTmG0jLN"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "Street", 
+                    "originalText": "Street", 
+                    "pos": "SP", 
+                    "word": "Street"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 10, 
+                    "index": 2, 
+                    "lemma": "Food", 
+                    "originalText": "Food", 
+                    "pos": "SP", 
+                    "word": "Food"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 18, 
+                    "index": 3, 
+                    "lemma": "festival", 
+                    "originalText": "Festival", 
+                    "pos": "S", 
+                    "word": "Festival"
+                }
+            ]
+        }
+    ]
+}

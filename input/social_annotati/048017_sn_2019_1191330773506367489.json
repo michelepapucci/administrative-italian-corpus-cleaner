@@ -1,0 +1,392 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "A", 
+                    "originalText": "A", 
+                    "pos": "E", 
+                    "word": "A"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 9, 
+                    "index": 2, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 12, 
+                    "index": 3, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 19, 
+                    "index": 4, 
+                    "lemma": "vigore", 
+                    "originalText": "vigore", 
+                    "pos": "S", 
+                    "word": "vigore"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 27, 
+                    "index": 5, 
+                    "lemma": "allerta", 
+                    "originalText": "allerta", 
+                    "pos": "A", 
+                    "word": "allerta"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "giallo", 
+                    "originalText": "gialla", 
+                    "pos": "A", 
+                    "word": "gialla"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 38, 
+                    "index": 7, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 44, 
+                    "index": 8, 
+                    "lemma": "vento", 
+                    "originalText": "vento", 
+                    "pos": "S", 
+                    "word": "vento"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 50, 
+                    "index": 9, 
+                    "lemma": "forte", 
+                    "originalText": "forte", 
+                    "pos": "A", 
+                    "word": "forte"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 51, 
+                    "index": 10, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 53, 
+                    "characterOffsetEnd": 54, 
+                    "index": 1, 
+                    "lemma": "in", 
+                    "originalText": "In", 
+                    "pos": "E", 
+                    "word": "In"
+                }, 
+                {
+                    "characterOffsetBegin": 56, 
+                    "characterOffsetEnd": 62, 
+                    "index": 2, 
+                    "lemma": "nottata", 
+                    "originalText": "nottata", 
+                    "pos": "S", 
+                    "word": "nottata"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 69, 
+                    "index": 3, 
+                    "lemma": "scattare", 
+                    "originalText": "scatta", 
+                    "pos": "V", 
+                    "word": "scatta"
+                }, 
+                {
+                    "characterOffsetBegin": 71, 
+                    "characterOffsetEnd": 76, 
+                    "index": 4, 
+                    "lemma": "quella", 
+                    "originalText": "quella", 
+                    "pos": "DD", 
+                    "word": "quella"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 80, 
+                    "index": 5, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 90, 
+                    "index": 6, 
+                    "lemma": "possibile", 
+                    "originalText": "possibili", 
+                    "pos": "A", 
+                    "word": "possibili"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 101, 
+                    "index": 7, 
+                    "lemma": "#temporali", 
+                    "originalText": "#temporali", 
+                    "pos": "A", 
+                    "word": "#temporali"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 107, 
+                    "index": 8, 
+                    "lemma": "forte", 
+                    "originalText": "forti", 
+                    "pos": "A", 
+                    "word": "forti"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 109, 
+                    "index": 9, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 117, 
+                    "index": 10, 
+                    "lemma": "rischio", 
+                    "originalText": "rischio", 
+                    "pos": "S", 
+                    "word": "rischio"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 141, 
+                    "index": 11, 
+                    "lemma": "idrogeologico/idraulico", 
+                    "originalText": "idrogeologico/idraulico", 
+                    "pos": "A", 
+                    "word": "idrogeologico/idraulico"
+                }, 
+                {
+                    "characterOffsetBegin": 143, 
+                    "characterOffsetEnd": 145, 
+                    "index": 12, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 143, 
+                    "characterOffsetEnd": 145, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 156, 
+                    "index": 14, 
+                    "lemma": "cosiddetto", 
+                    "originalText": "cosiddetto", 
+                    "pos": "A", 
+                    "word": "cosiddetto"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 166, 
+                    "index": 15, 
+                    "lemma": "\u201creticolo", 
+                    "originalText": "\u201creticolo", 
+                    "pos": "S", 
+                    "word": "\u201creticolo"
+                }, 
+                {
+                    "characterOffsetBegin": 168, 
+                    "characterOffsetEnd": 174, 
+                    "index": 16, 
+                    "lemma": "minore\u201d", 
+                    "originalText": "minore\u201d", 
+                    "pos": "A", 
+                    "word": "minore\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 178, 
+                    "index": 17, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 188, 
+                    "index": 18, 
+                    "lemma": "comprendere", 
+                    "originalText": "comprende", 
+                    "pos": "V", 
+                    "word": "comprende"
+                }, 
+                {
+                    "characterOffsetBegin": 190, 
+                    "characterOffsetEnd": 190, 
+                    "index": 19, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 196, 
+                    "index": 20, 
+                    "lemma": "corso", 
+                    "originalText": "corsi", 
+                    "pos": "S", 
+                    "word": "corsi"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 199, 
+                    "index": 21, 
+                    "lemma": "d'", 
+                    "originalText": "d'", 
+                    "pos": "E", 
+                    "word": "d'"
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 204, 
+                    "index": 22, 
+                    "lemma": "acqua", 
+                    "originalText": "acqua", 
+                    "pos": "S", 
+                    "word": "acqua"
+                }, 
+                {
+                    "characterOffsetBegin": 206, 
+                    "characterOffsetEnd": 214, 
+                    "index": 23, 
+                    "lemma": "secondario", 
+                    "originalText": "secondari", 
+                    "pos": "A", 
+                    "word": "secondari"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 215, 
+                    "index": 24, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 217, 
+                    "characterOffsetEnd": 218, 
+                    "index": 25, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 220, 
+                    "characterOffsetEnd": 230, 
+                    "index": 26, 
+                    "lemma": "particolare", 
+                    "originalText": "particolare", 
+                    "pos": "S", 
+                    "word": "particolare"
+                }, 
+                {
+                    "characterOffsetBegin": 232, 
+                    "characterOffsetEnd": 235, 
+                    "index": 27, 
+                    "lemma": "#Ema", 
+                    "originalText": "#Ema", 
+                    "pos": "SP", 
+                    "word": "#Ema"
+                }, 
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 236, 
+                    "index": 28, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 238, 
+                    "characterOffsetEnd": 245, 
+                    "index": 29, 
+                    "lemma": "#Mugnone", 
+                    "originalText": "#Mugnone", 
+                    "pos": "SP", 
+                    "word": "#Mugnone"
+                }, 
+                {
+                    "characterOffsetBegin": 247, 
+                    "characterOffsetEnd": 247, 
+                    "index": 30, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 249, 
+                    "characterOffsetEnd": 257, 
+                    "index": 31, 
+                    "lemma": "#Terzolle", 
+                    "originalText": "#Terzolle", 
+                    "pos": "SP", 
+                    "word": "#Terzolle"
+                }, 
+                {
+                    "characterOffsetBegin": 259, 
+                    "characterOffsetEnd": 280, 
+                    "index": 32, 
+                    "lemma": "https://t.co/clUGkhgPvO", 
+                    "originalText": "https://t.co/clUGkhgPvO", 
+                    "pos": "SP", 
+                    "word": "https://t.co/clUGkhgPvO"
+                }
+            ]
+        }
+    ]
+}

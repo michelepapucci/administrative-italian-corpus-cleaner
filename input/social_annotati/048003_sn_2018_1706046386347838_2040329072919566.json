@@ -1,0 +1,750 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 4, 
+                    "index": 1, 
+                    "lemma": "Ce.Si", 
+                    "originalText": "Ce.Si", 
+                    "pos": "V", 
+                    "word": "Ce.Si"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 11, 
+                    "index": 1, 
+                    "lemma": "Colli", 
+                    "originalText": "Colli", 
+                    "pos": "PD", 
+                    "word": "Colli"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 22, 
+                    "index": 2, 
+                    "lemma": "Fiorentini", 
+                    "originalText": "Fiorentini", 
+                    "pos": "SP", 
+                    "word": "Fiorentini"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 23, 
+                    "index": 3, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 28, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 30, 
+                    "index": 2, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 37, 
+                    "index": 3, 
+                    "lemma": "domani", 
+                    "originalText": "domani", 
+                    "pos": "B", 
+                    "word": "domani"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 43, 
+                    "index": 4, 
+                    "lemma": "12/03", 
+                    "originalText": "12/03", 
+                    "pos": "N", 
+                    "word": "12/03"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 49, 
+                    "index": 5, 
+                    "lemma": "Stato", 
+                    "originalText": "Stato", 
+                    "pos": "S", 
+                    "word": "Stato"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 52, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 62, 
+                    "index": 7, 
+                    "lemma": "vigilanza", 
+                    "originalText": "VIGILANZA", 
+                    "pos": "S", 
+                    "word": "VIGILANZA"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 64, 
+                    "index": 8, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 73, 
+                    "index": 9, 
+                    "lemma": "criticit\u00e0", 
+                    "originalText": "criticit\u00e0", 
+                    "pos": "S", 
+                    "word": "criticit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 75, 
+                    "characterOffsetEnd": 80, 
+                    "index": 10, 
+                    "lemma": "giallo", 
+                    "originalText": "Gialla", 
+                    "pos": "A", 
+                    "word": "Gialla"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 81, 
+                    "index": 11, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 85, 
+                    "index": 12, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 93, 
+                    "index": 13, 
+                    "lemma": "rischio", 
+                    "originalText": "Rischio", 
+                    "pos": "S", 
+                    "word": "Rischio"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 117, 
+                    "index": 14, 
+                    "lemma": "Idrogeologico-idraulico", 
+                    "originalText": "Idrogeologico-idraulico", 
+                    "pos": "A", 
+                    "word": "Idrogeologico-idraulico"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 119, 
+                    "index": 15, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 121, 
+                    "characterOffsetEnd": 128, 
+                    "index": 16, 
+                    "lemma": "reticolo", 
+                    "originalText": "Reticolo", 
+                    "pos": "S", 
+                    "word": "Reticolo"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 139, 
+                    "index": 17, 
+                    "lemma": "principale", 
+                    "originalText": "principale", 
+                    "pos": "A", 
+                    "word": "principale"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 144, 
+                    "index": 18, 
+                    "lemma": "area", 
+                    "originalText": "Aree", 
+                    "pos": "SP", 
+                    "word": "Aree"
+                }, 
+                {
+                    "characterOffsetBegin": 146, 
+                    "characterOffsetEnd": 150, 
+                    "index": 19, 
+                    "lemma": "A3-A5", 
+                    "originalText": "A3-A5", 
+                    "pos": "SP", 
+                    "word": "A3-A5"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 151, 
+                    "index": 20, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 156, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 163, 
+                    "index": 2, 
+                    "lemma": "pioggia", 
+                    "originalText": "piogge", 
+                    "pos": "S", 
+                    "word": "piogge"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 171, 
+                    "index": 3, 
+                    "lemma": "diffuso", 
+                    "originalText": "diffuse", 
+                    "pos": "A", 
+                    "word": "diffuse"
+                }, 
+                {
+                    "characterOffsetBegin": 173, 
+                    "characterOffsetEnd": 174, 
+                    "index": 4, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 190, 
+                    "index": 5, 
+                    "lemma": "debole-moderata", 
+                    "originalText": "debole-moderata", 
+                    "pos": "V", 
+                    "word": "debole-moderata"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 200, 
+                    "index": 6, 
+                    "lemma": "intensit\u00e0", 
+                    "originalText": "intensit\u00e0", 
+                    "pos": "S", 
+                    "word": "intensit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 201, 
+                    "characterOffsetEnd": 201, 
+                    "index": 7, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 203, 
+                    "characterOffsetEnd": 203, 
+                    "index": 8, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 213, 
+                    "index": 9, 
+                    "lemma": "carattere", 
+                    "originalText": "carattere", 
+                    "pos": "S", 
+                    "word": "carattere"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 216, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 225, 
+                    "index": 11, 
+                    "lemma": "rovescio", 
+                    "originalText": "rovescio", 
+                    "pos": "A", 
+                    "word": "rovescio"
+                }, 
+                {
+                    "characterOffsetBegin": 227, 
+                    "characterOffsetEnd": 227, 
+                    "index": 12, 
+                    "lemma": "o", 
+                    "originalText": "o", 
+                    "pos": "CC", 
+                    "word": "o"
+                }, 
+                {
+                    "characterOffsetBegin": 229, 
+                    "characterOffsetEnd": 237, 
+                    "index": 13, 
+                    "lemma": "temporale", 
+                    "originalText": "temporale", 
+                    "pos": "S", 
+                    "word": "temporale"
+                }, 
+                {
+                    "characterOffsetBegin": 239, 
+                    "characterOffsetEnd": 241, 
+                    "index": 14, 
+                    "lemma": "da", 
+                    "originalText": "dal", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 239, 
+                    "characterOffsetEnd": 241, 
+                    "index": 15, 
+                    "lemma": "il", 
+                    "originalText": "dal", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 252, 
+                    "index": 16, 
+                    "lemma": "pomeriggio", 
+                    "originalText": "pomeriggio", 
+                    "pos": "S", 
+                    "word": "pomeriggio"
+                }, 
+                {
+                    "characterOffsetBegin": 253, 
+                    "characterOffsetEnd": 253, 
+                    "index": 17, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 4, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 255, 
+                    "characterOffsetEnd": 256, 
+                    "index": 1, 
+                    "lemma": "in", 
+                    "originalText": "In", 
+                    "pos": "E", 
+                    "word": "In"
+                }, 
+                {
+                    "characterOffsetBegin": 258, 
+                    "characterOffsetEnd": 263, 
+                    "index": 2, 
+                    "lemma": "serata", 
+                    "originalText": "serata", 
+                    "pos": "S", 
+                    "word": "serata"
+                }, 
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 265, 
+                    "index": 3, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 267, 
+                    "characterOffsetEnd": 274, 
+                    "index": 4, 
+                    "lemma": "fenomeni", 
+                    "originalText": "fenomeni", 
+                    "pos": "S", 
+                    "word": "fenomeni"
+                }, 
+                {
+                    "characterOffsetBegin": 276, 
+                    "characterOffsetEnd": 285, 
+                    "index": 5, 
+                    "lemma": "tendere", 
+                    "originalText": "tenderanno", 
+                    "pos": "V", 
+                    "word": "tenderanno"
+                }, 
+                {
+                    "characterOffsetBegin": 287, 
+                    "characterOffsetEnd": 287, 
+                    "index": 6, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 289, 
+                    "characterOffsetEnd": 296, 
+                    "index": 7, 
+                    "lemma": "divenire", 
+                    "originalText": "divenire", 
+                    "pos": "V", 
+                    "word": "divenire"
+                }, 
+                {
+                    "characterOffsetBegin": 298, 
+                    "characterOffsetEnd": 300, 
+                    "index": 8, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 302, 
+                    "characterOffsetEnd": 307, 
+                    "index": 9, 
+                    "lemma": "sparso", 
+                    "originalText": "sparsi", 
+                    "pos": "A", 
+                    "word": "sparsi"
+                }, 
+                {
+                    "characterOffsetBegin": 309, 
+                    "characterOffsetEnd": 309, 
+                    "index": 10, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 311, 
+                    "characterOffsetEnd": 323, 
+                    "index": 11, 
+                    "lemma": "intermittente", 
+                    "originalText": "intermittenti", 
+                    "pos": "A", 
+                    "word": "intermittenti"
+                }, 
+                {
+                    "characterOffsetBegin": 324, 
+                    "characterOffsetEnd": 324, 
+                    "index": 12, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 5, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 326, 
+                    "characterOffsetEnd": 331, 
+                    "index": 1, 
+                    "lemma": "domani", 
+                    "originalText": "Domani", 
+                    "pos": "B", 
+                    "word": "Domani"
+                }, 
+                {
+                    "characterOffsetBegin": 332, 
+                    "characterOffsetEnd": 332, 
+                    "index": 2, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 334, 
+                    "characterOffsetEnd": 339, 
+                    "index": 3, 
+                    "lemma": "pioggia", 
+                    "originalText": "piogge", 
+                    "pos": "S", 
+                    "word": "piogge"
+                }, 
+                {
+                    "characterOffsetBegin": 341, 
+                    "characterOffsetEnd": 341, 
+                    "index": 4, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 343, 
+                    "characterOffsetEnd": 349, 
+                    "index": 5, 
+                    "lemma": "rovescio", 
+                    "originalText": "rovesci", 
+                    "pos": "S", 
+                    "word": "rovesci"
+                }, 
+                {
+                    "characterOffsetBegin": 351, 
+                    "characterOffsetEnd": 356, 
+                    "index": 6, 
+                    "lemma": "sparso", 
+                    "originalText": "sparsi", 
+                    "pos": "A", 
+                    "word": "sparsi"
+                }, 
+                {
+                    "characterOffsetBegin": 357, 
+                    "characterOffsetEnd": 357, 
+                    "index": 7, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 6, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 359, 
+                    "characterOffsetEnd": 369, 
+                    "index": 1, 
+                    "lemma": "possibilit\u00e0", 
+                    "originalText": "Possibilit\u00e0", 
+                    "pos": "S", 
+                    "word": "Possibilit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 371, 
+                    "characterOffsetEnd": 372, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 374, 
+                    "characterOffsetEnd": 379, 
+                    "index": 3, 
+                    "lemma": "locale", 
+                    "originalText": "locali", 
+                    "pos": "A", 
+                    "word": "locali"
+                }, 
+                {
+                    "characterOffsetBegin": 381, 
+                    "characterOffsetEnd": 389, 
+                    "index": 4, 
+                    "lemma": "temporale", 
+                    "originalText": "temporali", 
+                    "pos": "S", 
+                    "word": "temporali"
+                }, 
+                {
+                    "characterOffsetBegin": 390, 
+                    "characterOffsetEnd": 398, 
+                    "index": 5, 
+                    "lemma": ".Cumulati", 
+                    "originalText": ".Cumulati", 
+                    "pos": "A", 
+                    "word": ".Cumulati"
+                }, 
+                {
+                    "characterOffsetBegin": 399, 
+                    "characterOffsetEnd": 399, 
+                    "index": 6, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 401, 
+                    "characterOffsetEnd": 404, 
+                    "index": 7, 
+                    "lemma": "medio", 
+                    "originalText": "medi", 
+                    "pos": "A", 
+                    "word": "medi"
+                }, 
+                {
+                    "characterOffsetBegin": 406, 
+                    "characterOffsetEnd": 412, 
+                    "index": 8, 
+                    "lemma": "intorno", 
+                    "originalText": "intorno", 
+                    "pos": "E", 
+                    "word": "intorno"
+                }, 
+                {
+                    "characterOffsetBegin": 414, 
+                    "characterOffsetEnd": 414, 
+                    "index": 9, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 416, 
+                    "characterOffsetEnd": 420, 
+                    "index": 10, 
+                    "lemma": "10-20", 
+                    "originalText": "10-20", 
+                    "pos": "N", 
+                    "word": "10-20"
+                }, 
+                {
+                    "characterOffsetBegin": 422, 
+                    "characterOffsetEnd": 423, 
+                    "index": 11, 
+                    "lemma": "mm", 
+                    "originalText": "mm", 
+                    "pos": "S", 
+                    "word": "mm"
+                }, 
+                {
+                    "characterOffsetBegin": 424, 
+                    "characterOffsetEnd": 424, 
+                    "index": 12, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 426, 
+                    "characterOffsetEnd": 432, 
+                    "index": 13, 
+                    "lemma": "massimi", 
+                    "originalText": "massimi", 
+                    "pos": "A", 
+                    "word": "massimi"
+                }, 
+                {
+                    "characterOffsetBegin": 434, 
+                    "characterOffsetEnd": 437, 
+                    "index": 14, 
+                    "lemma": "fino", 
+                    "originalText": "fino", 
+                    "pos": "E", 
+                    "word": "fino"
+                }, 
+                {
+                    "characterOffsetBegin": 439, 
+                    "characterOffsetEnd": 439, 
+                    "index": 15, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 441, 
+                    "characterOffsetEnd": 445, 
+                    "index": 16, 
+                    "lemma": "30-40", 
+                    "originalText": "30-40", 
+                    "pos": "N", 
+                    "word": "30-40"
+                }, 
+                {
+                    "characterOffsetBegin": 447, 
+                    "characterOffsetEnd": 448, 
+                    "index": 17, 
+                    "lemma": "mm", 
+                    "originalText": "mm", 
+                    "pos": "S", 
+                    "word": "mm"
+                }, 
+                {
+                    "characterOffsetBegin": 449, 
+                    "characterOffsetEnd": 448, 
+                    "index": 18, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

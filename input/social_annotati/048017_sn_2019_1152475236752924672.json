@@ -1,0 +1,352 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 11, 
+                    "index": 1, 
+                    "lemma": "Dell\u2019eredit\u00e0", 
+                    "originalText": "Dell\u2019eredit\u00e0", 
+                    "pos": "S", 
+                    "word": "Dell\u2019eredit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 14, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 23, 
+                    "index": 3, 
+                    "lemma": "Giovanni", 
+                    "originalText": "Giovanni", 
+                    "pos": "SP", 
+                    "word": "Giovanni"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 34, 
+                    "index": 4, 
+                    "lemma": "#Spadolini", 
+                    "originalText": "#Spadolini", 
+                    "pos": "SP", 
+                    "word": "#Spadolini"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 43, 
+                    "index": 5, 
+                    "lemma": "dobbiamo", 
+                    "originalText": "dobbiamo", 
+                    "pos": "VM", 
+                    "word": "dobbiamo"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 50, 
+                    "index": 6, 
+                    "lemma": "tenere", 
+                    "originalText": "tenere", 
+                    "pos": "V", 
+                    "word": "tenere"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 52, 
+                    "index": 7, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 58, 
+                    "index": 8, 
+                    "lemma": "menta", 
+                    "originalText": "mente", 
+                    "pos": "S", 
+                    "word": "mente"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 59, 
+                    "index": 9, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 64, 
+                    "index": 10, 
+                    "lemma": "oggi", 
+                    "originalText": "oggi", 
+                    "pos": "B", 
+                    "word": "oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 67, 
+                    "index": 11, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 79, 
+                    "index": 12, 
+                    "lemma": "particolare", 
+                    "originalText": "particolare", 
+                    "pos": "S", 
+                    "word": "particolare"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 80, 
+                    "index": 13, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 83, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 87, 
+                    "index": 15, 
+                    "lemma": "suo", 
+                    "originalText": "sua", 
+                    "pos": "AP", 
+                    "word": "sua"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 96, 
+                    "index": 16, 
+                    "lemma": "profondo", 
+                    "originalText": "profonda", 
+                    "pos": "A", 
+                    "word": "profonda"
+                }, 
+                {
+                    "characterOffsetBegin": 98, 
+                    "characterOffsetEnd": 111, 
+                    "index": 17, 
+                    "lemma": "consapevolezza", 
+                    "originalText": "consapevolezza", 
+                    "pos": "S", 
+                    "word": "consapevolezza"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 115, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 115, 
+                    "index": 19, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 122, 
+                    "index": 20, 
+                    "lemma": "valore", 
+                    "originalText": "valore", 
+                    "pos": "S", 
+                    "word": "valore"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 126, 
+                    "index": 21, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 126, 
+                    "index": 22, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 132, 
+                    "index": 23, 
+                    "lemma": "senso", 
+                    "originalText": "senso", 
+                    "pos": "S", 
+                    "word": "senso"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 136, 
+                    "index": 24, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 138, 
+                    "index": 25, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 150, 
+                    "index": 26, 
+                    "lemma": "istituzioni", 
+                    "originalText": "istituzioni", 
+                    "pos": "S", 
+                    "word": "istituzioni"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 151, 
+                    "index": 27, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 162, 
+                    "index": 1, 
+                    "lemma": "consegnare-ti", 
+                    "originalText": "Consegnati", 
+                    "pos": "V", 
+                    "word": "Consegnati"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 169, 
+                    "index": 2, 
+                    "lemma": "questo", 
+                    "originalText": "questa", 
+                    "pos": "DD", 
+                    "word": "questa"
+                }, 
+                {
+                    "characterOffsetBegin": 171, 
+                    "characterOffsetEnd": 177, 
+                    "index": 3, 
+                    "lemma": "mattina|mattino", 
+                    "originalText": "mattina", 
+                    "pos": "S", 
+                    "word": "mattina"
+                }, 
+                {
+                    "characterOffsetBegin": 179, 
+                    "characterOffsetEnd": 179, 
+                    "index": 4, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 185, 
+                    "index": 5, 
+                    "lemma": "premio", 
+                    "originalText": "premi", 
+                    "pos": "S", 
+                    "word": "premi"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 202, 
+                    "index": 6, 
+                    "lemma": "\u2018Spadolini-Nuova", 
+                    "originalText": "\u2018Spadolini-Nuova", 
+                    "pos": "SP", 
+                    "word": "\u2018Spadolini-Nuova"
+                }, 
+                {
+                    "characterOffsetBegin": 204, 
+                    "characterOffsetEnd": 213, 
+                    "index": 7, 
+                    "lemma": "Antologia\u2019", 
+                    "originalText": "Antologia\u2019", 
+                    "pos": "SP", 
+                    "word": "Antologia\u2019"
+                }, 
+                {
+                    "characterOffsetBegin": 214, 
+                    "characterOffsetEnd": 214, 
+                    "index": 8, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 238, 
+                    "index": 1, 
+                    "lemma": "https://t.co/sAmKXrTsiX", 
+                    "originalText": "https://t.co/sAmKXrTsiX", 
+                    "pos": "SP", 
+                    "word": "https://t.co/sAmKXrTsiX"
+                }, 
+                {
+                    "characterOffsetBegin": 240, 
+                    "characterOffsetEnd": 261, 
+                    "index": 2, 
+                    "lemma": "https://t.co/U13CzsIbP0", 
+                    "originalText": "https://t.co/U13CzsIbP0", 
+                    "pos": "SP", 
+                    "word": "https://t.co/U13CzsIbP0"
+                }
+            ]
+        }
+    ]
+}

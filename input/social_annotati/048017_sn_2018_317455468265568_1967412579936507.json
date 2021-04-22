@@ -1,0 +1,549 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 17, 
+                    "index": 1, 
+                    "lemma": "#BUONGIORNOFIRENZE", 
+                    "originalText": "#BUONGIORNOFIRENZE", 
+                    "pos": "SP", 
+                    "word": "#BUONGIORNOFIRENZE"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 21, 
+                    "index": 2, 
+                    "lemma": "SAN", 
+                    "originalText": "SAN", 
+                    "pos": "SP", 
+                    "word": "SAN"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 29, 
+                    "index": 3, 
+                    "lemma": "MINIATO", 
+                    "originalText": "MINIATO", 
+                    "pos": "SP", 
+                    "word": "MINIATO"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 31, 
+                    "index": 4, 
+                    "lemma": "E", 
+                    "originalText": "E", 
+                    "pos": "SP", 
+                    "word": "E"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 33, 
+                    "index": 5, 
+                    "lemma": "I", 
+                    "originalText": "I", 
+                    "pos": "NO", 
+                    "word": "I"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 38, 
+                    "index": 6, 
+                    "lemma": "SUOI", 
+                    "originalText": "SUOI", 
+                    "pos": "SP", 
+                    "word": "SUOI"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 43, 
+                    "index": 7, 
+                    "lemma": "1000", 
+                    "originalText": "1000", 
+                    "pos": "N", 
+                    "word": "1000"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 50, 
+                    "index": 8, 
+                    "lemma": "ANNIL'", 
+                    "originalText": "ANNIL'", 
+                    "pos": "SP", 
+                    "word": "ANNIL'"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 57, 
+                    "index": 9, 
+                    "lemma": "abbazia", 
+                    "originalText": "Abbazia", 
+                    "pos": "S", 
+                    "word": "Abbazia"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 60, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 64, 
+                    "index": 11, 
+                    "lemma": "San", 
+                    "originalText": "San", 
+                    "pos": "SP", 
+                    "word": "San"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 72, 
+                    "index": 12, 
+                    "lemma": "Miniato", 
+                    "originalText": "Miniato", 
+                    "pos": "SP", 
+                    "word": "Miniato"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 73, 
+                    "index": 13, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 75, 
+                    "characterOffsetEnd": 77, 
+                    "index": 14, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 86, 
+                    "index": 15, 
+                    "lemma": "sovrastare", 
+                    "originalText": "sovrasta", 
+                    "pos": "V", 
+                    "word": "sovrasta"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 94, 
+                    "index": 16, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 99, 
+                    "index": 17, 
+                    "lemma": "come", 
+                    "originalText": "come", 
+                    "pos": "B", 
+                    "word": "come"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 102, 
+                    "index": 18, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 105, 
+                    "index": 19, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 115, 
+                    "index": 20, 
+                    "lemma": "abbraccio", 
+                    "originalText": "abbraccio", 
+                    "pos": "S", 
+                    "word": "abbraccio"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 126, 
+                    "index": 21, 
+                    "lemma": "protettivo", 
+                    "originalText": "protettivo", 
+                    "pos": "A", 
+                    "word": "protettivo"
+                }, 
+                {
+                    "characterOffsetBegin": 127, 
+                    "characterOffsetEnd": 127, 
+                    "index": 22, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 129, 
+                    "characterOffsetEnd": 135, 
+                    "index": 23, 
+                    "lemma": "celebrare", 
+                    "originalText": "celebra", 
+                    "pos": "V", 
+                    "word": "celebra"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 137, 
+                    "index": 24, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 142, 
+                    "index": 25, 
+                    "lemma": "suo", 
+                    "originalText": "suoi", 
+                    "pos": "AP", 
+                    "word": "suoi"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 148, 
+                    "index": 26, 
+                    "lemma": "mille", 
+                    "originalText": "mille", 
+                    "pos": "N", 
+                    "word": "mille"
+                }, 
+                {
+                    "characterOffsetBegin": 150, 
+                    "characterOffsetEnd": 153, 
+                    "index": 27, 
+                    "lemma": "anni", 
+                    "originalText": "anni", 
+                    "pos": "S", 
+                    "word": "anni"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 156, 
+                    "index": 28, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 163, 
+                    "index": 29, 
+                    "lemma": "storia", 
+                    "originalText": "storia", 
+                    "pos": "S", 
+                    "word": "storia"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 173, 
+                    "index": 30, 
+                    "lemma": "celebrati", 
+                    "originalText": "celebrati", 
+                    "pos": "V", 
+                    "word": "celebrati"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 175, 
+                    "index": 31, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 185, 
+                    "index": 32, 
+                    "lemma": "rivivere", 
+                    "originalText": "rivissuti", 
+                    "pos": "V", 
+                    "word": "rivissuti"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 196, 
+                    "index": 33, 
+                    "lemma": "attraverso", 
+                    "originalText": "attraverso", 
+                    "pos": "E", 
+                    "word": "attraverso"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 200, 
+                    "index": 34, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "RI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 206, 
+                    "index": 35, 
+                    "lemma": "serie", 
+                    "originalText": "serie", 
+                    "pos": "S", 
+                    "word": "serie"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 209, 
+                    "index": 36, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 219, 
+                    "index": 37, 
+                    "lemma": "cerimonia", 
+                    "originalText": "cerimonie", 
+                    "pos": "S", 
+                    "word": "cerimonie"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 221, 
+                    "index": 38, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 224, 
+                    "index": 39, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 226, 
+                    "characterOffsetEnd": 231, 
+                    "index": 40, 
+                    "lemma": "eventi", 
+                    "originalText": "eventi", 
+                    "pos": "S", 
+                    "word": "eventi"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 241, 
+                    "index": 41, 
+                    "lemma": "culturali", 
+                    "originalText": "culturali", 
+                    "pos": "A", 
+                    "word": "culturali"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 244, 
+                    "index": 42, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 256, 
+                    "index": 43, 
+                    "lemma": "eccezionale", 
+                    "originalText": "eccezionale", 
+                    "pos": "A", 
+                    "word": "eccezionale"
+                }, 
+                {
+                    "characterOffsetBegin": 258, 
+                    "characterOffsetEnd": 264, 
+                    "index": 44, 
+                    "lemma": "rilievo", 
+                    "originalText": "rilievo", 
+                    "pos": "S", 
+                    "word": "rilievo"
+                }, 
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 266, 
+                    "index": 45, 
+                    "lemma": ",a", 
+                    "originalText": ",a", 
+                    "pos": "V", 
+                    "word": ",a"
+                }, 
+                {
+                    "characterOffsetBegin": 268, 
+                    "characterOffsetEnd": 279, 
+                    "index": 46, 
+                    "lemma": "sottolineare", 
+                    "originalText": "sottolineare", 
+                    "pos": "V", 
+                    "word": "sottolineare"
+                }, 
+                {
+                    "characterOffsetBegin": 281, 
+                    "characterOffsetEnd": 282, 
+                    "index": 47, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 284, 
+                    "characterOffsetEnd": 292, 
+                    "index": 48, 
+                    "lemma": "peculiare", 
+                    "originalText": "peculiare", 
+                    "pos": "A", 
+                    "word": "peculiare"
+                }, 
+                {
+                    "characterOffsetBegin": 294, 
+                    "characterOffsetEnd": 302, 
+                    "index": 49, 
+                    "lemma": "vocazione", 
+                    "originalText": "vocazione", 
+                    "pos": "S", 
+                    "word": "vocazione"
+                }, 
+                {
+                    "characterOffsetBegin": 304, 
+                    "characterOffsetEnd": 305, 
+                    "index": 50, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 307, 
+                    "characterOffsetEnd": 312, 
+                    "index": 51, 
+                    "lemma": "questo", 
+                    "originalText": "questo", 
+                    "pos": "DD", 
+                    "word": "questo"
+                }, 
+                {
+                    "characterOffsetBegin": 314, 
+                    "characterOffsetEnd": 318, 
+                    "index": 52, 
+                    "lemma": "luogo", 
+                    "originalText": "luogo", 
+                    "pos": "S", 
+                    "word": "luogo"
+                }, 
+                {
+                    "characterOffsetBegin": 320, 
+                    "characterOffsetEnd": 321, 
+                    "index": 53, 
+                    "lemma": "a", 
+                    "originalText": "alla", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 321, 
+                    "characterOffsetEnd": 323, 
+                    "index": 54, 
+                    "lemma": "il", 
+                    "originalText": "alla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 325, 
+                    "characterOffsetEnd": 335, 
+                    "index": 55, 
+                    "lemma": "meditazione", 
+                    "originalText": "meditazione", 
+                    "pos": "S", 
+                    "word": "meditazione"
+                }, 
+                {
+                    "characterOffsetBegin": 337, 
+                    "characterOffsetEnd": 337, 
+                    "index": 56, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 339, 
+                    "characterOffsetEnd": 340, 
+                    "index": 57, 
+                    "lemma": "a", 
+                    "originalText": "alla", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 340, 
+                    "characterOffsetEnd": 342, 
+                    "index": 58, 
+                    "lemma": "il", 
+                    "originalText": "alla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 344, 
+                    "characterOffsetEnd": 355, 
+                    "index": 59, 
+                    "lemma": "spiritualit\u00e0", 
+                    "originalText": "spiritualit\u00e0", 
+                    "pos": "S", 
+                    "word": "spiritualit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 356, 
+                    "characterOffsetEnd": 355, 
+                    "index": 60, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,401 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "A", 
+                    "originalText": "A", 
+                    "pos": "E", 
+                    "word": "A"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 10, 
+                    "index": 2, 
+                    "lemma": "Compiobbi", 
+                    "originalText": "Compiobbi", 
+                    "pos": "SP", 
+                    "word": "Compiobbi"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 11, 
+                    "index": 3, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 15, 
+                    "index": 4, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 15, 
+                    "index": 5, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 30, 
+                    "index": 6, 
+                    "lemma": "@ComuneFiesole", 
+                    "originalText": "@ComuneFiesole", 
+                    "pos": "SP", 
+                    "word": "@ComuneFiesole"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 31, 
+                    "index": 7, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 34, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "l'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 44, 
+                    "index": 9, 
+                    "lemma": "Ecofurgone", 
+                    "originalText": "Ecofurgone", 
+                    "pos": "SP", 
+                    "word": "Ecofurgone"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 47, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 49, 
+                    "characterOffsetEnd": 53, 
+                    "index": 11, 
+                    "lemma": "#Alia", 
+                    "originalText": "#Alia", 
+                    "pos": "SP", 
+                    "word": "#Alia"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 59, 
+                    "index": 12, 
+                    "lemma": "tornare", 
+                    "originalText": "torna", 
+                    "pos": "V", 
+                    "word": "torna"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 62, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 71, 
+                    "index": 14, 
+                    "lemma": "#6agosto", 
+                    "originalText": "#6agosto", 
+                    "pos": "N", 
+                    "word": "#6agosto"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 72, 
+                    "index": 15, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 75, 
+                    "index": 16, 
+                    "lemma": "Al", 
+                    "originalText": "Al", 
+                    "pos": "SP", 
+                    "word": "Al"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 81, 
+                    "index": 17, 
+                    "lemma": "mezzo", 
+                    "originalText": "mezzo", 
+                    "pos": "B", 
+                    "word": "mezzo"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 92, 
+                    "index": 18, 
+                    "lemma": "attrezzare", 
+                    "originalText": "attrezzato", 
+                    "pos": "V", 
+                    "word": "attrezzato"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 95, 
+                    "index": 19, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 101, 
+                    "index": 20, 
+                    "lemma": "p.zza", 
+                    "originalText": "p.zza", 
+                    "pos": "S", 
+                    "word": "p.zza"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 109, 
+                    "index": 21, 
+                    "lemma": "falcone", 
+                    "originalText": "Falcone", 
+                    "pos": "SP", 
+                    "word": "Falcone"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 111, 
+                    "index": 22, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 122, 
+                    "index": 23, 
+                    "lemma": "Borsellino", 
+                    "originalText": "Borsellino", 
+                    "pos": "SP", 
+                    "word": "Borsellino"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 126, 
+                    "index": 24, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 133, 
+                    "index": 25, 
+                    "lemma": "utente", 
+                    "originalText": "utenti", 
+                    "pos": "S", 
+                    "word": "utenti"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 142, 
+                    "index": 26, 
+                    "lemma": "potere", 
+                    "originalText": "potranno", 
+                    "pos": "VM", 
+                    "word": "potranno"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 152, 
+                    "index": 27, 
+                    "lemma": "conferire", 
+                    "originalText": "conferire", 
+                    "pos": "V", 
+                    "word": "conferire"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 153, 
+                    "index": 28, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 158, 
+                    "index": 29, 
+                    "lemma": "olio", 
+                    "originalText": "olio", 
+                    "pos": "S", 
+                    "word": "olio"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 166, 
+                    "index": 30, 
+                    "lemma": "esausto", 
+                    "originalText": "esausto", 
+                    "pos": "A", 
+                    "word": "esausto"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 167, 
+                    "index": 31, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 175, 
+                    "index": 32, 
+                    "lemma": "lampade", 
+                    "originalText": "lampade", 
+                    "pos": "S", 
+                    "word": "lampade"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 176, 
+                    "index": 33, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 184, 
+                    "index": 34, 
+                    "lemma": "vernice", 
+                    "originalText": "vernici", 
+                    "pos": "S", 
+                    "word": "vernici"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 185, 
+                    "index": 35, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 190, 
+                    "index": 36, 
+                    "lemma": "pile", 
+                    "originalText": "pile", 
+                    "pos": "A", 
+                    "word": "pile"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 192, 
+                    "index": 37, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 201, 
+                    "index": 38, 
+                    "lemma": "batteria", 
+                    "originalText": "batterie", 
+                    "pos": "S", 
+                    "word": "batterie"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 202, 
+                    "index": 39, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 204, 
+                    "characterOffsetEnd": 210, 
+                    "index": 40, 
+                    "lemma": "piccolo", 
+                    "originalText": "piccoli", 
+                    "pos": "S", 
+                    "word": "piccoli"
+                }, 
+                {
+                    "characterOffsetBegin": 212, 
+                    "characterOffsetEnd": 218, 
+                    "index": 41, 
+                    "lemma": "RAEE...", 
+                    "originalText": "RAEE...", 
+                    "pos": "SP", 
+                    "word": "RAEE..."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 220, 
+                    "characterOffsetEnd": 242, 
+                    "index": 1, 
+                    "lemma": "https://t.co/yiSgnK7wba", 
+                    "originalText": "https://t.co/yiSgnK7wba", 
+                    "pos": "SP", 
+                    "word": "https://t.co/yiSgnK7wba"
+                }, 
+                {
+                    "characterOffsetBegin": 244, 
+                    "characterOffsetEnd": 265, 
+                    "index": 2, 
+                    "lemma": "https://t.co/2v3o1JAZPs", 
+                    "originalText": "https://t.co/2v3o1JAZPs", 
+                    "pos": "SP", 
+                    "word": "https://t.co/2v3o1JAZPs"
+                }
+            ]
+        }
+    ]
+}

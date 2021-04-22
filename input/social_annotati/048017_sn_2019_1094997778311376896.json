@@ -1,0 +1,333 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "V", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 8, 
+                    "index": 3, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 15, 
+                    "index": 4, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 22, 
+                    "index": 5, 
+                    "lemma": "giorno", 
+                    "originalText": "giorno", 
+                    "pos": "S", 
+                    "word": "giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 26, 
+                    "index": 6, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 28, 
+                    "characterOffsetEnd": 34, 
+                    "index": 7, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 37, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 48, 
+                    "index": 9, 
+                    "lemma": "#tramviaFi", 
+                    "originalText": "#tramviaFi", 
+                    "pos": "SP", 
+                    "word": "#tramviaFi"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 60, 
+                    "index": 10, 
+                    "lemma": "#T2Vespucci", 
+                    "originalText": "#T2Vespucci", 
+                    "pos": "SP", 
+                    "word": "#T2Vespucci"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 62, 
+                    "index": 11, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "VA", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 70, 
+                    "index": 12, 
+                    "lemma": "partire", 
+                    "originalText": "partita", 
+                    "pos": "V", 
+                    "word": "partita"
+                }, 
+                {
+                    "characterOffsetBegin": 71, 
+                    "characterOffsetEnd": 71, 
+                    "index": 13, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 74, 
+                    "index": 14, 
+                    "lemma": "Un", 
+                    "originalText": "Un", 
+                    "pos": "RI", 
+                    "word": "Un"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 81, 
+                    "index": 15, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 91, 
+                    "index": 16, 
+                    "lemma": "risultato", 
+                    "originalText": "risultato", 
+                    "pos": "S", 
+                    "word": "risultato"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 93, 
+                    "index": 17, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 97, 
+                    "index": 18, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "RI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 104, 
+                    "index": 19, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 113, 
+                    "index": 20, 
+                    "lemma": "emozione", 
+                    "originalText": "emozione", 
+                    "pos": "S", 
+                    "word": "emozione"
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 114, 
+                    "index": 21, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 122, 
+                    "index": 22, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 129, 
+                    "index": 23, 
+                    "lemma": "sempre", 
+                    "originalText": "sempre", 
+                    "pos": "B", 
+                    "word": "sempre"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 133, 
+                    "index": 24, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 145, 
+                    "index": 25, 
+                    "lemma": "sostenibile", 
+                    "originalText": "sostenibile", 
+                    "pos": "A", 
+                    "word": "sostenibile"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 148, 
+                    "index": 26, 
+                    "lemma": "ed", 
+                    "originalText": "ed", 
+                    "pos": "CC", 
+                    "word": "ed"
+                }, 
+                {
+                    "characterOffsetBegin": 150, 
+                    "characterOffsetEnd": 159, 
+                    "index": 27, 
+                    "lemma": "efficiente", 
+                    "originalText": "efficiente", 
+                    "pos": "A", 
+                    "word": "efficiente"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 160, 
+                    "index": 28, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 167, 
+                    "index": 29, 
+                    "lemma": "grazie", 
+                    "originalText": "Grazie", 
+                    "pos": "I", 
+                    "word": "Grazie"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 182, 
+                    "index": 30, 
+                    "lemma": "@DarioNardella", 
+                    "originalText": "@DarioNardella", 
+                    "pos": "SP", 
+                    "word": "@DarioNardella"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 184, 
+                    "index": 31, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 199, 
+                    "index": 32, 
+                    "lemma": "@Ste_Giorgetti", 
+                    "originalText": "@Ste_Giorgetti", 
+                    "pos": "SP", 
+                    "word": "@Ste_Giorgetti"
+                }, 
+                {
+                    "characterOffsetBegin": 201, 
+                    "characterOffsetEnd": 206, 
+                    "index": 33, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 213, 
+                    "index": 34, 
+                    "lemma": "lavoro", 
+                    "originalText": "lavoro", 
+                    "pos": "S", 
+                    "word": "lavoro"
+                }, 
+                {
+                    "characterOffsetBegin": 214, 
+                    "characterOffsetEnd": 216, 
+                    "index": 35, 
+                    "lemma": "!!!", 
+                    "originalText": "!!!", 
+                    "pos": "SP", 
+                    "word": "!!!"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 239, 
+                    "index": 36, 
+                    "lemma": "https://t.co/MwitluhgFp", 
+                    "originalText": "https://t.co/MwitluhgFp", 
+                    "pos": "SP", 
+                    "word": "https://t.co/MwitluhgFp"
+                }
+            ]
+        }
+    ]
+}

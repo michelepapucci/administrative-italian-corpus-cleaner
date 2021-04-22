@@ -1,0 +1,357 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 2, 
+                    "index": 1, 
+                    "lemma": "\ud83d\udeabA", 
+                    "originalText": "\ud83d\udeabA", 
+                    "pos": "SP", 
+                    "word": "\ud83d\udeabA"
+                }, 
+                {
+                    "characterOffsetBegin": 4, 
+                    "characterOffsetEnd": 11, 
+                    "index": 2, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "SP", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 12, 
+                    "index": 3, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 18, 
+                    "index": 4, 
+                    "lemma": "causa", 
+                    "originalText": "causa", 
+                    "pos": "S", 
+                    "word": "causa"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 25, 
+                    "index": 5, 
+                    "lemma": "guasto", 
+                    "originalText": "guasto", 
+                    "pos": "A", 
+                    "word": "guasto"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 33, 
+                    "index": 6, 
+                    "lemma": "veicolo", 
+                    "originalText": "veicolo", 
+                    "pos": "S", 
+                    "word": "veicolo"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 46, 
+                    "index": 7, 
+                    "lemma": "@AliaServizi", 
+                    "originalText": "@AliaServizi", 
+                    "pos": "A", 
+                    "word": "@AliaServizi"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 50, 
+                    "index": 8, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "B", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 57, 
+                    "index": 9, 
+                    "lemma": "romano", 
+                    "originalText": "Romana", 
+                    "pos": "SP", 
+                    "word": "Romana"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 64, 
+                    "index": 10, 
+                    "lemma": "chiusa", 
+                    "originalText": "chiusa", 
+                    "pos": "V", 
+                    "word": "chiusa"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 67, 
+                    "index": 11, 
+                    "lemma": "a", 
+                    "originalText": "all'", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 67, 
+                    "characterOffsetEnd": 69, 
+                    "index": 12, 
+                    "lemma": "il", 
+                    "originalText": "all'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 76, 
+                    "index": 13, 
+                    "lemma": "altezza", 
+                    "originalText": "altezza", 
+                    "pos": "S", 
+                    "word": "altezza"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 79, 
+                    "index": 14, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 88, 
+                    "index": 15, 
+                    "lemma": "piazzale", 
+                    "originalText": "Piazzale", 
+                    "pos": "SP", 
+                    "word": "Piazzale"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 91, 
+                    "index": 16, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 97, 
+                    "index": 17, 
+                    "lemma": "Porta", 
+                    "originalText": "Porta", 
+                    "pos": "SP", 
+                    "word": "Porta"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 104, 
+                    "index": 18, 
+                    "lemma": "romano", 
+                    "originalText": "Romana", 
+                    "pos": "SP", 
+                    "word": "Romana"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 105, 
+                    "index": 19, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 113, 
+                    "index": 1, 
+                    "lemma": "polizia", 
+                    "originalText": "Polizia", 
+                    "pos": "S", 
+                    "word": "Polizia"
+                }, 
+                {
+                    "characterOffsetBegin": 115, 
+                    "characterOffsetEnd": 124, 
+                    "index": 2, 
+                    "lemma": "municipale", 
+                    "originalText": "municipale", 
+                    "pos": "A", 
+                    "word": "municipale"
+                }, 
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 128, 
+                    "index": 3, 
+                    "lemma": "su", 
+                    "originalText": "sul", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 128, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "sul", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 134, 
+                    "index": 5, 
+                    "lemma": "posto", 
+                    "originalText": "posto", 
+                    "pos": "S", 
+                    "word": "posto"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 135, 
+                    "index": 6, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 138, 
+                    "index": 1, 
+                    "lemma": "in", 
+                    "originalText": "In", 
+                    "pos": "E", 
+                    "word": "In"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 145, 
+                    "index": 2, 
+                    "lemma": "arrivo", 
+                    "originalText": "arrivo", 
+                    "pos": "S", 
+                    "word": "arrivo"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 151, 
+                    "index": 3, 
+                    "lemma": "mezzo", 
+                    "originalText": "mezzo", 
+                    "pos": "S", 
+                    "word": "mezzo"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 158, 
+                    "index": 4, 
+                    "lemma": "idoneo", 
+                    "originalText": "idoneo", 
+                    "pos": "A", 
+                    "word": "idoneo"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 162, 
+                    "index": 5, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 165, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 175, 
+                    "index": 7, 
+                    "lemma": "rimozione", 
+                    "originalText": "rimozione", 
+                    "pos": "S", 
+                    "word": "rimozione"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 183, 
+                    "index": 8, 
+                    "lemma": "veicolo", 
+                    "originalText": "veicolo", 
+                    "pos": "S", 
+                    "word": "veicolo"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 186, 
+                    "index": 9, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 188, 
+                    "characterOffsetEnd": 193, 
+                    "index": 10, 
+                    "lemma": "avaria", 
+                    "originalText": "avaria", 
+                    "pos": "S", 
+                    "word": "avaria"
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 204, 
+                    "index": 1, 
+                    "lemma": "#viabiliFI", 
+                    "originalText": "#viabiliFI", 
+                    "pos": "SP", 
+                    "word": "#viabiliFI"
+                }, 
+                {
+                    "characterOffsetBegin": 206, 
+                    "characterOffsetEnd": 213, 
+                    "index": 2, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "NO", 
+                    "word": "@comunefi"
+                }
+            ]
+        }
+    ]
+}

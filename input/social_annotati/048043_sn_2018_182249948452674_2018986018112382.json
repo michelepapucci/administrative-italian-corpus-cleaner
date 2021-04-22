@@ -1,0 +1,1585 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "giorno", 
+                    "originalText": "Giorno", 
+                    "pos": "S", 
+                    "word": "Giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 9, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 11, 
+                    "index": 3, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 19, 
+                    "index": 4, 
+                    "lemma": "Memoria", 
+                    "originalText": "Memoria", 
+                    "pos": "SP", 
+                    "word": "Memoria"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 20, 
+                    "index": 5, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 22, 
+                    "characterOffsetEnd": 23, 
+                    "index": 6, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 34, 
+                    "index": 7, 
+                    "lemma": "iniziativa", 
+                    "originalText": "iniziative", 
+                    "pos": "S", 
+                    "word": "iniziative"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 43, 
+                    "index": 8, 
+                    "lemma": "prevedere", 
+                    "originalText": "previste", 
+                    "pos": "V", 
+                    "word": "previste"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 45, 
+                    "index": 9, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 51, 
+                    "index": 10, 
+                    "lemma": "Sesto", 
+                    "originalText": "Sesto", 
+                    "pos": "SP", 
+                    "word": "Sesto"
+                }, 
+                {
+                    "characterOffsetBegin": 53, 
+                    "characterOffsetEnd": 69, 
+                    "index": 11, 
+                    "lemma": "FiorentinoVenerd\u00ec", 
+                    "originalText": "FiorentinoVenerd\u00ec", 
+                    "pos": "S", 
+                    "word": "FiorentinoVenerd\u00ec"
+                }, 
+                {
+                    "characterOffsetBegin": 71, 
+                    "characterOffsetEnd": 72, 
+                    "index": 12, 
+                    "lemma": "26", 
+                    "originalText": "26", 
+                    "pos": "N", 
+                    "word": "26"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 80, 
+                    "index": 13, 
+                    "lemma": "gennaio", 
+                    "originalText": "gennaio", 
+                    "pos": "S", 
+                    "word": "gennaio"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 81, 
+                    "index": 14, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 84, 
+                    "index": 15, 
+                    "lemma": "a", 
+                    "originalText": "alle", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 84, 
+                    "characterOffsetEnd": 86, 
+                    "index": 16, 
+                    "lemma": "le", 
+                    "originalText": "alle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 90, 
+                    "index": 17, 
+                    "lemma": "ora", 
+                    "originalText": "ore", 
+                    "pos": "S", 
+                    "word": "ore"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 92, 
+                    "index": 18, 
+                    "lemma": "9", 
+                    "originalText": "9", 
+                    "pos": "N", 
+                    "word": "9"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 99, 
+                    "index": 19, 
+                    "lemma": "presso", 
+                    "originalText": "presso", 
+                    "pos": "E", 
+                    "word": "presso"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 102, 
+                    "index": 20, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 109, 
+                    "index": 21, 
+                    "lemma": "cinema", 
+                    "originalText": "Cinema", 
+                    "pos": "SP", 
+                    "word": "Cinema"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 116, 
+                    "index": 22, 
+                    "lemma": "grotta", 
+                    "originalText": "Grotta", 
+                    "pos": "SP", 
+                    "word": "Grotta"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 118, 
+                    "index": 23, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 121, 
+                    "index": 24, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "B", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 129, 
+                    "index": 25, 
+                    "lemma": "Gramsci", 
+                    "originalText": "Gramsci", 
+                    "pos": "SP", 
+                    "word": "Gramsci"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 133, 
+                    "index": 26, 
+                    "lemma": "387", 
+                    "originalText": "387", 
+                    "pos": "N", 
+                    "word": "387"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 134, 
+                    "index": 27, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 142, 
+                    "index": 28, 
+                    "lemma": "avvenire", 
+                    "originalText": "avverr\u00e0", 
+                    "pos": "V", 
+                    "word": "avverr\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 145, 
+                    "index": 29, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 156, 
+                    "index": 30, 
+                    "lemma": "proiezione", 
+                    "originalText": "proiezione", 
+                    "pos": "S", 
+                    "word": "proiezione"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 159, 
+                    "index": 31, 
+                    "lemma": "de", 
+                    "originalText": "de", 
+                    "pos": "E", 
+                    "word": "de"
+                }, 
+                {
+                    "characterOffsetBegin": 161, 
+                    "characterOffsetEnd": 164, 
+                    "index": 32, 
+                    "lemma": "\u201cGli", 
+                    "originalText": "\u201cGli", 
+                    "pos": "SP", 
+                    "word": "\u201cGli"
+                }, 
+                {
+                    "characterOffsetBegin": 166, 
+                    "characterOffsetEnd": 176, 
+                    "index": 33, 
+                    "lemma": "invisibili\u201d", 
+                    "originalText": "invisibili\u201d", 
+                    "pos": "SP", 
+                    "word": "invisibili\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 179, 
+                    "index": 34, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 185, 
+                    "index": 35, 
+                    "lemma": "Claus", 
+                    "originalText": "Claus", 
+                    "pos": "SP", 
+                    "word": "Claus"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 191, 
+                    "index": 36, 
+                    "lemma": "Rafle", 
+                    "originalText": "Rafle", 
+                    "pos": "SP", 
+                    "word": "Rafle"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 192, 
+                    "index": 37, 
+                    "lemma": ";", 
+                    "originalText": ";", 
+                    "pos": "FC", 
+                    "word": ";"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 205, 
+                    "index": 38, 
+                    "lemma": "l\u2019iniziativa", 
+                    "originalText": "l\u2019iniziativa", 
+                    "pos": "A", 
+                    "word": "l\u2019iniziativa"
+                }, 
+                {
+                    "characterOffsetBegin": 207, 
+                    "characterOffsetEnd": 207, 
+                    "index": 39, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "VA", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 209, 
+                    "characterOffsetEnd": 217, 
+                    "index": 40, 
+                    "lemma": "riservata", 
+                    "originalText": "riservata", 
+                    "pos": "V", 
+                    "word": "riservata"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 220, 
+                    "index": 41, 
+                    "lemma": "a", 
+                    "originalText": "agli", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 222, 
+                    "index": 42, 
+                    "lemma": "il", 
+                    "originalText": "agli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 231, 
+                    "index": 43, 
+                    "lemma": "studente", 
+                    "originalText": "studenti", 
+                    "pos": "S", 
+                    "word": "studenti"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 235, 
+                    "index": 44, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 237, 
+                    "index": 45, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 239, 
+                    "characterOffsetEnd": 244, 
+                    "index": 46, 
+                    "lemma": "scuola", 
+                    "originalText": "scuole", 
+                    "pos": "S", 
+                    "word": "scuole"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 250, 
+                    "index": 47, 
+                    "lemma": "medio", 
+                    "originalText": "medie", 
+                    "pos": "A", 
+                    "word": "medie"
+                }, 
+                {
+                    "characterOffsetBegin": 252, 
+                    "characterOffsetEnd": 260, 
+                    "index": 48, 
+                    "lemma": "inferiore", 
+                    "originalText": "inferiori", 
+                    "pos": "A", 
+                    "word": "inferiori"
+                }, 
+                {
+                    "characterOffsetBegin": 262, 
+                    "characterOffsetEnd": 262, 
+                    "index": 49, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 264, 
+                    "characterOffsetEnd": 272, 
+                    "index": 50, 
+                    "lemma": "superiore", 
+                    "originalText": "superiori", 
+                    "pos": "S", 
+                    "word": "superiori"
+                }, 
+                {
+                    "characterOffsetBegin": 273, 
+                    "characterOffsetEnd": 279, 
+                    "index": 51, 
+                    "lemma": ".Sabato", 
+                    "originalText": ".Sabato", 
+                    "pos": "SP", 
+                    "word": ".Sabato"
+                }, 
+                {
+                    "characterOffsetBegin": 281, 
+                    "characterOffsetEnd": 282, 
+                    "index": 52, 
+                    "lemma": "27", 
+                    "originalText": "27", 
+                    "pos": "N", 
+                    "word": "27"
+                }, 
+                {
+                    "characterOffsetBegin": 284, 
+                    "characterOffsetEnd": 290, 
+                    "index": 53, 
+                    "lemma": "gennaio", 
+                    "originalText": "gennaio", 
+                    "pos": "S", 
+                    "word": "gennaio"
+                }, 
+                {
+                    "characterOffsetBegin": 291, 
+                    "characterOffsetEnd": 291, 
+                    "index": 54, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 293, 
+                    "characterOffsetEnd": 294, 
+                    "index": 55, 
+                    "lemma": "a", 
+                    "originalText": "alle", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 294, 
+                    "characterOffsetEnd": 296, 
+                    "index": 56, 
+                    "lemma": "le", 
+                    "originalText": "alle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 298, 
+                    "characterOffsetEnd": 300, 
+                    "index": 57, 
+                    "lemma": "ora", 
+                    "originalText": "ore", 
+                    "pos": "S", 
+                    "word": "ore"
+                }, 
+                {
+                    "characterOffsetBegin": 302, 
+                    "characterOffsetEnd": 303, 
+                    "index": 58, 
+                    "lemma": "10", 
+                    "originalText": "10", 
+                    "pos": "N", 
+                    "word": "10"
+                }, 
+                {
+                    "characterOffsetBegin": 305, 
+                    "characterOffsetEnd": 310, 
+                    "index": 59, 
+                    "lemma": "presso", 
+                    "originalText": "presso", 
+                    "pos": "E", 
+                    "word": "presso"
+                }, 
+                {
+                    "characterOffsetBegin": 312, 
+                    "characterOffsetEnd": 313, 
+                    "index": 60, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 315, 
+                    "characterOffsetEnd": 318, 
+                    "index": 61, 
+                    "lemma": "Sala", 
+                    "originalText": "Sala", 
+                    "pos": "SP", 
+                    "word": "Sala"
+                }, 
+                {
+                    "characterOffsetBegin": 320, 
+                    "characterOffsetEnd": 325, 
+                    "index": 62, 
+                    "lemma": "Meucci", 
+                    "originalText": "Meucci", 
+                    "pos": "SP", 
+                    "word": "Meucci"
+                }, 
+                {
+                    "characterOffsetBegin": 327, 
+                    "characterOffsetEnd": 329, 
+                    "index": 63, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 329, 
+                    "characterOffsetEnd": 331, 
+                    "index": 64, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 333, 
+                    "characterOffsetEnd": 342, 
+                    "index": 65, 
+                    "lemma": "biblioteca", 
+                    "originalText": "biblioteca", 
+                    "pos": "S", 
+                    "word": "biblioteca"
+                }, 
+                {
+                    "characterOffsetBegin": 344, 
+                    "characterOffsetEnd": 351, 
+                    "index": 66, 
+                    "lemma": "\u201cErnesto", 
+                    "originalText": "\u201cErnesto", 
+                    "pos": "SP", 
+                    "word": "\u201cErnesto"
+                }, 
+                {
+                    "characterOffsetBegin": 353, 
+                    "characterOffsetEnd": 363, 
+                    "index": 67, 
+                    "lemma": "Ragionieri\u201d", 
+                    "originalText": "Ragionieri\u201d", 
+                    "pos": "SP", 
+                    "word": "Ragionieri\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 365, 
+                    "characterOffsetEnd": 365, 
+                    "index": 68, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 366, 
+                    "characterOffsetEnd": 371, 
+                    "index": 69, 
+                    "lemma": "piazza", 
+                    "originalText": "piazza", 
+                    "pos": "S", 
+                    "word": "piazza"
+                }, 
+                {
+                    "characterOffsetBegin": 373, 
+                    "characterOffsetEnd": 375, 
+                    "index": 70, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 375, 
+                    "characterOffsetEnd": 377, 
+                    "index": 71, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 379, 
+                    "characterOffsetEnd": 388, 
+                    "index": 72, 
+                    "lemma": "biblioteca", 
+                    "originalText": "Biblioteca", 
+                    "pos": "S", 
+                    "word": "Biblioteca"
+                }, 
+                {
+                    "characterOffsetBegin": 390, 
+                    "characterOffsetEnd": 390, 
+                    "index": 73, 
+                    "lemma": "4", 
+                    "originalText": "4", 
+                    "pos": "N", 
+                    "word": "4"
+                }, 
+                {
+                    "characterOffsetBegin": 391, 
+                    "characterOffsetEnd": 391, 
+                    "index": 74, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }, 
+                {
+                    "characterOffsetBegin": 392, 
+                    "characterOffsetEnd": 392, 
+                    "index": 75, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 394, 
+                    "characterOffsetEnd": 395, 
+                    "index": 76, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 397, 
+                    "characterOffsetEnd": 410, 
+                    "index": 77, 
+                    "lemma": "collaborazione", 
+                    "originalText": "collaborazione", 
+                    "pos": "S", 
+                    "word": "collaborazione"
+                }, 
+                {
+                    "characterOffsetBegin": 412, 
+                    "characterOffsetEnd": 414, 
+                    "index": 78, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 416, 
+                    "characterOffsetEnd": 419, 
+                    "index": 79, 
+                    "lemma": "ANED", 
+                    "originalText": "ANED", 
+                    "pos": "SP", 
+                    "word": "ANED"
+                }, 
+                {
+                    "characterOffsetBegin": 421, 
+                    "characterOffsetEnd": 421, 
+                    "index": 80, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 423, 
+                    "characterOffsetEnd": 425, 
+                    "index": 81, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 427, 
+                    "characterOffsetEnd": 436, 
+                    "index": 82, 
+                    "lemma": "l\u2019Istituto", 
+                    "originalText": "l\u2019Istituto", 
+                    "pos": "SP", 
+                    "word": "l\u2019Istituto"
+                }, 
+                {
+                    "characterOffsetBegin": 438, 
+                    "characterOffsetEnd": 444, 
+                    "index": 83, 
+                    "lemma": "storico", 
+                    "originalText": "storico", 
+                    "pos": "A", 
+                    "word": "storico"
+                }, 
+                {
+                    "characterOffsetBegin": 446, 
+                    "characterOffsetEnd": 452, 
+                    "index": 84, 
+                    "lemma": "toscano", 
+                    "originalText": "toscano", 
+                    "pos": "A", 
+                    "word": "toscano"
+                }, 
+                {
+                    "characterOffsetBegin": 454, 
+                    "characterOffsetEnd": 456, 
+                    "index": 85, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 456, 
+                    "characterOffsetEnd": 458, 
+                    "index": 86, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 460, 
+                    "characterOffsetEnd": 469, 
+                    "index": 87, 
+                    "lemma": "resistenza", 
+                    "originalText": "Resistenza", 
+                    "pos": "SP", 
+                    "word": "Resistenza"
+                }, 
+                {
+                    "characterOffsetBegin": 470, 
+                    "characterOffsetEnd": 470, 
+                    "index": 88, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 472, 
+                    "characterOffsetEnd": 473, 
+                    "index": 89, 
+                    "lemma": "si", 
+                    "originalText": "si", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 475, 
+                    "characterOffsetEnd": 479, 
+                    "index": 90, 
+                    "lemma": "tenere", 
+                    "originalText": "terr\u00e0", 
+                    "pos": "V", 
+                    "word": "terr\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 481, 
+                    "characterOffsetEnd": 482, 
+                    "index": 91, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 484, 
+                    "characterOffsetEnd": 496, 
+                    "index": 92, 
+                    "lemma": "presentazione", 
+                    "originalText": "presentazione", 
+                    "pos": "S", 
+                    "word": "presentazione"
+                }, 
+                {
+                    "characterOffsetBegin": 498, 
+                    "characterOffsetEnd": 500, 
+                    "index": 93, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 498, 
+                    "characterOffsetEnd": 500, 
+                    "index": 94, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 502, 
+                    "characterOffsetEnd": 506, 
+                    "index": 95, 
+                    "lemma": "libro", 
+                    "originalText": "libro", 
+                    "pos": "S", 
+                    "word": "libro"
+                }, 
+                {
+                    "characterOffsetBegin": 508, 
+                    "characterOffsetEnd": 510, 
+                    "index": 96, 
+                    "lemma": "\u201cLa", 
+                    "originalText": "\u201cLa", 
+                    "pos": "SP", 
+                    "word": "\u201cLa"
+                }, 
+                {
+                    "characterOffsetBegin": 512, 
+                    "characterOffsetEnd": 514, 
+                    "index": 97, 
+                    "lemma": "mio", 
+                    "originalText": "mia", 
+                    "pos": "AP", 
+                    "word": "mia"
+                }, 
+                {
+                    "characterOffsetBegin": 516, 
+                    "characterOffsetEnd": 519, 
+                    "index": 98, 
+                    "lemma": "vita", 
+                    "originalText": "vita", 
+                    "pos": "S", 
+                    "word": "vita"
+                }, 
+                {
+                    "characterOffsetBegin": 521, 
+                    "characterOffsetEnd": 532, 
+                    "index": 99, 
+                    "lemma": "prigioniera\u201d", 
+                    "originalText": "prigioniera\u201d", 
+                    "pos": "A", 
+                    "word": "prigioniera\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 533, 
+                    "characterOffsetEnd": 533, 
+                    "index": 100, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 535, 
+                    "characterOffsetEnd": 542, 
+                    "index": 101, 
+                    "lemma": "raccolta", 
+                    "originalText": "raccolta", 
+                    "pos": "S", 
+                    "word": "raccolta"
+                }, 
+                {
+                    "characterOffsetBegin": 544, 
+                    "characterOffsetEnd": 546, 
+                    "index": 102, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 546, 
+                    "characterOffsetEnd": 548, 
+                    "index": 103, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 550, 
+                    "characterOffsetEnd": 556, 
+                    "index": 104, 
+                    "lemma": "memoria", 
+                    "originalText": "memorie", 
+                    "pos": "S", 
+                    "word": "memorie"
+                }, 
+                {
+                    "characterOffsetBegin": 558, 
+                    "characterOffsetEnd": 559, 
+                    "index": 105, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 561, 
+                    "characterOffsetEnd": 564, 
+                    "index": 106, 
+                    "lemma": "elio", 
+                    "originalText": "Elio", 
+                    "pos": "SP", 
+                    "word": "Elio"
+                }, 
+                {
+                    "characterOffsetBegin": 566, 
+                    "characterOffsetEnd": 575, 
+                    "index": 107, 
+                    "lemma": "Bortolozzi", 
+                    "originalText": "Bortolozzi", 
+                    "pos": "SP", 
+                    "word": "Bortolozzi"
+                }, 
+                {
+                    "characterOffsetBegin": 576, 
+                    "characterOffsetEnd": 576, 
+                    "index": 108, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 578, 
+                    "characterOffsetEnd": 586, 
+                    "index": 109, 
+                    "lemma": "deportare", 
+                    "originalText": "deportato", 
+                    "pos": "V", 
+                    "word": "deportato"
+                }, 
+                {
+                    "characterOffsetBegin": 588, 
+                    "characterOffsetEnd": 590, 
+                    "index": 110, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 588, 
+                    "characterOffsetEnd": 590, 
+                    "index": 111, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 592, 
+                    "characterOffsetEnd": 596, 
+                    "index": 112, 
+                    "lemma": "campo", 
+                    "originalText": "campo", 
+                    "pos": "S", 
+                    "word": "campo"
+                }, 
+                {
+                    "characterOffsetBegin": 598, 
+                    "characterOffsetEnd": 599, 
+                    "index": 113, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 601, 
+                    "characterOffsetEnd": 614, 
+                    "index": 114, 
+                    "lemma": "concentramento", 
+                    "originalText": "concentramento", 
+                    "pos": "S", 
+                    "word": "concentramento"
+                }, 
+                {
+                    "characterOffsetBegin": 616, 
+                    "characterOffsetEnd": 617, 
+                    "index": 115, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 619, 
+                    "characterOffsetEnd": 623, 
+                    "index": 116, 
+                    "lemma": "Gusen", 
+                    "originalText": "Gusen", 
+                    "pos": "SP", 
+                    "word": "Gusen"
+                }, 
+                {
+                    "characterOffsetBegin": 625, 
+                    "characterOffsetEnd": 625, 
+                    "index": 117, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 627, 
+                    "characterOffsetEnd": 639, 
+                    "index": 118, 
+                    "lemma": "sopravvivere", 
+                    "originalText": "sopravvissuto", 
+                    "pos": "V", 
+                    "word": "sopravvissuto"
+                }, 
+                {
+                    "characterOffsetBegin": 641, 
+                    "characterOffsetEnd": 641, 
+                    "index": 119, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 643, 
+                    "characterOffsetEnd": 648, 
+                    "index": 120, 
+                    "lemma": "quella", 
+                    "originalText": "quella", 
+                    "pos": "PD", 
+                    "word": "quella"
+                }, 
+                {
+                    "characterOffsetBegin": 650, 
+                    "characterOffsetEnd": 659, 
+                    "index": 121, 
+                    "lemma": "drammatico", 
+                    "originalText": "drammatica", 
+                    "pos": "A", 
+                    "word": "drammatica"
+                }, 
+                {
+                    "characterOffsetBegin": 661, 
+                    "characterOffsetEnd": 670, 
+                    "index": 122, 
+                    "lemma": "esperienza", 
+                    "originalText": "esperienza", 
+                    "pos": "S", 
+                    "word": "esperienza"
+                }, 
+                {
+                    "characterOffsetBegin": 671, 
+                    "characterOffsetEnd": 671, 
+                    "index": 123, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 673, 
+                    "characterOffsetEnd": 685, 
+                    "index": 1, 
+                    "lemma": "intervenire", 
+                    "originalText": "Interverranno", 
+                    "pos": "V", 
+                    "word": "Interverranno"
+                }, 
+                {
+                    "characterOffsetBegin": 687, 
+                    "characterOffsetEnd": 688, 
+                    "index": 2, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 690, 
+                    "characterOffsetEnd": 696, 
+                    "index": 3, 
+                    "lemma": "storico", 
+                    "originalText": "storica", 
+                    "pos": "A", 
+                    "word": "storica"
+                }, 
+                {
+                    "characterOffsetBegin": 698, 
+                    "characterOffsetEnd": 702, 
+                    "index": 4, 
+                    "lemma": "Marta", 
+                    "originalText": "Marta", 
+                    "pos": "SP", 
+                    "word": "Marta"
+                }, 
+                {
+                    "characterOffsetBegin": 704, 
+                    "characterOffsetEnd": 710, 
+                    "index": 5, 
+                    "lemma": "Baiardi", 
+                    "originalText": "Baiardi", 
+                    "pos": "SP", 
+                    "word": "Baiardi"
+                }, 
+                {
+                    "characterOffsetBegin": 712, 
+                    "characterOffsetEnd": 712, 
+                    "index": 6, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 714, 
+                    "characterOffsetEnd": 720, 
+                    "index": 7, 
+                    "lemma": "massimo", 
+                    "originalText": "Massimo", 
+                    "pos": "SP", 
+                    "word": "Massimo"
+                }, 
+                {
+                    "characterOffsetBegin": 722, 
+                    "characterOffsetEnd": 731, 
+                    "index": 8, 
+                    "lemma": "Bartolozzi", 
+                    "originalText": "Bartolozzi", 
+                    "pos": "SP", 
+                    "word": "Bartolozzi"
+                }, 
+                {
+                    "characterOffsetBegin": 733, 
+                    "characterOffsetEnd": 734, 
+                    "index": 9, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 736, 
+                    "characterOffsetEnd": 739, 
+                    "index": 10, 
+                    "lemma": "ANED", 
+                    "originalText": "ANED", 
+                    "pos": "SP", 
+                    "word": "ANED"
+                }, 
+                {
+                    "characterOffsetBegin": 740, 
+                    "characterOffsetEnd": 740, 
+                    "index": 11, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 742, 
+                    "characterOffsetEnd": 745, 
+                    "index": 1, 
+                    "lemma": "alle", 
+                    "originalText": "Alle", 
+                    "pos": "SP", 
+                    "word": "Alle"
+                }, 
+                {
+                    "characterOffsetBegin": 747, 
+                    "characterOffsetEnd": 749, 
+                    "index": 2, 
+                    "lemma": "ora", 
+                    "originalText": "ore", 
+                    "pos": "S", 
+                    "word": "ore"
+                }, 
+                {
+                    "characterOffsetBegin": 751, 
+                    "characterOffsetEnd": 752, 
+                    "index": 3, 
+                    "lemma": "11", 
+                    "originalText": "11", 
+                    "pos": "N", 
+                    "word": "11"
+                }, 
+                {
+                    "characterOffsetBegin": 753, 
+                    "characterOffsetEnd": 753, 
+                    "index": 4, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 755, 
+                    "characterOffsetEnd": 756, 
+                    "index": 5, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 758, 
+                    "characterOffsetEnd": 761, 
+                    "index": 6, 
+                    "lemma": "Sala", 
+                    "originalText": "Sala", 
+                    "pos": "S", 
+                    "word": "Sala"
+                }, 
+                {
+                    "characterOffsetBegin": 763, 
+                    "characterOffsetEnd": 769, 
+                    "index": 7, 
+                    "lemma": "Ragazzi", 
+                    "originalText": "Ragazzi", 
+                    "pos": "SP", 
+                    "word": "Ragazzi"
+                }, 
+                {
+                    "characterOffsetBegin": 770, 
+                    "characterOffsetEnd": 770, 
+                    "index": 8, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 772, 
+                    "characterOffsetEnd": 773, 
+                    "index": 9, 
+                    "lemma": "si", 
+                    "originalText": "si", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 775, 
+                    "characterOffsetEnd": 779, 
+                    "index": 10, 
+                    "lemma": "tenere", 
+                    "originalText": "terr\u00e0", 
+                    "pos": "V", 
+                    "word": "terr\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 781, 
+                    "characterOffsetEnd": 782, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 784, 
+                    "characterOffsetEnd": 790, 
+                    "index": 12, 
+                    "lemma": "lettura", 
+                    "originalText": "lettura", 
+                    "pos": "S", 
+                    "word": "lettura"
+                }, 
+                {
+                    "characterOffsetBegin": 792, 
+                    "characterOffsetEnd": 794, 
+                    "index": 13, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 796, 
+                    "characterOffsetEnd": 802, 
+                    "index": 14, 
+                    "lemma": "bambino", 
+                    "originalText": "bambini", 
+                    "pos": "S", 
+                    "word": "bambini"
+                }, 
+                {
+                    "characterOffsetBegin": 804, 
+                    "characterOffsetEnd": 806, 
+                    "index": 15, 
+                    "lemma": "da", 
+                    "originalText": "dai", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 805, 
+                    "characterOffsetEnd": 806, 
+                    "index": 16, 
+                    "lemma": "i", 
+                    "originalText": "dai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 808, 
+                    "characterOffsetEnd": 808, 
+                    "index": 17, 
+                    "lemma": "6", 
+                    "originalText": "6", 
+                    "pos": "N", 
+                    "word": "6"
+                }, 
+                {
+                    "characterOffsetBegin": 810, 
+                    "characterOffsetEnd": 811, 
+                    "index": 18, 
+                    "lemma": "a", 
+                    "originalText": "agli", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 810, 
+                    "characterOffsetEnd": 813, 
+                    "index": 19, 
+                    "lemma": "il", 
+                    "originalText": "agli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 815, 
+                    "characterOffsetEnd": 816, 
+                    "index": 20, 
+                    "lemma": "11", 
+                    "originalText": "11", 
+                    "pos": "N", 
+                    "word": "11"
+                }, 
+                {
+                    "characterOffsetBegin": 818, 
+                    "characterOffsetEnd": 821, 
+                    "index": 21, 
+                    "lemma": "anni", 
+                    "originalText": "anni", 
+                    "pos": "S", 
+                    "word": "anni"
+                }, 
+                {
+                    "characterOffsetBegin": 823, 
+                    "characterOffsetEnd": 824, 
+                    "index": 22, 
+                    "lemma": "de", 
+                    "originalText": "de", 
+                    "pos": "E", 
+                    "word": "de"
+                }, 
+                {
+                    "characterOffsetBegin": 826, 
+                    "characterOffsetEnd": 828, 
+                    "index": 23, 
+                    "lemma": "\u201cLa", 
+                    "originalText": "\u201cLa", 
+                    "pos": "SP", 
+                    "word": "\u201cLa"
+                }, 
+                {
+                    "characterOffsetBegin": 830, 
+                    "characterOffsetEnd": 833, 
+                    "index": 24, 
+                    "lemma": "Rosa", 
+                    "originalText": "Rosa", 
+                    "pos": "SP", 
+                    "word": "Rosa"
+                }, 
+                {
+                    "characterOffsetBegin": 835, 
+                    "characterOffsetEnd": 841, 
+                    "index": 25, 
+                    "lemma": "Bianca\u201d", 
+                    "originalText": "Bianca\u201d", 
+                    "pos": "SP", 
+                    "word": "Bianca\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 843, 
+                    "characterOffsetEnd": 844, 
+                    "index": 26, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 846, 
+                    "characterOffsetEnd": 852, 
+                    "index": 27, 
+                    "lemma": "Roberto", 
+                    "originalText": "Roberto", 
+                    "pos": "SP", 
+                    "word": "Roberto"
+                }, 
+                {
+                    "characterOffsetBegin": 854, 
+                    "characterOffsetEnd": 862, 
+                    "index": 28, 
+                    "lemma": "innocente", 
+                    "originalText": "Innocenti", 
+                    "pos": "SP", 
+                    "word": "Innocenti"
+                }, 
+                {
+                    "characterOffsetBegin": 864, 
+                    "characterOffsetEnd": 864, 
+                    "index": 29, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 865, 
+                    "characterOffsetEnd": 872, 
+                    "index": 30, 
+                    "lemma": "ingresso", 
+                    "originalText": "ingresso", 
+                    "pos": "S", 
+                    "word": "ingresso"
+                }, 
+                {
+                    "characterOffsetBegin": 874, 
+                    "characterOffsetEnd": 879, 
+                    "index": 31, 
+                    "lemma": "libero", 
+                    "originalText": "libero", 
+                    "pos": "A", 
+                    "word": "libero"
+                }, 
+                {
+                    "characterOffsetBegin": 881, 
+                    "characterOffsetEnd": 883, 
+                    "index": 32, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 885, 
+                    "characterOffsetEnd": 896, 
+                    "index": 33, 
+                    "lemma": "prenotazione", 
+                    "originalText": "prenotazione", 
+                    "pos": "S", 
+                    "word": "prenotazione"
+                }, 
+                {
+                    "characterOffsetBegin": 898, 
+                    "characterOffsetEnd": 909, 
+                    "index": 34, 
+                    "lemma": "obbligatorio", 
+                    "originalText": "obbligatoria", 
+                    "pos": "A", 
+                    "word": "obbligatoria"
+                }, 
+                {
+                    "characterOffsetBegin": 911, 
+                    "characterOffsetEnd": 912, 
+                    "index": 35, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 910, 
+                    "characterOffsetEnd": 912, 
+                    "index": 36, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 914, 
+                    "characterOffsetEnd": 919, 
+                    "index": 37, 
+                    "lemma": "numero", 
+                    "originalText": "numero", 
+                    "pos": "S", 
+                    "word": "numero"
+                }, 
+                {
+                    "characterOffsetBegin": 921, 
+                    "characterOffsetEnd": 930, 
+                    "index": 38, 
+                    "lemma": "0554496851", 
+                    "originalText": "0554496851", 
+                    "pos": "N", 
+                    "word": "0554496851"
+                }, 
+                {
+                    "characterOffsetBegin": 931, 
+                    "characterOffsetEnd": 931, 
+                    "index": 39, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }, 
+                {
+                    "characterOffsetBegin": 932, 
+                    "characterOffsetEnd": 931, 
+                    "index": 40, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

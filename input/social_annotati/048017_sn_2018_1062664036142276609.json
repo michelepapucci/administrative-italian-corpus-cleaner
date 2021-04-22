@@ -1,0 +1,279 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "essere|sonare", 
+                    "originalText": "Sono", 
+                    "pos": "V", 
+                    "word": "Sono"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 8, 
+                    "index": 2, 
+                    "lemma": "con", 
+                    "originalText": "col", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 7, 
+                    "index": 3, 
+                    "lemma": "il", 
+                    "originalText": "col", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 11, 
+                    "index": 4, 
+                    "lemma": "mio", 
+                    "originalText": "mio", 
+                    "pos": "AP", 
+                    "word": "mio"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 17, 
+                    "index": 5, 
+                    "lemma": "amico", 
+                    "originalText": "amico", 
+                    "pos": "S", 
+                    "word": "amico"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 24, 
+                    "index": 6, 
+                    "lemma": "Andrea", 
+                    "originalText": "Andrea", 
+                    "pos": "SP", 
+                    "word": "Andrea"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 38, 
+                    "index": 7, 
+                    "lemma": "@labevannucci", 
+                    "originalText": "@labevannucci", 
+                    "pos": "A", 
+                    "word": "@labevannucci"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 40, 
+                    "index": 8, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 42, 
+                    "characterOffsetEnd": 46, 
+                    "index": 9, 
+                    "lemma": "tanto", 
+                    "originalText": "tanti", 
+                    "pos": "DI", 
+                    "word": "tanti"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 54, 
+                    "index": 10, 
+                    "lemma": "ragazzi", 
+                    "originalText": "ragazzi", 
+                    "pos": "S", 
+                    "word": "ragazzi"
+                }, 
+                {
+                    "characterOffsetBegin": 56, 
+                    "characterOffsetEnd": 58, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 58, 
+                    "characterOffsetEnd": 60, 
+                    "index": 12, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 67, 
+                    "index": 13, 
+                    "lemma": "scuola", 
+                    "originalText": "scuole", 
+                    "pos": "S", 
+                    "word": "scuole"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 79, 
+                    "index": 15, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 83, 
+                    "index": 16, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 85, 
+                    "index": 17, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 101, 
+                    "index": 18, 
+                    "lemma": "#campionidivita", 
+                    "originalText": "#campionidivita", 
+                    "pos": "S", 
+                    "word": "#campionidivita"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 105, 
+                    "index": 19, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 105, 
+                    "index": 20, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 116, 
+                    "index": 21, 
+                    "lemma": "#salone500", 
+                    "originalText": "#salone500", 
+                    "pos": "N", 
+                    "word": "#salone500"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 120, 
+                    "index": 22, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 137, 
+                    "index": 23, 
+                    "lemma": "@ANDREALUCCHETTA", 
+                    "originalText": "@ANDREALUCCHETTA", 
+                    "pos": "SP", 
+                    "word": "@ANDREALUCCHETTA"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 153, 
+                    "index": 24, 
+                    "lemma": "@AdrianoPanatta", 
+                    "originalText": "@AdrianoPanatta", 
+                    "pos": "SP", 
+                    "word": "@AdrianoPanatta"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 165, 
+                    "index": 25, 
+                    "lemma": "@oney_tapia", 
+                    "originalText": "@oney_tapia", 
+                    "pos": "CC", 
+                    "word": "@oney_tapia"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 182, 
+                    "index": 26, 
+                    "lemma": "#FedericaMaspero", 
+                    "originalText": "#FedericaMaspero", 
+                    "pos": "SP", 
+                    "word": "#FedericaMaspero"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 192, 
+                    "index": 27, 
+                    "lemma": "BENVENUTI", 
+                    "originalText": "BENVENUTI", 
+                    "pos": "SP", 
+                    "word": "BENVENUTI"
+                }, 
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 195, 
+                    "index": 28, 
+                    "lemma": "!!!", 
+                    "originalText": "!!!", 
+                    "pos": "N", 
+                    "word": "!!!"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 218, 
+                    "index": 29, 
+                    "lemma": "https://t.co/Q5PxaNov5", 
+                    "originalText": "https://t.co/Q5PxaNov5", 
+                    "pos": "SP", 
+                    "word": "https://t.co/Q5PxaNov5"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 218, 
+                    "index": 30, 
+                    "lemma": "M", 
+                    "originalText": "M", 
+                    "pos": "SP", 
+                    "word": "M"
+                }
+            ]
+        }
+    ]
+}

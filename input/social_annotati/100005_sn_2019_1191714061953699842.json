@@ -1,0 +1,324 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "A", 
+                    "originalText": "A", 
+                    "pos": "E", 
+                    "word": "A"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 7, 
+                    "index": 2, 
+                    "lemma": "#Prato", 
+                    "originalText": "#Prato", 
+                    "pos": "V", 
+                    "word": "#Prato"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 11, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 14, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 25, 
+                    "index": 5, 
+                    "lemma": "conferenza", 
+                    "originalText": "conferenza", 
+                    "pos": "S", 
+                    "word": "conferenza"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 32, 
+                    "index": 6, 
+                    "lemma": "stampa", 
+                    "originalText": "stampa", 
+                    "pos": "S", 
+                    "word": "stampa"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 35, 
+                    "index": 7, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 49, 
+                    "index": 8, 
+                    "lemma": "presentazione", 
+                    "originalText": "presentazione", 
+                    "pos": "S", 
+                    "word": "presentazione"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 53, 
+                    "index": 9, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 53, 
+                    "index": 10, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 62, 
+                    "index": 11, 
+                    "lemma": "progetto", 
+                    "originalText": "progetto", 
+                    "pos": "S", 
+                    "word": "progetto"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 72, 
+                    "index": 12, 
+                    "lemma": "didattico", 
+                    "originalText": "didattico", 
+                    "pos": "A", 
+                    "word": "didattico"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 76, 
+                    "index": 13, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 76, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 86, 
+                    "index": 15, 
+                    "lemma": "@comunepo", 
+                    "originalText": "@comunepo", 
+                    "pos": "S", 
+                    "word": "@comunepo"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 88, 
+                    "index": 16, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 91, 
+                    "index": 17, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 97, 
+                    "index": 18, 
+                    "lemma": "@Alia", 
+                    "originalText": "@Alia", 
+                    "pos": "SP", 
+                    "word": "@Alia"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 101, 
+                    "index": 19, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 104, 
+                    "index": 20, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 110, 
+                    "index": 21, 
+                    "lemma": "pesce", 
+                    "originalText": "Pesce", 
+                    "pos": "SP", 
+                    "word": "Pesce"
+                }, 
+                {
+                    "characterOffsetBegin": 112, 
+                    "characterOffsetEnd": 120, 
+                    "index": 22, 
+                    "lemma": "Riciclone", 
+                    "originalText": "Riciclone", 
+                    "pos": "SP", 
+                    "word": "Riciclone"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 131, 
+                    "index": 23, 
+                    "lemma": "realizzare", 
+                    "originalText": "realizzato", 
+                    "pos": "V", 
+                    "word": "realizzato"
+                }, 
+                {
+                    "characterOffsetBegin": 133, 
+                    "characterOffsetEnd": 135, 
+                    "index": 24, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 138, 
+                    "index": 25, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 149, 
+                    "index": 26, 
+                    "lemma": "contributo", 
+                    "originalText": "contributo", 
+                    "pos": "S", 
+                    "word": "contributo"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 153, 
+                    "index": 27, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 153, 
+                    "index": 28, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 164, 
+                    "index": 29, 
+                    "lemma": "#Consorzio", 
+                    "originalText": "#Consorzio", 
+                    "pos": "SP", 
+                    "word": "#Consorzio"
+                }, 
+                {
+                    "characterOffsetBegin": 166, 
+                    "characterOffsetEnd": 174, 
+                    "index": 30, 
+                    "lemma": "#bonifica", 
+                    "originalText": "#bonifica", 
+                    "pos": "A", 
+                    "word": "#bonifica"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 183, 
+                    "index": 31, 
+                    "lemma": "#rifiuti", 
+                    "originalText": "#rifiuti", 
+                    "pos": "A", 
+                    "word": "#rifiuti"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 193, 
+                    "index": 32, 
+                    "lemma": "#plastica", 
+                    "originalText": "#plastica", 
+                    "pos": "A", 
+                    "word": "#plastica"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 206, 
+                    "index": 33, 
+                    "lemma": "#fiumisicuri", 
+                    "originalText": "#fiumisicuri", 
+                    "pos": "A", 
+                    "word": "#fiumisicuri"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 219, 
+                    "index": 34, 
+                    "lemma": "#fiumipuliti", 
+                    "originalText": "#fiumipuliti", 
+                    "pos": "A", 
+                    "word": "#fiumipuliti"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 242, 
+                    "index": 35, 
+                    "lemma": "https://t.co/i3wABNC2Lt", 
+                    "originalText": "https://t.co/i3wABNC2Lt", 
+                    "pos": "SP", 
+                    "word": "https://t.co/i3wABNC2Lt"
+                }
+            ]
+        }
+    ]
+}

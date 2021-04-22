@@ -1,0 +1,415 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 1, 
+                    "index": 1, 
+                    "lemma": "\"I", 
+                    "originalText": "\"I", 
+                    "pos": "SP", 
+                    "word": "\"I"
+                }, 
+                {
+                    "characterOffsetBegin": 3, 
+                    "characterOffsetEnd": 7, 
+                    "index": 2, 
+                    "lemma": "bimbo", 
+                    "originalText": "bimbi", 
+                    "pos": "S", 
+                    "word": "bimbi"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 12, 
+                    "index": 3, 
+                    "lemma": "essere|sonare", 
+                    "originalText": "sono", 
+                    "pos": "V", 
+                    "word": "sono"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 15, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 22, 
+                    "index": 5, 
+                    "lemma": "nostro", 
+                    "originalText": "nostro", 
+                    "pos": "AP", 
+                    "word": "nostro"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 29, 
+                    "index": 6, 
+                    "lemma": "futuro", 
+                    "originalText": "futuro", 
+                    "pos": "S", 
+                    "word": "futuro"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 30, 
+                    "index": 7, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 35, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 44, 
+                    "index": 2, 
+                    "lemma": "volere", 
+                    "originalText": "vogliamo", 
+                    "pos": "VM", 
+                    "word": "vogliamo"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 51, 
+                    "index": 3, 
+                    "lemma": "rendere", 
+                    "originalText": "renderli", 
+                    "pos": "V", 
+                    "word": "render"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 53, 
+                    "index": 4, 
+                    "lemma": "li", 
+                    "originalText": "renderli", 
+                    "pos": "PC", 
+                    "word": "li"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 65, 
+                    "index": 5, 
+                    "lemma": "consapevole", 
+                    "originalText": "consapevoli", 
+                    "pos": "A", 
+                    "word": "consapevoli"
+                }, 
+                {
+                    "characterOffsetBegin": 67, 
+                    "characterOffsetEnd": 68, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 75, 
+                    "index": 7, 
+                    "lemma": "quanto", 
+                    "originalText": "quanto", 
+                    "pos": "PR", 
+                    "word": "quanto"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 79, 
+                    "index": 8, 
+                    "lemma": "sia", 
+                    "originalText": "sia", 
+                    "pos": "V", 
+                    "word": "sia"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 90, 
+                    "index": 9, 
+                    "lemma": "importante", 
+                    "originalText": "importante", 
+                    "pos": "A", 
+                    "word": "importante"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 102, 
+                    "index": 10, 
+                    "lemma": "riforestare", 
+                    "originalText": "riforestare", 
+                    "pos": "V", 
+                    "word": "riforestare"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 105, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 112, 
+                    "index": 12, 
+                    "lemma": "nostro", 
+                    "originalText": "nostro", 
+                    "pos": "AP", 
+                    "word": "nostro"
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 123, 
+                    "index": 13, 
+                    "lemma": "territorio", 
+                    "originalText": "territorio", 
+                    "pos": "S", 
+                    "word": "territorio"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 126, 
+                    "index": 14, 
+                    "lemma": "ma", 
+                    "originalText": "ma", 
+                    "pos": "CC", 
+                    "word": "ma"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 132, 
+                    "index": 15, 
+                    "lemma": "anche", 
+                    "originalText": "anche", 
+                    "pos": "B", 
+                    "word": "anche"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 135, 
+                    "index": 16, 
+                    "lemma": "il", 
+                    "originalText": "l'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 143, 
+                    "index": 17, 
+                    "lemma": "utilizzo", 
+                    "originalText": "utilizzo", 
+                    "pos": "S", 
+                    "word": "utilizzo"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 146, 
+                    "index": 18, 
+                    "lemma": "ed", 
+                    "originalText": "ed", 
+                    "pos": "CC", 
+                    "word": "ed"
+                }, 
+                {
+                    "characterOffsetBegin": 148, 
+                    "characterOffsetEnd": 149, 
+                    "index": 19, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 157, 
+                    "index": 20, 
+                    "lemma": "consumo", 
+                    "originalText": "consumo", 
+                    "pos": "S", 
+                    "word": "consumo"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 168, 
+                    "index": 21, 
+                    "lemma": "sostebile\"", 
+                    "originalText": "sostebile\"", 
+                    "pos": "V", 
+                    "word": "sostebile\""
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 169, 
+                    "index": 22, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 171, 
+                    "characterOffsetEnd": 174, 
+                    "index": 1, 
+                    "lemma": "Cos\u00ec", 
+                    "originalText": "Cos\u00ec", 
+                    "pos": "B", 
+                    "word": "Cos\u00ec"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 177, 
+                    "index": 2, 
+                    "lemma": "il", 
+                    "originalText": "l'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 179, 
+                    "index": 3, 
+                    "lemma": "AD", 
+                    "originalText": "AD", 
+                    "pos": "SP", 
+                    "word": "AD"
+                }, 
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 182, 
+                    "index": 4, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 195, 
+                    "index": 5, 
+                    "lemma": "@AliaServizi", 
+                    "originalText": "@AliaServizi", 
+                    "pos": "S", 
+                    "word": "@AliaServizi"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 198, 
+                    "index": 6, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 208, 
+                    "index": 7, 
+                    "lemma": "occasione", 
+                    "originalText": "occasione", 
+                    "pos": "S", 
+                    "word": "occasione"
+                }, 
+                {
+                    "characterOffsetBegin": 210, 
+                    "characterOffsetEnd": 212, 
+                    "index": 8, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 212, 
+                    "characterOffsetEnd": 214, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 231, 
+                    "index": 10, 
+                    "lemma": "#FestadellAlbero", 
+                    "originalText": "#FestadellAlbero", 
+                    "pos": "S", 
+                    "word": "#FestadellAlbero"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 236, 
+                    "index": 11, 
+                    "lemma": "2019", 
+                    "originalText": "2019", 
+                    "pos": "N", 
+                    "word": "2019"
+                }, 
+                {
+                    "characterOffsetBegin": 238, 
+                    "characterOffsetEnd": 240, 
+                    "index": 12, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 238, 
+                    "characterOffsetEnd": 240, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 242, 
+                    "characterOffsetEnd": 250, 
+                    "index": 14, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "S", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 252, 
+                    "characterOffsetEnd": 273, 
+                    "index": 15, 
+                    "lemma": "https://t.co/BCBFpiGyjT", 
+                    "originalText": "https://t.co/BCBFpiGyjT", 
+                    "pos": "SP", 
+                    "word": "https://t.co/BCBFpiGyjT"
+                }
+            ]
+        }
+    ]
+}

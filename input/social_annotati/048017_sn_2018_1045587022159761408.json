@@ -1,0 +1,189 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "solo", 
+                    "originalText": "SOLO", 
+                    "pos": "B", 
+                    "word": "SOLO"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 6, 
+                    "index": 2, 
+                    "lemma": "SU", 
+                    "originalText": "SU", 
+                    "pos": "SP", 
+                    "word": "SU"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 16, 
+                    "index": 3, 
+                    "lemma": "#TELEGRAM", 
+                    "originalText": "#TELEGRAM", 
+                    "pos": "SP", 
+                    "word": "#TELEGRAM"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 17, 
+                    "index": 4, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 24, 
+                    "index": 5, 
+                    "lemma": "questo", 
+                    "originalText": "questa", 
+                    "pos": "DD", 
+                    "word": "questa"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 32, 
+                    "index": 6, 
+                    "lemma": "mattina|mattino", 
+                    "originalText": "mattina", 
+                    "pos": "S", 
+                    "word": "mattina"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 33, 
+                    "index": 7, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 36, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 44, 
+                    "index": 9, 
+                    "lemma": "diretta", 
+                    "originalText": "diretta", 
+                    "pos": "S", 
+                    "word": "diretta"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 47, 
+                    "index": 10, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 49, 
+                    "characterOffsetEnd": 63, 
+                    "index": 11, 
+                    "lemma": "\"@expo2020dubai", 
+                    "originalText": "\"@expo2020dubai", 
+                    "pos": "SP", 
+                    "word": "\"@expo2020dubai"
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 65, 
+                    "index": 12, 
+                    "lemma": "\u00a7", 
+                    "originalText": "\u00a7", 
+                    "pos": "SP", 
+                    "word": "\u00a7"
+                }, 
+                {
+                    "characterOffsetBegin": 67, 
+                    "characterOffsetEnd": 68, 
+                    "index": 13, 
+                    "lemma": "Le", 
+                    "originalText": "Le", 
+                    "pos": "SP", 
+                    "word": "Le"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 80, 
+                    "index": 14, 
+                    "lemma": "opportunit\u00e0", 
+                    "originalText": "opportunit\u00e0", 
+                    "pos": "S", 
+                    "word": "opportunit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 84, 
+                    "index": 15, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 88, 
+                    "index": 16, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 101, 
+                    "index": 17, 
+                    "lemma": "imprenditore", 
+                    "originalText": "imprenditori", 
+                    "pos": "S", 
+                    "word": "imprenditori"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 104, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 114, 
+                    "index": 19, 
+                    "lemma": "#Firenze\u2026", 
+                    "originalText": "#Firenze\u2026", 
+                    "pos": "SP", 
+                    "word": "#Firenze\u2026"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 137, 
+                    "index": 20, 
+                    "lemma": "https://t.co/GhCfBVwP8j", 
+                    "originalText": "https://t.co/GhCfBVwP8j", 
+                    "pos": "SP", 
+                    "word": "https://t.co/GhCfBVwP8j"
+                }
+            ]
+        }
+    ]
+}

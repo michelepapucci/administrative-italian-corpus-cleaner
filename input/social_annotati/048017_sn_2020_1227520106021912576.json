@@ -1,0 +1,442 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "comune", 
+                    "originalText": "Comune", 
+                    "pos": "SP", 
+                    "word": "Comune"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 8, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 16, 
+                    "index": 3, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 17, 
+                    "index": 4, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FF", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 21, 
+                    "index": 5, 
+                    "lemma": "in", 
+                    "originalText": "nel", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 21, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "nel", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 26, 
+                    "index": 7, 
+                    "lemma": "mesa", 
+                    "originalText": "mese", 
+                    "pos": "S", 
+                    "word": "mese"
+                }, 
+                {
+                    "characterOffsetBegin": 28, 
+                    "characterOffsetEnd": 29, 
+                    "index": 8, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 37, 
+                    "index": 9, 
+                    "lemma": "gennaio", 
+                    "originalText": "gennaio", 
+                    "pos": "S", 
+                    "word": "gennaio"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 42, 
+                    "index": 10, 
+                    "lemma": "essere", 
+                    "originalText": "sono", 
+                    "pos": "VA", 
+                    "word": "sono"
+                }, 
+                {
+                    "characterOffsetBegin": 44, 
+                    "characterOffsetEnd": 49, 
+                    "index": 11, 
+                    "lemma": "cadere", 
+                    "originalText": "caduti", 
+                    "pos": "V", 
+                    "word": "caduti"
+                }, 
+                {
+                    "characterOffsetBegin": 51, 
+                    "characterOffsetEnd": 66, 
+                    "index": 12, 
+                    "lemma": "complessivo", 
+                    "originalText": "complessivamente", 
+                    "pos": "B", 
+                    "word": "complessivamente"
+                }, 
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 69, 
+                    "index": 13, 
+                    "lemma": "42", 
+                    "originalText": "42", 
+                    "pos": "N", 
+                    "word": "42"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 71, 
+                    "index": 14, 
+                    "lemma": ",6", 
+                    "originalText": ",6", 
+                    "pos": "N", 
+                    "word": ",6"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 74, 
+                    "index": 15, 
+                    "lemma": "mm", 
+                    "originalText": "mm", 
+                    "pos": "S", 
+                    "word": "mm"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 77, 
+                    "index": 16, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 85, 
+                    "index": 17, 
+                    "lemma": "pioggia", 
+                    "originalText": "pioggia", 
+                    "pos": "S", 
+                    "word": "pioggia"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 88, 
+                    "index": 18, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 90, 
+                    "index": 19, 
+                    "lemma": "7", 
+                    "originalText": "7", 
+                    "pos": "N", 
+                    "word": "7"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 97, 
+                    "index": 20, 
+                    "lemma": "giorno", 
+                    "originalText": "giorni", 
+                    "pos": "S", 
+                    "word": "giorni"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 105, 
+                    "index": 21, 
+                    "lemma": "piovoso", 
+                    "originalText": "piovosi", 
+                    "pos": "A", 
+                    "word": "piovosi"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 107, 
+                    "index": 22, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 108, 
+                    "characterOffsetEnd": 113, 
+                    "index": 23, 
+                    "lemma": "giorno", 
+                    "originalText": "giorni", 
+                    "pos": "S", 
+                    "word": "giorni"
+                }, 
+                {
+                    "characterOffsetBegin": 115, 
+                    "characterOffsetEnd": 117, 
+                    "index": 24, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 132, 
+                    "index": 25, 
+                    "lemma": "precipitazione", 
+                    "originalText": "precipitazione", 
+                    "pos": "S", 
+                    "word": "precipitazione"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 142, 
+                    "index": 26, 
+                    "lemma": "superiore", 
+                    "originalText": "superiore", 
+                    "pos": "A", 
+                    "word": "superiore"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 144, 
+                    "index": 27, 
+                    "lemma": "o", 
+                    "originalText": "o", 
+                    "pos": "CC", 
+                    "word": "o"
+                }, 
+                {
+                    "characterOffsetBegin": 146, 
+                    "characterOffsetEnd": 151, 
+                    "index": 28, 
+                    "lemma": "uguale", 
+                    "originalText": "uguale", 
+                    "pos": "A", 
+                    "word": "uguale"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 153, 
+                    "index": 29, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 155, 
+                    "index": 30, 
+                    "lemma": "1", 
+                    "originalText": "1", 
+                    "pos": "N", 
+                    "word": "1"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 159, 
+                    "index": 31, 
+                    "lemma": "mm)", 
+                    "originalText": "mm)", 
+                    "pos": "S", 
+                    "word": "mm)"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 160, 
+                    "index": 32, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 163, 
+                    "index": 1, 
+                    "lemma": "Il", 
+                    "originalText": "Il", 
+                    "pos": "RD", 
+                    "word": "Il"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 170, 
+                    "index": 2, 
+                    "lemma": "giorno", 
+                    "originalText": "giorno", 
+                    "pos": "S", 
+                    "word": "giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 174, 
+                    "index": 3, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 182, 
+                    "index": 4, 
+                    "lemma": "piovoso", 
+                    "originalText": "piovoso", 
+                    "pos": "A", 
+                    "word": "piovoso"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 184, 
+                    "index": 5, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "VA", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 190, 
+                    "index": 6, 
+                    "lemma": "stato", 
+                    "originalText": "stato", 
+                    "pos": "V", 
+                    "word": "stato"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 193, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 200, 
+                    "index": 8, 
+                    "lemma": "giorno", 
+                    "originalText": "giorno", 
+                    "pos": "S", 
+                    "word": "giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 203, 
+                    "index": 9, 
+                    "lemma": "18", 
+                    "originalText": "18", 
+                    "pos": "N", 
+                    "word": "18"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 207, 
+                    "index": 10, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 209, 
+                    "characterOffsetEnd": 210, 
+                    "index": 11, 
+                    "lemma": "18", 
+                    "originalText": "18", 
+                    "pos": "N", 
+                    "word": "18"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 212, 
+                    "index": 12, 
+                    "lemma": ",0", 
+                    "originalText": ",0", 
+                    "pos": "N", 
+                    "word": ",0"
+                }, 
+                {
+                    "characterOffsetBegin": 214, 
+                    "characterOffsetEnd": 215, 
+                    "index": 13, 
+                    "lemma": "mm", 
+                    "originalText": "mm", 
+                    "pos": "S", 
+                    "word": "mm"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 216, 
+                    "index": 14, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 225, 
+                    "index": 1, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "NO", 
+                    "word": "@comunefi"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,419 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 2, 
+                    "index": 1, 
+                    "lemma": "via", 
+                    "originalText": "Via", 
+                    "pos": "B", 
+                    "word": "Via"
+                }, 
+                {
+                    "characterOffsetBegin": 4, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 3, 
+                    "characterOffsetEnd": 5, 
+                    "index": 3, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 12, 
+                    "index": 4, 
+                    "lemma": "lavoro", 
+                    "originalText": "lavoro", 
+                    "pos": "S", 
+                    "word": "lavoro"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 16, 
+                    "index": 5, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 18, 
+                    "characterOffsetEnd": 19, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 31, 
+                    "index": 7, 
+                    "lemma": "candidatura", 
+                    "originalText": "candidatura", 
+                    "pos": "S", 
+                    "word": "candidatura"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 35, 
+                    "index": 8, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 37, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 48, 
+                    "index": 10, 
+                    "lemma": "fiorentina", 
+                    "originalText": "fiorentina", 
+                    "pos": "A", 
+                    "word": "fiorentina"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 50, 
+                    "index": 11, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 61, 
+                    "index": 12, 
+                    "lemma": "patrimonio", 
+                    "originalText": "patrimonio", 
+                    "pos": "S", 
+                    "word": "patrimonio"
+                }, 
+                {
+                    "characterOffsetBegin": 63, 
+                    "characterOffsetEnd": 69, 
+                    "index": 13, 
+                    "lemma": "@UNESCO", 
+                    "originalText": "@UNESCO", 
+                    "pos": "SP", 
+                    "word": "@UNESCO"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 73, 
+                    "index": 1, 
+                    "lemma": "Il", 
+                    "originalText": "Il", 
+                    "pos": "RD", 
+                    "word": "Il"
+                }, 
+                {
+                    "characterOffsetBegin": 75, 
+                    "characterOffsetEnd": 82, 
+                    "index": 2, 
+                    "lemma": "comitato", 
+                    "originalText": "comitato", 
+                    "pos": "S", 
+                    "word": "comitato"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 83, 
+                    "index": 3, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 91, 
+                    "index": 4, 
+                    "lemma": "guidare", 
+                    "originalText": "guidato", 
+                    "pos": "V", 
+                    "word": "guidato"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 95, 
+                    "index": 5, 
+                    "lemma": "da", 
+                    "originalText": "dall'", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 97, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "dall'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 98, 
+                    "characterOffsetEnd": 122, 
+                    "index": 7, 
+                    "lemma": "#AccademiadellaFiorentina", 
+                    "originalText": "#AccademiadellaFiorentina", 
+                    "pos": "SP", 
+                    "word": "#AccademiadellaFiorentina"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 123, 
+                    "index": 8, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 135, 
+                    "index": 9, 
+                    "lemma": "raggruppare", 
+                    "originalText": "raggrupper\u00e0", 
+                    "pos": "V", 
+                    "word": "raggrupper\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 141, 
+                    "index": 10, 
+                    "lemma": "anche", 
+                    "originalText": "anche", 
+                    "pos": "B", 
+                    "word": "anche"
+                }, 
+                {
+                    "characterOffsetBegin": 143, 
+                    "characterOffsetEnd": 156, 
+                    "index": 11, 
+                    "lemma": "rappresentanza", 
+                    "originalText": "rappresentanze", 
+                    "pos": "S", 
+                    "word": "rappresentanze"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 160, 
+                    "index": 12, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 162, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 171, 
+                    "index": 14, 
+                    "lemma": "comunit\u00e0", 
+                    "originalText": "comunit\u00e0", 
+                    "pos": "S", 
+                    "word": "comunit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 173, 
+                    "characterOffsetEnd": 178, 
+                    "index": 15, 
+                    "lemma": "locale", 
+                    "originalText": "locale", 
+                    "pos": "A", 
+                    "word": "locale"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 180, 
+                    "index": 16, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 182, 
+                    "characterOffsetEnd": 190, 
+                    "index": 17, 
+                    "lemma": "regionale", 
+                    "originalText": "regionale", 
+                    "pos": "A", 
+                    "word": "regionale"
+                }, 
+                {
+                    "characterOffsetBegin": 191, 
+                    "characterOffsetEnd": 191, 
+                    "index": 18, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 201, 
+                    "index": 19, 
+                    "lemma": "categoria", 
+                    "originalText": "categorie", 
+                    "pos": "S", 
+                    "word": "categorie"
+                }, 
+                {
+                    "characterOffsetBegin": 203, 
+                    "characterOffsetEnd": 212, 
+                    "index": 20, 
+                    "lemma": "economico", 
+                    "originalText": "economiche", 
+                    "pos": "A", 
+                    "word": "economiche"
+                }, 
+                {
+                    "characterOffsetBegin": 213, 
+                    "characterOffsetEnd": 213, 
+                    "index": 21, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 219, 
+                    "index": 22, 
+                    "lemma": "mondo", 
+                    "originalText": "mondo", 
+                    "pos": "S", 
+                    "word": "mondo"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 231, 
+                    "index": 23, 
+                    "lemma": "scientifico", 
+                    "originalText": "scientifico", 
+                    "pos": "A", 
+                    "word": "scientifico"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 233, 
+                    "index": 24, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 239, 
+                    "index": 25, 
+                    "lemma": "altro", 
+                    "originalText": "altri", 
+                    "pos": "A", 
+                    "word": "altri"
+                }, 
+                {
+                    "characterOffsetBegin": 241, 
+                    "characterOffsetEnd": 254, 
+                    "index": 26, 
+                    "lemma": "rappresentante", 
+                    "originalText": "rappresentanti", 
+                    "pos": "S", 
+                    "word": "rappresentanti"
+                }, 
+                {
+                    "characterOffsetBegin": 256, 
+                    "characterOffsetEnd": 257, 
+                    "index": 27, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 259, 
+                    "characterOffsetEnd": 264, 
+                    "index": 28, 
+                    "lemma": "questo", 
+                    "originalText": "questa", 
+                    "pos": "DD", 
+                    "word": "questa"
+                }, 
+                {
+                    "characterOffsetBegin": 266, 
+                    "characterOffsetEnd": 271, 
+                    "index": 29, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 273, 
+                    "characterOffsetEnd": 279, 
+                    "index": 30, 
+                    "lemma": "filiera", 
+                    "originalText": "filiera", 
+                    "pos": "S", 
+                    "word": "filiera"
+                }, 
+                {
+                    "characterOffsetBegin": 281, 
+                    "characterOffsetEnd": 302, 
+                    "index": 31, 
+                    "lemma": "https://t.co/aRZXuNtG6d", 
+                    "originalText": "https://t.co/aRZXuNtG6d", 
+                    "pos": "SP", 
+                    "word": "https://t.co/aRZXuNtG6d"
+                }
+            ]
+        }
+    ]
+}

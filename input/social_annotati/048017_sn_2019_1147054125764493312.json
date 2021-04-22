@@ -1,0 +1,482 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "Alla", 
+                    "originalText": "Alla", 
+                    "pos": "DD", 
+                    "word": "Alla"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 6, 
+                    "index": 2, 
+                    "lemma": "IX", 
+                    "originalText": "IX", 
+                    "pos": "NO", 
+                    "word": "IX"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 15, 
+                    "index": 3, 
+                    "lemma": "edizione", 
+                    "originalText": "edizione", 
+                    "pos": "S", 
+                    "word": "edizione"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 18, 
+                    "index": 4, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 33, 
+                    "index": 5, 
+                    "lemma": "#PiazzaToscana", 
+                    "originalText": "#PiazzaToscana", 
+                    "pos": "SP", 
+                    "word": "#PiazzaToscana"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 42, 
+                    "index": 6, 
+                    "lemma": "l\u2019evento", 
+                    "originalText": "l\u2019evento", 
+                    "pos": "S", 
+                    "word": "l\u2019evento"
+                }, 
+                {
+                    "characterOffsetBegin": 44, 
+                    "characterOffsetEnd": 46, 
+                    "index": 7, 
+                    "lemma": "B2B", 
+                    "originalText": "B2B", 
+                    "pos": "SP", 
+                    "word": "B2B"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 50, 
+                    "index": 8, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 56, 
+                    "index": 9, 
+                    "lemma": "mettere", 
+                    "originalText": "mette", 
+                    "pos": "V", 
+                    "word": "mette"
+                }, 
+                {
+                    "characterOffsetBegin": 58, 
+                    "characterOffsetEnd": 64, 
+                    "index": 10, 
+                    "lemma": "insieme", 
+                    "originalText": "insieme", 
+                    "pos": "B", 
+                    "word": "insieme"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 79, 
+                    "index": 11, 
+                    "lemma": "professionista", 
+                    "originalText": "professionisti", 
+                    "pos": "S", 
+                    "word": "professionisti"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 80, 
+                    "index": 12, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 84, 
+                    "index": 13, 
+                    "lemma": "PMI", 
+                    "originalText": "PMI", 
+                    "pos": "SP", 
+                    "word": "PMI"
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 85, 
+                    "index": 14, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 93, 
+                    "index": 15, 
+                    "lemma": "startup", 
+                    "originalText": "startup", 
+                    "pos": "S", 
+                    "word": "startup"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 95, 
+                    "index": 16, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 102, 
+                    "index": 17, 
+                    "lemma": "grande", 
+                    "originalText": "grandi", 
+                    "pos": "A", 
+                    "word": "grandi"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 110, 
+                    "index": 18, 
+                    "lemma": "azienda", 
+                    "originalText": "aziende", 
+                    "pos": "S", 
+                    "word": "aziende"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 111, 
+                    "index": 19, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 120, 
+                    "index": 1, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 123, 
+                    "index": 2, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 129, 
+                    "index": 3, 
+                    "lemma": "prima", 
+                    "originalText": "prima", 
+                    "pos": "NO", 
+                    "word": "prima"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 134, 
+                    "index": 4, 
+                    "lemma": "fila", 
+                    "originalText": "fila", 
+                    "pos": "S", 
+                    "word": "fila"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 138, 
+                    "index": 5, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 152, 
+                    "index": 6, 
+                    "lemma": "l\u2019innovazione", 
+                    "originalText": "l\u2019innovazione", 
+                    "pos": "S", 
+                    "word": "l\u2019innovazione"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 153, 
+                    "index": 7, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 157, 
+                    "index": 8, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 160, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 172, 
+                    "index": 10, 
+                    "lemma": "concretezza", 
+                    "originalText": "concretezza", 
+                    "pos": "S", 
+                    "word": "concretezza"
+                }, 
+                {
+                    "characterOffsetBegin": 174, 
+                    "characterOffsetEnd": 175, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 182, 
+                    "index": 12, 
+                    "lemma": "sempre", 
+                    "originalText": "sempre", 
+                    "pos": "B", 
+                    "word": "sempre"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 195, 
+                    "index": 13, 
+                    "lemma": "continuare", 
+                    "originalText": "continueremo", 
+                    "pos": "V", 
+                    "word": "continueremo"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 197, 
+                    "index": 14, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 199, 
+                    "characterOffsetEnd": 203, 
+                    "index": 15, 
+                    "lemma": "stare", 
+                    "originalText": "stare", 
+                    "pos": "V", 
+                    "word": "stare"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 206, 
+                    "index": 16, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 204, 
+                    "characterOffsetEnd": 206, 
+                    "index": 17, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 213, 
+                    "index": 18, 
+                    "lemma": "fianco", 
+                    "originalText": "fianco", 
+                    "pos": "S", 
+                    "word": "fianco"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 216, 
+                    "index": 19, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 220, 
+                    "index": 20, 
+                    "lemma": "chi", 
+                    "originalText": "chi", 
+                    "pos": "PR", 
+                    "word": "chi"
+                }, 
+                {
+                    "characterOffsetBegin": 222, 
+                    "characterOffsetEnd": 223, 
+                    "index": 21, 
+                    "lemma": "fare", 
+                    "originalText": "fa", 
+                    "pos": "V", 
+                    "word": "fa"
+                }, 
+                {
+                    "characterOffsetBegin": 225, 
+                    "characterOffsetEnd": 231, 
+                    "index": 22, 
+                    "lemma": "impresa", 
+                    "originalText": "impresa", 
+                    "pos": "S", 
+                    "word": "impresa"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 233, 
+                    "index": 23, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 239, 
+                    "index": 24, 
+                    "lemma": "porta", 
+                    "originalText": "porta", 
+                    "pos": "S", 
+                    "word": "porta"
+                }, 
+                {
+                    "characterOffsetBegin": 241, 
+                    "characterOffsetEnd": 248, 
+                    "index": 25, 
+                    "lemma": "sviluppo", 
+                    "originalText": "sviluppo", 
+                    "pos": "S", 
+                    "word": "sviluppo"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 250, 
+                    "index": 26, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 252, 
+                    "characterOffsetEnd": 257, 
+                    "index": 27, 
+                    "lemma": "lavoro", 
+                    "originalText": "lavoro", 
+                    "pos": "S", 
+                    "word": "lavoro"
+                }, 
+                {
+                    "characterOffsetBegin": 259, 
+                    "characterOffsetEnd": 261, 
+                    "index": 28, 
+                    "lemma": "in", 
+                    "originalText": "nella", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 261, 
+                    "characterOffsetEnd": 263, 
+                    "index": 29, 
+                    "lemma": "il", 
+                    "originalText": "nella", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 270, 
+                    "index": 30, 
+                    "lemma": "nostra", 
+                    "originalText": "nostra", 
+                    "pos": "AP", 
+                    "word": "nostra"
+                }, 
+                {
+                    "characterOffsetBegin": 272, 
+                    "characterOffsetEnd": 278, 
+                    "index": 31, 
+                    "lemma": "regione", 
+                    "originalText": "regione", 
+                    "pos": "S", 
+                    "word": "regione"
+                }, 
+                {
+                    "characterOffsetBegin": 279, 
+                    "characterOffsetEnd": 279, 
+                    "index": 32, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 281, 
+                    "characterOffsetEnd": 302, 
+                    "index": 33, 
+                    "lemma": "https://t.co/oPDHtGjsKq", 
+                    "originalText": "https://t.co/oPDHtGjsKq", 
+                    "pos": "SP", 
+                    "word": "https://t.co/oPDHtGjsKq"
+                }
+            ]
+        }
+    ]
+}

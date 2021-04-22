@@ -4,6 +4,7 @@ import codecs
 import re
 import magic
 from pathlib import Path
+import json
 
 
 # !
@@ -19,6 +20,31 @@ def load_files_from_folders(folder, mime="text/plain", extension=".txt"):
                 print("Loaded!")
     print(f"Loaded {len(doc_list)} documents from {folder} with:\nMime: {mime}, extension: {extension}")
     return doc_list
+
+
+def parse_pawac(file):
+    tokens = codecs.open(file, "r", "utf-8").readlines()
+    sentence = list()
+    output = list()
+    for token in tokens:
+        token = token.split("\t")
+        if len(token) > 1:
+            if token[0] == '1' and sentence:
+                output.append(sentence)
+                sentence = list()
+            sentence.append(token)
+    if sentence:
+        output.append(sentence)
+    return output
+
+
+def parse_social(doc_list):
+    sentences = list()
+    for document in doc_list:
+        parsed = json.loads(document)
+        for sentence in parsed["sentences"]:
+            sentences.append(sentence)
+    return sentences
 
 
 # !
@@ -53,6 +79,15 @@ def print_pawac(pawac, file):
     out.close()
 
 
+def print_social(social, file):
+    out = codecs.open(Path("output/social/" + file), "w", "utf-8")
+    for sentence in social:
+        for token in sentence["tokens"]:
+            out.write(token["originalText"] + " ")
+        out.write("\n")
+    out.close()
+
+
 # !
 def count_sentences(documents, already_nlp=False):
     counter = 0
@@ -65,6 +100,22 @@ def count_sentences(documents, already_nlp=False):
             sentence_len_array.append(len(sentence.tokens))
     sentence_len_array.sort()
     return counter, sentence_len_array
+
+
+def count_sentences_pawac(pawac):
+    sentence_len_array = list()
+    for sentence in pawac:
+        sentence_len_array.append(len(sentence))
+    sentence_len_array.sort()
+    return sentence_len_array
+
+
+def count_sentences_social(social):
+    sentence_len_array = list()
+    for sentence in social:
+        sentence_len_array.append(len(sentence["tokens"]))
+    sentence_len_array.sort()
+    return sentence_len_array
 
 
 # !
@@ -82,14 +133,6 @@ def print_statistical_information(docs, intestation, folder):
     out.close()
 
 
-def count_sentences_pawac(pawac):
-    sentence_len_array = list()
-    for sentence in pawac:
-        sentence_len_array.append(len(sentence))
-    sentence_len_array.sort()
-    return sentence_len_array
-
-
 def print_statistical_information_pawac(pawac, intestation):
     sentence_len = count_sentences_pawac(pawac)
     out = codecs.open(Path("output/pawac/stats.txt"), "a", "utf-8")
@@ -105,20 +148,19 @@ def print_statistical_information_pawac(pawac, intestation):
     out.close()
 
 
-def remove_duplicates(docs):
-    seen = set()
-    counter = 0
-    for doc in docs:
-        result = []
-        for sentence in doc.sentences:
-            if sentence.text not in seen:
-                seen.add(sentence.text)
-                result.append(sentence)
-            else:
-                counter = counter + 1
-                print(sentence.text)
-        doc.sentences = result
-    return docs
+def print_statistica_information_social(social, intestation):
+    sentence_len = count_sentences_social(social)
+    out = codecs.open(Path("output/social/stats.txt"), "a", "utf-8")
+    if sentence_len:
+        print(f"{intestation} number of sentences: {len(social)}\tmax_len: {sentence_len[-1]}\t"
+              f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
+              f"media: {sum(sentence_len) / len(sentence_len)}\n")
+        out.write(f"{intestation} number of sentences: {len(social)}\tmax_len: {sentence_len[-1]}\t"
+                  f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
+                  f"media: {sum(sentence_len) / len(sentence_len)}\n")
+    else:
+        print(f"Error during printing for {intestation} phase, sentence_len: {sentence_len}")
+    out.close()
 
 
 # !
@@ -148,6 +190,11 @@ def filter_no_verbs_sentences_pawac(pawac):
     return pawac
 
 
+def filter_no_verbs_sentences_social(social):
+    social = list(filter(lambda s: True if any(t["pos"] == "V" for t in s["tokens"]) else False, social))
+    return social
+
+
 # !
 def remove_phrase_with_no_end_point(nlp_obj):
     # rimuovo le frasi che non terminano con punteggiatura
@@ -165,20 +212,12 @@ def remove_phrase_with_no_end_point_pawac(pawac):
     return filtered_pawac
 
 
-def parse_pawac(file):
-    tokens = codecs.open(file, "r", "utf-8").readlines()
-    sentence = list()
-    output = list()
-    for token in tokens:
-        token = token.split("\t")
-        if len(token) > 1:
-            if token[0] == '1' and sentence:
-                output.append(sentence)
-                sentence = list()
-            sentence.append(token)
-    if sentence:
-        output.append(sentence)
-    return output
+def remove_phrase_with_no_end_point_social(social):
+    filtered_social = list()
+    for sentence in social:
+        if sentence["tokens"][-1]["originalText"] in [".", ",", ":", ";", "?", "!"]:
+            filtered_social.append(sentence)
+    return filtered_social
 
 
 def filter_sem_web(folder):
@@ -251,10 +290,34 @@ def filter_faq(faq):
     print_sentences_file([analized_faq], "output/faq/end-point-filtering.txt")
 
 
+def filter_social(folder):
+    # Init stats output file
+    stats = codecs.open(Path("output/social/stats.txt").absolute(), "w", "utf-8")
+    stats.close()
+
+    # Sentence Splitting
+    # TODO: trovare un modo di non falsare la conta dei token a causa dei token "doppioni" per i composti
+    social = load_files_from_folders(folder, extension=".json")
+    social = parse_social(social)
+    print_statistica_information_social(social, "Sentence Splitting")
+    print_social(social, "sentence-splitting.txt")
+
+    # Verb filtering
+    social = filter_no_verbs_sentences_social(social)
+    print_statistica_information_social(social, "Verb Filtering")
+    print_social(social, "verb-filtering.txt")
+
+    # End point filtering
+    social = remove_phrase_with_no_end_point_social(social)
+    print_statistica_information_social(social, "End point filtering")
+    print_social(social, "end-point-filtering.txt")
+
+
 if __name__ == "__main__":
     # filter_sem_web(Path("input/demo/web-10"))
-    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
+    filter_social(Path("input/social_annotati"))
 
 # sem = pagine web siti comuni: ok
 # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?

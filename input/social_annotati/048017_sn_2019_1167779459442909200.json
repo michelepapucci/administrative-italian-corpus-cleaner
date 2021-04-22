@@ -1,0 +1,104 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "Codice", 
+                    "originalText": "Codice", 
+                    "pos": "SP", 
+                    "word": "Codice"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 11, 
+                    "index": 2, 
+                    "lemma": "verde", 
+                    "originalText": "verde", 
+                    "pos": "A", 
+                    "word": "verde"
+                }, 
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 15, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 20, 
+                    "index": 4, 
+                    "lemma": "oggi", 
+                    "originalText": "oggi", 
+                    "pos": "B", 
+                    "word": "oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 21, 
+                    "index": 5, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 28, 
+                    "index": 6, 
+                    "lemma": "#meteo", 
+                    "originalText": "#meteo", 
+                    "pos": "A", 
+                    "word": "#meteo"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 37, 
+                    "index": 7, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 47, 
+                    "index": 8, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "A", 
+                    "word": "@comunefi"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 49, 
+                    "characterOffsetEnd": 64, 
+                    "index": 1, 
+                    "lemma": "@ProtCivComuneFi", 
+                    "originalText": "@ProtCivComuneFi", 
+                    "pos": "SP", 
+                    "word": "@ProtCivComuneFi"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 87, 
+                    "index": 2, 
+                    "lemma": "https://t.co/TCqGNs3HzD", 
+                    "originalText": "https://t.co/TCqGNs3HzD", 
+                    "pos": "SP", 
+                    "word": "https://t.co/TCqGNs3HzD"
+                }
+            ]
+        }
+    ]
+}

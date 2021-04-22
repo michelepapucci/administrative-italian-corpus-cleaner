@@ -1,0 +1,370 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "L\u2019arte", 
+                    "originalText": "L\u2019arte", 
+                    "pos": "A", 
+                    "word": "L\u2019arte"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 13, 
+                    "index": 2, 
+                    "lemma": "\u201cprende", 
+                    "originalText": "\u201cprende", 
+                    "pos": "S", 
+                    "word": "\u201cprende"
+                }, 
+                {
+                    "characterOffsetBegin": 15, 
+                    "characterOffsetEnd": 19, 
+                    "index": 3, 
+                    "lemma": "casa\u201d", 
+                    "originalText": "casa\u201d", 
+                    "pos": "V", 
+                    "word": "casa\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 23, 
+                    "index": 4, 
+                    "lemma": "in", 
+                    "originalText": "nelle", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 5, 
+                    "lemma": "le", 
+                    "originalText": "nelle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 33, 
+                    "index": 6, 
+                    "lemma": "#scuole", 
+                    "originalText": "#scuole", 
+                    "pos": "S", 
+                    "word": "#scuole"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 34, 
+                    "index": 7, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 37, 
+                    "index": 8, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 42, 
+                    "index": 9, 
+                    "lemma": "aula", 
+                    "originalText": "aule", 
+                    "pos": "S", 
+                    "word": "aule"
+                }, 
+                {
+                    "characterOffsetBegin": 44, 
+                    "characterOffsetEnd": 46, 
+                    "index": 10, 
+                    "lemma": "non", 
+                    "originalText": "non", 
+                    "pos": "BN", 
+                    "word": "non"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 57, 
+                    "index": 11, 
+                    "lemma": "utilizzare", 
+                    "originalText": "utilizzate", 
+                    "pos": "V", 
+                    "word": "utilizzate"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 67, 
+                    "index": 12, 
+                    "lemma": "diventare", 
+                    "originalText": "diventano", 
+                    "pos": "V", 
+                    "word": "diventano"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 75, 
+                    "index": 13, 
+                    "lemma": "atelier", 
+                    "originalText": "atelier", 
+                    "pos": "S", 
+                    "word": "atelier"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 77, 
+                    "index": 14, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 81, 
+                    "index": 15, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 89, 
+                    "index": 16, 
+                    "lemma": "artista", 
+                    "originalText": "artisti", 
+                    "pos": "S", 
+                    "word": "artisti"
+                }, 
+                {
+                    "characterOffsetBegin": 91, 
+                    "characterOffsetEnd": 97, 
+                    "index": 17, 
+                    "lemma": "offrire", 
+                    "originalText": "offrono", 
+                    "pos": "V", 
+                    "word": "offrono"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 108, 
+                    "index": 18, 
+                    "lemma": "laboratorio", 
+                    "originalText": "laboratori", 
+                    "pos": "S", 
+                    "word": "laboratori"
+                }, 
+                {
+                    "characterOffsetBegin": 110, 
+                    "characterOffsetEnd": 117, 
+                    "index": 19, 
+                    "lemma": "gratuito", 
+                    "originalText": "gratuiti", 
+                    "pos": "A", 
+                    "word": "gratuiti"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 120, 
+                    "index": 20, 
+                    "lemma": "a", 
+                    "originalText": "ai", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 120, 
+                    "index": 21, 
+                    "lemma": "i", 
+                    "originalText": "ai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 128, 
+                    "index": 22, 
+                    "lemma": "ragazzi", 
+                    "originalText": "ragazzi", 
+                    "pos": "S", 
+                    "word": "ragazzi"
+                }, 
+                {
+                    "characterOffsetBegin": 129, 
+                    "characterOffsetEnd": 129, 
+                    "index": 23, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 137, 
+                    "index": 1, 
+                    "lemma": "partito", 
+                    "originalText": "Partito", 
+                    "pos": "S", 
+                    "word": "Partito"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 139, 
+                    "index": 2, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 148, 
+                    "index": 3, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "SP", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 150, 
+                    "characterOffsetEnd": 151, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 160, 
+                    "index": 5, 
+                    "lemma": "progetto", 
+                    "originalText": "progetto", 
+                    "pos": "S", 
+                    "word": "progetto"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 167, 
+                    "index": 6, 
+                    "lemma": "ideare", 
+                    "originalText": "ideato", 
+                    "pos": "V", 
+                    "word": "ideato"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 170, 
+                    "index": 7, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 183, 
+                    "index": 8, 
+                    "lemma": "@LeMuratePAC", 
+                    "originalText": "@LeMuratePAC", 
+                    "pos": "SP", 
+                    "word": "@LeMuratePAC"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 187, 
+                    "index": 9, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 189, 
+                    "characterOffsetEnd": 210, 
+                    "index": 10, 
+                    "lemma": "#assessoratoeducazione", 
+                    "originalText": "#assessoratoeducazione", 
+                    "pos": "S", 
+                    "word": "#assessoratoeducazione"
+                }, 
+                {
+                    "characterOffsetBegin": 212, 
+                    "characterOffsetEnd": 229, 
+                    "index": 11, 
+                    "lemma": "#vicesindacagiachi", 
+                    "originalText": "#vicesindacagiachi", 
+                    "pos": "A", 
+                    "word": "#vicesindacagiachi"
+                }, 
+                {
+                    "characterOffsetBegin": 231, 
+                    "characterOffsetEnd": 244, 
+                    "index": 12, 
+                    "lemma": "@DarioNardella", 
+                    "originalText": "@DarioNardella", 
+                    "pos": "V", 
+                    "word": "@DarioNardella"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 253, 
+                    "index": 13, 
+                    "lemma": "@CGiachi", 
+                    "originalText": "@CGiachi", 
+                    "pos": "SP", 
+                    "word": "@CGiachi"
+                }, 
+                {
+                    "characterOffsetBegin": 255, 
+                    "characterOffsetEnd": 263, 
+                    "index": 14, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "NO", 
+                    "word": "@comunefi"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 276, 
+                    "index": 1, 
+                    "lemma": "@musefirenze", 
+                    "originalText": "@musefirenze", 
+                    "pos": "S", 
+                    "word": "@musefirenze"
+                }, 
+                {
+                    "characterOffsetBegin": 278, 
+                    "characterOffsetEnd": 299, 
+                    "index": 2, 
+                    "lemma": "https://t.co/W9jab7sXeM", 
+                    "originalText": "https://t.co/W9jab7sXeM", 
+                    "pos": "SP", 
+                    "word": "https://t.co/W9jab7sXeM"
+                }
+            ]
+        }
+    ]
+}

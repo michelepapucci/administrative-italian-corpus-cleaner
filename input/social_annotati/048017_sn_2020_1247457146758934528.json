@@ -1,0 +1,397 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 1, 
+                    "index": 1, 
+                    "lemma": "Ed", 
+                    "originalText": "Ed", 
+                    "pos": "CC", 
+                    "word": "Ed"
+                }, 
+                {
+                    "characterOffsetBegin": 3, 
+                    "characterOffsetEnd": 6, 
+                    "index": 2, 
+                    "lemma": "ecco", 
+                    "originalText": "ecco", 
+                    "pos": "B", 
+                    "word": "ecco"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 9, 
+                    "index": 3, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 18, 
+                    "index": 4, 
+                    "lemma": "sorpresa", 
+                    "originalText": "sorpresa", 
+                    "pos": "S", 
+                    "word": "sorpresa"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 29, 
+                    "index": 5, 
+                    "lemma": "annunciare", 
+                    "originalText": "annunciata", 
+                    "pos": "V", 
+                    "word": "annunciata"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "ieri", 
+                    "originalText": "ieri", 
+                    "pos": "B", 
+                    "word": "ieri"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 35, 
+                    "index": 7, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 56, 
+                    "index": 8, 
+                    "lemma": "#LaPrincipessaDiGelo", 
+                    "originalText": "#LaPrincipessaDiGelo", 
+                    "pos": "SP", 
+                    "word": "#LaPrincipessaDiGelo"
+                }, 
+                {
+                    "characterOffsetBegin": 58, 
+                    "characterOffsetEnd": 59, 
+                    "index": 9, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 73, 
+                    "index": 10, 
+                    "lemma": "@VentiLucenti", 
+                    "originalText": "@VentiLucenti", 
+                    "pos": "S", 
+                    "word": "@VentiLucenti"
+                }, 
+                {
+                    "characterOffsetBegin": 75, 
+                    "characterOffsetEnd": 77, 
+                    "index": 11, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 79, 
+                    "index": 12, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 87, 
+                    "index": 13, 
+                    "lemma": "bambino", 
+                    "originalText": "bambini", 
+                    "pos": "S", 
+                    "word": "bambini"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 88, 
+                    "index": 14, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 92, 
+                    "index": 15, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 100, 
+                    "index": 16, 
+                    "lemma": "allievo", 
+                    "originalText": "allievi", 
+                    "pos": "S", 
+                    "word": "allievi"
+                }, 
+                {
+                    "characterOffsetBegin": 102, 
+                    "characterOffsetEnd": 104, 
+                    "index": 17, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 106, 
+                    "index": 18, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 108, 
+                    "characterOffsetEnd": 113, 
+                    "index": 19, 
+                    "lemma": "scuola", 
+                    "originalText": "scuole", 
+                    "pos": "S", 
+                    "word": "scuole"
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 114, 
+                    "index": 20, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 117, 
+                    "index": 21, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 122, 
+                    "index": 22, 
+                    "lemma": "loro", 
+                    "originalText": "loro", 
+                    "pos": "AP", 
+                    "word": "loro"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 131, 
+                    "index": 23, 
+                    "lemma": "famiglia", 
+                    "originalText": "famiglie", 
+                    "pos": "S", 
+                    "word": "famiglie"
+                }, 
+                {
+                    "characterOffsetBegin": 133, 
+                    "characterOffsetEnd": 133, 
+                    "index": 24, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 137, 
+                    "index": 25, 
+                    "lemma": "il", 
+                    "originalText": "gli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 148, 
+                    "index": 26, 
+                    "lemma": "insegnante", 
+                    "originalText": "insegnanti", 
+                    "pos": "S", 
+                    "word": "insegnanti"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 149, 
+                    "index": 27, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 152, 
+                    "index": 28, 
+                    "lemma": "ma", 
+                    "originalText": "ma", 
+                    "pos": "CC", 
+                    "word": "ma"
+                }, 
+                {
+                    "characterOffsetBegin": 154, 
+                    "characterOffsetEnd": 155, 
+                    "index": 29, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 162, 
+                    "index": 30, 
+                    "lemma": "realt\u00e0", 
+                    "originalText": "realt\u00e0", 
+                    "pos": "S", 
+                    "word": "realt\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 166, 
+                    "index": 31, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 168, 
+                    "characterOffsetEnd": 172, 
+                    "index": 32, 
+                    "lemma": "tutti", 
+                    "originalText": "tutti", 
+                    "pos": "PI", 
+                    "word": "tutti"
+                }, 
+                {
+                    "characterOffsetBegin": 174, 
+                    "characterOffsetEnd": 174, 
+                    "index": 33, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 178, 
+                    "index": 34, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 184, 
+                    "index": 35, 
+                    "lemma": "stare", 
+                    "originalText": "stare", 
+                    "pos": "V", 
+                    "word": "stare"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 192, 
+                    "index": 36, 
+                    "lemma": "insieme", 
+                    "originalText": "insieme", 
+                    "pos": "B", 
+                    "word": "insieme"
+                }, 
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 193, 
+                    "index": 37, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 197, 
+                    "index": 38, 
+                    "lemma": "1/3", 
+                    "originalText": "1/3", 
+                    "pos": "N", 
+                    "word": "1/3"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 199, 
+                    "characterOffsetEnd": 212, 
+                    "index": 1, 
+                    "lemma": "@FondazioneCRF", 
+                    "originalText": "@FondazioneCRF", 
+                    "pos": "SP", 
+                    "word": "@FondazioneCRF"
+                }, 
+                {
+                    "characterOffsetBegin": 214, 
+                    "characterOffsetEnd": 222, 
+                    "index": 2, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "SP", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 238, 
+                    "index": 3, 
+                    "lemma": "#PortaleRagazzi", 
+                    "originalText": "#PortaleRagazzi", 
+                    "pos": "SP", 
+                    "word": "#PortaleRagazzi"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 240, 
+                    "characterOffsetEnd": 261, 
+                    "index": 1, 
+                    "lemma": "https://t.co/Vc4JrnuFsU", 
+                    "originalText": "https://t.co/Vc4JrnuFsU", 
+                    "pos": "SP", 
+                    "word": "https://t.co/Vc4JrnuFsU"
+                }
+            ]
+        }
+    ]
+}

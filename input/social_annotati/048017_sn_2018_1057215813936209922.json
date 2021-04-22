@@ -1,0 +1,451 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 13, 
+                    "index": 3, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 15, 
+                    "characterOffsetEnd": 23, 
+                    "index": 4, 
+                    "lemma": "l\u2019allerta", 
+                    "originalText": "l\u2019allerta", 
+                    "pos": "A", 
+                    "word": "l\u2019allerta"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 30, 
+                    "index": 5, 
+                    "lemma": "#meteo", 
+                    "originalText": "#meteo", 
+                    "pos": "A", 
+                    "word": "#meteo"
+                }, 
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 36, 
+                    "index": 6, 
+                    "lemma": "passare", 
+                    "originalText": "passa", 
+                    "pos": "V", 
+                    "word": "passa"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 38, 
+                    "index": 7, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 45, 
+                    "index": 8, 
+                    "lemma": "giallo", 
+                    "originalText": "gialla", 
+                    "pos": "A", 
+                    "word": "gialla"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 46, 
+                    "index": 9, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 53, 
+                    "index": 1, 
+                    "lemma": "Grazie", 
+                    "originalText": "Grazie", 
+                    "pos": "B", 
+                    "word": "Grazie"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 55, 
+                    "index": 2, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 57, 
+                    "characterOffsetEnd": 62, 
+                    "index": 3, 
+                    "lemma": "vigile", 
+                    "originalText": "vigili", 
+                    "pos": "S", 
+                    "word": "vigili"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 66, 
+                    "index": 4, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 66, 
+                    "index": 5, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 72, 
+                    "index": 6, 
+                    "lemma": "fuoco", 
+                    "originalText": "fuoco", 
+                    "pos": "S", 
+                    "word": "fuoco"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 73, 
+                    "index": 7, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 75, 
+                    "characterOffsetEnd": 84, 
+                    "index": 8, 
+                    "lemma": "protezione", 
+                    "originalText": "protezione", 
+                    "pos": "S", 
+                    "word": "protezione"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 91, 
+                    "index": 9, 
+                    "lemma": "civile", 
+                    "originalText": "civile", 
+                    "pos": "A", 
+                    "word": "civile"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 92, 
+                    "index": 10, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 100, 
+                    "index": 11, 
+                    "lemma": "polizia", 
+                    "originalText": "polizia", 
+                    "pos": "S", 
+                    "word": "polizia"
+                }, 
+                {
+                    "characterOffsetBegin": 102, 
+                    "characterOffsetEnd": 111, 
+                    "index": 12, 
+                    "lemma": "municipale", 
+                    "originalText": "municipale", 
+                    "pos": "A", 
+                    "word": "municipale"
+                }, 
+                {
+                    "characterOffsetBegin": 112, 
+                    "characterOffsetEnd": 112, 
+                    "index": 13, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 122, 
+                    "index": 14, 
+                    "lemma": "personale", 
+                    "originalText": "personale", 
+                    "pos": "A", 
+                    "word": "personale"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 133, 
+                    "index": 15, 
+                    "lemma": "scolastico", 
+                    "originalText": "scolastico", 
+                    "pos": "A", 
+                    "word": "scolastico"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 135, 
+                    "index": 16, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 143, 
+                    "index": 17, 
+                    "lemma": "ufficio", 
+                    "originalText": "ufficio", 
+                    "pos": "S", 
+                    "word": "ufficio"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 152, 
+                    "index": 18, 
+                    "lemma": "ambiente", 
+                    "originalText": "ambiente", 
+                    "pos": "S", 
+                    "word": "ambiente"
+                }, 
+                {
+                    "characterOffsetBegin": 154, 
+                    "characterOffsetEnd": 156, 
+                    "index": 19, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 161, 
+                    "index": 20, 
+                    "lemma": "avere", 
+                    "originalText": "aver", 
+                    "pos": "V", 
+                    "word": "aver"
+                }, 
+                {
+                    "characterOffsetBegin": 163, 
+                    "characterOffsetEnd": 174, 
+                    "index": 21, 
+                    "lemma": "fronteggiato", 
+                    "originalText": "fronteggiato", 
+                    "pos": "S", 
+                    "word": "fronteggiato"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 175, 
+                    "index": 22, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 183, 
+                    "index": 23, 
+                    "lemma": "insieme", 
+                    "originalText": "insieme", 
+                    "pos": "B", 
+                    "word": "insieme"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 184, 
+                    "index": 24, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 196, 
+                    "index": 25, 
+                    "lemma": "l\u2019emergenza", 
+                    "originalText": "l\u2019emergenza", 
+                    "pos": "S", 
+                    "word": "l\u2019emergenza"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 197, 
+                    "index": 26, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 199, 
+                    "characterOffsetEnd": 207, 
+                    "index": 1, 
+                    "lemma": "cordoglio", 
+                    "originalText": "Cordoglio", 
+                    "pos": "S", 
+                    "word": "Cordoglio"
+                }, 
+                {
+                    "characterOffsetBegin": 209, 
+                    "characterOffsetEnd": 211, 
+                    "index": 2, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 213, 
+                    "characterOffsetEnd": 214, 
+                    "index": 3, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 222, 
+                    "index": 4, 
+                    "lemma": "vittima", 
+                    "originalText": "vittime", 
+                    "pos": "S", 
+                    "word": "vittime"
+                }, 
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 226, 
+                    "index": 5, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 228, 
+                    "characterOffsetEnd": 231, 
+                    "index": 6, 
+                    "lemma": "ieri", 
+                    "originalText": "ieri", 
+                    "pos": "B", 
+                    "word": "ieri"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 234, 
+                    "index": 7, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 241, 
+                    "index": 8, 
+                    "lemma": "Italia", 
+                    "originalText": "Italia", 
+                    "pos": "SP", 
+                    "word": "Italia"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 247, 
+                    "index": 9, 
+                    "lemma": "hanno", 
+                    "originalText": "hanno", 
+                    "pos": "VA", 
+                    "word": "hanno"
+                }, 
+                {
+                    "characterOffsetBegin": 249, 
+                    "characterOffsetEnd": 253, 
+                    "index": 10, 
+                    "lemma": "perdere", 
+                    "originalText": "perso", 
+                    "pos": "V", 
+                    "word": "perso"
+                }, 
+                {
+                    "characterOffsetBegin": 255, 
+                    "characterOffsetEnd": 256, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 258, 
+                    "characterOffsetEnd": 261, 
+                    "index": 12, 
+                    "lemma": "vita", 
+                    "originalText": "vita", 
+                    "pos": "S", 
+                    "word": "vita"
+                }, 
+                {
+                    "characterOffsetBegin": 262, 
+                    "characterOffsetEnd": 261, 
+                    "index": 13, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

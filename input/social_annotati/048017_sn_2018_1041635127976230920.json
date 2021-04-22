@@ -1,0 +1,189 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 16, 
+                    "index": 2, 
+                    "lemma": "@rep_firenze", 
+                    "originalText": "@rep_firenze", 
+                    "pos": "S", 
+                    "word": "@rep_firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 18, 
+                    "characterOffsetEnd": 21, 
+                    "index": 3, 
+                    "lemma": "aprire", 
+                    "originalText": "apre", 
+                    "pos": "V", 
+                    "word": "apre"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 4, 
+                    "lemma": "su", 
+                    "originalText": "sul", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 5, 
+                    "lemma": "il", 
+                    "originalText": "sul", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 32, 
+                    "index": 6, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 41, 
+                    "index": 7, 
+                    "lemma": "successo", 
+                    "originalText": "successo", 
+                    "pos": "S", 
+                    "word": "successo"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 45, 
+                    "index": 8, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 45, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 58, 
+                    "index": 10, 
+                    "lemma": "#bikesharing", 
+                    "originalText": "#bikesharing", 
+                    "pos": "S", 
+                    "word": "#bikesharing"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 60, 
+                    "index": 11, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 68, 
+                    "index": 12, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 69, 
+                    "index": 13, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 71, 
+                    "characterOffsetEnd": 83, 
+                    "index": 14, 
+                    "lemma": "@giobettarini", 
+                    "originalText": "@giobettarini", 
+                    "pos": "VA", 
+                    "word": "@giobettarini"
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 93, 
+                    "index": 15, 
+                    "lemma": "raggiungere", 
+                    "originalText": "raggiunti", 
+                    "pos": "V", 
+                    "word": "raggiunti"
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 95, 
+                    "index": 16, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 103, 
+                    "index": 17, 
+                    "lemma": "200mila", 
+                    "originalText": "200mila", 
+                    "pos": "N", 
+                    "word": "200mila"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 112, 
+                    "index": 18, 
+                    "lemma": "iscritto", 
+                    "originalText": "iscritti", 
+                    "pos": "S", 
+                    "word": "iscritti"
+                }, 
+                {
+                    "characterOffsetBegin": 114, 
+                    "characterOffsetEnd": 115, 
+                    "index": 19, 
+                    "lemma": "a\u2026", 
+                    "originalText": "a\u2026", 
+                    "pos": "SP", 
+                    "word": "a\u2026"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 138, 
+                    "index": 20, 
+                    "lemma": "https://t.co/TBnkDhnp9X", 
+                    "originalText": "https://t.co/TBnkDhnp9X", 
+                    "pos": "SP", 
+                    "word": "https://t.co/TBnkDhnp9X"
+                }
+            ]
+        }
+    ]
+}

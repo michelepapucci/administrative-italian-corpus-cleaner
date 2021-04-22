@@ -1,0 +1,302 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 16, 
+                    "index": 2, 
+                    "lemma": "@rep_firenze", 
+                    "originalText": "@rep_firenze", 
+                    "pos": "S", 
+                    "word": "@rep_firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 18, 
+                    "characterOffsetEnd": 21, 
+                    "index": 3, 
+                    "lemma": "aprire", 
+                    "originalText": "apre", 
+                    "pos": "V", 
+                    "word": "apre"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 4, 
+                    "lemma": "su", 
+                    "originalText": "sulla", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 27, 
+                    "index": 5, 
+                    "lemma": "il", 
+                    "originalText": "sulla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "svolta", 
+                    "originalText": "svolta", 
+                    "pos": "S", 
+                    "word": "svolta"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 38, 
+                    "index": 7, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 43, 
+                    "index": 8, 
+                    "lemma": "l\u2019ex", 
+                    "originalText": "l\u2019ex", 
+                    "pos": "S", 
+                    "word": "l\u2019ex"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 53, 
+                    "index": 9, 
+                    "lemma": "panificio", 
+                    "originalText": "Panificio", 
+                    "pos": "SP", 
+                    "word": "Panificio"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 62, 
+                    "index": 10, 
+                    "lemma": "militare", 
+                    "originalText": "militare", 
+                    "pos": "A", 
+                    "word": "militare"
+                }, 
+                {
+                    "characterOffsetBegin": 63, 
+                    "characterOffsetEnd": 63, 
+                    "index": 11, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 77, 
+                    "index": 12, 
+                    "lemma": "@giobettarini", 
+                    "originalText": "@giobettarini", 
+                    "pos": "A", 
+                    "word": "@giobettarini"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 82, 
+                    "index": 13, 
+                    "lemma": "dopo", 
+                    "originalText": "dopo", 
+                    "pos": "E", 
+                    "word": "dopo"
+                }, 
+                {
+                    "characterOffsetBegin": 84, 
+                    "characterOffsetEnd": 85, 
+                    "index": 14, 
+                    "lemma": "50", 
+                    "originalText": "50", 
+                    "pos": "N", 
+                    "word": "50"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 90, 
+                    "index": 15, 
+                    "lemma": "anni", 
+                    "originalText": "anni", 
+                    "pos": "S", 
+                    "word": "anni"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 95, 
+                    "index": 16, 
+                    "lemma": "ecco", 
+                    "originalText": "ecco", 
+                    "pos": "B", 
+                    "word": "ecco"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 98, 
+                    "index": 17, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 104, 
+                    "index": 18, 
+                    "lemma": "piano", 
+                    "originalText": "piano", 
+                    "pos": "S", 
+                    "word": "piano"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 107, 
+                    "index": 19, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 116, 
+                    "index": 20, 
+                    "lemma": "recupero", 
+                    "originalText": "recupero", 
+                    "pos": "S", 
+                    "word": "recupero"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 117, 
+                    "index": 21, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 123, 
+                    "index": 1, 
+                    "lemma": "Belle", 
+                    "originalText": "Belle", 
+                    "pos": "A", 
+                    "word": "Belle"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 130, 
+                    "index": 2, 
+                    "lemma": "pagina", 
+                    "originalText": "pagine", 
+                    "pos": "S", 
+                    "word": "pagine"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 136, 
+                    "index": 3, 
+                    "lemma": "anche", 
+                    "originalText": "anche", 
+                    "pos": "B", 
+                    "word": "anche"
+                }, 
+                {
+                    "characterOffsetBegin": 138, 
+                    "characterOffsetEnd": 139, 
+                    "index": 4, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 156, 
+                    "index": 5, 
+                    "lemma": "@corrierefirenze", 
+                    "originalText": "@corrierefirenze", 
+                    "pos": "S", 
+                    "word": "@corrierefirenze"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 158, 
+                    "index": 6, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 175, 
+                    "index": 7, 
+                    "lemma": "@Nazione_Firenze", 
+                    "originalText": "@Nazione_Firenze", 
+                    "pos": "SP", 
+                    "word": "@Nazione_Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 192, 
+                    "index": 8, 
+                    "lemma": "#cosedibettarini", 
+                    "originalText": "#cosedibettarini", 
+                    "pos": "E", 
+                    "word": "#cosedibettarini"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 205, 
+                    "index": 9, 
+                    "lemma": "#urbanistica", 
+                    "originalText": "#urbanistica", 
+                    "pos": "A", 
+                    "word": "#urbanistica"
+                }, 
+                {
+                    "characterOffsetBegin": 207, 
+                    "characterOffsetEnd": 210, 
+                    "index": 10, 
+                    "lemma": "\ud83d\udc4f\ud83c\udffb", 
+                    "originalText": "\ud83d\udc4f\ud83c\udffb", 
+                    "pos": "SP", 
+                    "word": "\ud83d\udc4f\ud83c\udffb"
+                }, 
+                {
+                    "characterOffsetBegin": 212, 
+                    "characterOffsetEnd": 233, 
+                    "index": 11, 
+                    "lemma": "https://t.co/05XOIPVULK", 
+                    "originalText": "https://t.co/05XOIPVULK", 
+                    "pos": "SP", 
+                    "word": "https://t.co/05XOIPVULK"
+                }
+            ]
+        }
+    ]
+}

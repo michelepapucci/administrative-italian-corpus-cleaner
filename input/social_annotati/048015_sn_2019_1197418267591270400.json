@@ -1,0 +1,287 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 9, 
+                    "index": 1, 
+                    "lemma": "buongiorno", 
+                    "originalText": "Buongiorno", 
+                    "pos": "SP", 
+                    "word": "Buongiorno"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 12, 
+                    "index": 2, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 17, 
+                    "index": 3, 
+                    "lemma": "Anci", 
+                    "originalText": "Anci", 
+                    "pos": "SP", 
+                    "word": "Anci"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 25, 
+                    "index": 4, 
+                    "lemma": "Toscana", 
+                    "originalText": "Toscana", 
+                    "pos": "SP", 
+                    "word": "Toscana"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 26, 
+                    "index": 5, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 28, 
+                    "characterOffsetEnd": 31, 
+                    "index": 1, 
+                    "lemma": "oggi", 
+                    "originalText": "Oggi", 
+                    "pos": "B", 
+                    "word": "Oggi"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 34, 
+                    "index": 2, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 41, 
+                    "index": 3, 
+                    "lemma": "nostro", 
+                    "originalText": "nostro", 
+                    "pos": "AP", 
+                    "word": "nostro"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 48, 
+                    "index": 4, 
+                    "lemma": "saluto", 
+                    "originalText": "saluto", 
+                    "pos": "S", 
+                    "word": "saluto"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 55, 
+                    "index": 5, 
+                    "lemma": "arrivare", 
+                    "originalText": "arriva", 
+                    "pos": "V", 
+                    "word": "arriva"
+                }, 
+                {
+                    "characterOffsetBegin": 57, 
+                    "characterOffsetEnd": 58, 
+                    "index": 6, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 66, 
+                    "index": 7, 
+                    "lemma": "Fiesole", 
+                    "originalText": "Fiesole", 
+                    "pos": "SP", 
+                    "word": "Fiesole"
+                }, 
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 68, 
+                    "index": 8, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 75, 
+                    "index": 9, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 76, 
+                    "index": 10, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 86, 
+                    "index": 1, 
+                    "lemma": "@MattBiff", 
+                    "originalText": "@MattBiff", 
+                    "pos": "SP", 
+                    "word": "@MattBiff"
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 99, 
+                    "index": 1, 
+                    "lemma": "@simonegheri", 
+                    "originalText": "@simonegheri", 
+                    "pos": "S", 
+                    "word": "@simonegheri"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 114, 
+                    "index": 2, 
+                    "lemma": "@ComuneFiesole", 
+                    "originalText": "@ComuneFiesole", 
+                    "pos": "SP", 
+                    "word": "@ComuneFiesole"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 126, 
+                    "index": 3, 
+                    "lemma": "@AnnaRavoni", 
+                    "originalText": "@AnnaRavoni", 
+                    "pos": "SP", 
+                    "word": "@AnnaRavoni"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 139, 
+                    "index": 4, 
+                    "lemma": "@comuni_anci", 
+                    "originalText": "@comuni_anci", 
+                    "pos": "A", 
+                    "word": "@comuni_anci"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 155, 
+                    "index": 5, 
+                    "lemma": "@regionetoscana", 
+                    "originalText": "@regionetoscana", 
+                    "pos": "A", 
+                    "word": "@regionetoscana"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 169, 
+                    "index": 6, 
+                    "lemma": "@redazioneTPT", 
+                    "originalText": "@redazioneTPT", 
+                    "pos": "SP", 
+                    "word": "@redazioneTPT"
+                }
+            ]
+        }, 
+        {
+            "index": 4, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 171, 
+                    "characterOffsetEnd": 179, 
+                    "index": 1, 
+                    "lemma": "#Anci2019", 
+                    "originalText": "#Anci2019", 
+                    "pos": "SP", 
+                    "word": "#Anci2019"
+                }
+            ]
+        }, 
+        {
+            "index": 5, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 187, 
+                    "index": 1, 
+                    "lemma": "#Comuni", 
+                    "originalText": "#Comuni", 
+                    "pos": "SP", 
+                    "word": "#Comuni"
+                }
+            ]
+        }, 
+        {
+            "index": 6, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 189, 
+                    "characterOffsetEnd": 196, 
+                    "index": 1, 
+                    "lemma": "#Toscana", 
+                    "originalText": "#Toscana", 
+                    "pos": "SP", 
+                    "word": "#Toscana"
+                }
+            ]
+        }, 
+        {
+            "index": 7, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 206, 
+                    "index": 1, 
+                    "lemma": "#bellezza", 
+                    "originalText": "#bellezza", 
+                    "pos": "S", 
+                    "word": "#bellezza"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 229, 
+                    "index": 2, 
+                    "lemma": "https://t.co/GOlBybhIYt", 
+                    "originalText": "https://t.co/GOlBybhIYt", 
+                    "pos": "SP", 
+                    "word": "https://t.co/GOlBybhIYt"
+                }
+            ]
+        }
+    ]
+}

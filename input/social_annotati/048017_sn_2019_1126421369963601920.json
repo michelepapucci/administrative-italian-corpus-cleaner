@@ -1,0 +1,415 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "difesa", 
+                    "originalText": "Difesa", 
+                    "pos": "S", 
+                    "word": "Difesa"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 15, 
+                    "index": 2, 
+                    "lemma": "personale", 
+                    "originalText": "personale", 
+                    "pos": "A", 
+                    "word": "personale"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 19, 
+                    "index": 3, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 27, 
+                    "index": 5, 
+                    "lemma": "arte", 
+                    "originalText": "arti", 
+                    "pos": "S", 
+                    "word": "arti"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 36, 
+                    "index": 6, 
+                    "lemma": "marziale", 
+                    "originalText": "marziali", 
+                    "pos": "A", 
+                    "word": "marziali"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 38, 
+                    "index": 7, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 45, 
+                    "index": 8, 
+                    "lemma": "contro", 
+                    "originalText": "contro", 
+                    "pos": "E", 
+                    "word": "contro"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 48, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 57, 
+                    "index": 10, 
+                    "lemma": "violenza", 
+                    "originalText": "violenza", 
+                    "pos": "S", 
+                    "word": "violenza"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 61, 
+                    "index": 11, 
+                    "lemma": "su", 
+                    "originalText": "sulle", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 63, 
+                    "index": 12, 
+                    "lemma": "le", 
+                    "originalText": "sulle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 69, 
+                    "index": 13, 
+                    "lemma": "donne", 
+                    "originalText": "donne", 
+                    "pos": "S", 
+                    "word": "donne"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 80, 
+                    "index": 15, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "CC", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 90, 
+                    "index": 16, 
+                    "lemma": "organizzare", 
+                    "originalText": "organizza", 
+                    "pos": "V", 
+                    "word": "organizza"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 94, 
+                    "index": 17, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 111, 
+                    "index": 18, 
+                    "lemma": "@FijlkamOfficial", 
+                    "originalText": "@FijlkamOfficial", 
+                    "pos": "SP", 
+                    "word": "@FijlkamOfficial"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 117, 
+                    "index": 19, 
+                    "lemma": "corso", 
+                    "originalText": "corsi", 
+                    "pos": "S", 
+                    "word": "corsi"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 126, 
+                    "index": 20, 
+                    "lemma": "gratuito", 
+                    "originalText": "gratuiti", 
+                    "pos": "A", 
+                    "word": "gratuiti"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 130, 
+                    "index": 21, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 133, 
+                    "index": 22, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 144, 
+                    "index": 23, 
+                    "lemma": "fiorentine", 
+                    "originalText": "fiorentine", 
+                    "pos": "S", 
+                    "word": "fiorentine"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 145, 
+                    "index": 24, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 148, 
+                    "index": 1, 
+                    "lemma": "Un", 
+                    "originalText": "Un", 
+                    "pos": "RI", 
+                    "word": "Un"
+                }, 
+                {
+                    "characterOffsetBegin": 150, 
+                    "characterOffsetEnd": 157, 
+                    "index": 2, 
+                    "lemma": "progetto", 
+                    "originalText": "progetto", 
+                    "pos": "S", 
+                    "word": "progetto"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 161, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 163, 
+                    "characterOffsetEnd": 165, 
+                    "index": 4, 
+                    "lemma": "far", 
+                    "originalText": "far", 
+                    "pos": "V", 
+                    "word": "far"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 173, 
+                    "index": 5, 
+                    "lemma": "sentire", 
+                    "originalText": "sentire", 
+                    "pos": "V", 
+                    "word": "sentire"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 176, 
+                    "index": 6, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 182, 
+                    "index": 7, 
+                    "lemma": "donne", 
+                    "originalText": "donne", 
+                    "pos": "S", 
+                    "word": "donne"
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 186, 
+                    "index": 8, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 188, 
+                    "characterOffsetEnd": 193, 
+                    "index": 9, 
+                    "lemma": "sicure", 
+                    "originalText": "sicure", 
+                    "pos": "A", 
+                    "word": "sicure"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 195, 
+                    "index": 10, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 200, 
+                    "index": 11, 
+                    "lemma": "dare", 
+                    "originalText": "dare", 
+                    "pos": "V", 
+                    "word": "dare"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 205, 
+                    "index": 12, 
+                    "lemma": "loro", 
+                    "originalText": "loro", 
+                    "pos": "PE", 
+                    "word": "loro"
+                }, 
+                {
+                    "characterOffsetBegin": 207, 
+                    "characterOffsetEnd": 211, 
+                    "index": 13, 
+                    "lemma": "nuovo", 
+                    "originalText": "nuovi", 
+                    "pos": "A", 
+                    "word": "nuovi"
+                }, 
+                {
+                    "characterOffsetBegin": 213, 
+                    "characterOffsetEnd": 221, 
+                    "index": 14, 
+                    "lemma": "strumento", 
+                    "originalText": "strumenti", 
+                    "pos": "S", 
+                    "word": "strumenti"
+                }, 
+                {
+                    "characterOffsetBegin": 222, 
+                    "characterOffsetEnd": 222, 
+                    "index": 15, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 226, 
+                    "index": 1, 
+                    "lemma": "per", 
+                    "originalText": "Per", 
+                    "pos": "E", 
+                    "word": "Per"
+                }, 
+                {
+                    "characterOffsetBegin": 228, 
+                    "characterOffsetEnd": 231, 
+                    "index": 2, 
+                    "lemma": "info", 
+                    "originalText": "info", 
+                    "pos": "A", 
+                    "word": "info"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 255, 
+                    "index": 3, 
+                    "lemma": "guerrialessandro1@gmail", 
+                    "originalText": "guerrialessandro1@gmail", 
+                    "pos": "SP", 
+                    "word": "guerrialessandro1@gmail"
+                }, 
+                {
+                    "characterOffsetBegin": 256, 
+                    "characterOffsetEnd": 259, 
+                    "index": 4, 
+                    "lemma": ".com", 
+                    "originalText": ".com", 
+                    "pos": "SP", 
+                    "word": ".com"
+                }, 
+                {
+                    "characterOffsetBegin": 260, 
+                    "characterOffsetEnd": 259, 
+                    "index": 5, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

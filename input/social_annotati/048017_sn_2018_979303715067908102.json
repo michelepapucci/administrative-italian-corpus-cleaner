@@ -1,0 +1,181 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 5, 
+                    "index": 1, 
+                    "lemma": "stare", 
+                    "originalText": "Stiamo", 
+                    "pos": "V", 
+                    "word": "Stiamo"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 15, 
+                    "index": 2, 
+                    "lemma": "lavorare", 
+                    "originalText": "lavorando", 
+                    "pos": "V", 
+                    "word": "lavorando"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 19, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 23, 
+                    "index": 4, 
+                    "lemma": "voi", 
+                    "originalText": "voi", 
+                    "pos": "PE", 
+                    "word": "voi"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 28, 
+                    "index": 1, 
+                    "lemma": "\"The", 
+                    "originalText": "\"The", 
+                    "pos": "A", 
+                    "word": "\"The"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 37, 
+                    "index": 2, 
+                    "lemma": "Florence", 
+                    "originalText": "Florence", 
+                    "pos": "S", 
+                    "word": "Florence"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 49, 
+                    "index": 3, 
+                    "lemma": "Experiment\"", 
+                    "originalText": "Experiment\"", 
+                    "pos": "SP", 
+                    "word": "Experiment\""
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 50, 
+                    "index": 4, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 52, 
+                    "index": 5, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 60, 
+                    "index": 6, 
+                    "lemma": "Palazzo", 
+                    "originalText": "Palazzo", 
+                    "pos": "SP", 
+                    "word": "Palazzo"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 68, 
+                    "index": 7, 
+                    "lemma": "Strozzi", 
+                    "originalText": "Strozzi", 
+                    "pos": "SP", 
+                    "word": "Strozzi"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 72, 
+                    "index": 8, 
+                    "lemma": "da", 
+                    "originalText": "dal", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 72, 
+                    "index": 9, 
+                    "lemma": "il", 
+                    "originalText": "dal", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 75, 
+                    "index": 10, 
+                    "lemma": "19", 
+                    "originalText": "19", 
+                    "pos": "N", 
+                    "word": "19"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 82, 
+                    "index": 11, 
+                    "lemma": "aprile", 
+                    "originalText": "aprile", 
+                    "pos": "S", 
+                    "word": "aprile"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 83, 
+                    "index": 12, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 104, 
+                    "index": 1, 
+                    "lemma": "#FlorenceExperiment\u2026", 
+                    "originalText": "#FlorenceExperiment\u2026", 
+                    "pos": "SP", 
+                    "word": "#FlorenceExperiment\u2026"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 127, 
+                    "index": 2, 
+                    "lemma": "https://t.co/Z1AhKM5Get", 
+                    "originalText": "https://t.co/Z1AhKM5Get", 
+                    "pos": "SP", 
+                    "word": "https://t.co/Z1AhKM5Get"
+                }
+            ]
+        }
+    ]
+}

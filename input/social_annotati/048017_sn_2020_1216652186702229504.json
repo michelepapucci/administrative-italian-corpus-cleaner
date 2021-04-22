@@ -1,0 +1,442 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 10, 
+                    "index": 1, 
+                    "lemma": "\u26a0Attenzione", 
+                    "originalText": "\u26a0Attenzione", 
+                    "pos": "S", 
+                    "word": "\u26a0Attenzione"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 11, 
+                    "index": 2, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 13, 
+                    "characterOffsetEnd": 18, 
+                    "index": 1, 
+                    "lemma": "domani", 
+                    "originalText": "Domani", 
+                    "pos": "B", 
+                    "word": "Domani"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 20, 
+                    "index": 2, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 22, 
+                    "characterOffsetEnd": 28, 
+                    "index": 3, 
+                    "lemma": "marted\u00ec", 
+                    "originalText": "marted\u00ec", 
+                    "pos": "S", 
+                    "word": "marted\u00ec"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 32, 
+                    "index": 4, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 43, 
+                    "index": 5, 
+                    "lemma": "ripristino", 
+                    "originalText": "ripristini", 
+                    "pos": "S", 
+                    "word": "ripristini"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 47, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "dell'", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 49, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "dell'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 56, 
+                    "index": 8, 
+                    "lemma": "asfalto", 
+                    "originalText": "asfalto", 
+                    "pos": "S", 
+                    "word": "asfalto"
+                }, 
+                {
+                    "characterOffsetBegin": 58, 
+                    "characterOffsetEnd": 61, 
+                    "index": 9, 
+                    "lemma": "sar\u00e0", 
+                    "originalText": "sar\u00e0", 
+                    "pos": "V", 
+                    "word": "sar\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 63, 
+                    "characterOffsetEnd": 68, 
+                    "index": 10, 
+                    "lemma": "chiusa", 
+                    "originalText": "chiusa", 
+                    "pos": "V", 
+                    "word": "chiusa"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 72, 
+                    "index": 11, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "B", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 80, 
+                    "index": 12, 
+                    "lemma": "Ernesto", 
+                    "originalText": "Ernesto", 
+                    "pos": "SP", 
+                    "word": "Ernesto"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 86, 
+                    "index": 13, 
+                    "lemma": "Rossi", 
+                    "originalText": "Rossi", 
+                    "pos": "SP", 
+                    "word": "Rossi"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 88, 
+                    "index": 14, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 94, 
+                    "index": 15, 
+                    "lemma": "trattare", 
+                    "originalText": "tratto", 
+                    "pos": "V", 
+                    "word": "tratto"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 98, 
+                    "index": 16, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "S", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 111, 
+                    "index": 17, 
+                    "lemma": "Incontri-via", 
+                    "originalText": "Incontri-via", 
+                    "pos": "SP", 
+                    "word": "Incontri-via"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 114, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 122, 
+                    "index": 19, 
+                    "lemma": "S.Marta", 
+                    "originalText": "S.Marta", 
+                    "pos": "SP", 
+                    "word": "S.Marta"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 123, 
+                    "index": 20, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 124, 
+                    "index": 21, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 130, 
+                    "index": 1, 
+                    "lemma": "Dalle", 
+                    "originalText": "Dalle", 
+                    "pos": "SP", 
+                    "word": "Dalle"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 137, 
+                    "index": 2, 
+                    "lemma": "9\u00a0alle", 
+                    "originalText": "9\u00a0alle", 
+                    "pos": "SP", 
+                    "word": "9\u00a0alle"
+                }, 
+                {
+                    "characterOffsetBegin": 139, 
+                    "characterOffsetEnd": 140, 
+                    "index": 3, 
+                    "lemma": "16", 
+                    "originalText": "16", 
+                    "pos": "N", 
+                    "word": "16"
+                }, 
+                {
+                    "characterOffsetBegin": 142, 
+                    "characterOffsetEnd": 143, 
+                    "index": 4, 
+                    "lemma": "si", 
+                    "originalText": "si", 
+                    "pos": "PC", 
+                    "word": "si"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 157, 
+                    "index": 5, 
+                    "lemma": "aggiungere", 
+                    "originalText": "aggiungeranno", 
+                    "pos": "V", 
+                    "word": "aggiungeranno"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 165, 
+                    "index": 6, 
+                    "lemma": "#lavori", 
+                    "originalText": "#lavori", 
+                    "pos": "SP", 
+                    "word": "#lavori"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 184, 
+                    "index": 7, 
+                    "lemma": "sull\u2019illuminazione", 
+                    "originalText": "sull\u2019illuminazione", 
+                    "pos": "S", 
+                    "word": "sull\u2019illuminazione"
+                }, 
+                {
+                    "characterOffsetBegin": 186, 
+                    "characterOffsetEnd": 193, 
+                    "index": 8, 
+                    "lemma": "pubblico", 
+                    "originalText": "pubblica", 
+                    "pos": "A", 
+                    "word": "pubblica"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 196, 
+                    "index": 9, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 200, 
+                    "index": 10, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "S", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 203, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 205, 
+                    "characterOffsetEnd": 211, 
+                    "index": 12, 
+                    "lemma": "S.Marta", 
+                    "originalText": "S.Marta", 
+                    "pos": "SP", 
+                    "word": "S.Marta"
+                }, 
+                {
+                    "characterOffsetBegin": 213, 
+                    "characterOffsetEnd": 215, 
+                    "index": 13, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 217, 
+                    "characterOffsetEnd": 218, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 220, 
+                    "characterOffsetEnd": 227, 
+                    "index": 15, 
+                    "lemma": "chiusura", 
+                    "originalText": "chiusura", 
+                    "pos": "S", 
+                    "word": "chiusura"
+                }, 
+                {
+                    "characterOffsetBegin": 229, 
+                    "characterOffsetEnd": 230, 
+                    "index": 16, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 232, 
+                    "characterOffsetEnd": 234, 
+                    "index": 17, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "S", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 242, 
+                    "index": 18, 
+                    "lemma": "massaia", 
+                    "originalText": "Massaia", 
+                    "pos": "SP", 
+                    "word": "Massaia"
+                }, 
+                {
+                    "characterOffsetBegin": 244, 
+                    "characterOffsetEnd": 244, 
+                    "index": 19, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 248, 
+                    "index": 20, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "S", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 252, 
+                    "index": 21, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 252, 
+                    "characterOffsetEnd": 254, 
+                    "index": 22, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 256, 
+                    "characterOffsetEnd": 261, 
+                    "index": 23, 
+                    "lemma": "Pietra", 
+                    "originalText": "Pietra", 
+                    "pos": "S", 
+                    "word": "Pietra"
+                }, 
+                {
+                    "characterOffsetBegin": 263, 
+                    "characterOffsetEnd": 284, 
+                    "index": 24, 
+                    "lemma": "https://t.co/8hAkz3XaQl", 
+                    "originalText": "https://t.co/8hAkz3XaQl", 
+                    "pos": "SP", 
+                    "word": "https://t.co/8hAkz3XaQl"
+                }
+            ]
+        }
+    ]
+}

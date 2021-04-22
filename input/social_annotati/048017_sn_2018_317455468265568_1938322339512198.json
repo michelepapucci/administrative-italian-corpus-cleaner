@@ -1,0 +1,735 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 14, 
+                    "index": 1, 
+                    "lemma": "#SERVIZIONLINE\u00c8", 
+                    "originalText": "#SERVIZIONLINE\u00c8", 
+                    "pos": "S", 
+                    "word": "#SERVIZIONLINE\u00c8"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 21, 
+                    "index": 2, 
+                    "lemma": "attivo", 
+                    "originalText": "attivo", 
+                    "pos": "A", 
+                    "word": "attivo"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 3, 
+                    "lemma": "da", 
+                    "originalText": "dal", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "dal", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 28, 
+                    "index": 5, 
+                    "lemma": "28", 
+                    "originalText": "28", 
+                    "pos": "N", 
+                    "word": "28"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "marzo", 
+                    "originalText": "marzo", 
+                    "pos": "S", 
+                    "word": "marzo"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 37, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 43, 
+                    "index": 8, 
+                    "lemma": "nuovo", 
+                    "originalText": "nuovo", 
+                    "pos": "A", 
+                    "word": "nuovo"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 52, 
+                    "index": 9, 
+                    "lemma": "servizio", 
+                    "originalText": "servizio", 
+                    "pos": "S", 
+                    "word": "servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 67, 
+                    "index": 10, 
+                    "lemma": "WebRUcertifica", 
+                    "originalText": "WebRUcertifica", 
+                    "pos": "A", 
+                    "word": "WebRUcertifica"
+                }, 
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 68, 
+                    "index": 11, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 72, 
+                    "index": 12, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 81, 
+                    "index": 13, 
+                    "lemma": "consentire", 
+                    "originalText": "consente", 
+                    "pos": "V", 
+                    "word": "consente"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 84, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 94, 
+                    "index": 15, 
+                    "lemma": "richiesta", 
+                    "originalText": "richiesta", 
+                    "pos": "S", 
+                    "word": "richiesta"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 101, 
+                    "index": 16, 
+                    "lemma": "online", 
+                    "originalText": "online", 
+                    "pos": "S", 
+                    "word": "online"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 105, 
+                    "index": 17, 
+                    "lemma": "di", 
+                    "originalText": "dei", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 104, 
+                    "characterOffsetEnd": 105, 
+                    "index": 18, 
+                    "lemma": "i", 
+                    "originalText": "dei", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 117, 
+                    "index": 19, 
+                    "lemma": "certificato", 
+                    "originalText": "certificati", 
+                    "pos": "S", 
+                    "word": "certificati"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 120, 
+                    "index": 20, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 133, 
+                    "index": 21, 
+                    "lemma": "destinazione", 
+                    "originalText": "destinazione", 
+                    "pos": "S", 
+                    "word": "destinazione"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 145, 
+                    "index": 22, 
+                    "lemma": "urbanistico", 
+                    "originalText": "urbanistica", 
+                    "pos": "A", 
+                    "word": "urbanistica"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 147, 
+                    "index": 23, 
+                    "lemma": "(", 
+                    "originalText": "(", 
+                    "pos": "FB", 
+                    "word": "("
+                }, 
+                {
+                    "characterOffsetBegin": 148, 
+                    "characterOffsetEnd": 150, 
+                    "index": 24, 
+                    "lemma": "CDU", 
+                    "originalText": "CDU", 
+                    "pos": "SP", 
+                    "word": "CDU"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 151, 
+                    "index": 25, 
+                    "lemma": ")", 
+                    "originalText": ")", 
+                    "pos": "FB", 
+                    "word": ")"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 155, 
+                    "index": 26, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 155, 
+                    "index": 27, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 167, 
+                    "index": 28, 
+                    "lemma": "regolamento", 
+                    "originalText": "Regolamento", 
+                    "pos": "S", 
+                    "word": "Regolamento"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 179, 
+                    "index": 29, 
+                    "lemma": "Urbanistico", 
+                    "originalText": "Urbanistico", 
+                    "pos": "SP", 
+                    "word": "Urbanistico"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 180, 
+                    "index": 30, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 182, 
+                    "characterOffsetEnd": 192, 
+                    "index": 1, 
+                    "lemma": "Un\u2019apposita", 
+                    "originalText": "Un\u2019apposita", 
+                    "pos": "V", 
+                    "word": "Un\u2019apposita"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 204, 
+                    "index": 2, 
+                    "lemma": "interfaccia", 
+                    "originalText": "interfaccia", 
+                    "pos": "A", 
+                    "word": "interfaccia"
+                }, 
+                {
+                    "characterOffsetBegin": 206, 
+                    "characterOffsetEnd": 213, 
+                    "index": 3, 
+                    "lemma": "permettere", 
+                    "originalText": "permette", 
+                    "pos": "V", 
+                    "word": "permette"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 227, 
+                    "index": 4, 
+                    "lemma": "l\u2019inserimento", 
+                    "originalText": "l\u2019inserimento", 
+                    "pos": "S", 
+                    "word": "l\u2019inserimento"
+                }, 
+                {
+                    "characterOffsetBegin": 229, 
+                    "characterOffsetEnd": 231, 
+                    "index": 5, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 231, 
+                    "characterOffsetEnd": 233, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 243, 
+                    "index": 7, 
+                    "lemma": "richiesta", 
+                    "originalText": "richiesta", 
+                    "pos": "S", 
+                    "word": "richiesta"
+                }, 
+                {
+                    "characterOffsetBegin": 245, 
+                    "characterOffsetEnd": 246, 
+                    "index": 8, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 248, 
+                    "characterOffsetEnd": 251, 
+                    "index": 9, 
+                    "lemma": "base", 
+                    "originalText": "base", 
+                    "pos": "S", 
+                    "word": "base"
+                }, 
+                {
+                    "characterOffsetBegin": 253, 
+                    "characterOffsetEnd": 261, 
+                    "index": 10, 
+                    "lemma": "catastale", 
+                    "originalText": "catastale", 
+                    "pos": "A", 
+                    "word": "catastale"
+                }, 
+                {
+                    "characterOffsetBegin": 263, 
+                    "characterOffsetEnd": 265, 
+                    "index": 11, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 267, 
+                    "characterOffsetEnd": 268, 
+                    "index": 12, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 270, 
+                    "characterOffsetEnd": 279, 
+                    "index": 13, 
+                    "lemma": "produzione", 
+                    "originalText": "produzione", 
+                    "pos": "S", 
+                    "word": "produzione"
+                }, 
+                {
+                    "characterOffsetBegin": 281, 
+                    "characterOffsetEnd": 282, 
+                    "index": 14, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 284, 
+                    "characterOffsetEnd": 285, 
+                    "index": 15, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 287, 
+                    "characterOffsetEnd": 289, 
+                    "index": 16, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "PI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 291, 
+                    "characterOffsetEnd": 293, 
+                    "index": 17, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 293, 
+                    "characterOffsetEnd": 295, 
+                    "index": 18, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 297, 
+                    "characterOffsetEnd": 301, 
+                    "index": 19, 
+                    "lemma": "vario", 
+                    "originalText": "varie", 
+                    "pos": "A", 
+                    "word": "varie"
+                }, 
+                {
+                    "characterOffsetBegin": 303, 
+                    "characterOffsetEnd": 311, 
+                    "index": 20, 
+                    "lemma": "tipologia", 
+                    "originalText": "tipologie", 
+                    "pos": "S", 
+                    "word": "tipologie"
+                }, 
+                {
+                    "characterOffsetBegin": 313, 
+                    "characterOffsetEnd": 314, 
+                    "index": 21, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 316, 
+                    "characterOffsetEnd": 326, 
+                    "index": 22, 
+                    "lemma": "certificato", 
+                    "originalText": "certificato", 
+                    "pos": "S", 
+                    "word": "certificato"
+                }, 
+                {
+                    "characterOffsetBegin": 328, 
+                    "characterOffsetEnd": 335, 
+                    "index": 23, 
+                    "lemma": "prevedere", 
+                    "originalText": "previsto", 
+                    "pos": "V", 
+                    "word": "previsto"
+                }, 
+                {
+                    "characterOffsetBegin": 336, 
+                    "characterOffsetEnd": 336, 
+                    "index": 24, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 338, 
+                    "characterOffsetEnd": 339, 
+                    "index": 1, 
+                    "lemma": "il", 
+                    "originalText": "La", 
+                    "pos": "RD", 
+                    "word": "La"
+                }, 
+                {
+                    "characterOffsetBegin": 341, 
+                    "characterOffsetEnd": 349, 
+                    "index": 2, 
+                    "lemma": "richiesta", 
+                    "originalText": "richiesta", 
+                    "pos": "S", 
+                    "word": "richiesta"
+                }, 
+                {
+                    "characterOffsetBegin": 351, 
+                    "characterOffsetEnd": 357, 
+                    "index": 3, 
+                    "lemma": "prevedere", 
+                    "originalText": "prevede", 
+                    "pos": "V", 
+                    "word": "prevede"
+                }, 
+                {
+                    "characterOffsetBegin": 359, 
+                    "characterOffsetEnd": 373, 
+                    "index": 4, 
+                    "lemma": "l\u2019effettuazione", 
+                    "originalText": "l\u2019effettuazione", 
+                    "pos": "S", 
+                    "word": "l\u2019effettuazione"
+                }, 
+                {
+                    "characterOffsetBegin": 375, 
+                    "characterOffsetEnd": 377, 
+                    "index": 5, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 375, 
+                    "characterOffsetEnd": 377, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 379, 
+                    "characterOffsetEnd": 387, 
+                    "index": 7, 
+                    "lemma": "pagamento", 
+                    "originalText": "pagamento", 
+                    "pos": "S", 
+                    "word": "pagamento"
+                }, 
+                {
+                    "characterOffsetBegin": 388, 
+                    "characterOffsetEnd": 388, 
+                    "index": 8, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 390, 
+                    "characterOffsetEnd": 400, 
+                    "index": 9, 
+                    "lemma": "comprensivo", 
+                    "originalText": "comprensivo", 
+                    "pos": "S", 
+                    "word": "comprensivo"
+                }, 
+                {
+                    "characterOffsetBegin": 402, 
+                    "characterOffsetEnd": 403, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 405, 
+                    "characterOffsetEnd": 411, 
+                    "index": 11, 
+                    "lemma": "imposta", 
+                    "originalText": "imposta", 
+                    "pos": "S", 
+                    "word": "imposta"
+                }, 
+                {
+                    "characterOffsetBegin": 413, 
+                    "characterOffsetEnd": 414, 
+                    "index": 12, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 416, 
+                    "characterOffsetEnd": 420, 
+                    "index": 13, 
+                    "lemma": "bollo", 
+                    "originalText": "bollo", 
+                    "pos": "S", 
+                    "word": "bollo"
+                }, 
+                {
+                    "characterOffsetBegin": 422, 
+                    "characterOffsetEnd": 422, 
+                    "index": 14, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 424, 
+                    "characterOffsetEnd": 425, 
+                    "index": 15, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 427, 
+                    "characterOffsetEnd": 433, 
+                    "index": 16, 
+                    "lemma": "servizio", 
+                    "originalText": "servizi", 
+                    "pos": "S", 
+                    "word": "servizi"
+                }, 
+                {
+                    "characterOffsetBegin": 435, 
+                    "characterOffsetEnd": 436, 
+                    "index": 17, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 438, 
+                    "characterOffsetEnd": 447, 
+                    "index": 18, 
+                    "lemma": "segreteria", 
+                    "originalText": "segreteria", 
+                    "pos": "S", 
+                    "word": "segreteria"
+                }, 
+                {
+                    "characterOffsetBegin": 448, 
+                    "characterOffsetEnd": 448, 
+                    "index": 19, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 450, 
+                    "characterOffsetEnd": 451, 
+                    "index": 1, 
+                    "lemma": "Il", 
+                    "originalText": "Il", 
+                    "pos": "RD", 
+                    "word": "Il"
+                }, 
+                {
+                    "characterOffsetBegin": 453, 
+                    "characterOffsetEnd": 460, 
+                    "index": 2, 
+                    "lemma": "servizio", 
+                    "originalText": "servizio", 
+                    "pos": "S", 
+                    "word": "servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 462, 
+                    "characterOffsetEnd": 462, 
+                    "index": 3, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "VA", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 464, 
+                    "characterOffsetEnd": 476, 
+                    "index": 4, 
+                    "lemma": "raggiungibile", 
+                    "originalText": "raggiungibile", 
+                    "pos": "A", 
+                    "word": "raggiungibile"
+                }, 
+                {
+                    "characterOffsetBegin": 478, 
+                    "characterOffsetEnd": 510, 
+                    "index": 5, 
+                    "lemma": "all\u2019indirizzo:http://webru.comune", 
+                    "originalText": "all\u2019indirizzo:http://webru.comune", 
+                    "pos": "A", 
+                    "word": "all\u2019indirizzo:http://webru.comune"
+                }, 
+                {
+                    "characterOffsetBegin": 511, 
+                    "characterOffsetEnd": 564, 
+                    "index": 6, 
+                    "lemma": ".fi.it/webru/pc/index.jsp?group=RU&map=0&certifica=true", 
+                    "originalText": ".fi.it/webru/pc/index.jsp?group=RU&map=0&certifica=true", 
+                    "pos": "SP", 
+                    "word": ".fi.it/webru/pc/index.jsp?group=RU&map=0&certifica=true"
+                }
+            ]
+        }
+    ]
+}

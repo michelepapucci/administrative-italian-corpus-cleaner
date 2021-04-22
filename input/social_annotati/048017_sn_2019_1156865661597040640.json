@@ -1,0 +1,459 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 7, 
+                    "index": 1, 
+                    "lemma": "\"Giorgio", 
+                    "originalText": "\"Giorgio", 
+                    "pos": "A", 
+                    "word": "\"Giorgio"
+                }, 
+                {
+                    "characterOffsetBegin": 9, 
+                    "characterOffsetEnd": 14, 
+                    "index": 2, 
+                    "lemma": "vasaro", 
+                    "originalText": "Vasari", 
+                    "pos": "SP", 
+                    "word": "Vasari"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 23, 
+                    "index": 3, 
+                    "lemma": "presentire", 
+                    "originalText": "presenta", 
+                    "pos": "V", 
+                    "word": "presenta"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 25, 
+                    "index": 4, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 32, 
+                    "index": 5, 
+                    "lemma": "Cosimo", 
+                    "originalText": "Cosimo", 
+                    "pos": "SP", 
+                    "word": "Cosimo"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "I", 
+                    "originalText": "I", 
+                    "pos": "SP", 
+                    "word": "I"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 37, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 39, 
+                    "characterOffsetEnd": 46, 
+                    "index": 8, 
+                    "lemma": "progetto", 
+                    "originalText": "progetto", 
+                    "pos": "S", 
+                    "word": "progetto"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 50, 
+                    "index": 9, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 64, 
+                    "index": 10, 
+                    "lemma": "l\u2019ampliamento", 
+                    "originalText": "l\u2019ampliamento", 
+                    "pos": "S", 
+                    "word": "l\u2019ampliamento"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 67, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 75, 
+                    "index": 12, 
+                    "lemma": "Palazzo", 
+                    "originalText": "Palazzo", 
+                    "pos": "SP", 
+                    "word": "Palazzo"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 83, 
+                    "index": 13, 
+                    "lemma": "vecchio", 
+                    "originalText": "Vecchio", 
+                    "pos": "SP", 
+                    "word": "Vecchio"
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 85, 
+                    "index": 14, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 89, 
+                    "index": 15, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 91, 
+                    "characterOffsetEnd": 92, 
+                    "index": 16, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 98, 
+                    "index": 17, 
+                    "lemma": "nuovo", 
+                    "originalText": "nuova", 
+                    "pos": "A", 
+                    "word": "nuova"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 107, 
+                    "index": 18, 
+                    "lemma": "fabbrica", 
+                    "originalText": "fabbrica", 
+                    "pos": "S", 
+                    "word": "fabbrica"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 111, 
+                    "index": 19, 
+                    "lemma": "di", 
+                    "originalText": "degli", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 110, 
+                    "characterOffsetEnd": 113, 
+                    "index": 20, 
+                    "lemma": "il", 
+                    "originalText": "degli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 115, 
+                    "characterOffsetEnd": 121, 
+                    "index": 21, 
+                    "lemma": "Uffizi\"", 
+                    "originalText": "Uffizi\"", 
+                    "pos": "SP", 
+                    "word": "Uffizi\""
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 123, 
+                    "index": 22, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "V", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 126, 
+                    "index": 23, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 133, 
+                    "index": 24, 
+                    "lemma": "titolo", 
+                    "originalText": "titolo", 
+                    "pos": "S", 
+                    "word": "titolo"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 136, 
+                    "index": 25, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 138, 
+                    "characterOffsetEnd": 143, 
+                    "index": 26, 
+                    "lemma": "questo", 
+                    "originalText": "questo", 
+                    "pos": "DD", 
+                    "word": "questo"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 150, 
+                    "index": 27, 
+                    "lemma": "arazzo", 
+                    "originalText": "arazzo", 
+                    "pos": "A", 
+                    "word": "arazzo"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 158, 
+                    "index": 28, 
+                    "lemma": "esporre", 
+                    "originalText": "esposto", 
+                    "pos": "V", 
+                    "word": "esposto"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 161, 
+                    "index": 29, 
+                    "lemma": "a", 
+                    "originalText": "alla", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 161, 
+                    "characterOffsetEnd": 163, 
+                    "index": 30, 
+                    "lemma": "il", 
+                    "originalText": "alla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 170, 
+                    "index": 31, 
+                    "lemma": "mostra", 
+                    "originalText": "mostra", 
+                    "pos": "S", 
+                    "word": "mostra"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 175, 
+                    "index": 32, 
+                    "lemma": "\"Una", 
+                    "originalText": "\"Una", 
+                    "pos": "SP", 
+                    "word": "\"Una"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 185, 
+                    "index": 33, 
+                    "lemma": "biografia", 
+                    "originalText": "biografia", 
+                    "pos": "S", 
+                    "word": "biografia"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 194, 
+                    "index": 34, 
+                    "lemma": "tessuta\"", 
+                    "originalText": "tessuta\"", 
+                    "pos": "A", 
+                    "word": "tessuta\""
+                }, 
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 198, 
+                    "index": 35, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 208, 
+                    "index": 36, 
+                    "lemma": "celebrare", 
+                    "originalText": "celebrare", 
+                    "pos": "V", 
+                    "word": "celebrare"
+                }, 
+                {
+                    "characterOffsetBegin": 210, 
+                    "characterOffsetEnd": 210, 
+                    "index": 37, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 212, 
+                    "characterOffsetEnd": 214, 
+                    "index": 38, 
+                    "lemma": "500", 
+                    "originalText": "500", 
+                    "pos": "N", 
+                    "word": "500"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 219, 
+                    "index": 39, 
+                    "lemma": "anni", 
+                    "originalText": "anni", 
+                    "pos": "S", 
+                    "word": "anni"
+                }, 
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 223, 
+                    "index": 40, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 223, 
+                    "characterOffsetEnd": 225, 
+                    "index": 41, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 227, 
+                    "characterOffsetEnd": 233, 
+                    "index": 42, 
+                    "lemma": "nascita", 
+                    "originalText": "nascita", 
+                    "pos": "S", 
+                    "word": "nascita"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 237, 
+                    "index": 43, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 237, 
+                    "index": 44, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 239, 
+                    "characterOffsetEnd": 243, 
+                    "index": 45, 
+                    "lemma": "primo", 
+                    "originalText": "primo", 
+                    "pos": "NO", 
+                    "word": "primo"
+                }, 
+                {
+                    "characterOffsetBegin": 245, 
+                    "characterOffsetEnd": 253, 
+                    "index": 46, 
+                    "lemma": "#Granduca", 
+                    "originalText": "#Granduca", 
+                    "pos": "SP", 
+                    "word": "#Granduca"
+                }, 
+                {
+                    "characterOffsetBegin": 255, 
+                    "characterOffsetEnd": 256, 
+                    "index": 47, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 258, 
+                    "characterOffsetEnd": 264, 
+                    "index": 48, 
+                    "lemma": "Toscana", 
+                    "originalText": "Toscana", 
+                    "pos": "SP", 
+                    "word": "Toscana"
+                }, 
+                {
+                    "characterOffsetBegin": 266, 
+                    "characterOffsetEnd": 278, 
+                    "index": 49, 
+                    "lemma": "#PalazzoPitti", 
+                    "originalText": "#PalazzoPitti", 
+                    "pos": "SP", 
+                    "word": "#PalazzoPitti"
+                }, 
+                {
+                    "characterOffsetBegin": 280, 
+                    "characterOffsetEnd": 301, 
+                    "index": 50, 
+                    "lemma": "https://t.co/F7eSege00q", 
+                    "originalText": "https://t.co/F7eSege00q", 
+                    "pos": "SP", 
+                    "word": "https://t.co/F7eSege00q"
+                }
+            ]
+        }
+    ]
+}

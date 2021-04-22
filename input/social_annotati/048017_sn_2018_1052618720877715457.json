@@ -1,0 +1,388 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "\u2705", 
+                    "originalText": "\u2705", 
+                    "pos": "FF", 
+                    "word": "\u2705"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 9, 
+                    "index": 2, 
+                    "lemma": "servizio", 
+                    "originalText": "Servizio", 
+                    "pos": "S", 
+                    "word": "Servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 12, 
+                    "index": 3, 
+                    "lemma": "T1", 
+                    "originalText": "T1", 
+                    "pos": "SP", 
+                    "word": "T1"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "ripartire", 
+                    "originalText": "ripartito", 
+                    "pos": "V", 
+                    "word": "ripartito"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 23, 
+                    "index": 5, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 31, 
+                    "index": 1, 
+                    "lemma": "rimuovere", 
+                    "originalText": "Rimossi", 
+                    "pos": "V", 
+                    "word": "Rimossi"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 33, 
+                    "index": 2, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 41, 
+                    "index": 3, 
+                    "lemma": "veicolo", 
+                    "originalText": "veicoli", 
+                    "pos": "S", 
+                    "word": "veicoli"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 53, 
+                    "index": 4, 
+                    "lemma": "incidentati", 
+                    "originalText": "incidentati", 
+                    "pos": "V", 
+                    "word": "incidentati"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 54, 
+                    "index": 5, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 56, 
+                    "characterOffsetEnd": 58, 
+                    "index": 6, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 64, 
+                    "index": 7, 
+                    "lemma": "erano", 
+                    "originalText": "erano", 
+                    "pos": "V", 
+                    "word": "erano"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 68, 
+                    "index": 8, 
+                    "lemma": "fer", 
+                    "originalText": "fermi", 
+                    "pos": "S", 
+                    "word": "fer"
+                }, 
+                {
+                    "characterOffsetBegin": 69, 
+                    "characterOffsetEnd": 70, 
+                    "index": 9, 
+                    "lemma": "mi", 
+                    "originalText": "fermi", 
+                    "pos": "PC", 
+                    "word": "mi"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 74, 
+                    "index": 10, 
+                    "lemma": "su", 
+                    "originalText": "sulla", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 76, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "sulla", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 81, 
+                    "index": 12, 
+                    "lemma": "sede", 
+                    "originalText": "sede", 
+                    "pos": "S", 
+                    "word": "sede"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 92, 
+                    "index": 13, 
+                    "lemma": "tramviaria", 
+                    "originalText": "tramviaria", 
+                    "pos": "A", 
+                    "word": "tramviaria"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 93, 
+                    "index": 14, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 95, 
+                    "characterOffsetEnd": 95, 
+                    "index": 15, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 100, 
+                    "index": 16, 
+                    "lemma": "tram", 
+                    "originalText": "tram", 
+                    "pos": "SW", 
+                    "word": "tram"
+                }, 
+                {
+                    "characterOffsetBegin": 102, 
+                    "characterOffsetEnd": 105, 
+                    "index": 17, 
+                    "lemma": "essere", 
+                    "originalText": "sono", 
+                    "pos": "VA", 
+                    "word": "sono"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 113, 
+                    "index": 18, 
+                    "lemma": "tornare", 
+                    "originalText": "tornati", 
+                    "pos": "V", 
+                    "word": "tornati"
+                }, 
+                {
+                    "characterOffsetBegin": 115, 
+                    "characterOffsetEnd": 115, 
+                    "index": 19, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 125, 
+                    "index": 20, 
+                    "lemma": "circolare", 
+                    "originalText": "circolare", 
+                    "pos": "V", 
+                    "word": "circolare"
+                }, 
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 126, 
+                    "index": 21, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 129, 
+                    "index": 1, 
+                    "lemma": "Il", 
+                    "originalText": "Il", 
+                    "pos": "RD", 
+                    "word": "Il"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 138, 
+                    "index": 2, 
+                    "lemma": "servizio", 
+                    "originalText": "servizio", 
+                    "pos": "S", 
+                    "word": "servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 145, 
+                    "index": 3, 
+                    "lemma": "subire", 
+                    "originalText": "subir\u00e0", 
+                    "pos": "V", 
+                    "word": "subir\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 149, 
+                    "index": 4, 
+                    "lemma": "di", 
+                    "originalText": "dei", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 148, 
+                    "characterOffsetEnd": 149, 
+                    "index": 5, 
+                    "lemma": "i", 
+                    "originalText": "dei", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 163, 
+                    "index": 6, 
+                    "lemma": "rallentamento", 
+                    "originalText": "rallentamenti", 
+                    "pos": "S", 
+                    "word": "rallentamenti"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 165, 
+                    "index": 7, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 173, 
+                    "index": 8, 
+                    "lemma": "tornare", 
+                    "originalText": "torner\u00e0", 
+                    "pos": "V", 
+                    "word": "torner\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 186, 
+                    "index": 9, 
+                    "lemma": "gradualmente", 
+                    "originalText": "gradualmente", 
+                    "pos": "B", 
+                    "word": "gradualmente"
+                }, 
+                {
+                    "characterOffsetBegin": 188, 
+                    "characterOffsetEnd": 195, 
+                    "index": 10, 
+                    "lemma": "regolare", 
+                    "originalText": "regolare", 
+                    "pos": "A", 
+                    "word": "regolare"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 199, 
+                    "index": 11, 
+                    "lemma": "in", 
+                    "originalText": "nei", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 199, 
+                    "index": 12, 
+                    "lemma": "i", 
+                    "originalText": "nei", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 201, 
+                    "characterOffsetEnd": 208, 
+                    "index": 13, 
+                    "lemma": "prossimo", 
+                    "originalText": "prossimi", 
+                    "pos": "A", 
+                    "word": "prossimi"
+                }, 
+                {
+                    "characterOffsetBegin": 210, 
+                    "characterOffsetEnd": 215, 
+                    "index": 14, 
+                    "lemma": "minuti", 
+                    "originalText": "minuti", 
+                    "pos": "S", 
+                    "word": "minuti"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 215, 
+                    "index": 15, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,343 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 11, 
+                    "index": 1, 
+                    "lemma": "#Coronavirus", 
+                    "originalText": "#Coronavirus", 
+                    "pos": "S", 
+                    "word": "#Coronavirus"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 12, 
+                    "index": 2, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 15, 
+                    "index": 3, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 17, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "domani", 
+                    "originalText": "domani", 
+                    "pos": "B", 
+                    "word": "domani"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 36, 
+                    "index": 5, 
+                    "lemma": "#firenzealert", 
+                    "originalText": "#firenzealert", 
+                    "pos": "S", 
+                    "word": "#firenzealert"
+                }, 
+                {
+                    "characterOffsetBegin": 38, 
+                    "characterOffsetEnd": 40, 
+                    "index": 6, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 42, 
+                    "characterOffsetEnd": 42, 
+                    "index": 7, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 44, 
+                    "characterOffsetEnd": 53, 
+                    "index": 8, 
+                    "lemma": "principale", 
+                    "originalText": "principali", 
+                    "pos": "A", 
+                    "word": "principali"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 62, 
+                    "index": 9, 
+                    "lemma": "cantiere", 
+                    "originalText": "cantieri", 
+                    "pos": "S", 
+                    "word": "cantieri"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 66, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 68, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 78, 
+                    "index": 12, 
+                    "lemma": "settimana", 
+                    "originalText": "settimana", 
+                    "pos": "S", 
+                    "word": "settimana"
+                }, 
+                {
+                    "characterOffsetBegin": 79, 
+                    "characterOffsetEnd": 79, 
+                    "index": 13, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 82, 
+                    "index": 1, 
+                    "lemma": "a", 
+                    "originalText": "ai", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 81, 
+                    "characterOffsetEnd": 82, 
+                    "index": 2, 
+                    "lemma": "i", 
+                    "originalText": "ai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 84, 
+                    "characterOffsetEnd": 92, 
+                    "index": 3, 
+                    "lemma": "residente", 
+                    "originalText": "residenti", 
+                    "pos": "S", 
+                    "word": "residenti"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 96, 
+                    "index": 4, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 98, 
+                    "index": 5, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 103, 
+                    "index": 6, 
+                    "lemma": "zone", 
+                    "originalText": "zone", 
+                    "pos": "S", 
+                    "word": "zone"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 115, 
+                    "index": 7, 
+                    "lemma": "interessato", 
+                    "originalText": "interessate", 
+                    "pos": "A", 
+                    "word": "interessate"
+                }, 
+                {
+                    "characterOffsetBegin": 117, 
+                    "characterOffsetEnd": 124, 
+                    "index": 8, 
+                    "lemma": "arrivare", 
+                    "originalText": "arriver\u00e0", 
+                    "pos": "V", 
+                    "word": "arriver\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 128, 
+                    "index": 9, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "RI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 130, 
+                    "characterOffsetEnd": 139, 
+                    "index": 10, 
+                    "lemma": "telefonata", 
+                    "originalText": "telefonata", 
+                    "pos": "S", 
+                    "word": "telefonata"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 141, 
+                    "index": 11, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 143, 
+                    "characterOffsetEnd": 146, 
+                    "index": 12, 
+                    "lemma": "casa", 
+                    "originalText": "casa", 
+                    "pos": "S", 
+                    "word": "casa"
+                }, 
+                {
+                    "characterOffsetBegin": 148, 
+                    "characterOffsetEnd": 150, 
+                    "index": 13, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 159, 
+                    "index": 14, 
+                    "lemma": "avvisare", 
+                    "originalText": "avvisare", 
+                    "pos": "V", 
+                    "word": "avvisare"
+                }, 
+                {
+                    "characterOffsetBegin": 161, 
+                    "characterOffsetEnd": 170, 
+                    "index": 15, 
+                    "lemma": "dell\u2019avvio", 
+                    "originalText": "dell\u2019avvio", 
+                    "pos": "SP", 
+                    "word": "dell\u2019avvio"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 174, 
+                    "index": 16, 
+                    "lemma": "di", 
+                    "originalText": "dei", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 173, 
+                    "characterOffsetEnd": 174, 
+                    "index": 17, 
+                    "lemma": "i", 
+                    "originalText": "dei", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 181, 
+                    "index": 18, 
+                    "lemma": "lavori", 
+                    "originalText": "lavori", 
+                    "pos": "S", 
+                    "word": "lavori"
+                }, 
+                {
+                    "characterOffsetBegin": 182, 
+                    "characterOffsetEnd": 182, 
+                    "index": 19, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 188, 
+                    "index": 1, 
+                    "lemma": "\ud83d\udea7Qui", 
+                    "originalText": "\ud83d\udea7Qui", 
+                    "pos": "V", 
+                    "word": "\ud83d\udea7Qui"
+                }, 
+                {
+                    "characterOffsetBegin": 190, 
+                    "characterOffsetEnd": 191, 
+                    "index": 2, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 200, 
+                    "index": 3, 
+                    "lemma": "info\ud83d\udc49\ud83c\udffc", 
+                    "originalText": "info\ud83d\udc49\ud83c\udffc", 
+                    "pos": "S", 
+                    "word": "info\ud83d\udc49\ud83c\udffc"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 223, 
+                    "index": 4, 
+                    "lemma": "https://t.co/CYXAKW23hf", 
+                    "originalText": "https://t.co/CYXAKW23hf", 
+                    "pos": "SP", 
+                    "word": "https://t.co/CYXAKW23hf"
+                }
+            ]
+        }
+    ]
+}

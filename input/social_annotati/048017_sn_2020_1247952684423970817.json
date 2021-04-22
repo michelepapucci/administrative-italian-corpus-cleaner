@@ -1,0 +1,414 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 6, 
+                    "index": 1, 
+                    "lemma": "partito", 
+                    "originalText": "Partito", 
+                    "pos": "S", 
+                    "word": "Partito"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 9, 
+                    "index": 2, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 18, 
+                    "index": 3, 
+                    "lemma": "progetto", 
+                    "originalText": "progetto", 
+                    "pos": "S", 
+                    "word": "progetto"
+                }, 
+                {
+                    "characterOffsetBegin": 20, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "\u2018La", 
+                    "originalText": "\u2018La", 
+                    "pos": "SP", 
+                    "word": "\u2018La"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 28, 
+                    "index": 5, 
+                    "lemma": "borsa", 
+                    "originalText": "borsa", 
+                    "pos": "S", 
+                    "word": "borsa"
+                }, 
+                {
+                    "characterOffsetBegin": 30, 
+                    "characterOffsetEnd": 32, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 34, 
+                    "index": 7, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 40, 
+                    "index": 8, 
+                    "lemma": "spesa", 
+                    "originalText": "spesa", 
+                    "pos": "S", 
+                    "word": "spesa"
+                }, 
+                {
+                    "characterOffsetBegin": 42, 
+                    "characterOffsetEnd": 43, 
+                    "index": 9, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 53, 
+                    "index": 10, 
+                    "lemma": "Mercafir\u2019", 
+                    "originalText": "Mercafir\u2019", 
+                    "pos": "SP", 
+                    "word": "Mercafir\u2019"
+                }, 
+                {
+                    "characterOffsetBegin": 54, 
+                    "characterOffsetEnd": 54, 
+                    "index": 11, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 56, 
+                    "characterOffsetEnd": 58, 
+                    "index": 12, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 62, 
+                    "index": 13, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 70, 
+                    "index": 14, 
+                    "lemma": "quattro", 
+                    "originalText": "quattro", 
+                    "pos": "N", 
+                    "word": "quattro"
+                }, 
+                {
+                    "characterOffsetBegin": 72, 
+                    "characterOffsetEnd": 80, 
+                    "index": 15, 
+                    "lemma": "settimana", 
+                    "originalText": "settimane", 
+                    "pos": "S", 
+                    "word": "settimane"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 88, 
+                    "index": 16, 
+                    "lemma": "prevedere", 
+                    "originalText": "prevede", 
+                    "pos": "V", 
+                    "word": "prevede"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 91, 
+                    "index": 17, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 100, 
+                    "index": 18, 
+                    "lemma": "consegna", 
+                    "originalText": "consegna", 
+                    "pos": "S", 
+                    "word": "consegna"
+                }, 
+                {
+                    "characterOffsetBegin": 102, 
+                    "characterOffsetEnd": 107, 
+                    "index": 19, 
+                    "lemma": "gratis", 
+                    "originalText": "gratis", 
+                    "pos": "B", 
+                    "word": "gratis"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 109, 
+                    "index": 20, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 114, 
+                    "index": 21, 
+                    "lemma": "casa", 
+                    "originalText": "casa", 
+                    "pos": "S", 
+                    "word": "casa"
+                }, 
+                {
+                    "characterOffsetBegin": 116, 
+                    "characterOffsetEnd": 118, 
+                    "index": 22, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 120, 
+                    "index": 23, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 129, 
+                    "index": 24, 
+                    "lemma": "famiglia", 
+                    "originalText": "famiglie", 
+                    "pos": "S", 
+                    "word": "famiglie"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 133, 
+                    "index": 25, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 141, 
+                    "index": 26, 
+                    "lemma": "fragile", 
+                    "originalText": "fragili", 
+                    "pos": "A", 
+                    "word": "fragili"
+                }, 
+                {
+                    "characterOffsetBegin": 142, 
+                    "characterOffsetEnd": 142, 
+                    "index": 27, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 154, 
+                    "index": 28, 
+                    "lemma": "individuare", 
+                    "originalText": "individuate", 
+                    "pos": "V", 
+                    "word": "individuate"
+                }, 
+                {
+                    "characterOffsetBegin": 156, 
+                    "characterOffsetEnd": 158, 
+                    "index": 29, 
+                    "lemma": "da", 
+                    "originalText": "dai", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 158, 
+                    "index": 30, 
+                    "lemma": "i", 
+                    "originalText": "dai", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 160, 
+                    "characterOffsetEnd": 165, 
+                    "index": 31, 
+                    "lemma": "nostri", 
+                    "originalText": "nostri", 
+                    "pos": "AP", 
+                    "word": "nostri"
+                }, 
+                {
+                    "characterOffsetBegin": 167, 
+                    "characterOffsetEnd": 173, 
+                    "index": 32, 
+                    "lemma": "servizio", 
+                    "originalText": "Servizi", 
+                    "pos": "S", 
+                    "word": "Servizi"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 181, 
+                    "index": 33, 
+                    "lemma": "sociale", 
+                    "originalText": "sociali", 
+                    "pos": "A", 
+                    "word": "sociali"
+                }, 
+                {
+                    "characterOffsetBegin": 182, 
+                    "characterOffsetEnd": 182, 
+                    "index": 34, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 185, 
+                    "index": 35, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 194, 
+                    "index": 36, 
+                    "lemma": "prodotto", 
+                    "originalText": "prodotti", 
+                    "pos": "S", 
+                    "word": "prodotti"
+                }, 
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 209, 
+                    "index": 37, 
+                    "lemma": "ortofrutticolo", 
+                    "originalText": "ortofrutticoli", 
+                    "pos": "A", 
+                    "word": "ortofrutticoli"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 211, 
+                    "index": 38, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 213, 
+                    "characterOffsetEnd": 217, 
+                    "index": 39, 
+                    "lemma": "carne", 
+                    "originalText": "carne", 
+                    "pos": "S", 
+                    "word": "carne"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 228, 
+                    "index": 40, 
+                    "lemma": "sottovuoto", 
+                    "originalText": "sottovuoto", 
+                    "pos": "B", 
+                    "word": "sottovuoto"
+                }, 
+                {
+                    "characterOffsetBegin": 230, 
+                    "characterOffsetEnd": 238, 
+                    "index": 41, 
+                    "lemma": "#COVID\u30fc19", 
+                    "originalText": "#COVID\u30fc19", 
+                    "pos": "SP", 
+                    "word": "#COVID\u30fc19"
+                }, 
+                {
+                    "characterOffsetBegin": 240, 
+                    "characterOffsetEnd": 248, 
+                    "index": 42, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "SP", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 263, 
+                    "index": 43, 
+                    "lemma": "@DarioNardella", 
+                    "originalText": "@DarioNardella", 
+                    "pos": "SP", 
+                    "word": "@DarioNardella"
+                }, 
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 277, 
+                    "index": 44, 
+                    "lemma": "@GianassiFede", 
+                    "originalText": "@GianassiFede", 
+                    "pos": "SP", 
+                    "word": "@GianassiFede"
+                }, 
+                {
+                    "characterOffsetBegin": 279, 
+                    "characterOffsetEnd": 300, 
+                    "index": 45, 
+                    "lemma": "https://t.co/S8TFbczZJs", 
+                    "originalText": "https://t.co/S8TFbczZJs", 
+                    "pos": "SP", 
+                    "word": "https://t.co/S8TFbczZJs"
+                }
+            ]
+        }
+    ]
+}

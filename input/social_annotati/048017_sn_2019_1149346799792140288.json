@@ -1,0 +1,451 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "aprire", 
+                    "originalText": "Apre", 
+                    "pos": "V", 
+                    "word": "Apre"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 13, 
+                    "index": 3, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 15, 
+                    "characterOffsetEnd": 23, 
+                    "index": 4, 
+                    "lemma": "#FIRSTLab", 
+                    "originalText": "#FIRSTLab", 
+                    "pos": "SP", 
+                    "word": "#FIRSTLab"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 24, 
+                    "index": 5, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 27, 
+                    "index": 6, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 39, 
+                    "index": 7, 
+                    "lemma": "laboratorio", 
+                    "originalText": "laboratorio", 
+                    "pos": "S", 
+                    "word": "laboratorio"
+                }, 
+                {
+                    "characterOffsetBegin": 41, 
+                    "characterOffsetEnd": 44, 
+                    "index": 8, 
+                    "lemma": "dove", 
+                    "originalText": "dove", 
+                    "pos": "B", 
+                    "word": "dove"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 46, 
+                    "index": 9, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 48, 
+                    "characterOffsetEnd": 54, 
+                    "index": 10, 
+                    "lemma": "giovane", 
+                    "originalText": "giovani", 
+                    "pos": "A", 
+                    "word": "giovani"
+                }, 
+                {
+                    "characterOffsetBegin": 56, 
+                    "characterOffsetEnd": 62, 
+                    "index": 11, 
+                    "lemma": "talento", 
+                    "originalText": "talenti", 
+                    "pos": "S", 
+                    "word": "talenti"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 74, 
+                    "index": 12, 
+                    "lemma": "cercare", 
+                    "originalText": "cercheranno", 
+                    "pos": "V", 
+                    "word": "cercheranno"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 84, 
+                    "index": 13, 
+                    "lemma": "soluzione", 
+                    "originalText": "soluzioni", 
+                    "pos": "S", 
+                    "word": "soluzioni"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 95, 
+                    "index": 14, 
+                    "lemma": "innovativo", 
+                    "originalText": "innovative", 
+                    "pos": "A", 
+                    "word": "innovative"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 99, 
+                    "index": 15, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 107, 
+                    "index": 16, 
+                    "lemma": "rendere", 
+                    "originalText": "rendere", 
+                    "pos": "V", 
+                    "word": "rendere"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 110, 
+                    "index": 17, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 112, 
+                    "characterOffsetEnd": 117, 
+                    "index": 18, 
+                    "lemma": "nostra", 
+                    "originalText": "nostra", 
+                    "pos": "AP", 
+                    "word": "nostra"
+                }, 
+                {
+                    "characterOffsetBegin": 119, 
+                    "characterOffsetEnd": 123, 
+                    "index": 19, 
+                    "lemma": "citt\u00e0", 
+                    "originalText": "citt\u00e0", 
+                    "pos": "S", 
+                    "word": "citt\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 130, 
+                    "index": 20, 
+                    "lemma": "sempre", 
+                    "originalText": "sempre", 
+                    "pos": "B", 
+                    "word": "sempre"
+                }, 
+                {
+                    "characterOffsetBegin": 132, 
+                    "characterOffsetEnd": 134, 
+                    "index": 21, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 141, 
+                    "index": 22, 
+                    "lemma": "#smart", 
+                    "originalText": "#smart", 
+                    "pos": "A", 
+                    "word": "#smart"
+                }, 
+                {
+                    "characterOffsetBegin": 142, 
+                    "characterOffsetEnd": 142, 
+                    "index": 23, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 145, 
+                    "index": 1, 
+                    "lemma": "Un", 
+                    "originalText": "Un", 
+                    "pos": "RI", 
+                    "word": "Un"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 149, 
+                    "index": 2, 
+                    "lemma": "hub", 
+                    "originalText": "hub", 
+                    "pos": "S", 
+                    "word": "hub"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 153, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 163, 
+                    "index": 4, 
+                    "lemma": "laureando", 
+                    "originalText": "laureandi", 
+                    "pos": "S", 
+                    "word": "laureandi"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 173, 
+                    "index": 5, 
+                    "lemma": "impegnare-ti", 
+                    "originalText": "impegnati", 
+                    "pos": "V", 
+                    "word": "impegnati"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 176, 
+                    "index": 6, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 186, 
+                    "index": 7, 
+                    "lemma": "risparmio", 
+                    "originalText": "risparmio", 
+                    "pos": "S", 
+                    "word": "risparmio"
+                }, 
+                {
+                    "characterOffsetBegin": 188, 
+                    "characterOffsetEnd": 197, 
+                    "index": 8, 
+                    "lemma": "energetico", 
+                    "originalText": "energetico", 
+                    "pos": "A", 
+                    "word": "energetico"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 198, 
+                    "index": 9, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 211, 
+                    "index": 10, 
+                    "lemma": "infomobilit\u00e0", 
+                    "originalText": "infomobilit\u00e0", 
+                    "pos": "S", 
+                    "word": "infomobilit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 213, 
+                    "characterOffsetEnd": 213, 
+                    "index": 11, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 221, 
+                    "index": 12, 
+                    "lemma": "turismo", 
+                    "originalText": "turismo", 
+                    "pos": "S", 
+                    "word": "turismo"
+                }, 
+                {
+                    "characterOffsetBegin": 222, 
+                    "characterOffsetEnd": 222, 
+                    "index": 13, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 225, 
+                    "index": 1, 
+                    "lemma": "in", 
+                    "originalText": "In", 
+                    "pos": "E", 
+                    "word": "In"
+                }, 
+                {
+                    "characterOffsetBegin": 227, 
+                    "characterOffsetEnd": 231, 
+                    "index": 2, 
+                    "lemma": "bocca", 
+                    "originalText": "bocca", 
+                    "pos": "S", 
+                    "word": "bocca"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 234, 
+                    "index": 3, 
+                    "lemma": "a", 
+                    "originalText": "al", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 232, 
+                    "characterOffsetEnd": 234, 
+                    "index": 4, 
+                    "lemma": "il", 
+                    "originalText": "al", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 239, 
+                    "index": 5, 
+                    "lemma": "lupo", 
+                    "originalText": "lupo", 
+                    "pos": "S", 
+                    "word": "lupo"
+                }, 
+                {
+                    "characterOffsetBegin": 241, 
+                    "characterOffsetEnd": 241, 
+                    "index": 6, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 246, 
+                    "index": 7, 
+                    "lemma": "buon", 
+                    "originalText": "buon", 
+                    "pos": "A", 
+                    "word": "buon"
+                }, 
+                {
+                    "characterOffsetBegin": 248, 
+                    "characterOffsetEnd": 253, 
+                    "index": 8, 
+                    "lemma": "lavoro", 
+                    "originalText": "lavoro", 
+                    "pos": "S", 
+                    "word": "lavoro"
+                }, 
+                {
+                    "characterOffsetBegin": 254, 
+                    "characterOffsetEnd": 254, 
+                    "index": 9, 
+                    "lemma": "!", 
+                    "originalText": "!", 
+                    "pos": "FS", 
+                    "word": "!"
+                }, 
+                {
+                    "characterOffsetBegin": 256, 
+                    "characterOffsetEnd": 259, 
+                    "index": 10, 
+                    "lemma": "#HPE", 
+                    "originalText": "#HPE", 
+                    "pos": "SP", 
+                    "word": "#HPE"
+                }, 
+                {
+                    "characterOffsetBegin": 261, 
+                    "characterOffsetEnd": 269, 
+                    "index": 11, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "SP", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 271, 
+                    "characterOffsetEnd": 292, 
+                    "index": 12, 
+                    "lemma": "https://t.co/M8IwNCArEb", 
+                    "originalText": "https://t.co/M8IwNCArEb", 
+                    "pos": "SP", 
+                    "word": "https://t.co/M8IwNCArEb"
+                }
+            ]
+        }
+    ]
+}

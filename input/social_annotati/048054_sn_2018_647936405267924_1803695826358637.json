@@ -1,0 +1,779 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 8, 
+                    "index": 1, 
+                    "lemma": "ricorrere", 
+                    "originalText": "Ricorrono", 
+                    "pos": "V", 
+                    "word": "Ricorrono"
+                }, 
+                {
+                    "characterOffsetBegin": 10, 
+                    "characterOffsetEnd": 15, 
+                    "index": 2, 
+                    "lemma": "questo", 
+                    "originalText": "quest'", 
+                    "pos": "DD", 
+                    "word": "quest'"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 19, 
+                    "index": 3, 
+                    "lemma": "anno", 
+                    "originalText": "anno", 
+                    "pos": "S", 
+                    "word": "anno"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 21, 
+                    "index": 4, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 24, 
+                    "index": 5, 
+                    "lemma": "40", 
+                    "originalText": "40", 
+                    "pos": "N", 
+                    "word": "40"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 29, 
+                    "index": 6, 
+                    "lemma": "anni", 
+                    "originalText": "anni", 
+                    "pos": "S", 
+                    "word": "anni"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 33, 
+                    "index": 7, 
+                    "lemma": "da", 
+                    "originalText": "dal", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 33, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "dal", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 39, 
+                    "index": 9, 
+                    "lemma": "primo", 
+                    "originalText": "primo", 
+                    "pos": "NO", 
+                    "word": "primo"
+                }, 
+                {
+                    "characterOffsetBegin": 41, 
+                    "characterOffsetEnd": 48, 
+                    "index": 10, 
+                    "lemma": "concerto", 
+                    "originalText": "concerto", 
+                    "pos": "S", 
+                    "word": "concerto"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 57, 
+                    "index": 11, 
+                    "lemma": "promuovere", 
+                    "originalText": "promosso", 
+                    "pos": "V", 
+                    "word": "promosso"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 61, 
+                    "index": 12, 
+                    "lemma": "da", 
+                    "originalText": "dall'", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 63, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "dall'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 75, 
+                    "index": 14, 
+                    "lemma": "Associazione", 
+                    "originalText": "Associazione", 
+                    "pos": "S", 
+                    "word": "Associazione"
+                }, 
+                {
+                    "characterOffsetBegin": 77, 
+                    "characterOffsetEnd": 81, 
+                    "index": 15, 
+                    "lemma": "amico", 
+                    "originalText": "Amici", 
+                    "pos": "SP", 
+                    "word": "Amici"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 85, 
+                    "index": 16, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 85, 
+                    "characterOffsetEnd": 87, 
+                    "index": 17, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 94, 
+                    "index": 18, 
+                    "lemma": "musica", 
+                    "originalText": "Musica", 
+                    "pos": "S", 
+                    "word": "Musica"
+                }, 
+                {
+                    "characterOffsetBegin": 96, 
+                    "characterOffsetEnd": 98, 
+                    "index": 19, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 105, 
+                    "index": 20, 
+                    "lemma": "questo", 
+                    "originalText": "quest'", 
+                    "pos": "DD", 
+                    "word": "quest'"
+                }, 
+                {
+                    "characterOffsetBegin": 106, 
+                    "characterOffsetEnd": 109, 
+                    "index": 21, 
+                    "lemma": "anno", 
+                    "originalText": "anno", 
+                    "pos": "S", 
+                    "word": "anno"
+                }, 
+                {
+                    "characterOffsetBegin": 111, 
+                    "characterOffsetEnd": 118, 
+                    "index": 22, 
+                    "lemma": "presentire", 
+                    "originalText": "presenta", 
+                    "pos": "V", 
+                    "word": "presenta"
+                }, 
+                {
+                    "characterOffsetBegin": 120, 
+                    "characterOffsetEnd": 121, 
+                    "index": 23, 
+                    "lemma": "il", 
+                    "originalText": "la", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 125, 
+                    "index": 24, 
+                    "lemma": "32^", 
+                    "originalText": "32^", 
+                    "pos": "NO", 
+                    "word": "32^"
+                }, 
+                {
+                    "characterOffsetBegin": 127, 
+                    "characterOffsetEnd": 134, 
+                    "index": 25, 
+                    "lemma": "edizione", 
+                    "originalText": "edizione", 
+                    "pos": "S", 
+                    "word": "edizione"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 138, 
+                    "index": 26, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 138, 
+                    "index": 27, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 147, 
+                    "index": 28, 
+                    "lemma": "festival", 
+                    "originalText": "Festival", 
+                    "pos": "SP", 
+                    "word": "Festival"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 150, 
+                    "index": 29, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 152, 
+                    "characterOffsetEnd": 161, 
+                    "index": 30, 
+                    "lemma": "pentecoste", 
+                    "originalText": "Pentecoste", 
+                    "pos": "SP", 
+                    "word": "Pentecoste"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 162, 
+                    "index": 31, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 172, 
+                    "index": 32, 
+                    "lemma": "diventare", 
+                    "originalText": "diventato", 
+                    "pos": "V", 
+                    "word": "diventato"
+                }, 
+                {
+                    "characterOffsetBegin": 174, 
+                    "characterOffsetEnd": 178, 
+                    "index": 33, 
+                    "lemma": "ormai", 
+                    "originalText": "ormai", 
+                    "pos": "B", 
+                    "word": "ormai"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 181, 
+                    "index": 34, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 183, 
+                    "characterOffsetEnd": 194, 
+                    "index": 35, 
+                    "lemma": "appuntamento", 
+                    "originalText": "appuntamento", 
+                    "pos": "S", 
+                    "word": "appuntamento"
+                }, 
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 197, 
+                    "index": 36, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 199, 
+                    "characterOffsetEnd": 207, 
+                    "index": 37, 
+                    "lemma": "prestigio", 
+                    "originalText": "prestigio", 
+                    "pos": "S", 
+                    "word": "prestigio"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 212, 
+                    "index": 38, 
+                    "lemma": ".Ecco", 
+                    "originalText": ".Ecco", 
+                    "pos": "SP", 
+                    "word": ".Ecco"
+                }, 
+                {
+                    "characterOffsetBegin": 214, 
+                    "characterOffsetEnd": 216, 
+                    "index": 39, 
+                    "lemma": "da", 
+                    "originalText": "dall'", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 216, 
+                    "characterOffsetEnd": 218, 
+                    "index": 40, 
+                    "lemma": "il", 
+                    "originalText": "dall'", 
+                    "pos": "RD", 
+                    "word": "l'"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 226, 
+                    "index": 41, 
+                    "lemma": "archivio", 
+                    "originalText": "archivio", 
+                    "pos": "S", 
+                    "word": "archivio"
+                }, 
+                {
+                    "characterOffsetBegin": 228, 
+                    "characterOffsetEnd": 229, 
+                    "index": 42, 
+                    "lemma": "un", 
+                    "originalText": "un", 
+                    "pos": "RI", 
+                    "word": "un"
+                }, 
+                {
+                    "characterOffsetBegin": 231, 
+                    "characterOffsetEnd": 239, 
+                    "index": 43, 
+                    "lemma": "documento", 
+                    "originalText": "documento", 
+                    "pos": "S", 
+                    "word": "documento"
+                }, 
+                {
+                    "characterOffsetBegin": 241, 
+                    "characterOffsetEnd": 242, 
+                    "index": 44, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 244, 
+                    "characterOffsetEnd": 246, 
+                    "index": 45, 
+                    "lemma": "cui", 
+                    "originalText": "cui", 
+                    "pos": "PR", 
+                    "word": "cui"
+                }, 
+                {
+                    "characterOffsetBegin": 248, 
+                    "characterOffsetEnd": 251, 
+                    "index": 46, 
+                    "lemma": "essere", 
+                    "originalText": "sono", 
+                    "pos": "VA", 
+                    "word": "sono"
+                }, 
+                {
+                    "characterOffsetBegin": 253, 
+                    "characterOffsetEnd": 260, 
+                    "index": 47, 
+                    "lemma": "indicare-ti", 
+                    "originalText": "indicati", 
+                    "pos": "V", 
+                    "word": "indicati"
+                }, 
+                {
+                    "characterOffsetBegin": 262, 
+                    "characterOffsetEnd": 262, 
+                    "index": 48, 
+                    "lemma": "i", 
+                    "originalText": "i", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 264, 
+                    "characterOffsetEnd": 267, 
+                    "index": 49, 
+                    "lemma": "socio", 
+                    "originalText": "soci", 
+                    "pos": "S", 
+                    "word": "soci"
+                }, 
+                {
+                    "characterOffsetBegin": 269, 
+                    "characterOffsetEnd": 277, 
+                    "index": 50, 
+                    "lemma": "fondatore", 
+                    "originalText": "fondatori", 
+                    "pos": "S", 
+                    "word": "fondatori"
+                }, 
+                {
+                    "characterOffsetBegin": 279, 
+                    "characterOffsetEnd": 284, 
+                    "index": 51, 
+                    "lemma": "delll'", 
+                    "originalText": "delll'", 
+                    "pos": "V", 
+                    "word": "delll'"
+                }, 
+                {
+                    "characterOffsetBegin": 285, 
+                    "characterOffsetEnd": 296, 
+                    "index": 52, 
+                    "lemma": "associazione", 
+                    "originalText": "associazione", 
+                    "pos": "S", 
+                    "word": "associazione"
+                }, 
+                {
+                    "characterOffsetBegin": 297, 
+                    "characterOffsetEnd": 297, 
+                    "index": 53, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 299, 
+                    "characterOffsetEnd": 304, 
+                    "index": 54, 
+                    "lemma": "coloro", 
+                    "originalText": "coloro", 
+                    "pos": "PD", 
+                    "word": "coloro"
+                }, 
+                {
+                    "characterOffsetBegin": 306, 
+                    "characterOffsetEnd": 308, 
+                    "index": 55, 
+                    "lemma": "che", 
+                    "originalText": "che", 
+                    "pos": "PR", 
+                    "word": "che"
+                }, 
+                {
+                    "characterOffsetBegin": 310, 
+                    "characterOffsetEnd": 314, 
+                    "index": 56, 
+                    "lemma": "hanno", 
+                    "originalText": "hanno", 
+                    "pos": "VA", 
+                    "word": "hanno"
+                }, 
+                {
+                    "characterOffsetBegin": 316, 
+                    "characterOffsetEnd": 320, 
+                    "index": 57, 
+                    "lemma": "fare", 
+                    "originalText": "fatto", 
+                    "pos": "V", 
+                    "word": "fatto"
+                }, 
+                {
+                    "characterOffsetBegin": 322, 
+                    "characterOffsetEnd": 326, 
+                    "index": 58, 
+                    "lemma": "parte", 
+                    "originalText": "parte", 
+                    "pos": "S", 
+                    "word": "parte"
+                }, 
+                {
+                    "characterOffsetBegin": 328, 
+                    "characterOffsetEnd": 330, 
+                    "index": 59, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 328, 
+                    "characterOffsetEnd": 330, 
+                    "index": 60, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 332, 
+                    "characterOffsetEnd": 339, 
+                    "index": 61, 
+                    "lemma": "comitato", 
+                    "originalText": "comitato", 
+                    "pos": "S", 
+                    "word": "comitato"
+                }, 
+                {
+                    "characterOffsetBegin": 341, 
+                    "characterOffsetEnd": 349, 
+                    "index": 62, 
+                    "lemma": "direttivo", 
+                    "originalText": "direttivo", 
+                    "pos": "A", 
+                    "word": "direttivo"
+                }, 
+                {
+                    "characterOffsetBegin": 351, 
+                    "characterOffsetEnd": 351, 
+                    "index": 63, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 353, 
+                    "characterOffsetEnd": 355, 
+                    "index": 64, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 353, 
+                    "characterOffsetEnd": 355, 
+                    "index": 65, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 357, 
+                    "characterOffsetEnd": 364, 
+                    "index": 66, 
+                    "lemma": "comitato", 
+                    "originalText": "comitato", 
+                    "pos": "S", 
+                    "word": "comitato"
+                }, 
+                {
+                    "characterOffsetBegin": 366, 
+                    "characterOffsetEnd": 367, 
+                    "index": 67, 
+                    "lemma": "d'", 
+                    "originalText": "d'", 
+                    "pos": "E", 
+                    "word": "d'"
+                }, 
+                {
+                    "characterOffsetBegin": 368, 
+                    "characterOffsetEnd": 372, 
+                    "index": 68, 
+                    "lemma": "onore", 
+                    "originalText": "onore", 
+                    "pos": "S", 
+                    "word": "onore"
+                }, 
+                {
+                    "characterOffsetBegin": 373, 
+                    "characterOffsetEnd": 373, 
+                    "index": 69, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 375, 
+                    "characterOffsetEnd": 379, 
+                    "index": 1, 
+                    "lemma": "tanto", 
+                    "originalText": "Tanti", 
+                    "pos": "PI", 
+                    "word": "Tanti"
+                }, 
+                {
+                    "characterOffsetBegin": 381, 
+                    "characterOffsetEnd": 392, 
+                    "index": 2, 
+                    "lemma": "concittadino", 
+                    "originalText": "concittadini", 
+                    "pos": "S", 
+                    "word": "concittadini"
+                }, 
+                {
+                    "characterOffsetBegin": 394, 
+                    "characterOffsetEnd": 394, 
+                    "index": 3, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 396, 
+                    "characterOffsetEnd": 398, 
+                    "index": 4, 
+                    "lemma": "cui", 
+                    "originalText": "cui", 
+                    "pos": "PR", 
+                    "word": "cui"
+                }, 
+                {
+                    "characterOffsetBegin": 400, 
+                    "characterOffsetEnd": 401, 
+                    "index": 5, 
+                    "lemma": "andare", 
+                    "originalText": "va", 
+                    "pos": "V", 
+                    "word": "va"
+                }, 
+                {
+                    "characterOffsetBegin": 403, 
+                    "characterOffsetEnd": 404, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 406, 
+                    "characterOffsetEnd": 411, 
+                    "index": 7, 
+                    "lemma": "nostro", 
+                    "originalText": "nostro", 
+                    "pos": "AP", 
+                    "word": "nostro"
+                }, 
+                {
+                    "characterOffsetBegin": 413, 
+                    "characterOffsetEnd": 418, 
+                    "index": 8, 
+                    "lemma": "grazia", 
+                    "originalText": "grazie", 
+                    "pos": "S", 
+                    "word": "grazie"
+                }, 
+                {
+                    "characterOffsetBegin": 420, 
+                    "characterOffsetEnd": 422, 
+                    "index": 9, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 424, 
+                    "characterOffsetEnd": 429, 
+                    "index": 10, 
+                    "lemma": "questo", 
+                    "originalText": "questa", 
+                    "pos": "DD", 
+                    "word": "questa"
+                }, 
+                {
+                    "characterOffsetBegin": 431, 
+                    "characterOffsetEnd": 435, 
+                    "index": 11, 
+                    "lemma": "bello", 
+                    "originalText": "bella", 
+                    "pos": "A", 
+                    "word": "bella"
+                }, 
+                {
+                    "characterOffsetBegin": 437, 
+                    "characterOffsetEnd": 442, 
+                    "index": 12, 
+                    "lemma": "realt\u00e0", 
+                    "originalText": "realt\u00e0", 
+                    "pos": "S", 
+                    "word": "realt\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 444, 
+                    "characterOffsetEnd": 446, 
+                    "index": 13, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 444, 
+                    "characterOffsetEnd": 446, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 448, 
+                    "characterOffsetEnd": 453, 
+                    "index": 15, 
+                    "lemma": "nostro", 
+                    "originalText": "nostro", 
+                    "pos": "PP", 
+                    "word": "nostro"
+                }, 
+                {
+                    "characterOffsetBegin": 455, 
+                    "characterOffsetEnd": 545, 
+                    "index": 16, 
+                    "lemma": "territorio.http://www.unionechiantifiorentino.it/eventi-notizie/32deg-festival-di-pentecoste", 
+                    "originalText": "territorio.http://www.unionechiantifiorentino.it/eventi-notizie/32deg-festival-di-pentecoste", 
+                    "pos": "V", 
+                    "word": "territorio.http://www.unionechiantifiorentino.it/eventi-notizie/32deg-festival-di-pentecoste"
+                }
+            ]
+        }
+    ]
+}

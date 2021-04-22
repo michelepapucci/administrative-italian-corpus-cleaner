@@ -1,0 +1,411 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 2, 
+                    "index": 1, 
+                    "lemma": "App", 
+                    "originalText": "App", 
+                    "pos": "S", 
+                    "word": "App"
+                }, 
+                {
+                    "characterOffsetBegin": 4, 
+                    "characterOffsetEnd": 5, 
+                    "index": 2, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 7, 
+                    "characterOffsetEnd": 13, 
+                    "index": 3, 
+                    "lemma": "turismo", 
+                    "originalText": "turismo", 
+                    "pos": "S", 
+                    "word": "turismo"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 14, 
+                    "index": 4, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 22, 
+                    "index": 5, 
+                    "lemma": "cultura", 
+                    "originalText": "cultura", 
+                    "pos": "S", 
+                    "word": "cultura"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 23, 
+                    "index": 6, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 28, 
+                    "index": 7, 
+                    "lemma": "arte", 
+                    "originalText": "arte", 
+                    "pos": "S", 
+                    "word": "arte"
+                }, 
+                {
+                    "characterOffsetBegin": 29, 
+                    "characterOffsetEnd": 29, 
+                    "index": 8, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 32, 
+                    "index": 9, 
+                    "lemma": "ma", 
+                    "originalText": "ma", 
+                    "pos": "CC", 
+                    "word": "ma"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 38, 
+                    "index": 10, 
+                    "lemma": "anche", 
+                    "originalText": "anche", 
+                    "pos": "B", 
+                    "word": "anche"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 43, 
+                    "index": 11, 
+                    "lemma": "anti", 
+                    "originalText": "anti", 
+                    "pos": "A", 
+                    "word": "anti"
+                }, 
+                {
+                    "characterOffsetBegin": 45, 
+                    "characterOffsetEnd": 51, 
+                    "index": 12, 
+                    "lemma": "degrado", 
+                    "originalText": "degrado", 
+                    "pos": "S", 
+                    "word": "degrado"
+                }, 
+                {
+                    "characterOffsetBegin": 53, 
+                    "characterOffsetEnd": 53, 
+                    "index": 13, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 59, 
+                    "index": 14, 
+                    "lemma": "molto", 
+                    "originalText": "molto", 
+                    "pos": "B", 
+                    "word": "molto"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 65, 
+                    "index": 15, 
+                    "lemma": "altro", 
+                    "originalText": "altro", 
+                    "pos": "A", 
+                    "word": "altro"
+                }, 
+                {
+                    "characterOffsetBegin": 66, 
+                    "characterOffsetEnd": 66, 
+                    "index": 16, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 68, 
+                    "characterOffsetEnd": 69, 
+                    "index": 1, 
+                    "lemma": "Un", 
+                    "originalText": "Un", 
+                    "pos": "RI", 
+                    "word": "Un"
+                }, 
+                {
+                    "characterOffsetBegin": 71, 
+                    "characterOffsetEnd": 78, 
+                    "index": 2, 
+                    "lemma": "servizio", 
+                    "originalText": "servizio", 
+                    "pos": "S", 
+                    "word": "servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 82, 
+                    "index": 3, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 84, 
+                    "characterOffsetEnd": 92, 
+                    "index": 4, 
+                    "lemma": "conoscere", 
+                    "originalText": "conoscere", 
+                    "pos": "V", 
+                    "word": "conoscere"
+                }, 
+                {
+                    "characterOffsetBegin": 94, 
+                    "characterOffsetEnd": 101, 
+                    "index": 5, 
+                    "lemma": "qualcuna", 
+                    "originalText": "qualcuna", 
+                    "pos": "PI", 
+                    "word": "qualcuna"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 105, 
+                    "index": 6, 
+                    "lemma": "di", 
+                    "originalText": "delle", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 107, 
+                    "index": 7, 
+                    "lemma": "le", 
+                    "originalText": "delle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 120, 
+                    "index": 8, 
+                    "lemma": "applicazione", 
+                    "originalText": "applicazioni", 
+                    "pos": "S", 
+                    "word": "applicazioni"
+                }, 
+                {
+                    "characterOffsetBegin": 122, 
+                    "characterOffsetEnd": 123, 
+                    "index": 9, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 125, 
+                    "characterOffsetEnd": 132, 
+                    "index": 10, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "SP", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 134, 
+                    "characterOffsetEnd": 134, 
+                    "index": 11, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 144, 
+                    "index": 12, 
+                    "lemma": "provincia", 
+                    "originalText": "provincia", 
+                    "pos": "S", 
+                    "word": "provincia"
+                }, 
+                {
+                    "characterOffsetBegin": 146, 
+                    "characterOffsetEnd": 156, 
+                    "index": 13, 
+                    "lemma": "disponibile", 
+                    "originalText": "disponibili", 
+                    "pos": "A", 
+                    "word": "disponibili"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 160, 
+                    "index": 14, 
+                    "lemma": "su", 
+                    "originalText": "sugli", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 162, 
+                    "index": 15, 
+                    "lemma": "il", 
+                    "originalText": "sugli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 164, 
+                    "characterOffsetEnd": 168, 
+                    "index": 16, 
+                    "lemma": "store", 
+                    "originalText": "store", 
+                    "pos": "S", 
+                    "word": "store"
+                }, 
+                {
+                    "characterOffsetBegin": 170, 
+                    "characterOffsetEnd": 176, 
+                    "index": 17, 
+                    "lemma": "Android", 
+                    "originalText": "Android", 
+                    "pos": "SP", 
+                    "word": "Android"
+                }, 
+                {
+                    "characterOffsetBegin": 178, 
+                    "characterOffsetEnd": 178, 
+                    "index": 18, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 182, 
+                    "index": 19, 
+                    "lemma": "iOS", 
+                    "originalText": "iOS", 
+                    "pos": "SP", 
+                    "word": "iOS"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 184, 
+                    "characterOffsetEnd": 185, 
+                    "index": 1, 
+                    "lemma": "Il", 
+                    "originalText": "Il", 
+                    "pos": "RD", 
+                    "word": "Il"
+                }, 
+                {
+                    "characterOffsetBegin": 187, 
+                    "characterOffsetEnd": 194, 
+                    "index": 2, 
+                    "lemma": "servizio", 
+                    "originalText": "servizio", 
+                    "pos": "S", 
+                    "word": "servizio"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 195, 
+                    "index": 3, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 197, 
+                    "characterOffsetEnd": 219, 
+                    "index": 4, 
+                    "lemma": "https://t.co/mN9DKIPfT9", 
+                    "originalText": "https://t.co/mN9DKIPfT9", 
+                    "pos": "SP", 
+                    "word": "https://t.co/mN9DKIPfT9"
+                }
+            ]
+        }, 
+        {
+            "index": 3, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 234, 
+                    "index": 1, 
+                    "lemma": "@CittaMetro_FI", 
+                    "originalText": "@CittaMetro_FI", 
+                    "pos": "SP", 
+                    "word": "@CittaMetro_FI"
+                }, 
+                {
+                    "characterOffsetBegin": 236, 
+                    "characterOffsetEnd": 244, 
+                    "index": 2, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "SP", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 260, 
+                    "index": 3, 
+                    "lemma": "@firenzeturismo", 
+                    "originalText": "@firenzeturismo", 
+                    "pos": "S", 
+                    "word": "@firenzeturismo"
+                }, 
+                {
+                    "characterOffsetBegin": 262, 
+                    "characterOffsetEnd": 274, 
+                    "index": 4, 
+                    "lemma": "@DarioNardella", 
+                    "originalText": "@DarioNardella", 
+                    "pos": "SP", 
+                    "word": "@DarioNardella"
+                }
+            ]
+        }
+    ]
+}

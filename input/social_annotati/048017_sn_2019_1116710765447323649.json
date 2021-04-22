@@ -1,0 +1,361 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 1, 
+                    "index": 1, 
+                    "lemma": "vi", 
+                    "originalText": "Vi", 
+                    "pos": "PC", 
+                    "word": "Vi"
+                }, 
+                {
+                    "characterOffsetBegin": 3, 
+                    "characterOffsetEnd": 12, 
+                    "index": 2, 
+                    "lemma": "aspettare", 
+                    "originalText": "aspettiamo", 
+                    "pos": "V", 
+                    "word": "aspettiamo"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 19, 
+                    "index": 3, 
+                    "lemma": "domani", 
+                    "originalText": "domani", 
+                    "pos": "B", 
+                    "word": "domani"
+                }, 
+                {
+                    "characterOffsetBegin": 21, 
+                    "characterOffsetEnd": 23, 
+                    "index": 4, 
+                    "lemma": "da", 
+                    "originalText": "dalle", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 25, 
+                    "index": 5, 
+                    "lemma": "le", 
+                    "originalText": "dalle", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 31, 
+                    "index": 6, 
+                    "lemma": "12:00", 
+                    "originalText": "12:00", 
+                    "pos": "N", 
+                    "word": "12:00"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 33, 
+                    "index": 7, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 35, 
+                    "characterOffsetEnd": 41, 
+                    "index": 8, 
+                    "lemma": "Palazzo", 
+                    "originalText": "Palazzo", 
+                    "pos": "SP", 
+                    "word": "Palazzo"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 48, 
+                    "index": 9, 
+                    "lemma": "Medici", 
+                    "originalText": "Medici", 
+                    "pos": "SP", 
+                    "word": "Medici"
+                }, 
+                {
+                    "characterOffsetBegin": 50, 
+                    "characterOffsetEnd": 57, 
+                    "index": 10, 
+                    "lemma": "Riccardi", 
+                    "originalText": "Riccardi", 
+                    "pos": "V", 
+                    "word": "Riccardi"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 61, 
+                    "index": 11, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 63, 
+                    "characterOffsetEnd": 65, 
+                    "index": 12, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "RI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 67, 
+                    "characterOffsetEnd": 74, 
+                    "index": 13, 
+                    "lemma": "giornata", 
+                    "originalText": "giornata", 
+                    "pos": "S", 
+                    "word": "giornata"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 86, 
+                    "index": 14, 
+                    "lemma": "intero", 
+                    "originalText": "interamente", 
+                    "pos": "B", 
+                    "word": "interamente"
+                }, 
+                {
+                    "characterOffsetBegin": 88, 
+                    "characterOffsetEnd": 95, 
+                    "index": 15, 
+                    "lemma": "dedicata", 
+                    "originalText": "dedicata", 
+                    "pos": "V", 
+                    "word": "dedicata"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 97, 
+                    "index": 16, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 106, 
+                    "index": 17, 
+                    "lemma": "Caterina", 
+                    "originalText": "Caterina", 
+                    "pos": "SP", 
+                    "word": "Caterina"
+                }, 
+                {
+                    "characterOffsetBegin": 108, 
+                    "characterOffsetEnd": 110, 
+                    "index": 18, 
+                    "lemma": "di", 
+                    "originalText": "de'", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 109, 
+                    "characterOffsetEnd": 110, 
+                    "index": 19, 
+                    "lemma": "i", 
+                    "originalText": "de'", 
+                    "pos": "RD", 
+                    "word": "i"
+                }, 
+                {
+                    "characterOffsetBegin": 112, 
+                    "characterOffsetEnd": 117, 
+                    "index": 20, 
+                    "lemma": "Medici", 
+                    "originalText": "Medici", 
+                    "pos": "S", 
+                    "word": "Medici"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 118, 
+                    "index": 21, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 120, 
+                    "characterOffsetEnd": 122, 
+                    "index": 1, 
+                    "lemma": "qui", 
+                    "originalText": "Qui", 
+                    "pos": "B", 
+                    "word": "Qui"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 125, 
+                    "index": 2, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 127, 
+                    "characterOffsetEnd": 135, 
+                    "index": 3, 
+                    "lemma": "programma", 
+                    "originalText": "programma", 
+                    "pos": "S", 
+                    "word": "programma"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 144, 
+                    "index": 4, 
+                    "lemma": "completo", 
+                    "originalText": "completo", 
+                    "pos": "A", 
+                    "word": "completo"
+                }, 
+                {
+                    "characterOffsetBegin": 146, 
+                    "characterOffsetEnd": 147, 
+                    "index": 5, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 149, 
+                    "characterOffsetEnd": 153, 
+                    "index": 6, 
+                    "lemma": "tutte", 
+                    "originalText": "tutte", 
+                    "pos": "T", 
+                    "word": "tutte"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 156, 
+                    "index": 7, 
+                    "lemma": "le", 
+                    "originalText": "le", 
+                    "pos": "RD", 
+                    "word": "le"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 167, 
+                    "index": 8, 
+                    "lemma": "iniziativa", 
+                    "originalText": "iniziative", 
+                    "pos": "S", 
+                    "word": "iniziative"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 170, 
+                    "index": 9, 
+                    "lemma": "\u27a1\ufe0f", 
+                    "originalText": "\u27a1\ufe0f", 
+                    "pos": "SP", 
+                    "word": "\u27a1\ufe0f"
+                }, 
+                {
+                    "characterOffsetBegin": 172, 
+                    "characterOffsetEnd": 194, 
+                    "index": 10, 
+                    "lemma": "https://t.co/BuXMEa0RRu", 
+                    "originalText": "https://t.co/BuXMEa0RRu", 
+                    "pos": "SP", 
+                    "word": "https://t.co/BuXMEa0RRu"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 196, 
+                    "characterOffsetEnd": 204, 
+                    "index": 1, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "S", 
+                    "word": "@comunefi"
+                }, 
+                {
+                    "characterOffsetBegin": 206, 
+                    "characterOffsetEnd": 218, 
+                    "index": 2, 
+                    "lemma": "@labevannucci", 
+                    "originalText": "@labevannucci", 
+                    "pos": "S", 
+                    "word": "@labevannucci"
+                }, 
+                {
+                    "characterOffsetBegin": 220, 
+                    "characterOffsetEnd": 233, 
+                    "index": 3, 
+                    "lemma": "@DarioNardella", 
+                    "originalText": "@DarioNardella", 
+                    "pos": "V", 
+                    "word": "@DarioNardella"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 248, 
+                    "index": 4, 
+                    "lemma": "@CarloFrancini", 
+                    "originalText": "@CarloFrancini", 
+                    "pos": "SP", 
+                    "word": "@CarloFrancini"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 263, 
+                    "index": 5, 
+                    "lemma": "@CittaMetro_FI", 
+                    "originalText": "@CittaMetro_FI", 
+                    "pos": "SP", 
+                    "word": "@CittaMetro_FI"
+                }, 
+                {
+                    "characterOffsetBegin": 265, 
+                    "characterOffsetEnd": 276, 
+                    "index": 6, 
+                    "lemma": "@musefirenze", 
+                    "originalText": "@musefirenze", 
+                    "pos": "S", 
+                    "word": "@musefirenze"
+                }, 
+                {
+                    "characterOffsetBegin": 278, 
+                    "characterOffsetEnd": 299, 
+                    "index": 7, 
+                    "lemma": "https://t.co/pinskW6SjS", 
+                    "originalText": "https://t.co/pinskW6SjS", 
+                    "pos": "SP", 
+                    "word": "https://t.co/pinskW6SjS"
+                }
+            ]
+        }
+    ]
+}

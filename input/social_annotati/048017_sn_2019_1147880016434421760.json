@@ -1,0 +1,433 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "essere", 
+                    "originalText": "\u00c8", 
+                    "pos": "VA", 
+                    "word": "\u00c8"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 6, 
+                    "index": 2, 
+                    "lemma": "stata", 
+                    "originalText": "stata", 
+                    "pos": "V", 
+                    "word": "stata"
+                }, 
+                {
+                    "characterOffsetBegin": 8, 
+                    "characterOffsetEnd": 10, 
+                    "index": 3, 
+                    "lemma": "una", 
+                    "originalText": "una", 
+                    "pos": "RI", 
+                    "word": "una"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 16, 
+                    "index": 4, 
+                    "lemma": "bello", 
+                    "originalText": "bella", 
+                    "pos": "A", 
+                    "word": "bella"
+                }, 
+                {
+                    "characterOffsetBegin": 18, 
+                    "characterOffsetEnd": 25, 
+                    "index": 5, 
+                    "lemma": "emozione", 
+                    "originalText": "emozione", 
+                    "pos": "S", 
+                    "word": "emozione"
+                }, 
+                {
+                    "characterOffsetBegin": 27, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "premiare", 
+                    "originalText": "premiare", 
+                    "pos": "V", 
+                    "word": "premiare"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 39, 
+                    "index": 7, 
+                    "lemma": "ieri", 
+                    "originalText": "ieri", 
+                    "pos": "B", 
+                    "word": "ieri"
+                }, 
+                {
+                    "characterOffsetBegin": 41, 
+                    "characterOffsetEnd": 55, 
+                    "index": 8, 
+                    "lemma": "@massimilianotv", 
+                    "originalText": "@massimilianotv", 
+                    "pos": "SP", 
+                    "word": "@massimilianotv"
+                }, 
+                {
+                    "characterOffsetBegin": 57, 
+                    "characterOffsetEnd": 60, 
+                    "index": 9, 
+                    "lemma": "come", 
+                    "originalText": "come", 
+                    "pos": "E", 
+                    "word": "come"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 71, 
+                    "index": 10, 
+                    "lemma": "conduttore", 
+                    "originalText": "conduttore", 
+                    "pos": "S", 
+                    "word": "conduttore"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 74, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 76, 
+                    "characterOffsetEnd": 80, 
+                    "index": 12, 
+                    "lemma": "linea", 
+                    "originalText": "Linea", 
+                    "pos": "SP", 
+                    "word": "Linea"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 87, 
+                    "index": 13, 
+                    "lemma": "Bianca", 
+                    "originalText": "Bianca", 
+                    "pos": "SP", 
+                    "word": "Bianca"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 90, 
+                    "index": 14, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 92, 
+                    "characterOffsetEnd": 98, 
+                    "index": 15, 
+                    "lemma": "@RaiUno", 
+                    "originalText": "@RaiUno", 
+                    "pos": "SP", 
+                    "word": "@RaiUno"
+                }, 
+                {
+                    "characterOffsetBegin": 99, 
+                    "characterOffsetEnd": 99, 
+                    "index": 16, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 101, 
+                    "index": 17, 
+                    "lemma": "a", 
+                    "originalText": "a", 
+                    "pos": "E", 
+                    "word": "a"
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 105, 
+                    "index": 18, 
+                    "lemma": "cui", 
+                    "originalText": "cui", 
+                    "pos": "PR", 
+                    "word": "cui"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 108, 
+                    "index": 19, 
+                    "lemma": "ho", 
+                    "originalText": "ho", 
+                    "pos": "VA", 
+                    "word": "ho"
+                }, 
+                {
+                    "characterOffsetBegin": 110, 
+                    "characterOffsetEnd": 119, 
+                    "index": 20, 
+                    "lemma": "consegnare", 
+                    "originalText": "consegnato", 
+                    "pos": "V", 
+                    "word": "consegnato"
+                }, 
+                {
+                    "characterOffsetBegin": 121, 
+                    "characterOffsetEnd": 122, 
+                    "index": 21, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 124, 
+                    "characterOffsetEnd": 129, 
+                    "index": 22, 
+                    "lemma": "premio", 
+                    "originalText": "premio", 
+                    "pos": "S", 
+                    "word": "premio"
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 143, 
+                    "index": 1, 
+                    "lemma": "\u201cAmbasciatore", 
+                    "originalText": "\u201cAmbasciatore", 
+                    "pos": "S", 
+                    "word": "\u201cAmbasciatore"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 147, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 149, 
+                    "index": 3, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 151, 
+                    "characterOffsetEnd": 157, 
+                    "index": 4, 
+                    "lemma": "natura\u201d", 
+                    "originalText": "natura\u201d", 
+                    "pos": "S", 
+                    "word": "natura\u201d"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 161, 
+                    "index": 5, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 161, 
+                    "index": 6, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 163, 
+                    "characterOffsetEnd": 168, 
+                    "index": 7, 
+                    "lemma": "centro", 
+                    "originalText": "Centro", 
+                    "pos": "SP", 
+                    "word": "Centro"
+                }, 
+                {
+                    "characterOffsetBegin": 170, 
+                    "characterOffsetEnd": 175, 
+                    "index": 8, 
+                    "lemma": "parco", 
+                    "originalText": "parchi", 
+                    "pos": "S", 
+                    "word": "parchi"
+                }, 
+                {
+                    "characterOffsetBegin": 177, 
+                    "characterOffsetEnd": 190, 
+                    "index": 9, 
+                    "lemma": "internazionale", 
+                    "originalText": "internazionale", 
+                    "pos": "A", 
+                    "word": "internazionale"
+                }, 
+                {
+                    "characterOffsetBegin": 191, 
+                    "characterOffsetEnd": 191, 
+                    "index": 10, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 193, 
+                    "characterOffsetEnd": 197, 
+                    "index": 1, 
+                    "lemma": "Tutti", 
+                    "originalText": "Tutti", 
+                    "pos": "PI", 
+                    "word": "Tutti"
+                }, 
+                {
+                    "characterOffsetBegin": 199, 
+                    "characterOffsetEnd": 201, 
+                    "index": 2, 
+                    "lemma": "noi", 
+                    "originalText": "noi", 
+                    "pos": "PE", 
+                    "word": "noi"
+                }, 
+                {
+                    "characterOffsetBegin": 203, 
+                    "characterOffsetEnd": 206, 
+                    "index": 3, 
+                    "lemma": "ogni", 
+                    "originalText": "ogni", 
+                    "pos": "DI", 
+                    "word": "ogni"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 213, 
+                    "index": 4, 
+                    "lemma": "giorno", 
+                    "originalText": "giorno", 
+                    "pos": "S", 
+                    "word": "giorno"
+                }, 
+                {
+                    "characterOffsetBegin": 215, 
+                    "characterOffsetEnd": 222, 
+                    "index": 5, 
+                    "lemma": "dovere", 
+                    "originalText": "dovremmo", 
+                    "pos": "VM", 
+                    "word": "dovremmo"
+                }, 
+                {
+                    "characterOffsetBegin": 224, 
+                    "characterOffsetEnd": 229, 
+                    "index": 6, 
+                    "lemma": "essere", 
+                    "originalText": "essere", 
+                    "pos": "V", 
+                    "word": "essere"
+                }, 
+                {
+                    "characterOffsetBegin": 231, 
+                    "characterOffsetEnd": 239, 
+                    "index": 7, 
+                    "lemma": "difensore", 
+                    "originalText": "difensori", 
+                    "pos": "A", 
+                    "word": "difensori"
+                }, 
+                {
+                    "characterOffsetBegin": 241, 
+                    "characterOffsetEnd": 241, 
+                    "index": 8, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 243, 
+                    "characterOffsetEnd": 254, 
+                    "index": 9, 
+                    "lemma": "ambasciatore", 
+                    "originalText": "ambasciatori", 
+                    "pos": "S", 
+                    "word": "ambasciatori"
+                }, 
+                {
+                    "characterOffsetBegin": 256, 
+                    "characterOffsetEnd": 258, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 256, 
+                    "characterOffsetEnd": 258, 
+                    "index": 11, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 260, 
+                    "characterOffsetEnd": 265, 
+                    "index": 12, 
+                    "lemma": "nostro", 
+                    "originalText": "nostro", 
+                    "pos": "AP", 
+                    "word": "nostro"
+                }, 
+                {
+                    "characterOffsetBegin": 267, 
+                    "characterOffsetEnd": 276, 
+                    "index": 13, 
+                    "lemma": "Ambiente\ud83d\ude0a", 
+                    "originalText": "Ambiente\ud83d\ude0a", 
+                    "pos": "SP", 
+                    "word": "Ambiente\ud83d\ude0a"
+                }, 
+                {
+                    "characterOffsetBegin": 278, 
+                    "characterOffsetEnd": 299, 
+                    "index": 14, 
+                    "lemma": "https://t.co/0ssa1c7ETb", 
+                    "originalText": "https://t.co/0ssa1c7ETb", 
+                    "pos": "SP", 
+                    "word": "https://t.co/0ssa1c7ETb"
+                }
+            ]
+        }
+    ]
+}

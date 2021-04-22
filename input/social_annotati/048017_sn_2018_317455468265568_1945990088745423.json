@@ -1,0 +1,585 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 17, 
+                    "index": 1, 
+                    "lemma": "#BUONGIORNOFIRENZE", 
+                    "originalText": "#BUONGIORNOFIRENZE", 
+                    "pos": "SP", 
+                    "word": "#BUONGIORNOFIRENZE"
+                }, 
+                {
+                    "characterOffsetBegin": 19, 
+                    "characterOffsetEnd": 24, 
+                    "index": 2, 
+                    "lemma": "questo", 
+                    "originalText": "Questa", 
+                    "pos": "DD", 
+                    "word": "Questa"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 30, 
+                    "index": 3, 
+                    "lemma": "volta", 
+                    "originalText": "volta", 
+                    "pos": "S", 
+                    "word": "volta"
+                }, 
+                {
+                    "characterOffsetBegin": 32, 
+                    "characterOffsetEnd": 32, 
+                    "index": 4, 
+                    "lemma": "essere", 
+                    "originalText": "\u00e8", 
+                    "pos": "V", 
+                    "word": "\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 34, 
+                    "characterOffsetEnd": 35, 
+                    "index": 5, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 41, 
+                    "index": 6, 
+                    "lemma": "turno", 
+                    "originalText": "turno", 
+                    "pos": "S", 
+                    "word": "turno"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 45, 
+                    "index": 7, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 45, 
+                    "index": 8, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 53, 
+                    "index": 9, 
+                    "lemma": "polmone", 
+                    "originalText": "polmone", 
+                    "pos": "S", 
+                    "word": "polmone"
+                }, 
+                {
+                    "characterOffsetBegin": 55, 
+                    "characterOffsetEnd": 59, 
+                    "index": 10, 
+                    "lemma": "verde", 
+                    "originalText": "verde", 
+                    "pos": "S", 
+                    "word": "verde"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 62, 
+                    "index": 11, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 71, 
+                    "index": 12, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 73, 
+                    "characterOffsetEnd": 73, 
+                    "index": 13, 
+                    "lemma": ":", 
+                    "originalText": ":", 
+                    "pos": "FC", 
+                    "word": ":"
+                }, 
+                {
+                    "characterOffsetBegin": 75, 
+                    "characterOffsetEnd": 76, 
+                    "index": 14, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 82, 
+                    "index": 15, 
+                    "lemma": "parco", 
+                    "originalText": "Parco", 
+                    "pos": "S", 
+                    "word": "Parco"
+                }, 
+                {
+                    "characterOffsetBegin": 84, 
+                    "characterOffsetEnd": 88, 
+                    "index": 16, 
+                    "lemma": "Delle", 
+                    "originalText": "Delle", 
+                    "pos": "SP", 
+                    "word": "Delle"
+                }, 
+                {
+                    "characterOffsetBegin": 90, 
+                    "characterOffsetEnd": 96, 
+                    "index": 17, 
+                    "lemma": "cascina", 
+                    "originalText": "Cascine", 
+                    "pos": "SP", 
+                    "word": "Cascine"
+                }, 
+                {
+                    "characterOffsetBegin": 97, 
+                    "characterOffsetEnd": 103, 
+                    "index": 18, 
+                    "lemma": "!Domani", 
+                    "originalText": "!Domani", 
+                    "pos": "S", 
+                    "word": "!Domani"
+                }, 
+                {
+                    "characterOffsetBegin": 105, 
+                    "characterOffsetEnd": 105, 
+                    "index": 19, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 116, 
+                    "index": 20, 
+                    "lemma": "dopodomani", 
+                    "originalText": "dopodomani", 
+                    "pos": "S", 
+                    "word": "dopodomani"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 131, 
+                    "index": 21, 
+                    "lemma": "approfondire", 
+                    "originalText": "approfondiremo", 
+                    "pos": "V", 
+                    "word": "approfondiremo"
+                }, 
+                {
+                    "characterOffsetBegin": 133, 
+                    "characterOffsetEnd": 134, 
+                    "index": 22, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 136, 
+                    "characterOffsetEnd": 140, 
+                    "index": 23, 
+                    "lemma": "parco", 
+                    "originalText": "parco", 
+                    "pos": "S", 
+                    "word": "parco"
+                }, 
+                {
+                    "characterOffsetBegin": 142, 
+                    "characterOffsetEnd": 144, 
+                    "index": 24, 
+                    "lemma": "pi\u00f9", 
+                    "originalText": "pi\u00f9", 
+                    "pos": "B", 
+                    "word": "pi\u00f9"
+                }, 
+                {
+                    "characterOffsetBegin": 146, 
+                    "characterOffsetEnd": 151, 
+                    "index": 25, 
+                    "lemma": "grande", 
+                    "originalText": "grande", 
+                    "pos": "A", 
+                    "word": "grande"
+                }, 
+                {
+                    "characterOffsetBegin": 153, 
+                    "characterOffsetEnd": 155, 
+                    "index": 26, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 157, 
+                    "index": 27, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 163, 
+                    "index": 28, 
+                    "lemma": "citt\u00e0", 
+                    "originalText": "citt\u00e0", 
+                    "pos": "S", 
+                    "word": "citt\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 167, 
+                    "index": 29, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 173, 
+                    "index": 30, 
+                    "lemma": "altro", 
+                    "originalText": "altre", 
+                    "pos": "A", 
+                    "word": "altre"
+                }, 
+                {
+                    "characterOffsetBegin": 175, 
+                    "characterOffsetEnd": 178, 
+                    "index": 31, 
+                    "lemma": "foto", 
+                    "originalText": "foto", 
+                    "pos": "S", 
+                    "word": "foto"
+                }, 
+                {
+                    "characterOffsetBegin": 180, 
+                    "characterOffsetEnd": 180, 
+                    "index": 32, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 182, 
+                    "characterOffsetEnd": 193, 
+                    "index": 33, 
+                    "lemma": "informazione", 
+                    "originalText": "informazioni", 
+                    "pos": "S", 
+                    "word": "informazioni"
+                }, 
+                {
+                    "characterOffsetBegin": 194, 
+                    "characterOffsetEnd": 217, 
+                    "index": 34, 
+                    "lemma": ".#StayTuned#FirenzeGreen", 
+                    "originalText": ".#StayTuned#FirenzeGreen", 
+                    "pos": "SP", 
+                    "word": ".#StayTuned#FirenzeGreen"
+                }, 
+                {
+                    "characterOffsetBegin": 219, 
+                    "characterOffsetEnd": 233, 
+                    "index": 35, 
+                    "lemma": "#ParcoLeCascine", 
+                    "originalText": "#ParcoLeCascine", 
+                    "pos": "SP", 
+                    "word": "#ParcoLeCascine"
+                }, 
+                {
+                    "characterOffsetBegin": 235, 
+                    "characterOffsetEnd": 243, 
+                    "index": 36, 
+                    "lemma": "#Florence", 
+                    "originalText": "#Florence", 
+                    "pos": "SP", 
+                    "word": "#Florence"
+                }, 
+                {
+                    "characterOffsetBegin": 245, 
+                    "characterOffsetEnd": 268, 
+                    "index": 37, 
+                    "lemma": "#cittadifirenzeufficiale", 
+                    "originalText": "#cittadifirenzeufficiale", 
+                    "pos": "A", 
+                    "word": "#cittadifirenzeufficiale"
+                }, 
+                {
+                    "characterOffsetBegin": 270, 
+                    "characterOffsetEnd": 281, 
+                    "index": 38, 
+                    "lemma": "#Goodmorning", 
+                    "originalText": "#Goodmorning", 
+                    "pos": "SP", 
+                    "word": "#Goodmorning"
+                }, 
+                {
+                    "characterOffsetBegin": 283, 
+                    "characterOffsetEnd": 288, 
+                    "index": 39, 
+                    "lemma": "#awake", 
+                    "originalText": "#awake", 
+                    "pos": "S", 
+                    "word": "#awake"
+                }, 
+                {
+                    "characterOffsetBegin": 290, 
+                    "characterOffsetEnd": 297, 
+                    "index": 40, 
+                    "lemma": "#Toscana", 
+                    "originalText": "#Toscana", 
+                    "pos": "A", 
+                    "word": "#Toscana"
+                }, 
+                {
+                    "characterOffsetBegin": 299, 
+                    "characterOffsetEnd": 306, 
+                    "index": 41, 
+                    "lemma": "#Tuscany", 
+                    "originalText": "#Tuscany", 
+                    "pos": "SP", 
+                    "word": "#Tuscany"
+                }, 
+                {
+                    "characterOffsetBegin": 308, 
+                    "characterOffsetEnd": 319, 
+                    "index": 42, 
+                    "lemma": "#tuscanygram", 
+                    "originalText": "#tuscanygram", 
+                    "pos": "SW", 
+                    "word": "#tuscanygram"
+                }, 
+                {
+                    "characterOffsetBegin": 321, 
+                    "characterOffsetEnd": 336, 
+                    "index": 43, 
+                    "lemma": "#discoverTuscany", 
+                    "originalText": "#discoverTuscany", 
+                    "pos": "SW", 
+                    "word": "#discoverTuscany"
+                }, 
+                {
+                    "characterOffsetBegin": 338, 
+                    "characterOffsetEnd": 348, 
+                    "index": 44, 
+                    "lemma": "#visititaly", 
+                    "originalText": "#visititaly", 
+                    "pos": "SW", 
+                    "word": "#visititaly"
+                }, 
+                {
+                    "characterOffsetBegin": 350, 
+                    "characterOffsetEnd": 356, 
+                    "index": 45, 
+                    "lemma": "#Italia", 
+                    "originalText": "#Italia", 
+                    "pos": "SW", 
+                    "word": "#Italia"
+                }, 
+                {
+                    "characterOffsetBegin": 358, 
+                    "characterOffsetEnd": 363, 
+                    "index": 46, 
+                    "lemma": "#Italy", 
+                    "originalText": "#Italy", 
+                    "pos": "SW", 
+                    "word": "#Italy"
+                }, 
+                {
+                    "characterOffsetBegin": 365, 
+                    "characterOffsetEnd": 376, 
+                    "index": 47, 
+                    "lemma": "#photography", 
+                    "originalText": "#photography", 
+                    "pos": "SW", 
+                    "word": "#photography"
+                }, 
+                {
+                    "characterOffsetBegin": 378, 
+                    "characterOffsetEnd": 391, 
+                    "index": 48, 
+                    "lemma": "#photooftheday", 
+                    "originalText": "#photooftheday", 
+                    "pos": "SW", 
+                    "word": "#photooftheday"
+                }, 
+                {
+                    "characterOffsetBegin": 393, 
+                    "characterOffsetEnd": 402, 
+                    "index": 49, 
+                    "lemma": "#beautiful", 
+                    "originalText": "#beautiful", 
+                    "pos": "SW", 
+                    "word": "#beautiful"
+                }, 
+                {
+                    "characterOffsetBegin": 404, 
+                    "characterOffsetEnd": 410, 
+                    "index": 50, 
+                    "lemma": "#spring", 
+                    "originalText": "#spring", 
+                    "pos": "SW", 
+                    "word": "#spring"
+                }, 
+                {
+                    "characterOffsetBegin": 412, 
+                    "characterOffsetEnd": 419, 
+                    "index": 51, 
+                    "lemma": "#flowers", 
+                    "originalText": "#flowers", 
+                    "pos": "SW", 
+                    "word": "#flowers"
+                }, 
+                {
+                    "characterOffsetBegin": 421, 
+                    "characterOffsetEnd": 426, 
+                    "index": 52, 
+                    "lemma": "#fiori", 
+                    "originalText": "#fiori", 
+                    "pos": "A", 
+                    "word": "#fiori"
+                }, 
+                {
+                    "characterOffsetBegin": 428, 
+                    "characterOffsetEnd": 440, 
+                    "index": 53, 
+                    "lemma": "#flowerlovers", 
+                    "originalText": "#flowerlovers", 
+                    "pos": "S", 
+                    "word": "#flowerlovers"
+                }, 
+                {
+                    "characterOffsetBegin": 442, 
+                    "characterOffsetEnd": 448, 
+                    "index": 54, 
+                    "lemma": "#nature", 
+                    "originalText": "#nature", 
+                    "pos": "A", 
+                    "word": "#nature"
+                }, 
+                {
+                    "characterOffsetBegin": 450, 
+                    "characterOffsetEnd": 456, 
+                    "index": 55, 
+                    "lemma": "#travel", 
+                    "originalText": "#travel", 
+                    "pos": "E", 
+                    "word": "#travel"
+                }, 
+                {
+                    "characterOffsetBegin": 458, 
+                    "characterOffsetEnd": 467, 
+                    "index": 56, 
+                    "lemma": "#traveling", 
+                    "originalText": "#traveling", 
+                    "pos": "SW", 
+                    "word": "#traveling"
+                }, 
+                {
+                    "characterOffsetBegin": 469, 
+                    "characterOffsetEnd": 473, 
+                    "index": 57, 
+                    "lemma": "#love", 
+                    "originalText": "#love", 
+                    "pos": "SW", 
+                    "word": "#love"
+                }, 
+                {
+                    "characterOffsetBegin": 475, 
+                    "characterOffsetEnd": 480, 
+                    "index": 58, 
+                    "lemma": "#relax", 
+                    "originalText": "#relax", 
+                    "pos": "SW", 
+                    "word": "#relax"
+                }, 
+                {
+                    "characterOffsetBegin": 482, 
+                    "characterOffsetEnd": 493, 
+                    "index": 59, 
+                    "lemma": "#relaxingday", 
+                    "originalText": "#relaxingday", 
+                    "pos": "SW", 
+                    "word": "#relaxingday"
+                }, 
+                {
+                    "characterOffsetBegin": 495, 
+                    "characterOffsetEnd": 495, 
+                    "index": 60, 
+                    "lemma": "@", 
+                    "originalText": "@", 
+                    "pos": "FF", 
+                    "word": "@"
+                }, 
+                {
+                    "characterOffsetBegin": 497, 
+                    "characterOffsetEnd": 498, 
+                    "index": 61, 
+                    "lemma": "Le", 
+                    "originalText": "Le", 
+                    "pos": "RD", 
+                    "word": "Le"
+                }, 
+                {
+                    "characterOffsetBegin": 500, 
+                    "characterOffsetEnd": 506, 
+                    "index": 62, 
+                    "lemma": "cascina", 
+                    "originalText": "Cascine", 
+                    "pos": "SP", 
+                    "word": "Cascine"
+                }, 
+                {
+                    "characterOffsetBegin": 508, 
+                    "characterOffsetEnd": 509, 
+                    "index": 63, 
+                    "lemma": "Di", 
+                    "originalText": "Di", 
+                    "pos": "SP", 
+                    "word": "Di"
+                }, 
+                {
+                    "characterOffsetBegin": 511, 
+                    "characterOffsetEnd": 516, 
+                    "index": 64, 
+                    "lemma": "Firenze", 
+                    "originalText": "Firenze", 
+                    "pos": "SP", 
+                    "word": "Firenze"
+                }
+            ]
+        }
+    ]
+}

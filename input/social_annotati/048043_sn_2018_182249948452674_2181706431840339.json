@@ -1,0 +1,621 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "\"C\u2019\u00e8", 
+                    "originalText": "\"C\u2019\u00e8", 
+                    "pos": "B", 
+                    "word": "\"C\u2019\u00e8"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 10, 
+                    "index": 2, 
+                    "lemma": "futuro", 
+                    "originalText": "Futuro", 
+                    "pos": "SP", 
+                    "word": "Futuro"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 13, 
+                    "index": 3, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 15, 
+                    "characterOffsetEnd": 21, 
+                    "index": 4, 
+                    "lemma": "Mostra\"", 
+                    "originalText": "Mostra\"", 
+                    "pos": "SP", 
+                    "word": "Mostra\""
+                }, 
+                {
+                    "characterOffsetBegin": 23, 
+                    "characterOffsetEnd": 23, 
+                    "index": 5, 
+                    "lemma": "-", 
+                    "originalText": "-", 
+                    "pos": "FF", 
+                    "word": "-"
+                }, 
+                {
+                    "characterOffsetBegin": 25, 
+                    "characterOffsetEnd": 35, 
+                    "index": 6, 
+                    "lemma": "Esposizione", 
+                    "originalText": "Esposizione", 
+                    "pos": "SP", 
+                    "word": "Esposizione"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 38, 
+                    "index": 7, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 40, 
+                    "characterOffsetEnd": 44, 
+                    "index": 8, 
+                    "lemma": "opera", 
+                    "originalText": "opere", 
+                    "pos": "S", 
+                    "word": "opere"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 48, 
+                    "index": 9, 
+                    "lemma": "di", 
+                    "originalText": "degli", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 47, 
+                    "characterOffsetEnd": 50, 
+                    "index": 10, 
+                    "lemma": "il", 
+                    "originalText": "degli", 
+                    "pos": "RD", 
+                    "word": "gli"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 58, 
+                    "index": 11, 
+                    "lemma": "allievo", 
+                    "originalText": "allievi", 
+                    "pos": "S", 
+                    "word": "allievi"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 62, 
+                    "index": 12, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 60, 
+                    "characterOffsetEnd": 62, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 64, 
+                    "characterOffsetEnd": 68, 
+                    "index": 14, 
+                    "lemma": "Liceo", 
+                    "originalText": "Liceo", 
+                    "pos": "SP", 
+                    "word": "Liceo"
+                }, 
+                {
+                    "characterOffsetBegin": 70, 
+                    "characterOffsetEnd": 78, 
+                    "index": 15, 
+                    "lemma": "Artistico", 
+                    "originalText": "Artistico", 
+                    "pos": "SP", 
+                    "word": "Artistico"
+                }, 
+                {
+                    "characterOffsetBegin": 80, 
+                    "characterOffsetEnd": 81, 
+                    "index": 16, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 83, 
+                    "characterOffsetEnd": 87, 
+                    "index": 17, 
+                    "lemma": "Sesto", 
+                    "originalText": "Sesto", 
+                    "pos": "SP", 
+                    "word": "Sesto"
+                }, 
+                {
+                    "characterOffsetBegin": 89, 
+                    "characterOffsetEnd": 98, 
+                    "index": 18, 
+                    "lemma": "Fiorentino", 
+                    "originalText": "Fiorentino", 
+                    "pos": "SP", 
+                    "word": "Fiorentino"
+                }, 
+                {
+                    "characterOffsetBegin": 100, 
+                    "characterOffsetEnd": 100, 
+                    "index": 19, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 102, 
+                    "characterOffsetEnd": 111, 
+                    "index": 20, 
+                    "lemma": "laboratorio", 
+                    "originalText": "Laboratori", 
+                    "pos": "SP", 
+                    "word": "Laboratori"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 116, 
+                    "index": 21, 
+                    "lemma": "open", 
+                    "originalText": "open", 
+                    "pos": "S", 
+                    "word": "open"
+                }, 
+                {
+                    "characterOffsetBegin": 118, 
+                    "characterOffsetEnd": 121, 
+                    "index": 22, 
+                    "lemma": "work", 
+                    "originalText": "work", 
+                    "pos": "S", 
+                    "word": "work"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 124, 
+                    "index": 23, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 126, 
+                    "characterOffsetEnd": 133, 
+                    "index": 24, 
+                    "lemma": "ceramica", 
+                    "originalText": "ceramica", 
+                    "pos": "S", 
+                    "word": "ceramica"
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 135, 
+                    "index": 25, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 137, 
+                    "characterOffsetEnd": 143, 
+                    "index": 26, 
+                    "lemma": "pittura", 
+                    "originalText": "pittura", 
+                    "pos": "S", 
+                    "word": "pittura"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 145, 
+                    "index": 27, 
+                    "lemma": "@", 
+                    "originalText": "@", 
+                    "pos": "X", 
+                    "word": "@"
+                }, 
+                {
+                    "characterOffsetBegin": 147, 
+                    "characterOffsetEnd": 154, 
+                    "index": 28, 
+                    "lemma": "archivio", 
+                    "originalText": "Archivio", 
+                    "pos": "SP", 
+                    "word": "Archivio"
+                }, 
+                {
+                    "characterOffsetBegin": 156, 
+                    "characterOffsetEnd": 158, 
+                    "index": 29, 
+                    "lemma": "di", 
+                    "originalText": "della", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 158, 
+                    "characterOffsetEnd": 160, 
+                    "index": 30, 
+                    "lemma": "il", 
+                    "originalText": "della", 
+                    "pos": "RD", 
+                    "word": "la"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 182, 
+                    "index": 31, 
+                    "lemma": "CeramicaInterverranno", 
+                    "originalText": "CeramicaInterverranno", 
+                    "pos": "SP", 
+                    "word": "CeramicaInterverranno"
+                }, 
+                {
+                    "characterOffsetBegin": 183, 
+                    "characterOffsetEnd": 190, 
+                    "index": 32, 
+                    "lemma": ":Lorenzo", 
+                    "originalText": ":Lorenzo", 
+                    "pos": "SP", 
+                    "word": ":Lorenzo"
+                }, 
+                {
+                    "characterOffsetBegin": 192, 
+                    "characterOffsetEnd": 197, 
+                    "index": 33, 
+                    "lemma": "falco", 
+                    "originalText": "Falchi", 
+                    "pos": "SP", 
+                    "word": "Falchi"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 198, 
+                    "index": 34, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 200, 
+                    "characterOffsetEnd": 206, 
+                    "index": 35, 
+                    "lemma": "sindaco", 
+                    "originalText": "Sindaco", 
+                    "pos": "S", 
+                    "word": "Sindaco"
+                }, 
+                {
+                    "characterOffsetBegin": 208, 
+                    "characterOffsetEnd": 209, 
+                    "index": 36, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 215, 
+                    "index": 37, 
+                    "lemma": "Sesto", 
+                    "originalText": "Sesto", 
+                    "pos": "SP", 
+                    "word": "Sesto"
+                }, 
+                {
+                    "characterOffsetBegin": 217, 
+                    "characterOffsetEnd": 231, 
+                    "index": 38, 
+                    "lemma": "FiorentinoLaura", 
+                    "originalText": "FiorentinoLaura", 
+                    "pos": "SP", 
+                    "word": "FiorentinoLaura"
+                }, 
+                {
+                    "characterOffsetBegin": 233, 
+                    "characterOffsetEnd": 237, 
+                    "index": 39, 
+                    "lemma": "Lozzi", 
+                    "originalText": "Lozzi", 
+                    "pos": "SP", 
+                    "word": "Lozzi"
+                }, 
+                {
+                    "characterOffsetBegin": 238, 
+                    "characterOffsetEnd": 238, 
+                    "index": 40, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 240, 
+                    "characterOffsetEnd": 248, 
+                    "index": 41, 
+                    "lemma": "dirigente", 
+                    "originalText": "Dirigente", 
+                    "pos": "SP", 
+                    "word": "Dirigente"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 252, 
+                    "index": 42, 
+                    "lemma": "di", 
+                    "originalText": "del", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 250, 
+                    "characterOffsetEnd": 252, 
+                    "index": 43, 
+                    "lemma": "il", 
+                    "originalText": "del", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 254, 
+                    "characterOffsetEnd": 261, 
+                    "index": 44, 
+                    "lemma": "Istituto", 
+                    "originalText": "Istituto", 
+                    "pos": "S", 
+                    "word": "Istituto"
+                }, 
+                {
+                    "characterOffsetBegin": 263, 
+                    "characterOffsetEnd": 268, 
+                    "index": 45, 
+                    "lemma": "D'Arte", 
+                    "originalText": "D'Arte", 
+                    "pos": "S", 
+                    "word": "D'Arte"
+                }, 
+                {
+                    "characterOffsetBegin": 270, 
+                    "characterOffsetEnd": 271, 
+                    "index": 46, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 273, 
+                    "characterOffsetEnd": 277, 
+                    "index": 47, 
+                    "lemma": "Porta", 
+                    "originalText": "Porta", 
+                    "pos": "SP", 
+                    "word": "Porta"
+                }, 
+                {
+                    "characterOffsetBegin": 279, 
+                    "characterOffsetEnd": 293, 
+                    "index": 48, 
+                    "lemma": "RomanaGianpiero", 
+                    "originalText": "RomanaGianpiero", 
+                    "pos": "SP", 
+                    "word": "RomanaGianpiero"
+                }, 
+                {
+                    "characterOffsetBegin": 295, 
+                    "characterOffsetEnd": 302, 
+                    "index": 49, 
+                    "lemma": "Alfarano", 
+                    "originalText": "Alfarano", 
+                    "pos": "SP", 
+                    "word": "Alfarano"
+                }, 
+                {
+                    "characterOffsetBegin": 303, 
+                    "characterOffsetEnd": 303, 
+                    "index": 50, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 305, 
+                    "characterOffsetEnd": 313, 
+                    "index": 51, 
+                    "lemma": "direttore", 
+                    "originalText": "Direttore", 
+                    "pos": "S", 
+                    "word": "Direttore"
+                }, 
+                {
+                    "characterOffsetBegin": 315, 
+                    "characterOffsetEnd": 318, 
+                    "index": 52, 
+                    "lemma": "sede", 
+                    "originalText": "sede", 
+                    "pos": "S", 
+                    "word": "sede"
+                }, 
+                {
+                    "characterOffsetBegin": 320, 
+                    "characterOffsetEnd": 325, 
+                    "index": 53, 
+                    "lemma": "Design", 
+                    "originalText": "Design", 
+                    "pos": "SP", 
+                    "word": "Design"
+                }, 
+                {
+                    "characterOffsetBegin": 327, 
+                    "characterOffsetEnd": 332, 
+                    "index": 54, 
+                    "lemma": "campus", 
+                    "originalText": "Campus", 
+                    "pos": "SP", 
+                    "word": "Campus"
+                }, 
+                {
+                    "characterOffsetBegin": 334, 
+                    "characterOffsetEnd": 341, 
+                    "index": 55, 
+                    "lemma": "FirenzeA", 
+                    "originalText": "FirenzeA", 
+                    "pos": "SP", 
+                    "word": "FirenzeA"
+                }, 
+                {
+                    "characterOffsetBegin": 343, 
+                    "characterOffsetEnd": 349, 
+                    "index": 56, 
+                    "lemma": "seguire", 
+                    "originalText": "seguire", 
+                    "pos": "V", 
+                    "word": "seguire"
+                }, 
+                {
+                    "characterOffsetBegin": 351, 
+                    "characterOffsetEnd": 358, 
+                    "index": 57, 
+                    "lemma": "ceramica", 
+                    "originalText": "CERAMICA", 
+                    "pos": "S", 
+                    "word": "CERAMICA"
+                }, 
+                {
+                    "characterOffsetBegin": 360, 
+                    "characterOffsetEnd": 364, 
+                    "index": 58, 
+                    "lemma": "PARTY", 
+                    "originalText": "PARTY", 
+                    "pos": "S", 
+                    "word": "PARTY"
+                }, 
+                {
+                    "characterOffsetBegin": 366, 
+                    "characterOffsetEnd": 368, 
+                    "index": 59, 
+                    "lemma": "con", 
+                    "originalText": "con", 
+                    "pos": "E", 
+                    "word": "con"
+                }, 
+                {
+                    "characterOffsetBegin": 370, 
+                    "characterOffsetEnd": 371, 
+                    "index": 60, 
+                    "lemma": "DJ", 
+                    "originalText": "DJ", 
+                    "pos": "SP", 
+                    "word": "DJ"
+                }, 
+                {
+                    "characterOffsetBegin": 373, 
+                    "characterOffsetEnd": 375, 
+                    "index": 61, 
+                    "lemma": "Set", 
+                    "originalText": "Set", 
+                    "pos": "S", 
+                    "word": "Set"
+                }, 
+                {
+                    "characterOffsetBegin": 377, 
+                    "characterOffsetEnd": 377, 
+                    "index": 62, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 379, 
+                    "characterOffsetEnd": 382, 
+                    "index": 63, 
+                    "lemma": "Free", 
+                    "originalText": "Free", 
+                    "pos": "S", 
+                    "word": "Free"
+                }, 
+                {
+                    "characterOffsetBegin": 384, 
+                    "characterOffsetEnd": 388, 
+                    "index": 64, 
+                    "lemma": "Light", 
+                    "originalText": "Light", 
+                    "pos": "A", 
+                    "word": "Light"
+                }, 
+                {
+                    "characterOffsetBegin": 390, 
+                    "characterOffsetEnd": 402, 
+                    "index": 65, 
+                    "lemma": "BarIniziativa", 
+                    "originalText": "BarIniziativa", 
+                    "pos": "A", 
+                    "word": "BarIniziativa"
+                }, 
+                {
+                    "characterOffsetBegin": 404, 
+                    "characterOffsetEnd": 406, 
+                    "index": 66, 
+                    "lemma": "per", 
+                    "originalText": "per", 
+                    "pos": "E", 
+                    "word": "per"
+                }, 
+                {
+                    "characterOffsetBegin": 408, 
+                    "characterOffsetEnd": 417, 
+                    "index": 67, 
+                    "lemma": "buongiorno", 
+                    "originalText": "Buongiorno", 
+                    "pos": "SP", 
+                    "word": "Buongiorno"
+                }, 
+                {
+                    "characterOffsetBegin": 419, 
+                    "characterOffsetEnd": 425, 
+                    "index": 68, 
+                    "lemma": "ceramica", 
+                    "originalText": "Ceramica", 
+                    "pos": "SP", 
+                    "word": "Ceramica"
+                }
+            ]
+        }
+    ]
+}

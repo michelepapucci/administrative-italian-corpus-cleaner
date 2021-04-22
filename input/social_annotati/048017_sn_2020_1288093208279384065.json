@@ -1,0 +1,433 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 3, 
+                    "index": 1, 
+                    "lemma": "They", 
+                    "originalText": "They", 
+                    "pos": "SP", 
+                    "word": "They"
+                }, 
+                {
+                    "characterOffsetBegin": 5, 
+                    "characterOffsetEnd": 10, 
+                    "index": 2, 
+                    "lemma": "spread", 
+                    "originalText": "spread", 
+                    "pos": "A", 
+                    "word": "spread"
+                }, 
+                {
+                    "characterOffsetBegin": 12, 
+                    "characterOffsetEnd": 14, 
+                    "index": 3, 
+                    "lemma": "out", 
+                    "originalText": "out", 
+                    "pos": "V", 
+                    "word": "out"
+                }, 
+                {
+                    "characterOffsetBegin": 16, 
+                    "characterOffsetEnd": 20, 
+                    "index": 4, 
+                    "lemma": "along", 
+                    "originalText": "along", 
+                    "pos": "S", 
+                    "word": "along"
+                }, 
+                {
+                    "characterOffsetBegin": 22, 
+                    "characterOffsetEnd": 24, 
+                    "index": 5, 
+                    "lemma": "the", 
+                    "originalText": "the", 
+                    "pos": "RD", 
+                    "word": "the"
+                }, 
+                {
+                    "characterOffsetBegin": 26, 
+                    "characterOffsetEnd": 29, 
+                    "index": 6, 
+                    "lemma": "Arno", 
+                    "originalText": "Arno", 
+                    "pos": "A", 
+                    "word": "Arno"
+                }, 
+                {
+                    "characterOffsetBegin": 31, 
+                    "characterOffsetEnd": 35, 
+                    "index": 7, 
+                    "lemma": "river", 
+                    "originalText": "river", 
+                    "pos": "S", 
+                    "word": "river"
+                }, 
+                {
+                    "characterOffsetBegin": 37, 
+                    "characterOffsetEnd": 39, 
+                    "index": 8, 
+                    "lemma": "but", 
+                    "originalText": "but", 
+                    "pos": "A", 
+                    "word": "but"
+                }, 
+                {
+                    "characterOffsetBegin": 41, 
+                    "characterOffsetEnd": 44, 
+                    "index": 9, 
+                    "lemma": "have", 
+                    "originalText": "have", 
+                    "pos": "SW", 
+                    "word": "have"
+                }, 
+                {
+                    "characterOffsetBegin": 46, 
+                    "characterOffsetEnd": 50, 
+                    "index": 10, 
+                    "lemma": "their", 
+                    "originalText": "their", 
+                    "pos": "SW", 
+                    "word": "their"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 56, 
+                    "index": 11, 
+                    "lemma": "heart", 
+                    "originalText": "heart", 
+                    "pos": "SW", 
+                    "word": "heart"
+                }, 
+                {
+                    "characterOffsetBegin": 58, 
+                    "characterOffsetEnd": 59, 
+                    "index": 12, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 61, 
+                    "characterOffsetEnd": 63, 
+                    "index": 13, 
+                    "lemma": "the", 
+                    "originalText": "the", 
+                    "pos": "RD", 
+                    "word": "the"
+                }, 
+                {
+                    "characterOffsetBegin": 65, 
+                    "characterOffsetEnd": 72, 
+                    "index": 14, 
+                    "lemma": "hills...", 
+                    "originalText": "hills...", 
+                    "pos": "S", 
+                    "word": "hills..."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 80, 
+                    "index": 1, 
+                    "lemma": "Figline", 
+                    "originalText": "Figline", 
+                    "pos": "SP", 
+                    "word": "Figline"
+                }, 
+                {
+                    "characterOffsetBegin": 82, 
+                    "characterOffsetEnd": 84, 
+                    "index": 2, 
+                    "lemma": "and", 
+                    "originalText": "and", 
+                    "pos": "CC", 
+                    "word": "and"
+                }, 
+                {
+                    "characterOffsetBegin": 86, 
+                    "characterOffsetEnd": 91, 
+                    "index": 3, 
+                    "lemma": "Incisa", 
+                    "originalText": "Incisa", 
+                    "pos": "SP", 
+                    "word": "Incisa"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 100, 
+                    "index": 4, 
+                    "lemma": "Valdarno", 
+                    "originalText": "Valdarno", 
+                    "pos": "SP", 
+                    "word": "Valdarno"
+                }, 
+                {
+                    "characterOffsetBegin": 101, 
+                    "characterOffsetEnd": 101, 
+                    "index": 5, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 103, 
+                    "characterOffsetEnd": 105, 
+                    "index": 6, 
+                    "lemma": "two", 
+                    "originalText": "two", 
+                    "pos": "S", 
+                    "word": "two"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 111, 
+                    "index": 7, 
+                    "lemma": "\"new\"", 
+                    "originalText": "\"new\"", 
+                    "pos": "N", 
+                    "word": "\"new\""
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 118, 
+                    "index": 8, 
+                    "lemma": "cities", 
+                    "originalText": "cities", 
+                    "pos": "S", 
+                    "word": "cities"
+                }, 
+                {
+                    "characterOffsetBegin": 120, 
+                    "characterOffsetEnd": 126, 
+                    "index": 9, 
+                    "lemma": "founded", 
+                    "originalText": "founded", 
+                    "pos": "A", 
+                    "word": "founded"
+                }, 
+                {
+                    "characterOffsetBegin": 128, 
+                    "characterOffsetEnd": 129, 
+                    "index": 10, 
+                    "lemma": "by", 
+                    "originalText": "by", 
+                    "pos": "SW", 
+                    "word": "by"
+                }, 
+                {
+                    "characterOffsetBegin": 131, 
+                    "characterOffsetEnd": 138, 
+                    "index": 11, 
+                    "lemma": "Florence", 
+                    "originalText": "Florence", 
+                    "pos": "SW", 
+                    "word": "Florence"
+                }, 
+                {
+                    "characterOffsetBegin": 140, 
+                    "characterOffsetEnd": 143, 
+                    "index": 12, 
+                    "lemma": "with", 
+                    "originalText": "with", 
+                    "pos": "SW", 
+                    "word": "with"
+                }, 
+                {
+                    "characterOffsetBegin": 145, 
+                    "characterOffsetEnd": 153, 
+                    "index": 13, 
+                    "lemma": "important", 
+                    "originalText": "important", 
+                    "pos": "A", 
+                    "word": "important"
+                }, 
+                {
+                    "characterOffsetBegin": 155, 
+                    "characterOffsetEnd": 160, 
+                    "index": 14, 
+                    "lemma": "traces", 
+                    "originalText": "traces", 
+                    "pos": "S", 
+                    "word": "traces"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 163, 
+                    "index": 15, 
+                    "lemma": "of", 
+                    "originalText": "of", 
+                    "pos": "E", 
+                    "word": "of"
+                }, 
+                {
+                    "characterOffsetBegin": 165, 
+                    "characterOffsetEnd": 167, 
+                    "index": 16, 
+                    "lemma": "the", 
+                    "originalText": "the", 
+                    "pos": "RD", 
+                    "word": "the"
+                }, 
+                {
+                    "characterOffsetBegin": 169, 
+                    "characterOffsetEnd": 172, 
+                    "index": 17, 
+                    "lemma": "past", 
+                    "originalText": "past", 
+                    "pos": "S", 
+                    "word": "past"
+                }, 
+                {
+                    "characterOffsetBegin": 174, 
+                    "characterOffsetEnd": 174, 
+                    "index": 18, 
+                    "lemma": "-", 
+                    "originalText": "-", 
+                    "pos": "FB", 
+                    "word": "-"
+                }, 
+                {
+                    "characterOffsetBegin": 176, 
+                    "characterOffsetEnd": 180, 
+                    "index": 19, 
+                    "lemma": "walls", 
+                    "originalText": "walls", 
+                    "pos": "S", 
+                    "word": "walls"
+                }, 
+                {
+                    "characterOffsetBegin": 181, 
+                    "characterOffsetEnd": 181, 
+                    "index": 20, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 183, 
+                    "characterOffsetEnd": 193, 
+                    "index": 21, 
+                    "lemma": "Renaissance", 
+                    "originalText": "Renaissance", 
+                    "pos": "SP", 
+                    "word": "Renaissance"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 201, 
+                    "index": 22, 
+                    "lemma": "squares", 
+                    "originalText": "squares", 
+                    "pos": "S", 
+                    "word": "squares"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 202, 
+                    "index": 23, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 204, 
+                    "characterOffsetEnd": 209, 
+                    "index": 24, 
+                    "lemma": "parish", 
+                    "originalText": "parish", 
+                    "pos": "A", 
+                    "word": "parish"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 219, 
+                    "index": 25, 
+                    "lemma": "churches.", 
+                    "originalText": "churches.", 
+                    "pos": "S", 
+                    "word": "churches."
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 221, 
+                    "characterOffsetEnd": 224, 
+                    "index": 1, 
+                    "lemma": "Just", 
+                    "originalText": "Just", 
+                    "pos": "SP", 
+                    "word": "Just"
+                }, 
+                {
+                    "characterOffsetBegin": 226, 
+                    "characterOffsetEnd": 232, 
+                    "index": 2, 
+                    "lemma": "waiting", 
+                    "originalText": "waiting", 
+                    "pos": "SW", 
+                    "word": "waiting"
+                }, 
+                {
+                    "characterOffsetBegin": 234, 
+                    "characterOffsetEnd": 235, 
+                    "index": 3, 
+                    "lemma": "to", 
+                    "originalText": "to", 
+                    "pos": "X", 
+                    "word": "to"
+                }, 
+                {
+                    "characterOffsetBegin": 237, 
+                    "characterOffsetEnd": 238, 
+                    "index": 4, 
+                    "lemma": "be", 
+                    "originalText": "be", 
+                    "pos": "SP", 
+                    "word": "be"
+                }, 
+                {
+                    "characterOffsetBegin": 240, 
+                    "characterOffsetEnd": 249, 
+                    "index": 5, 
+                    "lemma": "discovered", 
+                    "originalText": "discovered", 
+                    "pos": "S", 
+                    "word": "discovered"
+                }, 
+                {
+                    "characterOffsetBegin": 251, 
+                    "characterOffsetEnd": 265, 
+                    "index": 6, 
+                    "lemma": "#aroundflorence", 
+                    "originalText": "#aroundflorence", 
+                    "pos": "A", 
+                    "word": "#aroundflorence"
+                }, 
+                {
+                    "characterOffsetBegin": 267, 
+                    "characterOffsetEnd": 288, 
+                    "index": 7, 
+                    "lemma": "https://t.co/Vv8j89v3Wr", 
+                    "originalText": "https://t.co/Vv8j89v3Wr", 
+                    "pos": "SP", 
+                    "word": "https://t.co/Vv8j89v3Wr"
+                }
+            ]
+        }
+    ]
+}

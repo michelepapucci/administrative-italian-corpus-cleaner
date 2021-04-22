@@ -1,0 +1,424 @@
+{
+    "sentences": [
+        {
+            "index": 0, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 0, 
+                    "characterOffsetEnd": 0, 
+                    "index": 1, 
+                    "lemma": "A", 
+                    "originalText": "A", 
+                    "pos": "E", 
+                    "word": "A"
+                }, 
+                {
+                    "characterOffsetBegin": 2, 
+                    "characterOffsetEnd": 9, 
+                    "index": 2, 
+                    "lemma": "#Firenze", 
+                    "originalText": "#Firenze", 
+                    "pos": "S", 
+                    "word": "#Firenze"
+                }, 
+                {
+                    "characterOffsetBegin": 11, 
+                    "characterOffsetEnd": 12, 
+                    "index": 3, 
+                    "lemma": "da", 
+                    "originalText": "da", 
+                    "pos": "E", 
+                    "word": "da"
+                }, 
+                {
+                    "characterOffsetBegin": 14, 
+                    "characterOffsetEnd": 22, 
+                    "index": 4, 
+                    "lemma": "mercoled\u00ec", 
+                    "originalText": "mercoled\u00ec", 
+                    "pos": "S", 
+                    "word": "mercoled\u00ec"
+                }, 
+                {
+                    "characterOffsetBegin": 24, 
+                    "characterOffsetEnd": 31, 
+                    "index": 5, 
+                    "lemma": "#6maggio", 
+                    "originalText": "#6maggio", 
+                    "pos": "A", 
+                    "word": "#6maggio"
+                }, 
+                {
+                    "characterOffsetBegin": 33, 
+                    "characterOffsetEnd": 34, 
+                    "index": 6, 
+                    "lemma": "in", 
+                    "originalText": "in", 
+                    "pos": "E", 
+                    "word": "in"
+                }, 
+                {
+                    "characterOffsetBegin": 36, 
+                    "characterOffsetEnd": 41, 
+                    "index": 7, 
+                    "lemma": "orario", 
+                    "originalText": "orario", 
+                    "pos": "S", 
+                    "word": "orario"
+                }, 
+                {
+                    "characterOffsetBegin": 43, 
+                    "characterOffsetEnd": 50, 
+                    "index": 8, 
+                    "lemma": "notturno", 
+                    "originalText": "notturno", 
+                    "pos": "A", 
+                    "word": "notturno"
+                }, 
+                {
+                    "characterOffsetBegin": 52, 
+                    "characterOffsetEnd": 57, 
+                    "index": 9, 
+                    "lemma": "lavori", 
+                    "originalText": "lavori", 
+                    "pos": "S", 
+                    "word": "lavori"
+                }, 
+                {
+                    "characterOffsetBegin": 59, 
+                    "characterOffsetEnd": 60, 
+                    "index": 10, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 62, 
+                    "characterOffsetEnd": 72, 
+                    "index": 11, 
+                    "lemma": "asfaltatura", 
+                    "originalText": "asfaltatura", 
+                    "pos": "S", 
+                    "word": "asfaltatura"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 76, 
+                    "index": 12, 
+                    "lemma": "su", 
+                    "originalText": "sul", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 74, 
+                    "characterOffsetEnd": 76, 
+                    "index": 13, 
+                    "lemma": "il", 
+                    "originalText": "sul", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 78, 
+                    "characterOffsetEnd": 85, 
+                    "index": 14, 
+                    "lemma": "viadotto", 
+                    "originalText": "viadotto", 
+                    "pos": "S", 
+                    "word": "viadotto"
+                }, 
+                {
+                    "characterOffsetBegin": 87, 
+                    "characterOffsetEnd": 91, 
+                    "index": 15, 
+                    "lemma": "marco", 
+                    "originalText": "Marco", 
+                    "pos": "SP", 
+                    "word": "Marco"
+                }, 
+                {
+                    "characterOffsetBegin": 93, 
+                    "characterOffsetEnd": 96, 
+                    "index": 16, 
+                    "lemma": "polo", 
+                    "originalText": "Polo", 
+                    "pos": "SP", 
+                    "word": "Polo"
+                }, 
+                {
+                    "characterOffsetBegin": 98, 
+                    "characterOffsetEnd": 105, 
+                    "index": 17, 
+                    "lemma": "comprendere", 
+                    "originalText": "compresi", 
+                    "pos": "V", 
+                    "word": "compresi"
+                }, 
+                {
+                    "characterOffsetBegin": 107, 
+                    "characterOffsetEnd": 111, 
+                    "index": 18, 
+                    "lemma": "ponti", 
+                    "originalText": "ponti", 
+                    "pos": "S", 
+                    "word": "ponti"
+                }, 
+                {
+                    "characterOffsetBegin": 113, 
+                    "characterOffsetEnd": 119, 
+                    "index": 19, 
+                    "lemma": "falcone", 
+                    "originalText": "Falcone", 
+                    "pos": "SP", 
+                    "word": "Falcone"
+                }, 
+                {
+                    "characterOffsetBegin": 121, 
+                    "characterOffsetEnd": 121, 
+                    "index": 20, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 123, 
+                    "characterOffsetEnd": 132, 
+                    "index": 21, 
+                    "lemma": "Borsellino", 
+                    "originalText": "Borsellino", 
+                    "pos": "SP", 
+                    "word": "Borsellino"
+                }, 
+                {
+                    "characterOffsetBegin": 133, 
+                    "characterOffsetEnd": 133, 
+                    "index": 22, 
+                    "lemma": ",", 
+                    "originalText": ",", 
+                    "pos": "FF", 
+                    "word": ","
+                }, 
+                {
+                    "characterOffsetBegin": 135, 
+                    "characterOffsetEnd": 139, 
+                    "index": 23, 
+                    "lemma": "rampa", 
+                    "originalText": "rampe", 
+                    "pos": "S", 
+                    "word": "rampe"
+                }, 
+                {
+                    "characterOffsetBegin": 141, 
+                    "characterOffsetEnd": 142, 
+                    "index": 24, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 144, 
+                    "characterOffsetEnd": 148, 
+                    "index": 25, 
+                    "lemma": "viale", 
+                    "originalText": "viale", 
+                    "pos": "S", 
+                    "word": "viale"
+                }, 
+                {
+                    "characterOffsetBegin": 150, 
+                    "characterOffsetEnd": 155, 
+                    "index": 26, 
+                    "lemma": "Europa", 
+                    "originalText": "Europa", 
+                    "pos": "SP", 
+                    "word": "Europa"
+                }, 
+                {
+                    "characterOffsetBegin": 157, 
+                    "characterOffsetEnd": 157, 
+                    "index": 27, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 159, 
+                    "characterOffsetEnd": 160, 
+                    "index": 28, 
+                    "lemma": "su", 
+                    "originalText": "su", 
+                    "pos": "E", 
+                    "word": "su"
+                }, 
+                {
+                    "characterOffsetBegin": 162, 
+                    "characterOffsetEnd": 164, 
+                    "index": 29, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "S", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 166, 
+                    "characterOffsetEnd": 169, 
+                    "index": 30, 
+                    "lemma": "Duca", 
+                    "originalText": "Duca", 
+                    "pos": "SP", 
+                    "word": "Duca"
+                }, 
+                {
+                    "characterOffsetBegin": 171, 
+                    "characterOffsetEnd": 172, 
+                    "index": 31, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 174, 
+                    "characterOffsetEnd": 181, 
+                    "index": 32, 
+                    "lemma": "Calabria", 
+                    "originalText": "Calabria", 
+                    "pos": "SP", 
+                    "word": "Calabria"
+                }, 
+                {
+                    "characterOffsetBegin": 183, 
+                    "characterOffsetEnd": 183, 
+                    "index": 33, 
+                    "lemma": "e", 
+                    "originalText": "e", 
+                    "pos": "CC", 
+                    "word": "e"
+                }, 
+                {
+                    "characterOffsetBegin": 185, 
+                    "characterOffsetEnd": 186, 
+                    "index": 34, 
+                    "lemma": "il", 
+                    "originalText": "il", 
+                    "pos": "RD", 
+                    "word": "il"
+                }, 
+                {
+                    "characterOffsetBegin": 188, 
+                    "characterOffsetEnd": 193, 
+                    "index": 35, 
+                    "lemma": "tratto", 
+                    "originalText": "tratto", 
+                    "pos": "S", 
+                    "word": "tratto"
+                }, 
+                {
+                    "characterOffsetBegin": 195, 
+                    "characterOffsetEnd": 196, 
+                    "index": 36, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 198, 
+                    "characterOffsetEnd": 200, 
+                    "index": 37, 
+                    "lemma": "via", 
+                    "originalText": "via", 
+                    "pos": "S", 
+                    "word": "via"
+                }, 
+                {
+                    "characterOffsetBegin": 202, 
+                    "characterOffsetEnd": 209, 
+                    "index": 38, 
+                    "lemma": "Giovanni", 
+                    "originalText": "Giovanni", 
+                    "pos": "SP", 
+                    "word": "Giovanni"
+                }, 
+                {
+                    "characterOffsetBegin": 211, 
+                    "characterOffsetEnd": 217, 
+                    "index": 39, 
+                    "lemma": "Agnelli", 
+                    "originalText": "Agnelli", 
+                    "pos": "SP", 
+                    "word": "Agnelli"
+                }, 
+                {
+                    "characterOffsetBegin": 218, 
+                    "characterOffsetEnd": 218, 
+                    "index": 40, 
+                    "lemma": ".", 
+                    "originalText": ".", 
+                    "pos": "FS", 
+                    "word": "."
+                }
+            ]
+        }, 
+        {
+            "index": 1, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 220, 
+                    "characterOffsetEnd": 232, 
+                    "index": 1, 
+                    "lemma": "provvedimento", 
+                    "originalText": "Provvedimenti", 
+                    "pos": "S", 
+                    "word": "Provvedimenti"
+                }, 
+                {
+                    "characterOffsetBegin": 234, 
+                    "characterOffsetEnd": 235, 
+                    "index": 2, 
+                    "lemma": "di", 
+                    "originalText": "di", 
+                    "pos": "E", 
+                    "word": "di"
+                }, 
+                {
+                    "characterOffsetBegin": 237, 
+                    "characterOffsetEnd": 244, 
+                    "index": 3, 
+                    "lemma": "mobilit\u00e0", 
+                    "originalText": "mobilit\u00e0", 
+                    "pos": "S", 
+                    "word": "mobilit\u00e0"
+                }, 
+                {
+                    "characterOffsetBegin": 246, 
+                    "characterOffsetEnd": 268, 
+                    "index": 4, 
+                    "lemma": "https://t.co/UtdLOuvrRC", 
+                    "originalText": "https://t.co/UtdLOuvrRC", 
+                    "pos": "SP", 
+                    "word": "https://t.co/UtdLOuvrRC"
+                }
+            ]
+        }, 
+        {
+            "index": 2, 
+            "tokens": [
+                {
+                    "characterOffsetBegin": 270, 
+                    "characterOffsetEnd": 277, 
+                    "index": 1, 
+                    "lemma": "@comunefi", 
+                    "originalText": "@comunefi", 
+                    "pos": "NO", 
+                    "word": "@comunefi"
+                }
+            ]
+        }
+    ]
+}
