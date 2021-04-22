@@ -169,6 +169,7 @@ def remove_phrase_with_no_end_point_pawac(pawac):
 
 def parse_pawac(file):
     tokens = codecs.open(file, "r", "utf-8").readlines()
+    print(tokens)
     sentence = list()
     output = list()
     for token in tokens:
