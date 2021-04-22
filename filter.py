@@ -93,12 +93,15 @@ def count_sentences_pawac(pawac):
 def print_statistical_information_pawac(pawac, intestation):
     sentence_len = count_sentences_pawac(pawac)
     out = codecs.open(Path("output/pawac/stats.txt"), "a", "utf-8")
-    print(f"{intestation} number of sentences: {len(pawac)}\tmax_len: {sentence_len[-1]}\t"
-          f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-          f"media: {sum(sentence_len) / len(sentence_len)}\n")
-    out.write(f"{intestation} number of sentences: {len(pawac)}\tmax_len: {sentence_len[-1]}\t"
+    if sentence_len:
+        print(f"{intestation} number of sentences: {len(pawac)}\tmax_len: {sentence_len[-1]}\t"
               f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
               f"media: {sum(sentence_len) / len(sentence_len)}\n")
+        out.write(f"{intestation} number of sentences: {len(pawac)}\tmax_len: {sentence_len[-1]}\t"
+                  f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
+                  f"media: {sum(sentence_len) / len(sentence_len)}\n")
+    else:
+        print(f"Error during printing for {intestation} phase, sentence_len: {sentence_len}")
     out.close()
 
 
