@@ -314,12 +314,12 @@ def filter_social(folder):
 
 
 if __name__ == "__main__":
-    # filter_sem_web(Path("input/demo/web-10"))
-    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-    # filter_faq(Path("input/faq.txt"))
     filter_social(Path("input/social_annotati"))
 
 # sem = pagine web siti comuni: ok
 # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
 # social: parsare i json e filtrare
 # faq: analisi
+# filter_sem_web(Path("input/demo/web-10"))
+# filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+# filter_faq(Path("input/faq.txt"))
