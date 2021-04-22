@@ -253,7 +253,7 @@ def filter_faq(faq):
 
 if __name__ == "__main__":
     # filter_sem_web(Path("input/demo/web-10"))
-    filter_pawac(Path("input/PaWaC_1.1.pos"))
+    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
 
 # sem = pagine web siti comuni: ok
