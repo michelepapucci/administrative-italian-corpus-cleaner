@@ -89,6 +89,7 @@ def print_social(social, file):
         out.write("\n")
     out.close()
 
+
 # !
 def count_sentences(documents, already_nlp=False):
     counter = 0
@@ -114,19 +115,33 @@ def count_sentences_pawac(pawac):
 def count_sentences_social(social):
     sentence_len_array = list()
     for sentence in social:
-        sentence_len_array.append(len(sentence["tokens"]))
+        last_original_text = ""
+        sentence_len = len(sentence["tokens"])
+        for token in sentence["tokens"]:
+            if token["originalText"] == last_original_text:
+                sentence_len -= 1
+            last_original_text = token["originalText"]
+        sentence_len_array.append(sentence_len)
     sentence_len_array.sort()
     return sentence_len_array
 
 
 def plot_data(sentence_len_array, filename):
-    plt.hist(sentence_len_array, color='blue', edgecolor='black',
-             bins=int(180 / 5))
+    plt.figure()
+    plt.hist(sentence_len_array, color='blue', edgecolor='black', bins=int(180 / 5))
 
     plt.title('Istogramma')
     plt.xlabel('length')
     plt.ylabel('sentences')
-    plt.savefig(filename)
+    plt.savefig(filename + "-istogramma.png")
+
+    plt.figure()
+    plt.boxplot(sentence_len_array)
+
+    plt.title('Box')
+    plt.xlabel('length')
+    plt.ylabel('sentences')
+    plt.savefig(filename + "-box.png")
 
 
 # !
@@ -144,7 +159,7 @@ def print_statistical_information(docs, intestation, folder):
                         f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
                         f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
     print(formatted_string)
-    plot_data(sentence_len, "histogram-sem-web.png")
+    plot_data(sentence_len, "sem-web")
     out.write(formatted_string)
     out.close()
 
@@ -168,12 +183,19 @@ def print_statistica_information_social(social, intestation):
     sentence_len = count_sentences_social(social)
     out = codecs.open(Path("output/social/stats.txt"), "a", "utf-8")
     if sentence_len:
-        print(f"{intestation} number of sentences: {len(social)}\tmax_len: {sentence_len[-1]}\t"
-              f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-              f"media: {sum(sentence_len) / len(sentence_len)}\n")
-        out.write(f"{intestation} number of sentences: {len(social)}\tmax_len: {sentence_len[-1]}\t"
-                  f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-                  f"media: {sum(sentence_len) / len(sentence_len)}\n")
+        formatted_string = (f"{intestation} number of sentences: {len(social)}|\t"
+                            f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t|\t"
+                            f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t|\t"
+                            f"media: {statistics.mean(sentence_len)}\t|\t"
+                            f"deviazione standard: {statistics.stdev(sentence_len)}\t|\t"
+                            f">50: {sum(i > 50 for i in sentence_len)}\t|\t"
+                            f">100: {sum(i > 100 for i in sentence_len)}\t|\t"
+                            f">200: {sum(i > 200 for i in sentence_len)}\t|\t"
+                            f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
+                            f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
+        print(formatted_string)
+        plot_data(sentence_len, "social")
+        out.write(formatted_string)
     else:
         print(f"Error during printing for {intestation} phase, sentence_len: {sentence_len}")
     out.close()
@@ -331,8 +353,8 @@ def filter_social(folder):
 
 
 if __name__ == "__main__":
-    # filter_social(Path("input/social_annotati"))
-    filter_sem_web(Path("input/sem_web"))
+    filter_social(Path("input/social_annotati"))
+    # filter_sem_web(Path("input/demo/web-56"))
 
 # sem = pagine web siti comuni: ok
 # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
