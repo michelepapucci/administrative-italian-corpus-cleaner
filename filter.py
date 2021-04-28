@@ -5,6 +5,7 @@ import re
 import magic
 from pathlib import Path
 import json
+import statistics
 
 
 # !
@@ -122,14 +123,18 @@ def count_sentences_social(social):
 def print_statistical_information(docs, intestation, folder):
     count, sentence_len = count_sentences(docs, already_nlp=True)
     out = codecs.open(folder + "stats.txt", "a", "utf-8")
-    print(f"{intestation} number of sentences: {count}\t"
-          f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t"
-          f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-          f"media: {sum(sentence_len) / len(sentence_len)}")
-    out.write(f"{intestation} number of sentences: {count}\t"
-              f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t"
-              f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-              f"media: {sum(sentence_len) / len(sentence_len)}\n")
+    formatted_string = (f"{intestation} number of sentences: {count}|\t"
+                        f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t|\t"
+                        f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t|\t"
+                        f"media: {statistics.mean(sentence_len)}\t|\t"
+                        f"deviazione standard: {statistics.stdev(sentence_len)}\t|\t"
+                        f">50: {sum(i > 50 for i in sentence_len)}\t|\t"
+                        f">100: {sum(i > 100 for i in sentence_len)}\t|\t"
+                        f">200: {sum(i > 200 for i in sentence_len)}\t|\t"
+                        f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
+                        f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
+    print(formatted_string)
+    out.write(formatted_string)
     out.close()
 
 
@@ -297,12 +302,13 @@ def filter_social(folder):
 
     # Sentence Splitting
     # TODO: trovare un modo di non falsare la conta dei token a causa dei token "doppioni" per i composti
+    # Preposizione = pos: E, pos: PC
     social = load_files_from_folders(folder, extension=".json")
     social = parse_social(social)
     print_statistica_information_social(social, "Sentence Splitting")
     print_social(social, "sentence-splitting.txt")
 
-    # Verb filtering
+    # Verb filtering Togliere frasi senza verbi e che non presentano #
     social = filter_no_verbs_sentences_social(social)
     print_statistica_information_social(social, "Verb Filtering")
     print_social(social, "verb-filtering.txt")
@@ -314,8 +320,8 @@ def filter_social(folder):
 
 
 if __name__ == "__main__":
-    #filter_social(Path("input/social_annotati"))
-    filter_sem_web(Path("input/sem_web"))
+    # filter_social(Path("input/social_annotati"))
+    filter_sem_web(Path("input/demo/web-10"))
 
 # sem = pagine web siti comuni: ok
 # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
