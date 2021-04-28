@@ -332,7 +332,7 @@ def filter_social(folder):
 
 if __name__ == "__main__":
     # filter_social(Path("input/social_annotati"))
-    filter_sem_web(Path("input/demo/web-56"))
+    filter_sem_web(Path("input/sem_web"))
 
 # sem = pagine web siti comuni: ok
 # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
