@@ -6,6 +6,7 @@ import magic
 from pathlib import Path
 import json
 import statistics
+import matplotlib.pyplot as plt
 
 
 # !
@@ -88,7 +89,6 @@ def print_social(social, file):
         out.write("\n")
     out.close()
 
-
 # !
 def count_sentences(documents, already_nlp=False):
     counter = 0
@@ -119,6 +119,16 @@ def count_sentences_social(social):
     return sentence_len_array
 
 
+def plot_data(sentence_len_array, filename):
+    plt.hist(sentence_len_array, color='blue', edgecolor='black',
+             bins=int(180 / 5))
+
+    plt.title('Istogramma')
+    plt.xlabel('length')
+    plt.ylabel('sentences')
+    plt.savefig(filename)
+
+
 # !
 def print_statistical_information(docs, intestation, folder):
     count, sentence_len = count_sentences(docs, already_nlp=True)
@@ -134,6 +144,7 @@ def print_statistical_information(docs, intestation, folder):
                         f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
                         f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
     print(formatted_string)
+    plot_data(sentence_len, "histogram-sem-web.png")
     out.write(formatted_string)
     out.close()
 
@@ -321,7 +332,7 @@ def filter_social(folder):
 
 if __name__ == "__main__":
     # filter_social(Path("input/social_annotati"))
-    filter_sem_web(Path("input/sem_web"))
+    filter_sem_web(Path("input/demo/web-56"))
 
 # sem = pagine web siti comuni: ok
 # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
