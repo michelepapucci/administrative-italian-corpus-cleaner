@@ -8,6 +8,7 @@ import json
 import statistics
 import matplotlib.pyplot as plt
 import math
+from prettytable import PrettyTable
 
 
 # !
@@ -62,6 +63,27 @@ def get_stanza_object(doc_list, processors="tokenize,mwt,pos"):
     return nlp(input_documents)
 
 
+# !
+def get_sentence_length_list(documents, already_nlp=False):
+    sentence_len_array = list()
+    if not already_nlp:
+        documents = get_stanza_object(documents)
+    for document in documents:
+        for sentence in document.sentences:
+            sentence_len_array.append(len(sentence.tokens))
+    sentence_len_array.sort()
+    return sentence_len_array
+
+
+def get_table_with_headers():
+    table = PrettyTable()
+    table.field_names = [
+        "Operazione", "#Frasi", "Lunghezza minima", "Lunghezza massima",
+        "Media", "Mediana", "Deviazione Standard", "#>50", "#>100", "#>200", "#>500", "#>1000"
+    ]
+    return table
+
+
 def print_sentences_file(docs, filename="output.txt"):
     try:
         file = codecs.open(filename, "w", "utf-8")
@@ -89,18 +111,6 @@ def print_social(social, file):
             out.write(token["originalText"] + " ")
         out.write("\n")
     out.close()
-
-
-# !
-def count_sentences(documents, already_nlp=False):
-    sentence_len_array = list()
-    if not already_nlp:
-        documents = get_stanza_object(documents)
-    for document in documents:
-        for sentence in document.sentences:
-            sentence_len_array.append(len(sentence.tokens))
-    sentence_len_array.sort()
-    return sentence_len_array
 
 
 def count_sentences_pawac(pawac):
@@ -145,26 +155,23 @@ def plot_data(sentence_len_array, filename):
     plt.savefig(path_box.absolute())
 
 
+def add_table_row(sentence_len, intestation, table):
+    table.add_row(
+        [intestation, len(sentence_len), sentence_len[0], sentence_len[-1], statistics.mean(sentence_len),
+         sentence_len[int(len(sentence_len) / 2)], statistics.stdev(sentence_len), sum(i > 50 for i in sentence_len),
+         sum(i > 100 for i in sentence_len), sum(i > 200 for i in sentence_len), sum(i > 500 for i in sentence_len),
+         sum(i > 1000 for i in sentence_len)]
+    )
+    return table
+
+
 # !
-def print_statistical_information(docs, intestation, folder, plot=False, cutoff=math.inf):
-    sentence_len = count_sentences(docs, already_nlp=True)
+def update_table(sentence_len, intestation, table, plot=False, cutoff=math.inf):
     sentence_len = [x for x in sentence_len if x <= cutoff]
-    out = codecs.open(folder + "stats.txt", "a", "utf-8")
-    formatted_string = (f"{intestation} number of sentences: {len(sentence_len)}|\t"
-                        f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t|\t"
-                        f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t|\t"
-                        f"media: {statistics.mean(sentence_len)}\t|\t"
-                        f"deviazione standard: {statistics.stdev(sentence_len)}\t|\t"
-                        f">50: {sum(i > 50 for i in sentence_len)}\t|\t"
-                        f">100: {sum(i > 100 for i in sentence_len)}\t|\t"
-                        f">200: {sum(i > 200 for i in sentence_len)}\t|\t"
-                        f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
-                        f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
-    print(formatted_string)
-    out.write(formatted_string)
+    table = add_table_row(sentence_len, intestation, table)
     if plot:
         plot_data(sentence_len, f"output/social/{intestation}")
-    out.close()
+    return table
 
 
 def print_statistical_information_pawac(pawac, intestation):
@@ -182,34 +189,8 @@ def print_statistical_information_pawac(pawac, intestation):
     out.close()
 
 
-def print_statistica_information_social(social, intestation, cutoff=math.inf, plot=False):
-    sentence_len = count_sentences_social(social)
-    sentence_len = [x for x in sentence_len if x <= cutoff]
-    out = codecs.open(Path("output/social/stats.txt"), "a", "utf-8")
-    if sentence_len:
-        formatted_string = (f"{intestation} number of sentences: {len(sentence_len)}|\t"
-                            f"max_len: {sentence_len[-1]}\t|\t"
-                            f"min_len: {sentence_len[0]}\t|\t"
-                            f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t|\t"
-                            f"media: {statistics.mean(sentence_len)}\t|\t"
-                            f"deviazione standard: {statistics.stdev(sentence_len)}\t|\t"
-                            f">50: {sum(i > 50 for i in sentence_len)}\t|\t"
-                            f">100: {sum(i > 100 for i in sentence_len)}\t|\t"
-                            f">200: {sum(i > 200 for i in sentence_len)}\t|\t"
-                            f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
-                            f">1000: {sum(i > 1000 for i in sentence_len)}\t|\n")
-        print(formatted_string)
-        out.write(formatted_string)
-        if plot:
-            plot_data(sentence_len, f"output/social/{intestation}")
-    else:
-        print(f"Error during printing for {intestation} phase, sentence_len: {sentence_len}")
-    out.close()
-
-
 # !
 def sentence_splitting_web(text):
-    filtered_text = ""
     # rimuovo i | e vado a capo
     text = re.sub(r" *\| *", "\n", text)
 
@@ -242,7 +223,6 @@ def filter_no_verbs_sentences_social(social):
 # !
 def remove_phrase_with_no_end_point(nlp_obj):
     # rimuovo le frasi che non terminano con punteggiatura
-    old_c = len(nlp_obj.sentences)
     nlp_obj.sentences = list(
         filter(lambda s: True if re.search(r"[.:,;!?]\Z", s.text) else False, nlp_obj.sentences))
     return nlp_obj
@@ -265,36 +245,39 @@ def remove_phrase_with_no_end_point_social(social):
 
 
 def filter_sem_web(folder):
-    raw_docs = load_files_from_folders(folder)
+    output = get_table_with_headers()
 
-    # Init stats output file
-    stats = codecs.open(Path("output/web/stats.txt").absolute(), "w", "utf-8")
-    stats.close()
+    raw_docs = load_files_from_folders(folder)
 
     # Sentence splitting
     raw_docs = list(map(sentence_splitting_web, raw_docs))
     analized_docs = get_stanza_object(raw_docs)
-    print_statistical_information(analized_docs, "sentence-splitting", "output/web/")
+    sentence_len = get_sentence_length_list(analized_docs, already_nlp=True)
+    output = update_table(sentence_len, "sentence-splitting", output)
     # print_sentences_file(analized_docs, "output/web/sentence-splitting.txt")
 
     # Verb filtering
     analized_docs = list(map(filter_no_verbs_sentences, analized_docs))
-    print_statistical_information(analized_docs, "verb-filtering", "output/web/")
+    sentence_len = get_sentence_length_list(analized_docs, already_nlp=True)
+    output = update_table(sentence_len, "verb-filtering", output)
     # print_sentences_file(analized_docs, "output/web/verb-filtering.txt")
 
     # End point filtering
     analized_docs = list(map(remove_phrase_with_no_end_point, analized_docs))
-    print_statistical_information(analized_docs, "end-point-filtering", "output/web/", plot=True)
-    print_statistical_information(analized_docs, "end-point-filtering-cutoff-50", "output/web/", cutoff=50,
-                                  plot=True)
-    print_statistical_information(analized_docs, "end-point-filtering-cutoff-100", "output/web/", cutoff=100,
-                                  plot=True)
-    print_statistical_information(analized_docs, "end-point-filtering-cutoff-200", "output/web/", cutoff=200,
-                                  plot=True)
-    print_statistical_information(analized_docs, "end-point-filtering-cutoff-500", "output/web/", cutoff=500,
-                                  plot=True)
-    print_statistical_information(analized_docs, "end-point-filtering-cutoff-1000", "output/web/", cutoff=1000,
-                                  plot=True)
+    sentence_len = get_sentence_length_list(analized_docs, already_nlp=True)
+    output = update_table(sentence_len, "end-point-filtering", output, plot=True)
+
+    # End point filtering with cutoffs
+    output = update_table(sentence_len, "end-point-filtering-cutoff-50", output, cutoff=50, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-100", output, cutoff=10, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-200", output, cutoff=200, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-500", output, cutoff=500, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-1000", output, cutoff=1000, plot=True)
+
+    # Output printing
+    with codecs.open("output/web/stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
 
     # print_sentences_file(analized_docs, "output/web/end-point-filtering.txt")
 
@@ -331,57 +314,56 @@ def filter_faq(faq):
     file.close()
     nlp = stanza.Pipeline(lang='it', processors="tokenize,mwt,pos")
     analized_faq = nlp(raw_faq)
-    print_statistical_information([analized_faq], "Sentence Splitting", "output/faq/")
+    update_table([analized_faq], "Sentence Splitting", "output/faq/")
     print_sentences_file([analized_faq], "output/faq/sentence-splitting.txt")
 
     # Verb Filtering
     analized_faq = filter_no_verbs_sentences(analized_faq)
-    print_statistical_information([analized_faq], "Verb filtering", "output/faq/")
+    update_table([analized_faq], "Verb filtering", "output/faq/")
     print_sentences_file([analized_faq], "output/faq/verb-filtering.txt")
 
     # End point filtering
     analized_faq = remove_phrase_with_no_end_point(analized_faq)
-    print_statistical_information([analized_faq], "Sentence without end point filtering", "output/faq/")
+    update_table([analized_faq], "Sentence without end point filtering", "output/faq/")
     print_sentences_file([analized_faq], "output/faq/end-point-filtering.txt")
 
 
 def filter_social(folder):
-    # Init stats output file
-    stats = codecs.open(Path("output/social/stats.txt").absolute(), "w", "utf-8")
-    stats.close()
+    output = get_table_with_headers()
 
     # Sentence Splitting
-    # TODO: trovare un modo di non falsare la conta dei token a causa dei token "doppioni" per i composti
-    # Preposizione = pos: E, pos: PC
     social = load_files_from_folders(folder, extension=".json")
     social = parse_social(social)
-    print_statistica_information_social(social, "sentence-splitting")
+    sentence_len = count_sentences_social(social)
+    output = update_table(sentence_len, "sentence-splitting", output)
     # print_social(social, "sentence-splitting.txt")
 
     # Verb filtering Togliere frasi senza verbi e che non presentano #
     social = filter_no_verbs_sentences_social(social)
-    print_statistica_information_social(social, "verb-filtering")
+    sentence_len = count_sentences_social(social)
+    output = update_table(sentence_len, "verb-filtering", output)
     # print_social(social, "verb-filtering.txt")
 
     # End point filtering
     social = remove_phrase_with_no_end_point_social(social)
-    print_statistica_information_social(social, "end-point-filtering", plot=True)
-    print_statistica_information_social(social, "end-point-filtering-cutoff-50", cutoff=50, plot=True)
-    print_statistica_information_social(social, "end-point-filtering-cutoff-100", cutoff=100, plot=True)
-    print_statistica_information_social(social, "end-point-filtering-cutoff-200", cutoff=200, plot=True)
-    print_statistica_information_social(social, "end-point-filtering-cutoff-500", cutoff=500, plot=True)
-    print_statistica_information_social(social, "end-point-filtering-cutoff-1000", cutoff=1000, plot=True)
+    sentence_len = count_sentences_social(social)
+    output = update_table(sentence_len, "end-point-filtering", output, plot=True)
+
+    # End point filtering with cutoffs
+    output = update_table(sentence_len, "end-point-filtering-cutoff-50", output, cutoff=50, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-100", output, cutoff=100, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-200", output, cutoff=200, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-500", output, cutoff=500, plot=True)
+    output = update_table(sentence_len, "end-point-filtering-cutoff-1000", output, cutoff=1000, plot=True)
     # print_social(social, "end-point-filtering.txt")
+
+    with codecs.open("output/social/stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
 
 
 if __name__ == "__main__":
-    # filter_social(Path("input/social_annotati"))
+    filter_social(Path("input/social_annotati"))
     filter_sem_web(Path("input/sem_web"))
-
-    # sem = pagine web siti comuni: ok
-    # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
-    # social: parsare i json e filtrare
-    # faq: analisi
-    # filter_sem_web(Path("input/demo/web-10"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
