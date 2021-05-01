@@ -7,6 +7,7 @@ from pathlib import Path
 import json
 import statistics
 import matplotlib.pyplot as plt
+import math
 
 
 # !
@@ -127,13 +128,15 @@ def count_sentences_social(social):
 
 
 def plot_data(sentence_len_array, filename):
+    path_istogramma = Path(filename + "-istogramma.png")
+    path_box = Path(filename + "-box.png")
     plt.figure()
     plt.hist(sentence_len_array, color='blue', edgecolor='black', bins=int(180 / 5))
 
     plt.title('Istogramma')
     plt.xlabel('length')
     plt.ylabel('sentences')
-    plt.savefig(filename + "-istogramma.png")
+    plt.savefig(path_istogramma.absolute())
 
     plt.figure()
     plt.boxplot(sentence_len_array)
@@ -141,7 +144,7 @@ def plot_data(sentence_len_array, filename):
     plt.title('Box')
     plt.xlabel('length')
     plt.ylabel('sentences')
-    plt.savefig(filename + "-box.png")
+    plt.savefig(path_box.absolute())
 
 
 # !
@@ -179,12 +182,14 @@ def print_statistical_information_pawac(pawac, intestation):
     out.close()
 
 
-def print_statistica_information_social(social, intestation):
+def print_statistica_information_social(social, intestation, cutoff=math.inf, plot=False):
     sentence_len = count_sentences_social(social)
+    sentence_len = [x for x in sentence_len if x <= cutoff]
     out = codecs.open(Path("output/social/stats.txt"), "a", "utf-8")
     if sentence_len:
-        formatted_string = (f"{intestation} number of sentences: {len(social)}|\t"
-                            f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t|\t"
+        formatted_string = (f"{intestation} number of sentences: {len(sentence_len)}|\t"
+                            f"max_len: {sentence_len[-1]}\t|\t"
+                            f"min_len: {sentence_len[0]}\t|\t"
                             f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t|\t"
                             f"media: {statistics.mean(sentence_len)}\t|\t"
                             f"deviazione standard: {statistics.stdev(sentence_len)}\t|\t"
@@ -192,10 +197,11 @@ def print_statistica_information_social(social, intestation):
                             f">100: {sum(i > 100 for i in sentence_len)}\t|\t"
                             f">200: {sum(i > 200 for i in sentence_len)}\t|\t"
                             f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
-                            f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
+                            f">1000: {sum(i > 1000 for i in sentence_len)}\t|\n")
         print(formatted_string)
-        plot_data(sentence_len, "social")
         out.write(formatted_string)
+        if plot:
+            plot_data(sentence_len, f"output/social/{intestation}")
     else:
         print(f"Error during printing for {intestation} phase, sentence_len: {sentence_len}")
     out.close()
@@ -338,18 +344,23 @@ def filter_social(folder):
     # Preposizione = pos: E, pos: PC
     social = load_files_from_folders(folder, extension=".json")
     social = parse_social(social)
-    print_statistica_information_social(social, "Sentence Splitting")
-    print_social(social, "sentence-splitting.txt")
+    print_statistica_information_social(social, "sentence-splitting")
+    # print_social(social, "sentence-splitting.txt")
 
     # Verb filtering Togliere frasi senza verbi e che non presentano #
     social = filter_no_verbs_sentences_social(social)
-    print_statistica_information_social(social, "Verb Filtering")
-    print_social(social, "verb-filtering.txt")
+    print_statistica_information_social(social, "serb-filtering")
+    # print_social(social, "verb-filtering.txt")
 
     # End point filtering
     social = remove_phrase_with_no_end_point_social(social)
-    print_statistica_information_social(social, "End point filtering")
-    print_social(social, "end-point-filtering.txt")
+    print_statistica_information_social(social, "end-point-filtering", plot=True)
+    print_statistica_information_social(social, "end-point-filtering-cutoff-50", cutoff=50, plot=True)
+    print_statistica_information_social(social, "end-point-filtering-cutoff-100", cutoff=100, plot=True)
+    print_statistica_information_social(social, "end-point-filtering-cutoff-200", cutoff=200, plot=True)
+    print_statistica_information_social(social, "end-point-filtering-cutoff-500", cutoff=500, plot=True)
+    print_statistica_information_social(social, "end-point-filtering-cutoff-1000", cutoff=1000, plot=True)
+    # print_social(social, "end-point-filtering.txt")
 
 
 if __name__ == "__main__":
