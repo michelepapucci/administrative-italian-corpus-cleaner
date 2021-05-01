@@ -93,16 +93,14 @@ def print_social(social, file):
 
 # !
 def count_sentences(documents, already_nlp=False):
-    counter = 0
     sentence_len_array = list()
     if not already_nlp:
         documents = get_stanza_object(documents)
     for document in documents:
-        counter += len(document.sentences)
         for sentence in document.sentences:
             sentence_len_array.append(len(sentence.tokens))
     sentence_len_array.sort()
-    return counter, sentence_len_array
+    return sentence_len_array
 
 
 def count_sentences_pawac(pawac):
@@ -148,10 +146,11 @@ def plot_data(sentence_len_array, filename):
 
 
 # !
-def print_statistical_information(docs, intestation, folder):
-    count, sentence_len = count_sentences(docs, already_nlp=True)
+def print_statistical_information(docs, intestation, folder, plot=False, cutoff=math.inf):
+    sentence_len = count_sentences(docs, already_nlp=True)
+    sentence_len = [x for x in sentence_len if x <= cutoff]
     out = codecs.open(folder + "stats.txt", "a", "utf-8")
-    formatted_string = (f"{intestation} number of sentences: {count}|\t"
+    formatted_string = (f"{intestation} number of sentences: {len(sentence_len)}|\t"
                         f"max_len: {sentence_len[-1]}\tmin_len: {sentence_len[0]}\t|\t"
                         f"mediana: {sentence_len[int(len(sentence_len) / 2)]}\t|\t"
                         f"media: {statistics.mean(sentence_len)}\t|\t"
@@ -162,8 +161,9 @@ def print_statistical_information(docs, intestation, folder):
                         f">500: {sum(i > 500 for i in sentence_len)}\t|\t"
                         f">1000: {sum(i > 1000 for i in sentence_len)}\t|\t")
     print(formatted_string)
-    plot_data(sentence_len, "sem-web")
     out.write(formatted_string)
+    if plot:
+        plot_data(sentence_len, f"output/social/{intestation}")
     out.close()
 
 
@@ -274,18 +274,29 @@ def filter_sem_web(folder):
     # Sentence splitting
     raw_docs = list(map(sentence_splitting_web, raw_docs))
     analized_docs = get_stanza_object(raw_docs)
-    print_statistical_information(analized_docs, "Sentence splitting", "output/web/")
-    print_sentences_file(analized_docs, "output/web/sentence-splitting.txt")
+    print_statistical_information(analized_docs, "sentence-splitting", "output/web/")
+    # print_sentences_file(analized_docs, "output/web/sentence-splitting.txt")
 
     # Verb filtering
     analized_docs = list(map(filter_no_verbs_sentences, analized_docs))
-    print_statistical_information(analized_docs, "Verb filtering", "output/web/")
-    print_sentences_file(analized_docs, "output/web/verb-filtering.txt")
+    print_statistical_information(analized_docs, "verb-filtering", "output/web/")
+    # print_sentences_file(analized_docs, "output/web/verb-filtering.txt")
 
     # End point filtering
     analized_docs = list(map(remove_phrase_with_no_end_point, analized_docs))
-    print_statistical_information(analized_docs, "Sentence without end point filtering", "output/web/")
-    print_sentences_file(analized_docs, "output/web/end-point-filtering.txt")
+    print_statistical_information(analized_docs, "end-point-filtering", "output/web/", plot=True)
+    print_statistical_information(analized_docs, "end-point-filtering-cutoff-50", "output/web/", cutoff=50,
+                                  plot=True)
+    print_statistical_information(analized_docs, "end-point-filtering-cutoff-100", "output/web/", cutoff=100,
+                                  plot=True)
+    print_statistical_information(analized_docs, "end-point-filtering-cutoff-200", "output/web/", cutoff=200,
+                                  plot=True)
+    print_statistical_information(analized_docs, "end-point-filtering-cutoff-500", "output/web/", cutoff=500,
+                                  plot=True)
+    print_statistical_information(analized_docs, "end-point-filtering-cutoff-1000", "output/web/", cutoff=1000,
+                                  plot=True)
+
+    # print_sentences_file(analized_docs, "output/web/end-point-filtering.txt")
 
 
 def filter_pawac(file):
@@ -349,7 +360,7 @@ def filter_social(folder):
 
     # Verb filtering Togliere frasi senza verbi e che non presentano #
     social = filter_no_verbs_sentences_social(social)
-    print_statistica_information_social(social, "serb-filtering")
+    print_statistica_information_social(social, "verb-filtering")
     # print_social(social, "verb-filtering.txt")
 
     # End point filtering
@@ -364,13 +375,13 @@ def filter_social(folder):
 
 
 if __name__ == "__main__":
-    filter_social(Path("input/social_annotati"))
-    # filter_sem_web(Path("input/demo/web-56"))
+    # filter_social(Path("input/social_annotati"))
+    filter_sem_web(Path("input/sem_web"))
 
-# sem = pagine web siti comuni: ok
-# pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
-# social: parsare i json e filtrare
-# faq: analisi
-# filter_sem_web(Path("input/demo/web-10"))
-# filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-# filter_faq(Path("input/faq.txt"))
+    # sem = pagine web siti comuni: ok
+    # pawac: rianalizzare con stanza o cercare di sfruttare la già presente analisi?
+    # social: parsare i json e filtrare
+    # faq: analisi
+    # filter_sem_web(Path("input/demo/web-10"))
+    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    # filter_faq(Path("input/faq.txt"))
