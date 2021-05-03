@@ -145,6 +145,7 @@ def plot_data(sentence_len_array, filename):
     plt.xlabel('length')
     plt.ylabel('sentences')
     plt.savefig(path_istogramma.absolute())
+    plt.close()
 
     plt.figure()
     plt.boxplot(sentence_len_array)
@@ -153,6 +154,7 @@ def plot_data(sentence_len_array, filename):
     plt.xlabel('length')
     plt.ylabel('sentences')
     plt.savefig(path_box.absolute())
+    plt.close()
 
 
 def add_table_row(sentence_len, intestation, table):
@@ -363,6 +365,7 @@ def filter_social(folder):
 
 
 if __name__ == "__main__":
+    # filter_social(Path("input/demo/social"))
     filter_social(Path("input/social_annotati"))
     filter_sem_web(Path("input/sem_web"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
