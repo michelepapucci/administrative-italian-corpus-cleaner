@@ -17,11 +17,11 @@ def load_files_from_folders(folder, mime="text/plain", extension=".txt"):
     for path in folder.iterdir():
         if path.is_file():
             if magic.from_file(str(path), mime=True) == mime and str(path).endswith(extension):
-                print(f"Loading {str(path)}...")
+                # print(f"Loading {str(path)}...")
                 cur_file = codecs.open(str(path.absolute()), "r", "utf-8")
                 doc_list.append(cur_file.read())
                 cur_file.close()
-                print("Loaded!")
+                # print("Loaded!")
     print(f"Loaded {len(doc_list)} documents from {folder} with:\nMime: {mime}, extension: {extension}")
     return doc_list
 
@@ -334,7 +334,7 @@ def filter_faq(faq):
 
     # End point filtering with cutoffs
     output = update_table(sentence_len, "output/faq/", "end-point-filtering-cutoff-50", output, cutoff=50, plot=True)
-    output = update_table(sentence_len, "output/faq/", "end-point-filtering-cutoff-100", output, cutoff=10, plot=True)
+    output = update_table(sentence_len, "output/faq/", "end-point-filtering-cutoff-100", output, cutoff=100, plot=True)
     output = update_table(sentence_len, "output/faq/", "end-point-filtering-cutoff-200", output, cutoff=200, plot=True)
     output = update_table(sentence_len, "output/faq/", "end-point-filtering-cutoff-500", output, cutoff=500, plot=True)
     output = update_table(sentence_len, "output/faq/", "end-point-filtering-cutoff-1000", output, cutoff=1000,
@@ -388,7 +388,7 @@ if __name__ == "__main__":
     # filter_social(Path("input/demo/social"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
-    filter_social(Path("input/social_annotati"))
-    filter_sem_web(Path("input/sem_web"))
+    # filter_social(Path("input/social_annotati"))
+    # filter_sem_web(Path("input/sem_web"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     filter_faq(Path("input/faq.txt"))
