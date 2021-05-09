@@ -170,6 +170,8 @@ def add_table_row(sentence_len, intestation, table):
 # !
 def update_table(sentence_len, folder, intestation, table, plot=False, cutoff=math.inf):
     sentence_len = [x for x in sentence_len if x <= cutoff]
+    if not sentence_len:
+        sentence_len = [0]
     table = add_table_row(sentence_len, intestation, table)
     if plot:
         plot_data(sentence_len, folder + intestation)
@@ -271,7 +273,7 @@ def filter_sem_web(folder):
 
     # End point filtering with cutoffs
     output = update_table(sentence_len, "output/web/", "end-point-filtering-cutoff-50", output, cutoff=50, plot=True)
-    output = update_table(sentence_len, "output/web/", "end-point-filtering-cutoff-100", output, cutoff=10, plot=True)
+    output = update_table(sentence_len, "output/web/", "end-point-filtering-cutoff-100", output, cutoff=100, plot=True)
     output = update_table(sentence_len, "output/web/", "end-point-filtering-cutoff-200", output, cutoff=200, plot=True)
     output = update_table(sentence_len, "output/web/", "end-point-filtering-cutoff-500", output, cutoff=500, plot=True)
     output = update_table(sentence_len, "output/web/", "end-point-filtering-cutoff-1000", output, cutoff=1000,
@@ -286,24 +288,40 @@ def filter_sem_web(folder):
 
 
 def filter_pawac(file):
-    # Init stats output file
-    stats = codecs.open(Path("output/pawac/stats.txt").absolute(), "w", "utf-8")
-    stats.close()
+    output = get_table_with_headers()
 
     # Sentence Splitting
     pawac = parse_pawac(file)
-    print_statistical_information_pawac(pawac, "Sentence splitting")
-    print_pawac(pawac, "sentence-splitting.txt")
+    sentence_len = count_sentences_pawac(pawac)
+    output = update_table(sentence_len, "output/pawac/", "sentence-splitting", output)
+    # print_pawac(pawac, "sentence-splitting.txt")
 
     # Verb filtering
     pawac = filter_no_verbs_sentences_pawac(pawac)
-    print_statistical_information_pawac(pawac, "Verb Filtering")
-    print_pawac(pawac, "verb-filtering.txt")
+    sentence_len = count_sentences_pawac(pawac)
+    output = update_table(sentence_len, "output/pawac/", "verb-filtering", output)
+    # print_pawac(pawac, "verb-filtering.txt")
 
     # End point filtering
     pawac = remove_phrase_with_no_end_point_pawac(pawac)
-    print_statistical_information_pawac(pawac, "End point filtering")
-    print_pawac(pawac, "end-point-filtering.txt")
+    sentence_len = count_sentences_pawac(pawac)
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering", output, plot=True)
+
+    # End point filtering with cutoffs
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-50", output, cutoff=50, plot=True)
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-100", output, cutoff=100, plot=True)
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-200", output, cutoff=200,
+                          plot=True)
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-500", output, cutoff=500,
+                          plot=True)
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-1000", output, cutoff=1000,
+                          plot=True)
+    # print_pawac(pawac, "end-point-filtering.txt")
+
+    # Output printing
+    with codecs.open("output/pawac/stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
 
 
 def filter_faq(faq):
@@ -388,7 +406,8 @@ if __name__ == "__main__":
     # filter_social(Path("input/demo/social"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
-    # filter_social(Path("input/social_annotati"))
-    # filter_sem_web(Path("input/sem_web"))
-    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    # filter_pawac(Path("input/demo/demo_pawac.pos"))
+    filter_social(Path("input/social_annotati"))
+    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     filter_faq(Path("input/faq.txt"))
+    filter_sem_web(Path("input/sem_web"))
