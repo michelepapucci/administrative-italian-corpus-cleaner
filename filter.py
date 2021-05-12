@@ -432,11 +432,11 @@ def filter_social(folder):
 
 
 if __name__ == "__main__":
-    filter_social(Path("input/demo/social"))
+    # filter_social(Path("input/demo/social"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
-    # filter_social(Path("input/social_annotati"))
+    filter_social(Path("input/social_annotati"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
     # filter_sem_web(Path("input/sem_web"))
