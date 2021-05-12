@@ -3,15 +3,16 @@ import stanza
 import codecs
 import re
 import magic
-from pathlib import Path
 import json
 import statistics
-import matplotlib.pyplot as plt
 import math
+import matplotlib.pyplot as plt
 from prettytable import PrettyTable
+from pathlib import Path
 
 
-# !
+# Given a path to a folder, the function iterates trought it, loads and read every file in it, and appending the read
+# content in a list. It can be specified a mime type to read and an extension.
 def load_files_from_folders(folder, mime="text/plain", extension=".txt"):
     doc_list = list()
     for path in folder.iterdir():
@@ -26,6 +27,7 @@ def load_files_from_folders(folder, mime="text/plain", extension=".txt"):
     return doc_list
 
 
+# Parse the CoreNLL pawac to a List[List[List[]]] = Document[Sentences[Tokens]]]
 def parse_pawac(file):
     tokens = codecs.open(file, "r", "utf-8").readlines()
     sentence = list()
@@ -42,6 +44,7 @@ def parse_pawac(file):
     return output
 
 
+# Parse a list of json documents into a list of sentences, where every sentence is a list of token objects
 def parse_social(doc_list):
     sentences = list()
     for document in doc_list:
@@ -51,19 +54,29 @@ def parse_social(doc_list):
     return sentences
 
 
-# !
+# Given a list of documents (List of strings) returns a list of Stanza documents.
 def documents_list_conversion_to_stanza(doc_list):
     return [stanza.Document([], text=d) for d in doc_list]
 
 
-# !
+# Given a list of Stanza documents returns the analized list of Stanza documents.
 def get_stanza_object(doc_list, processors="tokenize,mwt,pos"):
     input_documents = documents_list_conversion_to_stanza(doc_list)
     nlp = stanza.Pipeline(lang='it', processors=processors)
     return nlp(input_documents)
 
 
-# !
+# Returns a PrettyTable object with premade field names
+def get_table_with_headers():
+    table = PrettyTable()
+    table.field_names = [
+        "Operazione", "#Frasi", "Lunghezza minima", "Lunghezza massima",
+        "Media", "Mediana", "Deviazione Standard", "#>50", "#>100", "#>200", "#>500", "#>1000"
+    ]
+    return table
+
+
+# Given a list of analized Stanza documents returns an ordered list of sentences length
 def get_sentence_length_list(documents, already_nlp=False):
     sentence_len_array = list()
     if not already_nlp:
@@ -75,13 +88,34 @@ def get_sentence_length_list(documents, already_nlp=False):
     return sentence_len_array
 
 
-def get_table_with_headers():
-    table = PrettyTable()
-    table.field_names = [
-        "Operazione", "#Frasi", "Lunghezza minima", "Lunghezza massima",
-        "Media", "Mediana", "Deviazione Standard", "#>50", "#>100", "#>200", "#>500", "#>1000"
-    ]
-    return table
+# Given a List[List[List[]]] returns an ordered list of sentences length
+def get_sentence_length_pawac(pawac):
+    sentence_len_array = list()
+    for sentence in pawac:
+        sentence_len_array.append(len(sentence))
+    sentence_len_array.sort()
+    return sentence_len_array
+
+
+# Given a List of sentences returns an ordered list of sentences length
+def get_sentence_length_social(social):
+    sentence_len_array = list()
+    for sentence in social:
+        last_original_text = ""
+        sentence_len = len(sentence["tokens"])
+        for token in sentence["tokens"]:
+            if token["originalText"] == last_original_text:
+                sentence_len -= 1
+            last_original_text = token["originalText"]
+        sentence_len_array.append(sentence_len)
+    sentence_len_array.sort()
+    return sentence_len_array
+
+
+# Given a list of strings and another list of strings after a filter has been applied it returns the difference
+# (filtered waste)
+def get_filtered_waste(original_list, filtered_list):
+    return [el for el in original_list if el not in filtered_list]
 
 
 def print_sentences_file(docs, filename="output.txt"):
@@ -111,28 +145,6 @@ def print_social(social, file):
             out.write(token["originalText"] + " ")
         out.write("\n")
     out.close()
-
-
-def count_sentences_pawac(pawac):
-    sentence_len_array = list()
-    for sentence in pawac:
-        sentence_len_array.append(len(sentence))
-    sentence_len_array.sort()
-    return sentence_len_array
-
-
-def count_sentences_social(social):
-    sentence_len_array = list()
-    for sentence in social:
-        last_original_text = ""
-        sentence_len = len(sentence["tokens"])
-        for token in sentence["tokens"]:
-            if token["originalText"] == last_original_text:
-                sentence_len -= 1
-            last_original_text = token["originalText"]
-        sentence_len_array.append(sentence_len)
-    sentence_len_array.sort()
-    return sentence_len_array
 
 
 def plot_data(sentence_len_array, filename):
@@ -176,21 +188,6 @@ def update_table(sentence_len, folder, intestation, table, plot=False, cutoff=ma
     if plot:
         plot_data(sentence_len, folder + intestation)
     return table
-
-
-def print_statistical_information_pawac(pawac, intestation):
-    sentence_len = count_sentences_pawac(pawac)
-    out = codecs.open(Path("output/pawac/stats.txt"), "a", "utf-8")
-    if sentence_len:
-        print(f"{intestation} number of sentences: {len(pawac)}\tmax_len: {sentence_len[-1]}\t"
-              f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-              f"media: {sum(sentence_len) / len(sentence_len)}\n")
-        out.write(f"{intestation} number of sentences: {len(pawac)}\tmax_len: {sentence_len[-1]}\t"
-                  f"min_len: {sentence_len[0]}\tmediana: {sentence_len[int(len(sentence_len) / 2)]}\t"
-                  f"media: {sum(sentence_len) / len(sentence_len)}\n")
-    else:
-        print(f"Error during printing for {intestation} phase, sentence_len: {sentence_len}")
-    out.close()
 
 
 # !
@@ -292,24 +289,25 @@ def filter_pawac(file):
 
     # Sentence Splitting
     pawac = parse_pawac(file)
-    sentence_len = count_sentences_pawac(pawac)
+    sentence_len = get_sentence_length_pawac(pawac)
     output = update_table(sentence_len, "output/pawac/", "sentence-splitting", output)
     # print_pawac(pawac, "sentence-splitting.txt")
 
     # Verb filtering
     pawac = filter_no_verbs_sentences_pawac(pawac)
-    sentence_len = count_sentences_pawac(pawac)
+    sentence_len = get_sentence_length_pawac(pawac)
     output = update_table(sentence_len, "output/pawac/", "verb-filtering", output)
     # print_pawac(pawac, "verb-filtering.txt")
 
     # End point filtering
     pawac = remove_phrase_with_no_end_point_pawac(pawac)
-    sentence_len = count_sentences_pawac(pawac)
+    sentence_len = get_sentence_length_pawac(pawac)
     output = update_table(sentence_len, "output/pawac/", "end-point-filtering", output, plot=True)
 
     # End point filtering with cutoffs
     output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-50", output, cutoff=50, plot=True)
-    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-100", output, cutoff=100, plot=True)
+    output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-100", output, cutoff=100,
+                          plot=True)
     output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-200", output, cutoff=200,
                           plot=True)
     output = update_table(sentence_len, "output/pawac/", "end-point-filtering-cutoff-500", output, cutoff=500,
@@ -364,25 +362,25 @@ def filter_faq(faq):
     print(output.get_string())
 
 
-def filter_social(folder):
+def analize_social(folder):
     output = get_table_with_headers()
 
     # Sentence Splitting
     social = load_files_from_folders(folder, extension=".json")
     social = parse_social(social)
-    sentence_len = count_sentences_social(social)
+    sentence_len = get_sentence_length_social(social)
     output = update_table(sentence_len, "output/social/", "sentence-splitting", output)
     # print_social(social, "sentence-splitting.txt")
 
     # Verb filtering Togliere frasi senza verbi e che non presentano #
     social = filter_no_verbs_sentences_social(social)
-    sentence_len = count_sentences_social(social)
+    sentence_len = get_sentence_length_social(social)
     output = update_table(sentence_len, "output/social/", "verb-filtering", output)
     # print_social(social, "verb-filtering.txt")
 
     # End point filtering
     social = remove_phrase_with_no_end_point_social(social)
-    sentence_len = count_sentences_social(social)
+    sentence_len = get_sentence_length_social(social)
     output = update_table(sentence_len, "output/social/", "end-point-filtering", output, plot=True)
 
     # End point filtering with cutoffs
@@ -402,12 +400,42 @@ def filter_social(folder):
     print(output.get_string())
 
 
+def filter_social(folder):
+    # Loading raw data
+    social = load_files_from_folders(folder, extension=".json")
+    social = parse_social(social)
+
+    # Filtering no-verb sentences
+    no_verbs_social = filter_no_verbs_sentences_social(social)
+    filtered_no_verb_sentences = get_filtered_waste(social, no_verbs_social)
+    print(f"Social: {len(social)}, "
+          f"No-Verb-Social: {len(no_verbs_social)}, "
+          f"filtered-stuff: {len(filtered_no_verb_sentences)}")
+
+    # Outputting waste for analysys
+    print_social(filtered_no_verb_sentences, "no-verb-filtered-sentences.txt")
+
+    # Removing any sentence >= 50
+    social = [x for x in filtered_no_verb_sentences if len(x) < 50]
+
+    # Outputting final data to text
+    print_social(social, "social-output-less-50.txt")
+
+    # Printing statistical information for debug
+    output = get_table_with_headers()
+    sentence_len = get_sentence_length_social(social)
+    output = update_table(sentence_len, "output/social/", "soc-filter-final-out", output, plot=True)
+    with codecs.open("output/social/filter-stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
+
+
 if __name__ == "__main__":
     # filter_social(Path("input/demo/social"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
     filter_social(Path("input/social_annotati"))
-    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-    filter_faq(Path("input/faq.txt"))
-    filter_sem_web(Path("input/sem_web"))
+    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    # filter_faq(Path("input/faq.txt"))
+    # filter_sem_web(Path("input/sem_web"))
