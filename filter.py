@@ -1,4 +1,5 @@
 # coding: utf8
+# git: https://github.com/michelepapucci/it-corpus-filter.git
 import stanza
 import codecs
 import re
@@ -416,7 +417,7 @@ def filter_social(folder):
     print_social(filtered_no_verb_sentences, "no-verb-filtered-sentences.txt")
 
     # Removing any sentence >= 50
-    social = [x for x in filtered_no_verb_sentences if len(x) < 50]
+    social = [x for x in filtered_no_verb_sentences if len(x.tokens) < 50]
 
     # Outputting final data to text
     print_social(social, "social-output-less-50.txt")
