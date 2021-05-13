@@ -205,6 +205,17 @@ def sentence_splitting_web(text):
     return text
 
 
+def partition(pred, iterable):
+    trues = []
+    falses = []
+    for item in iterable:
+        if pred(item):
+            trues.append(item)
+        else:
+            falses.append(item)
+    return trues, falses
+
+
 # !
 def filter_no_verbs_sentences(nlp_obj):
     nlp_obj.sentences = list(
@@ -323,7 +334,7 @@ def filter_pawac(file):
     print(output.get_string())
 
 
-def filter_faq(faq):
+def analize_faq(faq):
     output = get_table_with_headers()
 
     # Sentence Splitting
@@ -401,6 +412,47 @@ def analize_social(folder):
     print(output.get_string())
 
 
+def filter_faq(faq):
+    # Loading and analizing raw data
+    with codecs.open(faq.absolute(), "r", "utf-8") as file:
+        raw_faq = file.read()
+
+    nlp = stanza.Pipeline(lang='it', processors="tokenize,mwt,pos")
+    analized_faq = nlp(raw_faq)
+
+    # Filtering no-verb sentences
+    analized_faq.sentences, filtered_no_verb_sentences = partition(
+        lambda s: True if any(w.upos == 'VERB' for w in s.words) else False, analized_faq.sentences)
+
+    # Outputting waste for analysys
+    with codecs.open("output/faq/no-verb-filtered-sentences.txt", "w", "utf-8") as file:
+        for sentence in filtered_no_verb_sentences:
+            file.write(sentence.text + "\n")
+
+    # Filtering no-end-point sentences
+    analized_faq.sentences, filtered_no_end_point_sentences = partition(
+        lambda s: True if re.search(r"[.:,;!?][ ]*[\t]*\Z", s.text) else False, analized_faq.sentences)
+
+    # Outputting waste for analysys
+    with codecs.open("output/faq/no-end-point-filtered-sentences.txt", "w", "utf-8") as file:
+        for sentence in filtered_no_end_point_sentences:
+            file.write(sentence.text + "\n")
+
+    # Removing any sentence >= 50
+    analized_faq.sentences = [x for x in analized_faq.sentences if len(x.tokens) < 50]
+
+    # Outputting final data to text
+    print_sentences_file([analized_faq], "output/faq/faq-output-less-50.txt")
+
+    # Printing statistical information for debug
+    output = get_table_with_headers()
+    sentence_len = get_sentence_length_list([analized_faq], already_nlp=True)
+    output = update_table(sentence_len, "output/faq/", "faq-filter-final-out", output, plot=True)
+    with codecs.open("output/social/filter-stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
+
+
 def filter_social(folder):
     # Loading raw data
     social = load_files_from_folders(folder, extension=".json")
@@ -436,7 +488,7 @@ if __name__ == "__main__":
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
-    filter_social(Path("input/social_annotati"))
+    # filter_social(Path("input/social_annotati"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-    # filter_faq(Path("input/faq.txt"))
+    filter_faq(Path("input/faq.txt"))
     # filter_sem_web(Path("input/sem_web"))
