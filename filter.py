@@ -296,7 +296,7 @@ def analize_sem_web(folder):
     # print_sentences_file(analized_docs, "output/web/end-point-filtering.txt")
 
 
-def filter_pawac(file):
+def analize_pawac(file):
     output = get_table_with_headers()
 
     # Sentence Splitting
@@ -522,13 +522,31 @@ def filter_sem_web(folder):
     print(output.get_string())
 
 
+def filter_pawac(file):
+    pawac = parse_pawac(file)
+    print(len(pawac))
+    pawac, verb_waste = partition(lambda s: True if any(t.count("V") > 0 for t in s) else False, pawac)
+    print_pawac(verb_waste, "no-verb-filtered-sentences.txt")
+
+    pawac = [x for x in pawac if len(x) < 100]
+    print_pawac(pawac, "pawac_output_less_100.txt")
+
+    # Printing statistical information for debug
+    output = get_table_with_headers()
+    sentence_len = get_sentence_length_pawac(pawac)
+    output = update_table(sentence_len, "output/pawac/", "pawac-filter-final-out", output, plot=True)
+    with codecs.open("output/pawac/filter-stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
+
+
 if __name__ == "__main__":
-    # filter_social(Path("input/demo/social"))
+    # filter_social(Path("input/demo/social"))  
     # analize_sem_web(Path("input/demo/web-10"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_social(Path("input/social_annotati"))
-    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
-    filter_sem_web(Path("input/sem_web"))
+    # filter_sem_web(Path("input/sem_web"))
