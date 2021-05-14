@@ -257,7 +257,7 @@ def remove_phrase_with_no_end_point_social(social):
     return filtered_social
 
 
-def filter_sem_web(folder):
+def analize_sem_web(folder):
     output = get_table_with_headers()
 
     raw_docs = load_files_from_folders(folder)
@@ -483,12 +483,52 @@ def filter_social(folder):
     print(output.get_string())
 
 
+def filter_sem_web(folder):
+    raw_docs = load_files_from_folders(folder)
+
+    # Sentence splitting
+    raw_docs = list(map(sentence_splitting_web, raw_docs))
+    analized_docs = get_stanza_object(raw_docs)
+
+    # Getting waste
+    verb_waste = []
+    for doc in analized_docs:
+        temp_true, temp_waste = partition(
+            lambda s: True if any(w.upos == 'VERB' for w in s.words) else False, doc.sentences)
+        verb_waste = verb_waste + temp_waste
+
+    with codecs.open("output/web/no-verb-filtered-sentences.txt", "w", "utf-8") as file:
+        for sentence in verb_waste:
+            file.write(sentence.text + "\n")
+
+    # End point filtering
+    end_point_waste = []
+    for doc in analized_docs:
+        temp_true, temp_waste = partition(
+            lambda s: True if re.search(r"[.:,;!?][ ]*[\t]*\Z", s.text) else False, doc.sentences)
+        end_point_waste = end_point_waste + temp_waste
+
+    # Outputting waste for analysys
+    with codecs.open("output/web/no-end-point-filtered-sentences.txt", "w", "utf-8") as file:
+        for sentence in end_point_waste:
+            file.write(sentence.text + "\n")
+
+    # Printing statistical information for debug
+    output = get_table_with_headers()
+    sentence_len = get_sentence_length_list(analized_docs, already_nlp=True)
+    output = update_table(sentence_len, "output/web/", "web-filter-final-out", output, plot=True)
+    with codecs.open("output/web/filter-stats.txt", "w", "utf-8") as out:
+        out.write(output.get_string())
+    print(output.get_string())
+
+
 if __name__ == "__main__":
     # filter_social(Path("input/demo/social"))
-    # filter_sem_web(Path("input/demo/web-10"))
+    # analize_sem_web(Path("input/demo/web-10"))
+    filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_social(Path("input/social_annotati"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-    filter_faq(Path("input/faq.txt"))
+    # filter_faq(Path("input/faq.txt"))
     # filter_sem_web(Path("input/sem_web"))
