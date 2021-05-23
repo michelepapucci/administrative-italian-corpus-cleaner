@@ -533,12 +533,26 @@ def filter_pawac(file):
     print_pawac(pawac, "pawac_trad_output_between_5_and_99.txt")
 
     new_pawac = parse_pawac(file)
-    new_pawac, no_verb_with_numbers = partition(
-        lambda s: False if any(
-            (t.count("V") + t.count("VA") + t.count("VM")) > 0 and re.match(r"\d", t[4]) for t in s) else True,
-        new_pawac)
+    no_verb_with_numbers = []
+    filtered_new_pawac = []
+
+    for sentence in new_pawac:
+        verb = False
+        numbers = False
+        for token in sentence:
+            print(token[4])
+            if token[4] in ["VA", "V", "VM"]:
+                verb = True
+            if re.match(r"\d", token[2]):
+                numbers = True
+        if (not verb) and numbers:
+            no_verb_with_numbers.append(sentence)
+        else:
+            filtered_new_pawac.append(sentence)
+
     print_pawac(no_verb_with_numbers, "new_no-verb-with-numbers-filtered-out.txt")
 
+    new_pawac = filtered_new_pawac
     new_pawac = [x for x in new_pawac if (len(x) < 100) and (len(x) > 4)]
     print_pawac(new_pawac, "pawac_no_verb_without_numbers_keeped_output_between_5_and_99.txt")
 
@@ -556,11 +570,11 @@ def filter_pawac(file):
 if __name__ == "__main__":
     # filter_social(Path("input/demo/social"))
     # analize_sem_web(Path("input/demo/web-10"))
-    # filter_pawac(Path("input/demo/demo_pawac.pos"))
+    filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_social(Path("input/social_annotati"))
-    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
     # filter_sem_web(Path("input/sem_web"))
 
@@ -569,7 +583,7 @@ if __name__ == "__main__":
 # filtraggio verbi
 # Filtrare via le frasi < 5 ok tranne web
 # PAWAC: Filtrarie via le frasi senza verbi e con numeri all'interno e proviamo a tenere il resto. Due output: uno così
-# e uno "tradizionale" sempre col filtraggio sopra nuovo dei < 5. OK
+# e uno "tradizionale" sempre col filtraggio sopra nuovo dei < 5. Boh
 # Web: mantenere le frasi senza punto finale che non hanno numeri. per essere tolte devono sia non avere punto finale
 # che avere numeri.
 # stampare output per tutto.
