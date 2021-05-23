@@ -219,17 +219,18 @@ def partition(pred, iterable):
 # !
 def filter_no_verbs_sentences(nlp_obj):
     nlp_obj.sentences = list(
-        filter(lambda s: True if any(w.upos == 'VERB' for w in s.words) else False, nlp_obj.sentences))
+        filter(lambda s: True if any(w.upos in ['VERB', 'AUX'] for w in s.words) else False, nlp_obj.sentences))
     return nlp_obj
 
 
 def filter_no_verbs_sentences_pawac(pawac):
-    pawac = list(filter(lambda s: True if any(t.count("V") > 0 for t in s) else False, pawac))
+    pawac = list(
+        filter(lambda s: True if any((t.count("V") + t.count("VA") + t.count("VM")) > 0 for t in s) else False, pawac))
     return pawac
 
 
 def filter_no_verbs_sentences_social(social):
-    social = list(filter(lambda s: True if any(t["pos"] == "V" for t in s["tokens"]) else False, social))
+    social = list(filter(lambda s: True if any(t["pos"] in ["V", "VM", "VA"] for t in s["tokens"]) else False, social))
     return social
 
 
@@ -422,7 +423,7 @@ def filter_faq(faq):
 
     # Filtering no-verb sentences
     analized_faq.sentences, filtered_no_verb_sentences = partition(
-        lambda s: True if any(w.upos == 'VERB' for w in s.words) else False, analized_faq.sentences)
+        lambda s: True if any(w.upos in ['VERB', 'AUX'] for w in s.words) else False, analized_faq.sentences)
 
     # Outputting waste for analysys
     with codecs.open("output/faq/no-verb-filtered-sentences.txt", "w", "utf-8") as file:
@@ -439,7 +440,7 @@ def filter_faq(faq):
             file.write(sentence.text + "\n")
 
     # Removing any sentence >= 50
-    analized_faq.sentences = [x for x in analized_faq.sentences if len(x.tokens) < 50]
+    analized_faq.sentences = [x for x in analized_faq.sentences if (len(x.tokens) < 50) and (len(x.tokens) > 4)]
 
     # Outputting final data to text
     print_sentences_file([analized_faq], "output/faq/faq-output-less-50.txt")
@@ -469,7 +470,7 @@ def filter_social(folder):
     print_social(filtered_no_verb_sentences, "no-verb-filtered-sentences.txt")
 
     # Removing any sentence >= 50
-    social = [x for x in filtered_no_verb_sentences if len(x["tokens"]) < 50]
+    social = [x for x in no_verbs_social if (len(x["tokens"]) < 50) and (len(x["tokens"]) > 4)]
 
     # Outputting final data to text
     print_social(social, "social-output-less-50.txt")
@@ -494,7 +495,7 @@ def filter_sem_web(folder):
     verb_waste = []
     for doc in analized_docs:
         temp_true, temp_waste = partition(
-            lambda s: True if any(w.upos == 'VERB' for w in s.words) else False, doc.sentences)
+            lambda s: True if any(w.upos in ['VERB', 'AUX'] for w in s.words) else False, doc.sentences)
         verb_waste = verb_waste + temp_waste
 
     with codecs.open("output/web/no-verb-filtered-sentences.txt", "w", "utf-8") as file:
@@ -524,29 +525,51 @@ def filter_sem_web(folder):
 
 def filter_pawac(file):
     pawac = parse_pawac(file)
-    print(len(pawac))
-    pawac, verb_waste = partition(lambda s: True if any(t.count("V") > 0 for t in s) else False, pawac)
-    print_pawac(verb_waste, "no-verb-filtered-sentences.txt")
+    pawac, verb_waste = partition(
+        lambda s: True if any((t.count("V") + t.count("VA") + t.count("VM")) > 0 for t in s) else False, pawac)
+    print_pawac(verb_waste, "trad_no-verb-filtered-sentences.txt")
 
-    pawac = [x for x in pawac if len(x) < 100]
-    print_pawac(pawac, "pawac_output_less_100.txt")
+    pawac = [x for x in pawac if (len(x) < 100) and (len(x) > 4)]
+    print_pawac(pawac, "pawac_trad_output_between_5_and_99.txt")
+
+    new_pawac = parse_pawac(file)
+    new_pawac, no_verb_with_numbers = partition(
+        lambda s: False if any(
+            (t.count("V") + t.count("VA") + t.count("VM")) > 0 and re.match(r"\d", t[4]) for t in s) else True,
+        new_pawac)
+    print_pawac(no_verb_with_numbers, "new_no-verb-with-numbers-filtered-out.txt")
+
+    new_pawac = [x for x in new_pawac if (len(x) < 100) and (len(x) > 4)]
+    print_pawac(new_pawac, "pawac_no_verb_without_numbers_keeped_output_between_5_and_99.txt")
 
     # Printing statistical information for debug
     output = get_table_with_headers()
     sentence_len = get_sentence_length_pawac(pawac)
-    output = update_table(sentence_len, "output/pawac/", "pawac-filter-final-out", output, plot=True)
+    output = update_table(sentence_len, "output/pawac/", "pawac-trad_5_99", output, plot=True)
+    sentence_len = get_sentence_length_pawac(new_pawac)
+    output = update_table(sentence_len, "output/pawac/", "pawac-new_5_99", output, plot=True)
     with codecs.open("output/pawac/filter-stats.txt", "w", "utf-8") as out:
         out.write(output.get_string())
     print(output.get_string())
 
 
 if __name__ == "__main__":
-    # filter_social(Path("input/demo/social"))  
+    # filter_social(Path("input/demo/social"))
     # analize_sem_web(Path("input/demo/web-10"))
+    filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
-    # filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_social(Path("input/social_annotati"))
-    filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
+    # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
     # filter_sem_web(Path("input/sem_web"))
+
+# Social e Pawac aggiungere VM e VA OK
+# Faq e Web aggiungere AUX OK
+# filtraggio verbi
+# Filtrare via le frasi < 5 ok tranne web
+# PAWAC: Filtrarie via le frasi senza verbi e con numeri all'interno e proviamo a tenere il resto. Due output: uno così
+# e uno "tradizionale" sempre col filtraggio sopra nuovo dei < 5. OK
+# Web: mantenere le frasi senza punto finale che non hanno numeri. per essere tolte devono sia non avere punto finale
+# che avere numeri.
+# stampare output per tutto.
