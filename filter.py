@@ -89,6 +89,14 @@ def get_sentence_length_list(documents, already_nlp=False):
     return sentence_len_array
 
 
+def get_new_sentence_length(sen_list):
+    sentence_len_array = list()
+    for sentence in sen_list:
+        sentence_len_array.append(len(sentence.tokens))
+    sentence_len_array.sort()
+    return sentence_len_array
+
+
 # Given a List[List[List[]]] returns an ordered list of sentences length
 def get_sentence_length_pawac(pawac):
     sentence_len_array = list()
@@ -493,31 +501,61 @@ def filter_sem_web(folder):
 
     # Getting waste
     verb_waste = []
+    no_verb = []
     for doc in analized_docs:
         temp_true, temp_waste = partition(
             lambda s: True if any(w.upos in ['VERB', 'AUX'] for w in s.words) else False, doc.sentences)
         verb_waste = verb_waste + temp_waste
-
-    with codecs.open("output/web/no-verb-filtered-sentences.txt", "w", "utf-8") as file:
-        for sentence in verb_waste:
-            file.write(sentence.text + "\n")
+        no_verb += temp_true
 
     # End point filtering
     end_point_waste = []
-    for doc in analized_docs:
-        temp_true, temp_waste = partition(
-            lambda s: True if re.search(r"[.:,;!?][ ]*[\t]*\Z", s.text) else False, doc.sentences)
-        end_point_waste = end_point_waste + temp_waste
+    trad_web_no_end_point_filtered = []
+
+    for sentence in no_verb:
+        if re.search(r"[.:,;!?][ ]*[\t]*\Z", sentence.text):
+            trad_web_no_end_point_filtered.append(sentence)
+        else:
+            end_point_waste.append(sentence)
+
+    trad_web_no_end_point_filtered = [x for x in trad_web_no_end_point_filtered if
+                                      (len(x.tokens) < 100) and (len(x.tokens) > 4)]
 
     # Outputting waste for analysys
-    with codecs.open("output/web/no-end-point-filtered-sentences.txt", "w", "utf-8") as file:
+    with codecs.open("output/web/trad-no-end-point-filtered-sentences.txt", "w", "utf-8") as file:
         for sentence in end_point_waste:
+            file.write(sentence.text + "\n")
+    with codecs.open("output/web/trad-web-no-end-point-output.txt", "w", "utf-8") as file:
+        for sentence in trad_web_no_end_point_filtered:
+            file.write(sentence.text + "\n")
+
+    no_end_point_with_numbers = []
+    new_web_keeping_no_end_without_numbers = []
+    for sentence in no_verb:
+        if re.search(r"[.:,;!?][ ]*[\t]*\Z", sentence.text):
+            new_web_keeping_no_end_without_numbers.append(sentence)
+        else:
+            if re.match(r"\d", sentence.text):
+                no_end_point_with_numbers.append(sentence)
+
+    new_web_keeping_no_end_without_numbers = [x for x in new_web_keeping_no_end_without_numbers if
+                                              (len(x.tokens) < 100) and (len(x.tokens) > 4)]
+
+    # Outputting waste for analysys
+    with codecs.open("output/web/new-no-end-point-with-numbrs-filtered-sentences.txt", "w", "utf-8") as file:
+        for sentence in no_end_point_with_numbers:
+            file.write(sentence.text + "\n")
+
+    with codecs.open("output/web/new-no-end-point-without-numbers-keeped.txt", "w", "utf-8") as file:
+        for sentence in new_web_keeping_no_end_without_numbers:
             file.write(sentence.text + "\n")
 
     # Printing statistical information for debug
     output = get_table_with_headers()
-    sentence_len = get_sentence_length_list(analized_docs, already_nlp=True)
-    output = update_table(sentence_len, "output/web/", "web-filter-final-out", output, plot=True)
+    sentence_len = get_new_sentence_length(trad_web_no_end_point_filtered)
+    output = update_table(sentence_len, "output/web/", "web-trad-no-end-point", output, plot=True)
+    sentence_len = get_new_sentence_length(new_web_keeping_no_end_without_numbers)
+    output = update_table(sentence_len, "output/web/", "new-keeping-no-end-point-without-numbers", output, plot=True)
     with codecs.open("output/web/filter-stats.txt", "w", "utf-8") as out:
         out.write(output.get_string())
     print(output.get_string())
@@ -540,7 +578,6 @@ def filter_pawac(file):
         verb = False
         numbers = False
         for token in sentence:
-            print(token[4])
             if token[4] in ["VA", "V", "VM"]:
                 verb = True
             if re.match(r"\d", token[2]):
@@ -573,17 +610,12 @@ if __name__ == "__main__":
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
-    # filter_social(Path("input/social_annotati"))
+    filter_social(Path("input/social_annotati"))
     filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-    # filter_faq(Path("input/faq.txt"))
-    # filter_sem_web(Path("input/sem_web"))
+    filter_faq(Path("input/faq.txt"))
+    filter_sem_web(Path("input/sem_web"))
 
-# Social e Pawac aggiungere VM e VA OK
-# Faq e Web aggiungere AUX OK
-# filtraggio verbi
 # Filtrare via le frasi < 5 ok tranne web
-# PAWAC: Filtrarie via le frasi senza verbi e con numeri all'interno e proviamo a tenere il resto. Due output: uno così
-# e uno "tradizionale" sempre col filtraggio sopra nuovo dei < 5. Boh
 # Web: mantenere le frasi senza punto finale che non hanno numeri. per essere tolte devono sia non avere punto finale
-# che avere numeri.
+# che avere numeri. ok
 # stampare output per tutto.
