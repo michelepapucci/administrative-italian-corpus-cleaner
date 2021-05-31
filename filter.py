@@ -210,7 +210,13 @@ def sentence_splitting_web(text):
     # riduco gli spazzi eccessivi a 1
     text = re.sub(r" {2,}", " ", text)
 
-    return text
+    sentences = text.split("\n\n")
+    output = ""
+    for sentence in sentences:
+        if len(sentence.split(" ")) > 4:
+            output += sentence + "\n\n" 
+
+    return output
 
 
 def partition(pred, iterable):
