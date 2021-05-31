@@ -201,11 +201,11 @@ def update_table(sentence_len, folder, intestation, table, plot=False, cutoff=ma
 
 # !
 def sentence_splitting_web(text):
-    # rimuovo i | e vado a capo
-    text = re.sub(r" *\| *", "\n", text)
+    # rimuovo i | e vado a capo (aggiunto doppio a capo)
+    text = re.sub(r" *\| *", "\n\n", text)
 
-    # rimuovo i tab e sostituisco con a capo
-    text = re.sub(r"\t+ *", "\n", text)
+    # rimuovo i tab e sostituisco con a capo (aggiunto doppio a capo)
+    text = re.sub(r"\t+ *", "\n\n", text)
 
     # riduco gli spazzi eccessivi a 1
     text = re.sub(r" {2,}", " ", text)
@@ -520,7 +520,6 @@ def filter_sem_web(folder):
 
     trad_web_no_end_point_filtered = [x for x in trad_web_no_end_point_filtered if
                                       (len(x.tokens) < 100) and (len(x.tokens) > 4)]
-
     # Outputting waste for analysys
     with codecs.open("output/web/trad-no-end-point-filtered-sentences.txt", "w", "utf-8") as file:
         for sentence in end_point_waste:
@@ -551,6 +550,10 @@ def filter_sem_web(folder):
     with codecs.open("output/web/new-no-end-point-without-numbers-keeped.txt", "w", "utf-8") as file:
         for sentence in new_web_keeping_no_end_without_numbers:
             file.write(sentence.text + "\n")
+
+    with codecs.open("output/web/new-no-end-point-without-numbers-keeped-splitted.txt", "w", "utf-8") as file:
+        for sentence in new_web_keeping_no_end_without_numbers:
+            file.write(sentence.text + "\n--\n")
 
     # Printing statistical information for debug
     output = get_table_with_headers()
@@ -614,8 +617,8 @@ if __name__ == "__main__":
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_social(Path("input/social_annotati"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-   # filter_faq(Path("input/faq.txt"))
-   filter_sem_web(Path("input/sem_web"))
+    # filter_faq(Path("input/faq.txt"))
+    filter_sem_web(Path("input/sem_web"))
 
 # Filtrare via le frasi < 5 ok tranne web
 # Web: mantenere le frasi senza punto finale che non hanno numeri. per essere tolte devono sia non avere punto finale
