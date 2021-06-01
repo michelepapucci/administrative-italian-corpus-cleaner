@@ -207,14 +207,17 @@ def sentence_splitting_web(text):
     # rimuovo i tab e sostituisco con a capo (aggiunto doppio a capo)
     text = re.sub(r"\t+ *", "\n\n", text)
 
+    text = re.sub(r"[.] {2,}([A-Z])", r".\n\n\1", text)
+
     # riduco gli spazzi eccessivi a 1
     text = re.sub(r" {2,}", " ", text)
 
     sentences = text.split("\n\n")
     output = ""
     for sentence in sentences:
+        sentence = sentence.strip()
         if len(sentence.split(" ")) > 4:
-            output += sentence + "\n\n" 
+            output += sentence + "\n\n"
 
     return output
 
