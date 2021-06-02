@@ -8,6 +8,7 @@ import json
 import statistics
 import math
 import matplotlib.pyplot as plt
+import difflib
 from prettytable import PrettyTable
 from pathlib import Path
 
@@ -551,18 +552,24 @@ def filter_sem_web(folder):
     new_web_keeping_no_end_without_numbers = [x for x in new_web_keeping_no_end_without_numbers if
                                               (len(x.tokens) < 100) and (len(x.tokens) > 4)]
 
+    old_list = list()
+    new_list = list()
     # Outputting waste for analysys
     with codecs.open("output/web/new-no-end-point-with-numbrs-filtered-sentences.txt", "w", "utf-8") as file:
         for sentence in no_end_point_with_numbers:
             file.write(sentence.text + "\n")
+            old_list.append(sentence.text)
 
     with codecs.open("output/web/new-no-end-point-without-numbers-keeped.txt", "w", "utf-8") as file:
         for sentence in new_web_keeping_no_end_without_numbers:
             file.write(sentence.text + "\n")
+            new_list.append(sentence.text)
 
-    with codecs.open("output/web/new-no-end-point-without-numbers-keeped-splitted.txt", "w", "utf-8") as file:
-        for sentence in new_web_keeping_no_end_without_numbers:
-            file.write(sentence.text + "\n--\n")
+    d = difflib.HtmlDiff()
+    diff = d.make_file(old_list, new_list, "File con tutti le frasi senza punto finale rimosso",
+                       "File con frasi senza punto finale che non contengono numeri mantenute")
+    with codecs.open("output/web/diff.html", "w", "utf-8") as htmlout:
+        htmlout.write(diff)
 
     # Printing statistical information for debug
     output = get_table_with_headers()
@@ -621,13 +628,14 @@ def filter_pawac(file):
 if __name__ == "__main__":
     # filter_social(Path("input/demo/social"))
     # analize_sem_web(Path("input/demo/web-10"))
-    # filter_pawac(Path("input/demo/demo_pawac.pos"))
-    # filter_sem_web(Path("input/demo/web-10"))
+    filter_pawac(Path("input/demo/demo_pawac.pos"))
+    filter_sem_web(Path("input/demo/web-10"))
     # filter_faq(Path("input/demo/faq_demo.txt"))
     # filter_social(Path("input/social_annotati"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
     # filter_faq(Path("input/faq.txt"))
-    filter_sem_web(Path("input/sem_web"))
+    # filter_sem_web(Path("input/sem_web"))
+
 
 # Filtrare via le frasi < 5 ok tranne web
 # Web: mantenere le frasi senza punto finale che non hanno numeri. per essere tolte devono sia non avere punto finale
