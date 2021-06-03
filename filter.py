@@ -363,19 +363,21 @@ def analize_faq(faq):
     nlp = stanza.Pipeline(lang='it', processors="tokenize,mwt,pos")
     analized_faq = nlp(raw_faq)
 
+    analized_faq.sentences = [x for x in analized_faq.sentences if (len(x.tokens) < 50) and (len(x.tokens) > 4)]
+
     sentence_len = get_sentence_length_list([analized_faq], already_nlp=True)
     output = update_table(sentence_len, "output/faq/", "sentence-splitting", output)
     # print_sentences_file([analized_faq], "output/faq/sentence-splitting.txt")
 
     # Verb Filtering
-    analized_faq = filter_no_verbs_sentences(analized_faq)
-    sentence_len = get_sentence_length_list([analized_faq], already_nlp=True)
+    analized_faq_no_verbs = filter_no_verbs_sentences(analized_faq)
+    sentence_len = get_sentence_length_list([analized_faq_no_verbs], already_nlp=True)
     output = update_table(sentence_len, "output/faq/", "verb-filtering", output)
     # print_sentences_file([analized_faq], "output/faq/verb-filtering.txt")
 
     # End point filtering
-    analized_faq = remove_phrase_with_no_end_point(analized_faq)
-    sentence_len = get_sentence_length_list([analized_faq], already_nlp=True)
+    analized_faq_no_end_point = remove_phrase_with_no_end_point(analized_faq)
+    sentence_len = get_sentence_length_list([analized_faq_no_end_point], already_nlp=True)
     output = update_table(sentence_len, "output/faq/", "end-point-filtering", output, plot=True)
     # print_sentences_file([analized_faq], "output/faq/end-point-filtering.txt")
 
@@ -467,7 +469,7 @@ def filter_faq(faq):
     output = get_table_with_headers()
     sentence_len = get_sentence_length_list([analized_faq], already_nlp=True)
     output = update_table(sentence_len, "output/faq/", "faq-filter-final-out", output, plot=True)
-    with codecs.open("output/social/filter-stats.txt", "w", "utf-8") as out:
+    with codecs.open("output/faq/filter-stats.txt", "w", "utf-8") as out:
         out.write(output.get_string())
     print(output.get_string())
 
@@ -630,11 +632,11 @@ if __name__ == "__main__":
     # analize_sem_web(Path("input/demo/web-10"))
     # filter_pawac(Path("input/demo/demo_pawac.pos"))
     # filter_sem_web(Path("input/demo/web-10"))
-    # filter_faq(Path("input/demo/faq_demo.txt"))
-    # filter_social(Path("input/social_annotati"))
+    # analize_faq(Path("input/demo/faq_demo.txt"))
+    filter_social(Path("input/social_annotati"))
     # filter_pawac(Path("/home/michele.papucci/venv/PaWaC_1.1.pos"))
-    # filter_faq(Path("input/faq.txt"))
-    filter_sem_web(Path("input/sem_web"))
+    analize_faq(Path("input/faq.txt"))
+    # filter_sem_web(Path("input/sem_web"))
 
 
 # Filtrare via le frasi < 5 ok tranne web
